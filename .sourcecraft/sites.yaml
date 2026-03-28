@@ -1,0 +1,3 @@
+site:
+  root: dist
+  ref: main

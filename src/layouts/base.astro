@@ -1,15 +1,14 @@
 ---
 import '../styles/app.css'
 import { SEO } from 'astro-seo'
-import { getEnv } from '../lib/env'
 import backToTopIcon from '../assets/back-to-top.svg'
 import type { NavItem } from '../types'
 
-const { SITE_URL, RSS_URL, RSS_PREFIX } = Astro.locals
+const SITE_URL = import.meta.env.SITE ?? import.meta.env.BASE_URL ?? '/'
+const RSS_URL = `${SITE_URL}rss.xml`
 const { channel } = Astro.props
 
-const locale = getEnv(import.meta.env, Astro, 'LOCALE')
-
+const locale = import.meta.env.LOCALE || 'ru'
 const seo = channel?.seo
 
 function normalizePathname(pathname: string): string {
@@ -26,7 +25,7 @@ const canonical =
 
 const { pathname } = new URL(canonical)
 const currentPathname = normalizePathname(pathname)
-const twitter = getEnv(import.meta.env, Astro, 'TWITTER')
+const twitter = import.meta.env.TWITTER
 const pageTitle = seo?.title?.trim()
 const siteTitle = channel?.title ?? ''
 const seoDescription = seo?.text ?? channel?.description
@@ -45,8 +44,8 @@ const seoParams = {
   title: pageTitle,
   description: seoDescription,
   canonical,
-  noindex: seo?.noindex ?? getEnv(import.meta.env, Astro, 'NOINDEX'),
-  nofollow: seo?.nofollow ?? getEnv(import.meta.env, Astro, 'NOFOLLOW'),
+  noindex: seo?.noindex ?? import.meta.env.NOINDEX,
+  nofollow: seo?.nofollow ?? import.meta.env.NOFOLLOW,
   openGraph: {
     basic: {
       type: isArticle ? 'article' : 'website',
@@ -61,39 +60,27 @@ const seoParams = {
   },
   extend: {
     link: [
-      {
-        rel: 'icon',
-        href: favicon,
-      },
-      {
-        rel: 'apple-touch-icon',
-        href: new URL('favicon.ico', absoluteSiteUrl).toString(),
-      },
-      {
-        rel: 'manifest',
-        href: new URL('site.webmanifest', absoluteSiteUrl).toString(),
-      },
+      { rel: 'icon', href: favicon },
+      { rel: 'apple-touch-icon', href: new URL('favicon.ico', absoluteSiteUrl).toString() },
+      { rel: 'manifest', href: new URL('manifest.json', absoluteSiteUrl).toString() },
     ],
   },
 }
 
-const GOOGLE_SEARCH_SITE = getEnv(import.meta.env, Astro, 'GOOGLE_SEARCH_SITE')
-const searchAction = GOOGLE_SEARCH_SITE ? 'https://www.google.com/search' : `${SITE_URL}search/result`
-
-const HEADER_INJECT = getEnv(import.meta.env, Astro, 'HEADER_INJECT')
-const FOOTER_INJECT = getEnv(import.meta.env, Astro, 'FOOTER_INJECT')
-const TAGS = getEnv(import.meta.env, Astro, 'TAGS')
-const LINKS = getEnv(import.meta.env, Astro, 'LINKS')
-const navs: NavItem[] = (getEnv(import.meta.env, Astro, 'NAVS') || '')
+const TAGS = import.meta.env.TAGS
+const LINKS = import.meta.env.LINKS
+const HEADER_INJECT = import.meta.env.HEADER_INJECT
+const FOOTER_INJECT = import.meta.env.FOOTER_INJECT
+const navs: NavItem[] = (import.meta.env.NAVS || '')
   .split(';')
   .filter(Boolean)
-  .map((link) => {
+  .map((link: string) => {
     const [title = '', href = ''] = link.split(',')
-    return {
-      title,
-      href,
-    }
+    return { title, href }
   })
+
+const PUSH_SERVER_URL = import.meta.env.PUSH_SERVER_URL || ''
+const VAPID_PUBLIC_KEY = import.meta.env.VAPID_PUBLIC_KEY || ''
 
 const layoutShellClass = 'mx-5'
 const layoutGridClass = 'mx-auto flex w-full max-w-[800px] flex-col-reverse sm:flex-row sm:items-start'
@@ -108,28 +95,22 @@ const navLinkClass =
 const navLinkCurrentClass = 'bg-white/75 shadow-soft'
 const skipLinkClass =
   'pointer-events-none absolute left-5 top-0 z-[1100] -translate-y-full rounded-panel bg-heading px-3 py-2 text-sm text-white no-underline transition-transform duration-150 focus-visible:pointer-events-auto focus-visible:translate-y-5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-heading'
-const searchToggleId = 'search-toggle'
-const searchToggleClass = 'peer sr-only sm:hidden'
-const searchToggleLabelClass =
-  'absolute right-0 top-5 inline-flex h-6 w-6 items-center justify-center rounded-panel bg-paper text-base leading-6 text-heading no-underline peer-focus-visible:outline peer-focus-visible:outline-1 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-heading sm:hidden'
-const searchFormClass = 'mt-3 hidden rounded-panel bg-code p-2 text-muted peer-checked:block sm:mt-0 sm:block'
+const searchFormClass = 'mt-3 rounded-panel bg-code p-2 text-muted sm:mt-0 sm:block'
 const searchInputClass =
   'box-border w-full rounded-panel border border-paper bg-code px-2 text-[16px] leading-[2.4] text-muted outline-none placeholder:text-muted focus-visible:border-heading focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-2 focus-visible:outline-heading sm:text-[12px]'
 const footerClass = 'hidden p-2 text-[14px] leading-[1.5] text-footer sm:block'
 const backToTopClass =
   'pointer-events-auto z-[1000] flex h-8 w-8 items-center justify-center rounded-full bg-code text-[24px] opacity-90 transition-transform duration-300 hover:-translate-y-[3px] active:translate-y-px'
 const backToTopIconClass = 'h-auto w-auto [filter:var(--icon-secondary-filter)]'
-const skipLinkText = 'Skip to main content'
-const searchLabelText = 'Search'
 ---
 
 <!doctype html>
-<html lang={locale ?? 'en'}>
+<html lang={locale ?? 'en'} data-push-url={PUSH_SERVER_URL} data-vapid-key={VAPID_PUBLIC_KEY}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#f4f1ec" />
-    <link rel="alternate" type="application/rss+xml" title={`${RSS_PREFIX}${channel?.title}`} href={RSS_URL} />
+    <link rel="alternate" type="application/rss+xml" title={channel?.title} href={RSS_URL} />
     <SEO
       titleTemplate={hasCustomTitle ? `%s | ${siteTitle}` : undefined}
       titleDefault={siteTitle || seoParams.description}
@@ -143,7 +124,7 @@ const searchLabelText = 'Search'
   </head>
 
   <body>
-    <a href="#main-content" class={skipLinkClass}>{skipLinkText}</a>
+    <a href="#main-content" class={skipLinkClass}>Skip to main content</a>
     <main id="main-content" class={layoutShellClass}>
       <div class={layoutGridClass}>
         <div class={mainPanelClass}>
@@ -207,23 +188,14 @@ const searchLabelText = 'Search'
                 </ul>
               </nav>
 
-              <input
-                id={searchToggleId}
-                class={searchToggleClass}
-                name="icon"
-                type="checkbox"
-                aria-label="Toggle search"
-              />
-              <label for={searchToggleId} class={searchToggleLabelClass} aria-hidden="true">🔍</label>
-              <form class={searchFormClass} action={searchAction} method="get" role="search">
-                {GOOGLE_SEARCH_SITE ? <input type="hidden" name="as_sitesearch" value={GOOGLE_SEARCH_SITE} /> : null}
-                <label class="sr-only" for="search-query">{searchLabelText}</label>
+              <form class={searchFormClass} action={`${SITE_URL}search/result`} method="get" role="search">
+                <label class="sr-only" for="search-query">Search</label>
                 <input
                   id="search-query"
                   class={searchInputClass}
                   type="search"
                   name="q"
-                  placeholder="Search…"
+                  placeholder="Search..."
                   autocomplete="off"
                   inputmode="search"
                   spellcheck={false}
@@ -239,14 +211,6 @@ const searchLabelText = 'Search'
                   rel="noopener noreferrer"
                 >
                   BroadcastChannel
-                </a> &
-                <a
-                  href="https://github.com/Planetable/SiteTemplateSepia"
-                  title="Sepia"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Sepia
                 </a>
               </footer>
             </div>
@@ -260,5 +224,23 @@ const searchLabelText = 'Search'
       </div>
     </main>
     <Fragment set:html={FOOTER_INJECT} />
+
+    <script is:inline src="/pwa.js"></script>
+    <div style="position:fixed;bottom:60px;right:16px;display:flex;flex-direction:column;gap:8px;z-index:1001;">
+      <button
+        id="install-btn"
+        onclick="installApp()"
+        style="display:none;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;background:#f4f1ec;border:1px solid #ddd;cursor:pointer;font-size:20px;"
+        aria-label="Install app"
+        title="Install app">+</button
+      >
+      <button
+        id="push-btn"
+        onclick="subscribePush()"
+        style="align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;background:#f4f1ec;border:1px solid #ddd;cursor:pointer;font-size:18px;display:inline-flex;"
+        aria-label="Subscribe to notifications"
+        title="Subscribe to notifications">&#128276;</button
+      >
+    </div>
   </body>
 </html>

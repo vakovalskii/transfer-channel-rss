@@ -1,19 +1,20 @@
 ---
-import { getEnv } from '../../lib/env'
+import type { GetStaticPaths } from 'astro'
 import voidFile from '../../assets/void.png'
 import List from '../../components/list.astro'
-import { getChannelInfo, getChannelPost } from '../../lib/telegram'
-import { siteTitleStyle } from '../../lib/ui'
+import { getAllPostIds, getChannelData, getPost } from '../../lib/data'
 
-const { SITE_URL } = Astro.locals
-
-const channelInfo = await getChannelInfo(Astro)
-
-if (!Astro.params.id) {
-  return Astro.redirect('/')
+export const getStaticPaths: GetStaticPaths = () => {
+  return getAllPostIds().map((id) => ({ params: { id } }))
 }
 
-const post = await getChannelPost(Astro, Astro.params.id)
+const { id } = Astro.params
+const channelInfo = getChannelData()
+const post = getPost(id!)
+
+if (!post) {
+  return Astro.redirect('/')
+}
 
 const channel = {
   ...(channelInfo || {}),
@@ -21,7 +22,7 @@ const channel = {
   seo: post,
 }
 
-const staticProxy = getEnv(import.meta.env, Astro, 'STATIC_PROXY') ?? '/static/'
+const SITE_URL = import.meta.env.SITE ?? import.meta.env.BASE_URL ?? '/'
 const breadcrumbClass = 'mb-5 py-[10px] font-semibold'
 const breadcrumbListClass = 'm-0 flex list-none items-center p-0'
 const breadcrumbLinkClass = 'inline-flex items-center no-underline'
@@ -35,14 +36,14 @@ const breadcrumbTitleClass = 'ml-[10px] flex-1 text-[14px] text-heading'
       <li>
         <a href={SITE_URL} class={breadcrumbLinkClass} title={channel?.title}>
           <img
-            src={channel?.avatar?.startsWith('http') ? staticProxy + channel?.avatar : voidFile.src}
+            src={channel?.avatar?.startsWith('http') ? channel?.avatar : voidFile.src}
             alt={channel?.title}
             loading="eager"
             width="20"
             height="20"
             class={breadcrumbAvatarClass}
           />
-          <span class={breadcrumbTitleClass} style={siteTitleStyle}>{channel.title}</span>
+          <span class={breadcrumbTitleClass}>{channel.title}</span>
         </a>
       </li>
     </ol>

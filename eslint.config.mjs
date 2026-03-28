@@ -4,6 +4,7 @@ export default antfu({
   formatters: true,
   astro: true,
   pnpm: false,
+  ignores: ['scripts/**', 'push-server/**', 'public/sw.js', 'public/pwa.js', 'data/**'],
   rules: {
     'no-console': ['error', { allow: ['info', 'warn', 'error'] }],
   },

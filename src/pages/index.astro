@@ -1,8 +1,8 @@
 ---
 import List from '../components/list.astro'
-import { getChannelInfo } from '../lib/telegram'
+import { getChannelData } from '../lib/data'
 
-const channel = await getChannelInfo(Astro)
+const channel = getChannelData()
 ---
 
 <List channel={channel} after={false} pageHeading={channel.title} />

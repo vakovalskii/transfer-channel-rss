@@ -1,10 +1,10 @@
 import type { APIRoute } from 'astro'
-import { getChannelInfo } from '../lib/telegram'
+import { getChannelData } from '../lib/data'
 
 export const GET: APIRoute = async (context) => {
-  const { SITE_URL } = context.locals
+  const SITE_URL = import.meta.env.SITE ?? import.meta.env.BASE_URL ?? '/'
   const tag = context.url.searchParams.get('tag')
-  const channel = await getChannelInfo(context, {
+  const channel = getChannelData({
     q: tag ? `#${tag}` : '',
   })
   const posts = channel.posts ?? []
@@ -21,7 +21,6 @@ export const GET: APIRoute = async (context) => {
     items: posts.map(item => ({
       url: `${requestUrl.toString()}posts/${item.id}`,
       title: item.title,
-      description: item.description,
       date_published: new Date(item.datetime),
       tags: item.tags,
       content_html: item.content,

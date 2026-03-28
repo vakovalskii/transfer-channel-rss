@@ -1,10 +1,13 @@
 ---
+import type { GetStaticPaths } from 'astro'
 import List from '../../components/list.astro'
-import { getChannelInfo } from '../../lib/telegram'
+import { getAllPostIds, getChannelData } from '../../lib/data'
 
-const channel = await getChannelInfo(Astro, {
-  after: Astro.params.cursor,
-})
+export const getStaticPaths: GetStaticPaths = () => {
+  return getAllPostIds().map((id) => ({ params: { cursor: id } }))
+}
+
+const channel = getChannelData({ after: Astro.params.cursor })
 
 channel.seo = {
   noindex: true,

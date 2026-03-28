@@ -1,40 +1,106 @@
-name: Upstream Sync
+name: Sync Telegram Channel
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch: {}
 
 permissions:
   contents: write
 
-on:
-  schedule:
-    - cron: '0 0 * * *' # every day
-  workflow_dispatch:
-
 jobs:
-  sync_latest_from_upstream:
-    name: Sync latest commits from upstream repo
+  sync:
     runs-on: ubuntu-latest
-    if: ${{ github.event.repository.fork }}
-
     steps:
-      # Step 1: run a standard checkout action
-      - name: Checkout target repo
-        uses: actions/checkout@v3
-
-      # Step 2: run the sync action
-      - name: Sync upstream changes
-        id: sync
-        uses: aormsby/Fork-Sync-With-Upstream-action@v3.4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          upstream_sync_repo: miantiao-me/BroadcastChannel
-          upstream_sync_branch: main
-          target_sync_branch: main
-          target_repo_token: ${{ secrets.GITHUB_TOKEN }} # automatically generated, no need to set
+          fetch-depth: 0
 
-          # Set test_mode true to run tests instead of the true action!!
-          test_mode: false
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
 
-      - name: Sync check
-        if: failure()
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Fetch Telegram channel
+        run: pnpm run fetch
+        env:
+          CHANNEL: ${{ secrets.CHANNEL || 'neuraldeep' }}
+          TELEGRAM_HOST: ${{ secrets.TELEGRAM_HOST || 't.me' }}
+
+      - name: Crosspost to VK
+        run: pnpm run crosspost:vk
+        continue-on-error: true
+        env:
+          VK_TOKEN: ${{ secrets.VK_TOKEN }}
+          VK_GROUP_ID: ${{ secrets.VK_GROUP_ID }}
+
+      - name: Crosspost to Dzen
+        run: pnpm run crosspost:dzen
+        continue-on-error: true
+        env:
+          DZEN_TOKEN: ${{ secrets.DZEN_TOKEN }}
+
+      - name: Crosspost to OK
+        run: pnpm run crosspost:ok
+        continue-on-error: true
+        env:
+          OK_ACCESS_TOKEN: ${{ secrets.OK_ACCESS_TOKEN }}
+          OK_GROUP_ID: ${{ secrets.OK_GROUP_ID }}
+          OK_APP_KEY: ${{ secrets.OK_APP_KEY }}
+          OK_APP_SECRET: ${{ secrets.OK_APP_SECRET }}
+
+      - name: Send email notifications
+        run: pnpm run crosspost:email
+        continue-on-error: true
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+
+      - name: Send push notifications
+        run: pnpm run push-notify
+        continue-on-error: true
+        env:
+          PUSH_SERVER_URL: ${{ secrets.PUSH_SERVER_URL }}
+          API_SECRET: ${{ secrets.API_SECRET }}
+          VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+
+      - name: Commit data changes
         run: |
-          echo "[Error] GitHub paused this scheduled sync because the upstream workflow file changed."
-          echo "[Error] Manually sync your fork once to re-enable future automatic updates."
-          exit 1
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "sync: update channel data"
+
+      - name: Build static site
+        run: pnpm run build
+        env:
+          CHANNEL: ${{ secrets.CHANNEL || 'neuraldeep' }}
+          LOCALE: ru
+          TIMEZONE: Europe/Moscow
+          REACTIONS: 'true'
+
+      - name: Push to GitHub
+        run: git push origin main
+
+      - name: Push to Gitverse
+        run: |
+          git remote add gitverse https://oauth2:${{ secrets.GITVERSE_TOKEN }}@gitverse.ru/${{ secrets.GITVERSE_REPO }}.git 2>/dev/null || true
+          git push gitverse main --force
+        continue-on-error: true
+
+      - name: Push to SourceCraft
+        run: |
+          git remote add sourcecraft https://oauth2:${{ secrets.SOURCECRAFT_TOKEN }}@git.sourcecraft.dev/${{ secrets.SOURCECRAFT_REPO }}.git 2>/dev/null || true
+          git push sourcecraft main --force
+        continue-on-error: true

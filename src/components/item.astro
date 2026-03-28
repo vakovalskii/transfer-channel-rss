@@ -1,18 +1,17 @@
 ---
 import dayjs from '../lib/dayjs'
-import { getEnv } from '../lib/env'
 
-const locale = getEnv(import.meta.env, Astro, 'LOCALE')
-const timezone = getEnv(import.meta.env, Astro, 'TIMEZONE')
+const locale = import.meta.env.LOCALE || 'ru'
+const timezone = import.meta.env.TIMEZONE || 'Europe/Moscow'
 
 locale && dayjs.locale(locale)
 
-const { SITE_URL } = Astro.locals
+const SITE_URL = import.meta.env.SITE ?? import.meta.env.BASE_URL ?? '/'
 const { post, isItem } = Astro.props
 
-const channel = getEnv(import.meta.env, Astro, 'CHANNEL')
-const COMMENTS = getEnv(import.meta.env, Astro, 'COMMENTS')
-const REACTIONS = getEnv(import.meta.env, Astro, 'REACTIONS')
+const channel = import.meta.env.CHANNEL || 'neuraldeep'
+const COMMENTS = import.meta.env.COMMENTS
+const REACTIONS = import.meta.env.REACTIONS || 'true'
 
 const datetime = dayjs(post.datetime).tz(timezone)
 const timeago = datetime.isBefore(dayjs().subtract(1, 'w')) ? datetime.format('HH:mm · ll · ddd') : datetime.fromNow()

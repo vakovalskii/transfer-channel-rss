@@ -10,6 +10,13 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "fetch": "tsx scripts/fetch-channel.ts",
+    "crosspost:vk": "tsx scripts/crosspost/vk.ts",
+    "crosspost:dzen": "tsx scripts/crosspost/dzen.ts",
+    "crosspost:ok": "tsx scripts/crosspost/ok.ts",
+    "crosspost:email": "tsx scripts/crosspost/email.ts",
+    "crosspost": "pnpm run crosspost:vk && pnpm run crosspost:dzen && pnpm run crosspost:ok && pnpm run crosspost:email",
+    "push-notify": "tsx scripts/send-push.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "postinstall": "test -d .git && simple-git-hooks || true"
@@ -30,11 +37,6 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^7.7.3",
-    "@astrojs/cloudflare": "^12.6.13",
-    "@astrojs/netlify": "^6.6.5",
-    "@astrojs/node": "^9.5.5",
-    "@astrojs/vercel": "^9.0.5",
-    "@edgeone/astro": "^1.1.0",
     "@tailwindcss/vite": "^4.2.2",
     "@types/prismjs": "^1.26.6",
     "astro": "^5.18.1",
@@ -47,9 +49,10 @@
     "lint-staged": "^16.4.0",
     "prettier-plugin-astro": "^0.14.1",
     "simple-git-hooks": "^2.13.1",
-    "std-env": "^4.0.0",
     "tailwindcss": "^4.2.2",
-    "typescript": "^5.9.3"
+    "tsx": "^4.19.0",
+    "typescript": "^5.9.3",
+    "web-push": "^3.6.7"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"

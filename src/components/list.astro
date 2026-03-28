@@ -3,7 +3,7 @@ import Layout from '../layouts/base.astro'
 import Header from '../components/header.astro'
 import Item from '../components/item.astro'
 
-const { SITE_URL } = Astro.locals
+const SITE_URL = import.meta.env.SITE ?? import.meta.env.BASE_URL ?? '/'
 const { channel, before = true, after = true, isItem = false, pageHeading } = Astro.props
 const posts = channel.posts ?? []
 
@@ -15,7 +15,6 @@ const paginationLinkClass =
   'inline-flex min-h-9 items-center justify-center rounded-[30px] border border-muted px-[15px] py-[5px] text-[14px] font-medium text-muted no-underline hover:text-accent hover:no-underline active:bg-line'
 const paginationInfoClass = 'flex-1 text-center align-middle text-[12px] font-medium text-muted'
 const paginationPlaceholderClass = 'inline-block w-[34px]'
-// const cursor = +Astro.params.cursor
 ---
 
 <Layout channel={channel}>

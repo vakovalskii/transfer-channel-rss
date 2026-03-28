@@ -1,22 +1,19 @@
 ---
-import { getEnv } from '../lib/env'
 import { Icon } from 'astro-icon/components'
 import voidFile from '../assets/void.png'
 import { siteTitleStyle } from '../lib/ui'
 
-const { SITE_URL, RSS_URL } = Astro.locals
+const SITE_URL = import.meta.env.SITE ?? import.meta.env.BASE_URL ?? '/'
+const RSS_URL = `${SITE_URL}rss.xml`
 const { channel } = Astro.props
 
-const PODCASRT = getEnv(import.meta.env, Astro, 'PODCASRT')
-const TWITTER = getEnv(import.meta.env, Astro, 'TWITTER')
-const GITHUB = getEnv(import.meta.env, Astro, 'GITHUB')
-const TELEGRAM = getEnv(import.meta.env, Astro, 'TELEGRAM')
-const DISCORD = getEnv(import.meta.env, Astro, 'DISCORD')
-const MASTODON = getEnv(import.meta.env, Astro, 'MASTODON')
-const BLUESKY = getEnv(import.meta.env, Astro, 'BLUESKY')
-
-const staticProxy = getEnv(import.meta.env, Astro, 'STATIC_PROXY') ?? '/static/'
-const hideDescription = getEnv(import.meta.env, Astro, 'HIDE_DESCRIPTION')
+const TWITTER = import.meta.env.TWITTER
+const GITHUB = import.meta.env.GITHUB
+const TELEGRAM = import.meta.env.TELEGRAM
+const DISCORD = import.meta.env.DISCORD
+const MASTODON = import.meta.env.MASTODON
+const BLUESKY = import.meta.env.BLUESKY
+const hideDescription = import.meta.env.HIDE_DESCRIPTION
 
 const headerMainClass = 'mb-[10px] flex items-center p-[10px] font-semibold max-sm:p-0'
 const avatarClass = 'block h-10 w-10 rounded-full border-[3px] border-white object-cover shadow-soft'
@@ -37,13 +34,6 @@ const socialLinks = [
     icon: 'ri:rss-line',
     rel: 'alternate noopener noreferrer',
     type: 'application/rss+xml',
-  },
-  PODCASRT && {
-    href: PODCASRT,
-    title: 'Podcast',
-    label: 'Podcast',
-    icon: 'ri:mic-line',
-    rel: 'noopener noreferrer',
   },
   TWITTER &&
     TWITTER.length > 0 && {
@@ -100,7 +90,7 @@ const socialLinks = [
   <div class={headerMainClass}>
     <a href={SITE_URL} title={channel?.title}>
       <img
-        src={channel?.avatar?.startsWith('http') ? staticProxy + channel?.avatar : voidFile.src}
+        src={channel?.avatar?.startsWith('http') ? channel?.avatar : voidFile.src}
         alt={channel?.title}
         loading="eager"
         fetchpriority="high"

@@ -1,13 +1,12 @@
 import type { APIRoute } from 'astro'
 import rss from '@astrojs/rss'
 import sanitizeHtml from 'sanitize-html'
-import { getEnv } from '../lib/env'
-import { getChannelInfo } from '../lib/telegram'
+import { getChannelData } from '../lib/data'
 
 export const GET: APIRoute = async (context) => {
-  const { SITE_URL } = context.locals
+  const SITE_URL = import.meta.env.SITE ?? import.meta.env.BASE_URL ?? '/'
   const tag = context.url.searchParams.get('tag')
-  const channel = await getChannelInfo(context, {
+  const channel = getChannelData({
     q: tag ? `#${tag}` : '',
   })
   const posts = channel.posts ?? []
@@ -21,11 +20,9 @@ export const GET: APIRoute = async (context) => {
     description: channel.description,
     site: requestUrl.origin,
     trailingSlash: false,
-    stylesheet: getEnv(import.meta.env, context, 'RSS_BEAUTIFY') ? '/rss.xsl' : undefined,
     items: posts.map(item => ({
       link: `posts/${item.id}`,
       title: item.title,
-      description: item.description,
       pubDate: new Date(item.datetime),
       content: sanitizeHtml(item.content, {
         allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img', 'video', 'audio']),
@@ -43,7 +40,5 @@ export const GET: APIRoute = async (context) => {
   })
 
   response.headers.set('Content-Type', 'text/xml')
-  response.headers.set('Cache-Control', 'public, max-age=3600')
-
   return response
 }

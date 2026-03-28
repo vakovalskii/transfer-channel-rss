@@ -2,23 +2,22 @@
 import Layout from '../layouts/base.astro'
 import Header from '../components/header.astro'
 import TagCloudSection from '../components/TagCloudSection.astro'
-import { getChannelInfo } from '../lib/telegram'
-import { getEnv } from '../lib/env'
+import { getChannelData } from '../lib/data'
 
-const channel = await getChannelInfo(Astro)
+const channel = getChannelData()
 
 channel.seo = {
   title: 'Links',
 }
 
-const links = (getEnv(import.meta.env, Astro, 'LINKS') || '')
+const links = (import.meta.env.LINKS || '')
   .split(';')
   .filter(Boolean)
   .map((link) => {
-    link = link.split(',')
+    const parts = link.split(',')
     return {
-      title: link[0],
-      href: link[1],
+      title: parts[0],
+      href: parts[1],
     }
   })
 
@@ -36,6 +35,5 @@ const items = links.map((link) => ({
 
 <Layout channel={channel}>
   <Header channel={channel} />
-
   <TagCloudSection title="Links" items={items} />
 </Layout>
