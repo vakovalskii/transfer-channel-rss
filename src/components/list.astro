@@ -3,7 +3,7 @@ import Layout from '../layouts/base.astro'
 import Header from '../components/header.astro'
 import Item from '../components/item.astro'
 
-const SITE_URL = import.meta.env.SITE ?? import.meta.env.BASE_URL ?? '/'
+const SITE_URL = import.meta.env.BASE_URL ?? '/'
 const { channel, before = true, after = true, isItem = false, pageHeading } = Astro.props
 const posts = channel.posts ?? []
 

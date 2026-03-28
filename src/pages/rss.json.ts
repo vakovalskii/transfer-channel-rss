@@ -2,7 +2,7 @@ import type { APIRoute } from 'astro'
 import { getChannelData } from '../lib/data'
 
 export const GET: APIRoute = async (context) => {
-  const SITE_URL = import.meta.env.SITE ?? import.meta.env.BASE_URL ?? '/'
+  const SITE_URL = import.meta.env.BASE_URL ?? '/'
   const tag = context.url.searchParams.get('tag')
   const channel = getChannelData({
     q: tag ? `#${tag}` : '',

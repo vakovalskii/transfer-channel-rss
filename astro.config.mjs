@@ -7,7 +7,8 @@ import { defineConfig } from 'astro/config'
 export default defineConfig({
   output: 'static',
   site: env.SITE_URL || 'https://ndts.sourcecraft.site',
-  base: env.BASE_PATH || '/transfer-channel-rss',
+  base: env.BASE_PATH || '/transfer-channel-rss/',
+  trailingSlash: 'always',
   integrations: [astroIcon()],
   vite: {
     plugins: [tailwindcss()],

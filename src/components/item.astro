@@ -6,7 +6,7 @@ const timezone = import.meta.env.TIMEZONE || 'Europe/Moscow'
 
 locale && dayjs.locale(locale)
 
-const SITE_URL = import.meta.env.SITE ?? import.meta.env.BASE_URL ?? '/'
+const SITE_URL = import.meta.env.BASE_URL ?? '/'
 const { post, isItem } = Astro.props
 
 const channel = import.meta.env.CHANNEL || 'neuraldeep'

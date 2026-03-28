@@ -2,7 +2,7 @@
   "name": "NeuralDeep Channel",
   "short_name": "NeuralDeep",
   "description": "Telegram канал Валеры Ковальского — AI, DevOps, разработка",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#f4f1ec",
   "theme_color": "#f4f1ec",

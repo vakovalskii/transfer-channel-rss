@@ -4,7 +4,7 @@ import { SEO } from 'astro-seo'
 import backToTopIcon from '../assets/back-to-top.svg'
 import type { NavItem } from '../types'
 
-const SITE_URL = import.meta.env.SITE ?? import.meta.env.BASE_URL ?? '/'
+const SITE_URL = import.meta.env.BASE_URL ?? '/'
 const RSS_URL = `${SITE_URL}rss.xml`
 const { channel } = Astro.props
 
@@ -61,8 +61,8 @@ const seoParams = {
   extend: {
     link: [
       { rel: 'icon', href: favicon },
-      { rel: 'apple-touch-icon', href: new URL('favicon.ico', absoluteSiteUrl).toString() },
-      { rel: 'manifest', href: new URL('manifest.json', absoluteSiteUrl).toString() },
+      { rel: 'apple-touch-icon', href: `${SITE_URL}favicon.ico` },
+      { rel: 'manifest', href: `${SITE_URL}manifest.json` },
     ],
   },
 }
@@ -225,7 +225,7 @@ const backToTopIconClass = 'h-auto w-auto [filter:var(--icon-secondary-filter)]'
     </main>
     <Fragment set:html={FOOTER_INJECT} />
 
-    <script is:inline src="/pwa.js"></script>
+    <script is:inline src={`${import.meta.env.BASE_URL}pwa.js`}></script>
     <div style="position:fixed;bottom:60px;right:16px;display:flex;flex-direction:column;gap:8px;z-index:1001;">
       <button
         id="install-btn"

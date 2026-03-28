@@ -3,7 +3,7 @@ import { Icon } from 'astro-icon/components'
 import voidFile from '../assets/void.png'
 import { siteTitleStyle } from '../lib/ui'
 
-const SITE_URL = import.meta.env.SITE ?? import.meta.env.BASE_URL ?? '/'
+const SITE_URL = import.meta.env.BASE_URL ?? '/'
 const RSS_URL = `${SITE_URL}rss.xml`
 const { channel } = Astro.props
 

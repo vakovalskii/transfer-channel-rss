@@ -1,6 +1,7 @@
 /* eslint-disable */
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js')
+  var base = document.querySelector('link[rel="manifest"]')?.href?.replace('manifest.json', '') || '/'
+  navigator.serviceWorker.register(base + 'sw.js')
 }
 var deferredPrompt = null
 window.addEventListener('beforeinstallprompt', function (e) {
