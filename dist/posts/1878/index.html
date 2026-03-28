@@ -1,0 +1,116 @@
+<!DOCTYPE html><html lang="ru" data-push-url data-vapid-key> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f4f1ec"><link rel="alternate" type="application/rss+xml" title="Валера Ковальский" href="/transfer-channel-rss/rss.xml"><title>Встречайте релиз 0.6.0Всем привет! Мы тут с новостями о проекте, с версии 0.5.0 проект был заметно прокачан.1️⃣ В конфиге добавили возможность передавать tools и динамически подключать описанные там тулы из файлов рядом с конфигурацией, так как теперь поддерживаются относительные пути и механизм base_class умеет подтягивать не только классы агентов но ещё и tools.tools: | Валера Ковальский</title><link rel="canonical" href="https://ndts.sourcecraft.site/transfer-channel-rss/posts/1878"><meta name="description" content="Встречайте релиз 0.6.0Всем привет! Мы тут с новостями о проекте, с версии 0.5.0 проект был заметно прокачан.1️⃣ В конфиге добавили возможность передавать tools и динамически подключать описанные там тулы из файлов рядом с конфигурацией, так как теперь поддерживаются относительные пути и механизм base_class умеет подтягивать не только классы агентов но ещё и tools.tools:
+  list_directory_tool:
+    base_class: &#34;tools.ListDirectoryTool&#34;
+  read_file_tool:
+    base_class: &#34;tools.ReadFileTool&#34;
+  search_in_files_tool:
+    base_class: &#34;tools.SearchInFilesTool&#34;Добавили пример SGR File Agent, теперь вы можете попробовать свои силы в построении файловых агентов, который эту новую механику с конфигом тулов и демонстрирует.2️⃣ Расширили поддержку формата сообщений OpenAI, в частности добавили возможность передавать изображения через image_url.IMG_PATH=&#34;chart.png&#34;
+MIME=&#34;image/png&#34;
+IMG_B64=&#34;$(base64 -w 0 &#34;$IMG_PATH&#34;)&#34;
+
+curl -X POST &#34;http://localhost:8010/v1/chat/completions&#34; \
+  -H &#34;Content-Type: application/json&#34; \
+  -d '{
+    &#34;model&#34;: &#34;sgr-agent&#34;,
+    &#34;messages&#34;: [{
+      &#34;role&#34;: &#34;user&#34;,
+      &#34;content&#34;: [
+        {&#34;type&#34;: &#34;text&#34;, &#34;text&#34;: &#34;Analyze this chart and research the trends shown&#34;},
+        {&#34;type&#34;: &#34;image_url&#34;, &#34;image_url&#34;: {&#34;url&#34;: &#34;data:'&#34;$MIME&#34;';base64,'&#34;$IMG_B64&#34;'&#34;}}
+      ]
+    }],
+    &#34;stream&#34;: true,
+    &#34;temperature&#34;: 0.4,
+    &#34;max_tokens&#34;: 1500
+  }'Изображение будет передано агентом модельке.3️⃣ Настроили пайплайн сборки Docker-образа, теперь свежие релизы можно скачать вот так:# Качаем образ
+docker pull ghcr.io/vamplabai/sgr-agent-core:latest
+
+# Запускаем контейнер
+docker run -d \
+  --name sgr-agent-backend \
+  -p 8010:8010 \
+  -v $(pwd)/config.yaml:/app/config.yaml:ro \
+  -v $(pwd)/agents.yaml:/app/agents.yaml:ro \
+  -v $(pwd)/logs:/app/logs \
+  -v $(pwd)/reports:/app/reports \
+  ghcr.io/vamplabai/sgr-agent-core:latestА вот пример docker-compose.yaml, в котором можно посмотреть подробности.4️⃣ Практически с нуля переписали Cursor Rules чтобы кодовый агент лучше следовал стилю проекта и TDD флоу разработки.5️⃣ И исправили бажик в SGRToolCallingAgent.Обновляйтесь, пробуйте новые возможности и собирайте агентов под свои кейсы, будем рады фидбеку. Если в процессе что то пойдёт не так или найдёте баг, не стесняйтесь заводить задачки в нашем баг-трекере на GitHub.С уважением, команда SGR Team.Репо: https://github.com/vamplabAI/sgr-agent-core/Добьем 1к звезд?"><meta name="robots" content="index, follow"><meta property="og:title" content="Встречайте релиз 0.6.0Всем привет! Мы тут с новостями о проекте, с версии 0.5.0 проект был заметно прокачан.1️⃣ В конфиге добавили возможность передавать tools и динамически подключать описанные там тулы из файлов рядом с конфигурацией, так как теперь поддерживаются относительные пути и механизм base_class умеет подтягивать не только классы агентов но ещё и tools.tools:"><meta property="og:type" content="article"><meta property="og:image" content="https://wsrv.nl/?w=1200&h=630&fit=cover&url=ssl:cdn4.telesco.pe/file/kbWzhDkKvW8A9DdTU3fEIKjjGnhT3YmYRnglhOSOyj1yfhgH2t3BOfTPmDy3fK63f3SbRRBPUMzD1pD8S1fYvzXRHSj0rA7IJsfyszVHeOJ_vonEvDcGNdiCONmqtezW_xOcw93ljEMRl8gE01XuR0rzgjzUSKuutLg42KoT9VMB1P4V4wfwu0kVh3u6NBu6ZDduxQYmRyP7ZLeAYuPLck9V2e-pvLvyuOyPd28PVbwaBnJa8J9qEK89IDlNyXbr3jJ-4fKgrHgRe0cJOF3sRxsQg2005oM20HwybwNNKFAAZ-Apjj237BC8dLwhHr0ggkPpIpveOXKeEvMnVvPqYg.jpg"><meta property="og:url" content="https://ndts.sourcecraft.site/transfer-channel-rss/posts/1878"><meta property="og:description" content="Встречайте релиз 0.6.0Всем привет! Мы тут с новостями о проекте, с версии 0.5.0 проект был заметно прокачан.1️⃣ В конфиге добавили возможность передавать tools и динамически подключать описанные там тулы из файлов рядом с конфигурацией, так как теперь поддерживаются относительные пути и механизм base_class умеет подтягивать не только классы агентов но ещё и tools.tools:
+  list_directory_tool:
+    base_class: &#34;tools.ListDirectoryTool&#34;
+  read_file_tool:
+    base_class: &#34;tools.ReadFileTool&#34;
+  search_in_files_tool:
+    base_class: &#34;tools.SearchInFilesTool&#34;Добавили пример SGR File Agent, теперь вы можете попробовать свои силы в построении файловых агентов, который эту новую механику с конфигом тулов и демонстрирует.2️⃣ Расширили поддержку формата сообщений OpenAI, в частности добавили возможность передавать изображения через image_url.IMG_PATH=&#34;chart.png&#34;
+MIME=&#34;image/png&#34;
+IMG_B64=&#34;$(base64 -w 0 &#34;$IMG_PATH&#34;)&#34;
+
+curl -X POST &#34;http://localhost:8010/v1/chat/completions&#34; \
+  -H &#34;Content-Type: application/json&#34; \
+  -d '{
+    &#34;model&#34;: &#34;sgr-agent&#34;,
+    &#34;messages&#34;: [{
+      &#34;role&#34;: &#34;user&#34;,
+      &#34;content&#34;: [
+        {&#34;type&#34;: &#34;text&#34;, &#34;text&#34;: &#34;Analyze this chart and research the trends shown&#34;},
+        {&#34;type&#34;: &#34;image_url&#34;, &#34;image_url&#34;: {&#34;url&#34;: &#34;data:'&#34;$MIME&#34;';base64,'&#34;$IMG_B64&#34;'&#34;}}
+      ]
+    }],
+    &#34;stream&#34;: true,
+    &#34;temperature&#34;: 0.4,
+    &#34;max_tokens&#34;: 1500
+  }'Изображение будет передано агентом модельке.3️⃣ Настроили пайплайн сборки Docker-образа, теперь свежие релизы можно скачать вот так:# Качаем образ
+docker pull ghcr.io/vamplabai/sgr-agent-core:latest
+
+# Запускаем контейнер
+docker run -d \
+  --name sgr-agent-backend \
+  -p 8010:8010 \
+  -v $(pwd)/config.yaml:/app/config.yaml:ro \
+  -v $(pwd)/agents.yaml:/app/agents.yaml:ro \
+  -v $(pwd)/logs:/app/logs \
+  -v $(pwd)/reports:/app/reports \
+  ghcr.io/vamplabai/sgr-agent-core:latestА вот пример docker-compose.yaml, в котором можно посмотреть подробности.4️⃣ Практически с нуля переписали Cursor Rules чтобы кодовый агент лучше следовал стилю проекта и TDD флоу разработки.5️⃣ И исправили бажик в SGRToolCallingAgent.Обновляйтесь, пробуйте новые возможности и собирайте агентов под свои кейсы, будем рады фидбеку. Если в процессе что то пойдёт не так или найдёте баг, не стесняйтесь заводить задачки в нашем баг-трекере на GitHub.С уважением, команда SGR Team.Репо: https://github.com/vamplabAI/sgr-agent-core/Добьем 1к звезд?"><meta property="og:locale" content="ru"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="https://wsrv.nl/?w=64&h=64&fit=cover&mask=circle&url=ssl:cdn4.telesco.pe/file/kbWzhDkKvW8A9DdTU3fEIKjjGnhT3YmYRnglhOSOyj1yfhgH2t3BOfTPmDy3fK63f3SbRRBPUMzD1pD8S1fYvzXRHSj0rA7IJsfyszVHeOJ_vonEvDcGNdiCONmqtezW_xOcw93ljEMRl8gE01XuR0rzgjzUSKuutLg42KoT9VMB1P4V4wfwu0kVh3u6NBu6ZDduxQYmRyP7ZLeAYuPLck9V2e-pvLvyuOyPd28PVbwaBnJa8J9qEK89IDlNyXbr3jJ-4fKgrHgRe0cJOF3sRxsQg2005oM20HwybwNNKFAAZ-Apjj237BC8dLwhHr0ggkPpIpveOXKeEvMnVvPqYg.jpg"><link rel="apple-touch-icon" href="/transfer-channel-rss/favicon.ico"><link rel="manifest" href="/transfer-channel-rss/manifest.json"><link rel="stylesheet" href="/transfer-channel-rss/_astro/_cursor_.D7WZNNgw.css"></head> <body> <a href="#main-content" class="pointer-events-none absolute left-5 top-0 z-[1100] -translate-y-full rounded-panel bg-heading px-3 py-2 text-sm text-white no-underline transition-transform duration-150 focus-visible:pointer-events-auto focus-visible:translate-y-5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-heading">Skip to main content</a> <main id="main-content" class="mx-5"> <div class="mx-auto flex w-full max-w-[800px] flex-col-reverse sm:flex-row sm:items-start"> <div class="w-full min-w-0 pb-5 pt-[10px] sm:mr-5 sm:flex-1 sm:border-r sm:border-line sm:pr-[30px] sm:pt-5"> <h1 class="sr-only">Встречайте релиз 0.6.0Всем привет! Мы тут с новостями о проекте, с версии 0.5.0 проект был заметно прокачан.1️⃣ В конфиге добавили возможность передавать tools и динамически подключать описанные там тулы из файлов рядом с конфигурацией, так как теперь поддерживаются относительные пути и механизм base_class умеет подтягивать не только классы агентов но ещё и tools.tools:</h1><nav class="mb-5 py-[10px] font-semibold" aria-label="Breadcrumb"> <ol class="m-0 flex list-none items-center p-0"> <li> <a href="/transfer-channel-rss/" class="inline-flex items-center no-underline" title="Валера Ковальский"> <img src="https://cdn4.telesco.pe/file/kbWzhDkKvW8A9DdTU3fEIKjjGnhT3YmYRnglhOSOyj1yfhgH2t3BOfTPmDy3fK63f3SbRRBPUMzD1pD8S1fYvzXRHSj0rA7IJsfyszVHeOJ_vonEvDcGNdiCONmqtezW_xOcw93ljEMRl8gE01XuR0rzgjzUSKuutLg42KoT9VMB1P4V4wfwu0kVh3u6NBu6ZDduxQYmRyP7ZLeAYuPLck9V2e-pvLvyuOyPd28PVbwaBnJa8J9qEK89IDlNyXbr3jJ-4fKgrHgRe0cJOF3sRxsQg2005oM20HwybwNNKFAAZ-Apjj237BC8dLwhHr0ggkPpIpveOXKeEvMnVvPqYg.jpg" alt="Валера Ковальский" loading="eager" width="20" height="20" class="block h-5 w-5 rounded-full border-2 border-white object-cover shadow-soft"> <span class="ml-[10px] flex-1 text-[14px] text-heading">Валера Ковальский</span> </a> </li> </ol> </nav> <ol class="mt-5 mb-0 ml-7 list-none pl-0 max-sm:ml-0" aria-label="Post"> <li> <article class="transition duration-200" style="view-transition-name:post-1878"> <header class="flex items-center leading-none"> <span class="h-[8px] w-[8px] rounded-full bg-accent" aria-hidden="true"></span> <p class="m-0 flex-1 pl-[10px] text-[14px] font-medium text-accent"> <a href="/transfer-channel-rss/posts/1878" title="2026-01-25T09:37:34+00:00" class="text-accent no-underline hover:underline"> <time datetime="2026-01-25T09:37:34+00:00" title="12:37 · 25 янв. 2026 г. · вск">12:37 · 25 янв. 2026 г. · вск</time> </a> </p> </header> <div class="ml-[3px] border-l-2 border-line py-[30px] pl-[15px] text-base leading-[1.6] sm:pl-[30px] content"><b>Встречайте релиз 0.6.0</b><br><br>Всем привет! Мы тут с новостями о проекте, с версии 0.5.0 проект был заметно прокачан.<br><br><i class="emoji"><b>1️⃣</b></i> В конфиге добавили возможность передавать <code>tools</code> и динамически подключать описанные там тулы из файлов рядом с конфигурацией, так как теперь поддерживаются относительные пути и механизм <code>base_class</code> умеет подтягивать не только классы агентов но ещё и tools.<br><pre><code class="language-yaml"><span class="token key atrule">tools</span><span class="token punctuation">:</span>
+  <span class="token key atrule">list_directory_tool</span><span class="token punctuation">:</span>
+    <span class="token key atrule">base_class</span><span class="token punctuation">:</span> <span class="token string">"tools.ListDirectoryTool"</span>
+  <span class="token key atrule">read_file_tool</span><span class="token punctuation">:</span>
+    <span class="token key atrule">base_class</span><span class="token punctuation">:</span> <span class="token string">"tools.ReadFileTool"</span>
+  <span class="token key atrule">search_in_files_tool</span><span class="token punctuation">:</span>
+    <span class="token key atrule">base_class</span><span class="token punctuation">:</span> <span class="token string">"tools.SearchInFilesTool"</span></code></pre><br>Добавили пример <a href="https://github.com/vamplabAI/sgr-agent-core/tree/main/examples/sgr_file_agent" target="_blank" rel="noopener" title="SGR File Agent">SGR File Agent</a>, теперь вы можете попробовать свои силы в построении файловых агентов, который эту новую механику с конфигом тулов и демонстрирует.<br><br><i class="emoji"><b>2️⃣</b></i> Расширили поддержку формата сообщений OpenAI, в частности добавили возможность передавать изображения через <code>image_url</code>.<br><pre><code class="language-json">IMG_PATH=<span class="token string">"chart.png"</span>
+MIME=<span class="token string">"image/png"</span>
+IMG_B64=<span class="token string">"$(base64 -w 0 "</span>$IMG_PATH<span class="token string">")"</span>
+
+curl -X POST <span class="token string">"http://localhost:8010/v1/chat/completions"</span> \
+  -H <span class="token string">"Content-Type: application/json"</span> \
+  -d '<span class="token punctuation">{</span>
+    <span class="token property">"model"</span><span class="token operator">:</span> <span class="token string">"sgr-agent"</span><span class="token punctuation">,</span>
+    <span class="token property">"messages"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
+      <span class="token property">"role"</span><span class="token operator">:</span> <span class="token string">"user"</span><span class="token punctuation">,</span>
+      <span class="token property">"content"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span><span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"text"</span><span class="token punctuation">,</span> <span class="token property">"text"</span><span class="token operator">:</span> <span class="token string">"Analyze this chart and research the trends shown"</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span><span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"image_url"</span><span class="token punctuation">,</span> <span class="token property">"image_url"</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"data:'"</span>$MIME<span class="token string">"';base64,'"</span>$IMG_B64<span class="token string">"'"</span><span class="token punctuation">}</span><span class="token punctuation">}</span>
+      <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">"stream"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token property">"temperature"</span><span class="token operator">:</span> <span class="token number">0.4</span><span class="token punctuation">,</span>
+    <span class="token property">"max_tokens"</span><span class="token operator">:</span> <span class="token number">1500</span>
+  <span class="token punctuation">}</span>'</code></pre><br>Изображение будет передано агентом модельке.<br><br><i class="emoji"><b>3️⃣</b></i> Настроили пайплайн сборки <a href="https://github.com/vamplabAI/sgr-agent-core/pkgs/container/sgr-agent-core" target="_blank" rel="noopener" title="Docker-образа">Docker-образа</a>, теперь свежие релизы можно скачать вот так:<br><pre># Качаем образ
+docker pull ghcr.io/vamplabai/sgr-agent-core:latest
+
+# Запускаем контейнер
+docker run -d \
+  --name sgr-agent-backend \
+  -p 8010:8010 \
+  -v $(pwd)/config.yaml:/app/config.yaml:ro \
+  -v $(pwd)/agents.yaml:/app/agents.yaml:ro \
+  -v $(pwd)/logs:/app/logs \
+  -v $(pwd)/reports:/app/reports \
+  ghcr.io/vamplabai/sgr-agent-core:latest</pre><br>А вот пример <a href="https://github.com/vamplabAI/sgr-agent-core/blob/main/docker-compose.dist.yaml" target="_blank" rel="noopener" title="docker-compose.yaml">docker-compose.yaml</a>, в котором можно посмотреть подробности.<br><br><i class="emoji"><b>4️⃣</b></i> Практически с нуля переписали <a href="https://github.com/vamplabAI/sgr-agent-core/tree/main/.cursor/rules" target="_blank" rel="noopener" title="Cursor Rules">Cursor Rules</a> чтобы кодовый агент лучше следовал стилю проекта и TDD флоу разработки.<br><br><i class="emoji"><b>5️⃣</b></i> И исправили <a href="https://github.com/vamplabAI/sgr-agent-core/pull/132" target="_blank" rel="noopener" title="бажик">бажик</a> в <code>SGRToolCallingAgent</code>.<br><br>Обновляйтесь, пробуйте новые возможности и собирайте агентов под свои кейсы, будем рады фидбеку. Если в процессе что то пойдёт не так или найдёте баг, не стесняйтесь заводить задачки в нашем <a href="https://github.com/vamplabAI/sgr-agent-core/issues" target="_blank" rel="noopener" title="баг-трекере">баг-трекере</a> на GitHub.<br><br>С уважением, команда SGR Team.<br><br>Репо: <a href="https://github.com/vamplabAI/sgr-agent-core/" target="_blank" rel="noopener" title="https://github.com/vamplabAI/sgr-agent-core/">https://github.com/vamplabAI/sgr-agent-core/</a><br><br>Добьем 1к звезд?</div> <div class="ml-[3px] border-l-2 border-line pb-6 pl-[15px] pt-[6px] sm:pl-[30px] -mt-3 pt-0"> <div class="m-0 flex flex-wrap gap-[6px]"> <span class="inline-flex items-center gap-1 rounded-full border border-line bg-code py-[3px] pl-[6px] pr-[8px] text-[12px] text-muted border-[rgba(255,196,0,0.35)] bg-[rgba(255,196,0,0.12)] text-[#9a6a00]"> <span class="inline-flex items-center text-[14px] leading-none"> ⭐ </span> <span class="font-medium opacity-80 [font-variant-numeric:tabular-nums]">6</span> </span><span class="inline-flex items-center gap-1 rounded-full border border-line bg-code py-[3px] pl-[6px] pr-[8px] text-[12px] text-muted"> <span class="inline-flex items-center text-[14px] leading-none"> 🔥 </span> <span class="font-medium opacity-80 [font-variant-numeric:tabular-nums]">51</span> </span><span class="inline-flex items-center gap-1 rounded-full border border-line bg-code py-[3px] pl-[6px] pr-[8px] text-[12px] text-muted"> <span class="inline-flex items-center text-[14px] leading-none"> ❤️ </span> <span class="font-medium opacity-80 [font-variant-numeric:tabular-nums]">13</span> </span><span class="inline-flex items-center gap-1 rounded-full border border-line bg-code py-[3px] pl-[6px] pr-[8px] text-[12px] text-muted"> <span class="inline-flex items-center text-[14px] leading-none"> <img src="https://t.me/i/emoji/5217608395250485583.webp" alt="emoji" loading="lazy" width="20" height="20" class="block h-[1em] w-[1em]"> </span> <span class="font-medium opacity-80 [font-variant-numeric:tabular-nums]">5</span> </span> </div> </div>   </article> </li> </ol> <nav class="my-5 flex items-center" aria-label="Pagination"> <span class="inline-block w-[34px]" aria-hidden="true">
+&nbsp;
+</span> <div class="flex-1 text-center align-middle text-[12px] font-medium text-muted"></div> <span class="inline-block w-[34px]" aria-hidden="true">
+&nbsp;
+</span> </nav>  </div> <aside class="sticky top-0 w-full min-w-0 border-b border-line bg-paper pb-[10px] shadow-[0_4px_16px_-16px_rgba(0,0,0,0.1)] sm:w-[200px] sm:min-w-[200px] sm:self-start sm:border-b-0 sm:bg-transparent sm:pb-5 sm:shadow-none">  <div class="relative overflow-y-visible sm:max-h-[100svh] sm:overflow-y-auto"> <nav aria-label="Primary navigation"> <ul class="m-0 flex list-none flex-wrap gap-[2px] pl-0 pt-5 sm:block"> <li class="flex items-center text-[14px] leading-none sm:mb-[10px] sm:text-base sm:leading-normal"> <a href="/transfer-channel-rss/" title="Валера Ковальский" class="flex-1 inline-block rounded-panel px-[10px] py-[5px] text-heading no-underline transition-[background-color,box-shadow] duration-150 ease-in-out hover:bg-white/65 hover:shadow-soft hover:no-underline">
+Home
+</a> </li>    </ul> </nav> <form class="mt-3 rounded-panel bg-code p-2 text-muted sm:mt-0 sm:block" action="/transfer-channel-rss/search/result" method="get" role="search"> <label class="sr-only" for="search-query">Search</label> <input id="search-query" class="box-border w-full rounded-panel border border-paper bg-code px-2 text-[16px] leading-[2.4] text-muted outline-none placeholder:text-muted focus-visible:border-heading focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-2 focus-visible:outline-heading sm:text-[12px]" type="search" name="q" placeholder="Search..." autocomplete="off" inputmode="search" spellcheck="false"> </form> <footer class="hidden p-2 text-[14px] leading-[1.5] text-footer sm:block">
+Powered by
+<a href="https://github.com/miantiao-me/BroadcastChannel" title="BroadcastChannel" target="_blank" rel="noopener noreferrer">
+BroadcastChannel
+</a> </footer> </div>  </aside> </div> <div id="back-to-top-wrapper"> <a href="#main-content" id="back-to-top" class="pointer-events-auto z-[1000] flex h-8 w-8 items-center justify-center rounded-full bg-code text-[24px] opacity-90 transition-transform duration-300 hover:-translate-y-[3px] active:translate-y-px" aria-label="Back to top"> <img isAstroComponentFactory="true" src="/transfer-channel-rss/_astro/back-to-top.CnE45Dm3.svg" width="24" height="24" format="svg" class="h-auto w-auto [filter:var(--icon-secondary-filter)]" alt=""> </a> </div> </main>  <script src="/transfer-channel-rss/pwa.js"></script> <div id="install-banner" style="display:none;position:fixed;bottom:0;left:0;right:0;z-index:1100;background:#1a1a2e;color:#fff;padding:16px 20px;align-items:center;gap:12px;box-shadow:0 -4px 20px rgba(0,0,0,0.3);font-family:system-ui,sans-serif;"> <div style="flex:1;min-width:0;"> <div style="font-weight:600;font-size:15px;">NeuralDeep</div> <div style="font-size:13px;opacity:0.8;margin-top:2px;">Установите приложение для уведомлений о новых постах</div> </div> <button onclick="installApp()" style="background:#6c63ff;color:#fff;border:none;padding:8px 20px;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;white-space:nowrap;">Установить</button> <button onclick="dismissInstall()" style="background:none;border:none;color:#999;font-size:20px;cursor:pointer;padding:4px 8px;" aria-label="Close">&times;</button> </div> </body></html>

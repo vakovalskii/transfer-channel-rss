@@ -488,11 +488,29 @@ async function main() {
   const existingIds = new Set(existingPosts.map((p) => p.id))
   console.log(`Existing posts: ${existingPosts.length}`)
 
-  // Fetch latest page
-  const { posts: latestPosts, channel } = await fetchPage()
+  // Fetch multiple pages for full history
+  const MAX_PAGES = Number(process.env.MAX_PAGES) || 5
+  let allFetchedPosts: Post[] = []
+  let channel: ChannelInfo = { title: '', description: '', descriptionHTML: null, avatar: undefined }
+  let cursor: string | undefined
+
+  for (let page = 0; page < MAX_PAGES; page++) {
+    const result = await fetchPage(cursor)
+    if (page === 0) channel = result.channel
+    allFetchedPosts = [...allFetchedPosts, ...result.posts]
+
+    if (!result.hasMore || result.posts.length === 0) break
+
+    // Get oldest post ID as cursor for next page
+    const oldestId = result.posts[result.posts.length - 1]?.id
+    if (!oldestId || oldestId === cursor) break
+    cursor = oldestId
+  }
+
+  console.log(`Fetched ${allFetchedPosts.length} posts across up to ${MAX_PAGES} pages`)
 
   // Find new posts
-  const newPosts = latestPosts.filter((p) => !existingIds.has(p.id))
+  const newPosts = allFetchedPosts.filter((p) => !existingIds.has(p.id))
   console.log(`New posts found: ${newPosts.length}`)
 
   if (newPosts.length === 0 && existingPosts.length > 0) {
@@ -503,8 +521,8 @@ async function main() {
     return
   }
 
-  // Merge: new posts + existing, sorted by id descending
-  const allPosts = [...newPosts, ...existingPosts]
+  // Merge: all fetched + existing, sorted by id descending
+  const allPosts = [...allFetchedPosts, ...existingPosts]
     .sort((a, b) => Number(b.id) - Number(a.id))
 
   // Deduplicate by id
