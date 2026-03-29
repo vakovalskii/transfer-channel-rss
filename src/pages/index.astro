@@ -20,13 +20,14 @@ const beforeCursor = posts[posts.length - 1]?.id
 
 <Layout channel={channel}>
   <div style="margin-bottom:16px;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px;">
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;flex-wrap:wrap;">
       <h1 style="font-size:20px;font-weight:600;margin:0;">{digestTitle}</h1>
-      <a
-        href={`${SITE_URL}lite/`}
-        style="font-size:12px;color:#999;text-decoration:none;border:1px solid #ddd;border-radius:12px;padding:2px 8px;"
-        >lite</a
-      >
+      <div style="display:flex;gap:4px;margin-left:auto;">
+        <a href={`${SITE_URL}hot/`} class="nav-pill">Hot</a>
+        <a href={`${SITE_URL}stats/`} class="nav-pill">Stats</a>
+        <a href={`${SITE_URL}lite/`} class="nav-pill">Lite</a>
+        <button onclick="toggleTheme()" class="nav-pill" id="theme-btn" aria-label="Toggle theme"></button>
+      </div>
     </div>
     <p style="font-size:14px;color:#888;margin:0 0 12px;">{totalPosts} posts from {channels.length} channels</p>
 
@@ -111,6 +112,34 @@ const beforeCursor = posts[posts.length - 1]?.id
     background: #1a1a2e;
     color: #fff;
     border-color: #1a1a2e;
+  }
+  .nav-pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 12px;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    background: #f8f8f8;
+    font-size: 12px;
+    color: #555;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .nav-pill:hover {
+    background: #1a1a2e;
+    color: #fff;
+    border-color: #1a1a2e;
+  }
+  html[data-theme='dark'] .nav-pill {
+    background: #333;
+    border-color: #555;
+    color: #ccc;
+  }
+  html[data-theme='dark'] .nav-pill:hover {
+    background: #6c63ff;
+    border-color: #6c63ff;
+    color: #fff;
   }
 </style>
 

@@ -22,13 +22,14 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
 
 <Layout channel={channel}>
   <div style="margin-bottom:16px;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px;">
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;flex-wrap:wrap;">
       <h1 style="font-size:18px;font-weight:600;margin:0;">Lite mode</h1>
-      <a
-        href={SITE_URL}
-        style="font-size:12px;color:#999;text-decoration:none;border:1px solid #ddd;border-radius:12px;padding:2px 8px;"
-        >full</a
-      >
+      <div style="display:flex;gap:4px;margin-left:auto;">
+        <a href={SITE_URL} class="nav-pill">Home</a>
+        <a href={`${SITE_URL}hot/`} class="nav-pill">Hot</a>
+        <a href={`${SITE_URL}stats/`} class="nav-pill">Stats</a>
+        <button onclick="toggleTheme()" class="nav-pill" aria-label="Toggle theme" id="theme-btn"></button>
+      </div>
     </div>
     <p style="font-size:13px;color:#888;margin:0 0 10px;">{totalPosts} posts, {channels.length} channels — text only</p>
 
