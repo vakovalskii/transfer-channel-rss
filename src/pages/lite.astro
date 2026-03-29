@@ -1,0 +1,118 @@
+---
+import Layout from '../layouts/base.astro'
+import dayjs from '../lib/dayjs'
+import { getAllPosts, getAllChannels, getChannelData, getDigestTitle } from '../lib/data'
+
+dayjs.locale('ru')
+
+const channels = getAllChannels()
+const allPosts = getAllPosts().slice(0, 100)
+const totalPosts = getAllPosts().length
+const digestTitle = getDigestTitle()
+
+const channel = getChannelData()
+channel.title = `${digestTitle} — Lite`
+channel.description = `${totalPosts} posts, text only`
+channel.descriptionHTML = null
+channel.avatar = undefined
+channel.seo = { title: 'Lite' }
+
+const SITE_URL = import.meta.env.BASE_URL ?? '/'
+---
+
+<Layout channel={channel}>
+  <div style="margin-bottom:16px;">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px;">
+      <h1 style="font-size:18px;font-weight:600;margin:0;">Lite mode</h1>
+      <a
+        href={SITE_URL}
+        style="font-size:12px;color:#999;text-decoration:none;border:1px solid #ddd;border-radius:12px;padding:2px 8px;"
+        >full</a
+      >
+    </div>
+    <p style="font-size:13px;color:#888;margin:0 0 10px;">{totalPosts} posts, {channels.length} channels — text only</p>
+
+    <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px;">
+      <button class="filter-btn active" data-period="all" onclick="filterPeriod('all')">All</button>
+      <button class="filter-btn" data-period="24h" onclick="filterPeriod('24h')">24h</button>
+      <button class="filter-btn" data-period="3d" onclick="filterPeriod('3d')">3d</button>
+      <button class="filter-btn" data-period="7d" onclick="filterPeriod('7d')">7d</button>
+    </div>
+
+    <div style="display:flex;gap:4px;flex-wrap:wrap;margin-bottom:8px;">
+      <button class="channel-btn active" data-channel="all" onclick="filterChannel('all')">All</button>
+      {
+        channels.map((ch) => (
+          <button class="channel-btn" data-channel={ch.name} onclick={`filterChannel('${ch.name}')`}>
+            @{ch.name}
+          </button>
+        ))
+      }
+    </div>
+
+    <input
+      id="digest-search"
+      type="search"
+      placeholder="Search..."
+      oninput="filterSearch(this.value)"
+      style="width:100%;padding:6px 10px;border:1px solid #ddd;border-radius:6px;font-size:13px;box-sizing:border-box;"
+    />
+  </div>
+
+  <div id="posts-list" style="font-size:13px;line-height:1.5;">
+    {
+      allPosts.map((post) => {
+        const preview = post.text?.slice(0, 150) || ''
+        const dt = dayjs(post.datetime)
+        const timeago = dt.isBefore(dayjs().subtract(3, 'd')) ? dt.format('DD.MM') : dt.fromNow()
+        const reactions =
+          post.reactions
+            ?.slice(0, 2)
+            .map((r) => `${r.emoji}${r.count}`)
+            .join(' ') || ''
+        return (
+          <a
+            href={`${SITE_URL}posts/${post.id}`}
+            class="digest-post"
+            data-channel={post.channel || ''}
+            data-datetime={post.datetime}
+            data-text={post.text?.toLowerCase().slice(0, 500) || ''}
+            style="display:block;padding:6px 0;border-bottom:1px solid #f0f0f0;text-decoration:none;color:inherit;"
+          >
+            <span style="color:#999;font-size:11px;">
+              @{post.channel} · {timeago}
+              {reactions ? ` · ${reactions}` : ''}
+            </span>
+            <br />
+            <span style="color:#333;">
+              {preview}
+              {preview.length >= 150 ? '…' : ''}
+            </span>
+          </a>
+        )
+      })
+    }
+  </div>
+
+  <p id="no-results" style="display:none;text-align:center;color:#999;padding:20px 0;font-size:13px;">Nothing found</p>
+</Layout>
+
+<style is:global>
+  .filter-btn,
+  .channel-btn {
+    padding: 2px 8px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background: #f8f8f8;
+    font-size: 11px;
+    cursor: pointer;
+  }
+  .filter-btn.active,
+  .channel-btn.active {
+    background: #333;
+    color: #fff;
+    border-color: #333;
+  }
+</style>
+
+<script is:inline src={`${import.meta.env.BASE_URL}digest.js`}></script>
