@@ -144,6 +144,19 @@ const backToTopIconClass = 'h-auto w-auto [filter:var(--icon-secondary-filter)]'
                       Home
                     </a>
                   </li>
+                  <li class={navItemClass}>
+                    <a
+                      href={`${SITE_URL}digest`}
+                      title="Digest"
+                      class:list={[
+                        navLinkClass,
+                        currentPathname === normalizePathname(new URL('digest', absoluteSiteUrl).pathname) &&
+                          navLinkCurrentClass,
+                      ]}
+                    >
+                      Digest
+                    </a>
+                  </li>
                   {
                     TAGS ? (
                       <li class={navItemClass}>

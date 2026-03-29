@@ -44,6 +44,13 @@ const commentsClass = 'ml-[3px] border-l-2 border-line pb-6 pl-[15px] pt-[6px] s
   <header class={timeBoxClass}>
     <span class={timeDotClass} aria-hidden="true"></span>
     <p class={timeTextClass}>
+      {
+        post.channelTitle && (
+          <span style="background:#eee;border-radius:4px;padding:1px 6px;font-size:12px;margin-right:6px;color:#666;">
+            @{post.channel}
+          </span>
+        )
+      }
       <a href={`${SITE_URL}posts/${post.id}`} title={post.datetime} class={itemLinkClass}>
         <time datetime={post.datetime} title={timeago}>{timeago}</time>
       </a>

@@ -70,9 +70,10 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 const DATA_DIR = resolve(__dirname, '..', 'data')
 const POSTS_FILE = resolve(DATA_DIR, 'posts.json')
 const CHANNEL_FILE = resolve(DATA_DIR, 'channel.json')
+const CHANNELS_FILE = resolve(DATA_DIR, 'channels.json')
 const NEW_POSTS_FILE = resolve(DATA_DIR, 'new-posts.json')
 
-const CHANNEL = process.env.CHANNEL || 'neuraldeep'
+let CHANNEL = process.env.CHANNEL || 'neuraldeep'
 const HOST = process.env.TELEGRAM_HOST || 't.me'
 const STATIC_PROXY = ''
 
@@ -469,11 +470,50 @@ async function fetchPage(before?: string): Promise<{ posts: Post[]; channel: Cha
   return { posts, channel: channelInfo, hasMore }
 }
 
+async function fetchChannelPosts(channelName: string, maxPages: number): Promise<{ posts: Post[], channel: ChannelInfo }> {
+  CHANNEL = channelName
+  let allFetchedPosts: Post[] = []
+  let channelInfo: ChannelInfo = { title: '', description: '', descriptionHTML: null, avatar: undefined }
+  let cursor: string | undefined
+
+  for (let page = 0; page < maxPages; page++) {
+    const result = await fetchPage(cursor)
+    if (page === 0) channelInfo = result.channel
+    allFetchedPosts = [...allFetchedPosts, ...result.posts]
+
+    if (!result.hasMore || result.posts.length === 0) break
+    const oldestId = result.posts[result.posts.length - 1]?.id
+    if (!oldestId || oldestId === cursor) break
+    cursor = oldestId
+  }
+
+  // Tag each post with channel info
+  const channelTitle = channelInfo.title || channelName
+  allFetchedPosts = allFetchedPosts.map(p => ({
+    ...p,
+    id: `${channelName}/${p.id}`,
+    channel: channelName,
+    channelTitle,
+  }))
+
+  return { posts: allFetchedPosts, channel: channelInfo }
+}
+
 async function main() {
-  // Ensure data directory exists
   if (!existsSync(DATA_DIR)) {
     mkdirSync(DATA_DIR, { recursive: true })
   }
+
+  // Load channels list
+  let channels: string[] = []
+  if (existsSync(CHANNELS_FILE)) {
+    channels = JSON.parse(readFileSync(CHANNELS_FILE, 'utf-8'))
+  }
+  if (channels.length === 0) {
+    channels = [process.env.CHANNEL || 'neuraldeep']
+  }
+
+  console.log(`Channels to fetch: ${channels.join(', ')}`)
 
   // Load existing posts
   let existingPosts: Post[] = []
@@ -485,62 +525,57 @@ async function main() {
     }
   }
 
-  const existingIds = new Set(existingPosts.map((p) => p.id))
+  const existingIds = new Set(existingPosts.map(p => p.id))
   console.log(`Existing posts: ${existingPosts.length}`)
 
-  // Fetch multiple pages for full history
-  const MAX_PAGES = Number(process.env.MAX_PAGES) || 5
+  const MAX_PAGES = Number(process.env.MAX_PAGES) || 3
   let allFetchedPosts: Post[] = []
-  let channel: ChannelInfo = { title: '', description: '', descriptionHTML: null, avatar: undefined }
-  let cursor: string | undefined
+  const channelsMeta: Record<string, ChannelInfo> = {}
 
-  for (let page = 0; page < MAX_PAGES; page++) {
-    const result = await fetchPage(cursor)
-    if (page === 0) channel = result.channel
-    allFetchedPosts = [...allFetchedPosts, ...result.posts]
-
-    if (!result.hasMore || result.posts.length === 0) break
-
-    // Get oldest post ID as cursor for next page
-    const oldestId = result.posts[result.posts.length - 1]?.id
-    if (!oldestId || oldestId === cursor) break
-    cursor = oldestId
+  // Fetch all channels
+  for (const ch of channels) {
+    try {
+      console.log(`\n--- Fetching @${ch} ---`)
+      const { posts, channel: meta } = await fetchChannelPosts(ch, MAX_PAGES)
+      allFetchedPosts = [...allFetchedPosts, ...posts]
+      channelsMeta[ch] = meta
+      console.log(`  ${posts.length} posts from @${ch} (${meta.title})`)
+    } catch (err) {
+      console.error(`  Failed to fetch @${ch}:`, err)
+    }
   }
 
-  console.log(`Fetched ${allFetchedPosts.length} posts across up to ${MAX_PAGES} pages`)
+  console.log(`\nTotal fetched: ${allFetchedPosts.length} posts from ${channels.length} channels`)
 
   // Find new posts
-  const newPosts = allFetchedPosts.filter((p) => !existingIds.has(p.id))
-  console.log(`New posts found: ${newPosts.length}`)
+  const newPosts = allFetchedPosts.filter(p => !existingIds.has(p.id))
+  console.log(`New posts: ${newPosts.length}`)
 
   if (newPosts.length === 0 && existingPosts.length > 0) {
     console.log('No new posts, data is up to date.')
-    // Still save channel info in case it changed
-    writeFileSync(CHANNEL_FILE, JSON.stringify(channel, null, 2))
+    writeFileSync(CHANNEL_FILE, JSON.stringify(channelsMeta, null, 2))
     writeFileSync(NEW_POSTS_FILE, JSON.stringify([], null, 2))
     return
   }
 
-  // Merge: all fetched + existing, sorted by id descending
+  // Merge + sort by datetime descending
   const allPosts = [...allFetchedPosts, ...existingPosts]
-    .sort((a, b) => Number(b.id) - Number(a.id))
+    .sort((a, b) => new Date(b.datetime).getTime() - new Date(a.datetime).getTime())
 
-  // Deduplicate by id
+  // Deduplicate by composite id (channel/postId)
   const seen = new Set<string>()
-  const dedupedPosts = allPosts.filter((p) => {
+  const dedupedPosts = allPosts.filter(p => {
     if (seen.has(p.id)) return false
     seen.add(p.id)
     return true
   })
 
-  // Save
   writeFileSync(POSTS_FILE, JSON.stringify(dedupedPosts, null, 2))
-  writeFileSync(CHANNEL_FILE, JSON.stringify(channel, null, 2))
+  writeFileSync(CHANNEL_FILE, JSON.stringify(channelsMeta, null, 2))
   writeFileSync(NEW_POSTS_FILE, JSON.stringify(newPosts, null, 2))
 
   console.log(`Total posts saved: ${dedupedPosts.length}`)
-  console.log(`Channel: ${channel.title}`)
-  console.log(`New posts for crosspost: ${newPosts.length}`)
+  console.log(`Channels: ${Object.keys(channelsMeta).join(', ')}`)
 }
 
 main().catch((err) => {

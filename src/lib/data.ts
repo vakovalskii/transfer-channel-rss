@@ -1,7 +1,7 @@
 /**
  * Data layer for SSG mode.
- * Reads posts and channel info from data/ JSON files
- * instead of fetching from Telegram in real-time.
+ * Reads posts from data/posts.json (multi-channel)
+ * and channel metadata from data/channel.json.
  */
 
 import type { ChannelInfo, Post } from '../types'
@@ -12,7 +12,7 @@ import { cwd } from 'node:process'
 const DATA_DIR = path.resolve(cwd(), 'data')
 
 let _posts: Post[] | null = null
-let _channel: Omit<ChannelInfo, 'posts'> | null = null
+let _channelsMeta: Record<string, { title: string, description: string, descriptionHTML: string | null, avatar: string | undefined }> | null = null
 
 function loadPosts(): Post[] {
   if (_posts)
@@ -24,22 +24,42 @@ function loadPosts(): Post[] {
   return _posts!
 }
 
-function loadChannelMeta(): Omit<ChannelInfo, 'posts'> {
-  if (_channel)
-    return _channel
+function loadChannelsMeta() {
+  if (_channelsMeta)
+    return _channelsMeta
   const file = path.join(DATA_DIR, 'channel.json')
-  if (!fs.existsSync(file)) {
-    return { posts: [], title: '', description: '', descriptionHTML: null, avatar: undefined }
-  }
+  if (!fs.existsSync(file))
+    return {}
   const raw = JSON.parse(fs.readFileSync(file, 'utf-8'))
-  _channel = raw
-  return _channel!
+  // Support both old format (single channel) and new (multi-channel map)
+  if (raw.title && !raw.posts) {
+    // Old single-channel format
+    _channelsMeta = { default: raw }
+  }
+  else if (Array.isArray(raw)) {
+    _channelsMeta = {}
+  }
+  else {
+    _channelsMeta = raw
+  }
+  return _channelsMeta!
 }
 
-export function getChannelData(params: { before?: string, after?: string, q?: string } = {}): ChannelInfo {
-  const { before, after, q } = params
-  const meta = loadChannelMeta()
+function getPrimaryChannel() {
+  const meta = loadChannelsMeta()
+  const keys = Object.keys(meta)
+  return keys.length > 0 ? meta[keys[0]] : { title: '', description: '', descriptionHTML: null, avatar: undefined }
+}
+
+export function getChannelData(params: { before?: string, after?: string, q?: string, channel?: string } = {}): ChannelInfo {
+  const { before, after, q, channel: filterChannel } = params
+  const primary = getPrimaryChannel()
   let posts = loadPosts()
+
+  // Filter by channel
+  if (filterChannel) {
+    posts = posts.filter(p => p.channel === filterChannel)
+  }
 
   // Search/tag filter
   if (q) {
@@ -71,14 +91,13 @@ export function getChannelData(params: { before?: string, after?: string, q?: st
   }
 
   return {
-    ...meta,
+    ...primary,
     posts,
   } as ChannelInfo
 }
 
 export function getPost(id: string): Post | undefined {
-  const posts = loadPosts()
-  return posts.find(p => p.id === id)
+  return loadPosts().find(p => p.id === id)
 }
 
 export function getAllPosts(): Post[] {
@@ -99,6 +118,28 @@ export function getAllTags(): string[] {
   return Array.from(tags)
 }
 
+export function getAllChannels(): { name: string, title: string, postCount: number }[] {
+  const meta = loadChannelsMeta()
+  const posts = loadPosts()
+  const counts: Record<string, number> = {}
+  for (const p of posts) {
+    const ch = p.channel || 'unknown'
+    counts[ch] = (counts[ch] || 0) + 1
+  }
+  return Object.entries(meta).map(([name, m]) => ({
+    name,
+    title: m.title || name,
+    postCount: counts[name] || 0,
+  })).sort((a, b) => b.postCount - a.postCount)
+}
+
 export function getChannelMeta() {
-  return loadChannelMeta()
+  return getPrimaryChannel()
+}
+
+export function getDigestTitle(): string {
+  const channels = getAllChannels()
+  if (channels.length <= 1)
+    return channels[0]?.title || 'Channel'
+  return `Digest: ${channels.length} channels`
 }

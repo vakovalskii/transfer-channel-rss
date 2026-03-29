@@ -16,6 +16,10 @@ export interface Post {
   description?: string
   content: string
   reactions: Reaction[]
+  /** Channel username this post belongs to */
+  channel?: string
+  /** Channel display title */
+  channelTitle?: string
 }
 
 export interface ChannelInfo {

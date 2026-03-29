@@ -1,6 +1,56 @@
 {
-  "title": "Валера Ковальский",
-  "description": "Head of AI Engineer | DevOps | HardwareFrom IT Admin to Head of AI in 6 yearsАвтор https://neuraldeep.ru/github.com/vakovalskii | chat @neuraldeepchat",
-  "descriptionHTML": "Head of AI Engineer | DevOps | Hardware<br>From IT Admin to Head of AI in 6 years<br>Автор <a href=\"https://neuraldeep.ru/\" target=\"_blank\" rel=\"noopener\">https://neuraldeep.ru/</a><br><a href=\"http://github.com/vakovalskii\" target=\"_blank\" rel=\"noopener\">github.com/vakovalskii</a> | chat <a href=\"https://t.me/neuraldeepchat\" target=\"_blank\">@neuraldeepchat</a>",
-  "avatar": "https://cdn4.telesco.pe/file/kbWzhDkKvW8A9DdTU3fEIKjjGnhT3YmYRnglhOSOyj1yfhgH2t3BOfTPmDy3fK63f3SbRRBPUMzD1pD8S1fYvzXRHSj0rA7IJsfyszVHeOJ_vonEvDcGNdiCONmqtezW_xOcw93ljEMRl8gE01XuR0rzgjzUSKuutLg42KoT9VMB1P4V4wfwu0kVh3u6NBu6ZDduxQYmRyP7ZLeAYuPLck9V2e-pvLvyuOyPd28PVbwaBnJa8J9qEK89IDlNyXbr3jJ-4fKgrHgRe0cJOF3sRxsQg2005oM20HwybwNNKFAAZ-Apjj237BC8dLwhHr0ggkPpIpveOXKeEvMnVvPqYg.jpg"
+  "neuraldeep": {
+    "title": "Валера Ковальский",
+    "description": "Head of AI Engineer | DevOps | HardwareFrom IT Admin to Head of AI in 6 yearsАвтор https://neuraldeep.ru/github.com/vakovalskii | chat @neuraldeepchat",
+    "descriptionHTML": "Head of AI Engineer | DevOps | Hardware<br>From IT Admin to Head of AI in 6 years<br>Автор <a href=\"https://neuraldeep.ru/\" target=\"_blank\" rel=\"noopener\">https://neuraldeep.ru/</a><br><a href=\"http://github.com/vakovalskii\" target=\"_blank\" rel=\"noopener\">github.com/vakovalskii</a> | chat <a href=\"https://t.me/neuraldeepchat\" target=\"_blank\">@neuraldeepchat</a>",
+    "avatar": "https://cdn4.telesco.pe/file/k6MwVtzkKqRlpGkLU-oBd-yqbysv-RxObwmHm7ej3BMsAZrZ4SAAxoJW_95dXzZ9fPIb_QnvHX6tXIIryU7vNCyy-rGs0FIGdEty82OFv8VlyipBwFV2R3gvbN1_FJH46WHQQqzOPIFfRqvrptbpaZlBmedaeYCIfZFVLJM7WZP3oSxG36NJeRBe90UHug2WkRBAQnNeIx48JzFvi2slS0qNAP1xec2_rTR7mzpbUOjnc44GRBCfMnN07ZDvy-DFRi9cqlBtKlFQrjBRpUyJ2HOva2-BbEO1tZFc3SwXA8LtbgyBVXnDr1HFLJAb-LSBOpCzGj-fUI-qY1XNyxTqsA.jpg"
+  },
+  "evilfreelancer": {
+    "title": "Pavel Zloi",
+    "description": "директор ИИ · инженер‑интегратор@eprogrammist | https://github.com/EvilFreelancer20 лет в IT ∈ 10 лет в разработке  ∈ 3 года в ML/AI   ∈ 1 год - вайбмастерБусти:https://boosty.to/evilfreelancerПожертвования:https://pay.cloudtips.ru/p/937f48ac",
+    "descriptionHTML": "директор ИИ · инженер‑интегратор<br><a href=\"https://t.me/eprogrammist\" target=\"_blank\">@eprogrammist</a> | <a href=\"https://github.com/EvilFreelancer\" target=\"_blank\" rel=\"noopener\">https://github.com/EvilFreelancer</a><br><br>20 лет в IT<br> ∈ 10 лет в разработке<br>  ∈ 3 года в ML/AI<br>   ∈ 1 год - вайбмастер<br><br>Бусти:<br><a href=\"https://boosty.to/evilfreelancer\" target=\"_blank\" rel=\"noopener\">https://boosty.to/evilfreelancer</a><br><br>Пожертвования:<br><a href=\"https://pay.cloudtips.ru/p/937f48ac\" target=\"_blank\" rel=\"noopener\">https://pay.cloudtips.ru/p/937f48ac</a>",
+    "avatar": "https://cdn4.telesco.pe/file/KUE9ylx2OwjaILsbmwQ_4BDHv8aV8SLZX7yKV6kqHwqNUqJn3dJQPX6JEyODqX9undQQP81b-Zy4r6vyNZvKAHi6uuMTS2Y9-w1wXhNfqGJbPctnZJWTGdnUcH5QlVAn0qTTfRSX4roXemigVw9L3TUZUqYWc4WDoUujB19D6-rcZ2xCB-tPYU0PrpOR5CC5AsvLg5sBDlcKTxixrw-C4rRo4v7T8nckioZYgVglGwFBUCPcDEVUGZzTtMlQKvzlP5VNJg2-EpSdSumqOy3KSuau3LoJzVq-j3FZZRPRoMH_vZ_ctOM4_izM5BhciYHoIFlEOmJqQ9jw4CnIqDdUnA.jpg"
+  },
+  "gleb_pro_ai": {
+    "title": "Глеб Кудрявцев про AI кодинг",
+    "description": "Пишу тулы для кодинга и упарываюсь по агентам. Лучший курс по AI кодингу ai.careerfactory.ruСтатьи и переводы: vibeportal.ruОсновной канал t.me/glebkudrЛичка t.me/glebkudr1",
+    "descriptionHTML": "Пишу тулы для кодинга и упарываюсь по агентам. <br><br>Лучший курс по AI кодингу <a href=\"http://ai.careerfactory.ru/\" target=\"_blank\" rel=\"noopener\">ai.careerfactory.ru</a><br>Статьи и переводы: <a href=\"http://vibeportal.ru/\" target=\"_blank\" rel=\"noopener\">vibeportal.ru</a><br><br>Основной канал <a href=\"http://t.me/glebkudr\" target=\"_blank\" rel=\"noopener\">t.me/glebkudr</a><br>Личка <a href=\"http://t.me/glebkudr1\" target=\"_blank\" rel=\"noopener\">t.me/glebkudr1</a>",
+    "avatar": "https://cdn4.telesco.pe/file/HPgw8MFIox7mmXOtJmzdXYE7inuCcuzfN5ZZcV2NlpFybSSXA2pS7MvybOzWezPZI4ggeYmjizLaZI92ne9dhMvh0OoY9WuZKExhe_5picRtYlsBkwsiE7tenHrdsk2iRBJWxHL9VPgGnTRE2VUfKRBZ_CUy9dF6YAgPK41ZHy8vAD83NhqgSkPAgQrkzFVfOhou9zyM50gbZf7H_wmwXWx21m0RpFuxLmU-Qc4EG2PAFiKvOEYkvUld0nX5ofJqSFKp5IYGlvxTOIJfNc1THE-98I_KUjKaX-tQWkvX6n6xEx_dnOdW-rWbPPhXV8wjFBu80BjiiaUuVm8oCElODA.jpg"
+  },
+  "dealerAI": {
+    "title": "Dealer.AI",
+    "description": "Жоский ИИ ДядяТвой личный поставщик AI 🦾🤖Канал о мире интересного AI: теория, приклад и meme👾Head of AI в ритейл; AI-визионер и энтузиаст. Для связи @dealer_ai (реклама и консультации по AI для бизнеса). РКН: 6348592885",
+    "descriptionHTML": "Жоский ИИ Дядя<br>Твой личный поставщик AI <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA6BE.png')\"><b>🦾</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA496.png')\"><b>🤖</b></i><br>Канал о мире интересного AI: теория, приклад и meme<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F91BE.png')\"><b>👾</b></i><br><br>Head of AI в ритейл; AI-визионер и энтузиаст. <br><br>Для связи <a href=\"https://t.me/dealer_ai\" target=\"_blank\">@dealer_ai</a> <br>(реклама и консультации по AI для бизнеса). <br><br>РКН: 6348592885",
+    "avatar": "https://cdn4.telesco.pe/file/s28Lh03lXvCNCqMtLAQEXmd9GVhE-E8XvLwSeOu8FJ9sN_7hTHJt6Vc0S1N0TXA9skTr4K0C9pvuM1C_N71D2kpTcJJappLK78Bzag0cpKN2D7u_gLeYbaXRbBsFm6dZHiYqoS6ka0oZy7UorBX6TJOkyD0jLh781YL1Sgyl2Yvsap1Cxy_kMRoQSsHKNoXtFexdDXQgCeKjwlpnzPGBvySAoVgroOmQI9y9cj7fYcO2VTyDjcnaoXUyGEANNEI00H2OTKjRrboVDMPH1tBniHjfVsnrP78REpUQKX4FBZYoSOe6FVfTXZ_bufiPqOFbItiirDzhTIfvG6aImr8MqA.jpg"
+  },
+  "kdoronin_blog": {
+    "title": "Константин Доронин",
+    "description": "По любым вопросам, которые не хотите задавать в комментариях, можете писать напрямую – @kdoronin",
+    "descriptionHTML": "По любым вопросам, которые не хотите задавать в комментариях, можете писать напрямую – <a href=\"https://t.me/kdoronin\" target=\"_blank\">@kdoronin</a>",
+    "avatar": "https://cdn4.telesco.pe/file/tfuaW-U4Ty557LmZ8hbm31coGInhtT6Vv0Inoz3z_SoXVGa6a6ndjufUZ793OHJMeVVwebXUvI31QFHasKuShURQzFHS5dcs7tyZ276ROubZ5DKLKBnEDoOZQCrKuCwt2WTHTw9IdIG4pulXGfCXlAbztzIw04XIdU-CZpXcT9jYTesB2cFw-STCeC4uy8Ndpvh_fVVYnDQWvFwEFv9LaP1ljHpJvB9ZZLrRtt8fbpqnOA221yL6z-jKAFrxKbrywMoWYiVX7lK5zQtGfx7xLW27xu-uqNXBngHjuTWoJ2iI1tN7dg7etD9gyumxTa0qvSFdmcWLNtzTM4cjpPmMEw.jpg"
+  },
+  "tips_ai": {
+    "title": "Tips AI | IT & AI",
+    "description": "Авторский канал про сервисы и технологии IT и AI, которые могут упростить (или не совсем) жизнь.Пишу только то, что сам считаю интересным.Автор: @igortruИнформация по рекламе: @tipsprbot",
+    "descriptionHTML": "Авторский канал про сервисы и технологии IT и AI, которые могут упростить (или не совсем) жизнь.<br><br>Пишу только то, что сам считаю интересным.<br>Автор: <a href=\"https://t.me/igortru\" target=\"_blank\">@igortru</a><br><br>Информация по рекламе: <a href=\"https://t.me/tipsprbot\" target=\"_blank\">@tipsprbot</a>",
+    "avatar": "https://cdn4.telesco.pe/file/KSC4NR2k-UXfsUOktZhXP-VksxZpkTmCmxnPNSu_L8plUjgFklkHMD2ciU0M1J_TDHRgl2aJIV_mLhzubwtUflo7zdVqqLU0H4R9pAqO4sOYyKYS0RiztTZONayVoMHXTW9tqMl4sWqvfFDQCL2S0x6oShLl575rKcQMRoGv0DJj-fXZi57P9M5dzDTCexfitigXrgmoCDWmGbkOT6AgolSh2p56oO1qbnam6T9skaVrTJ2A3OzIv0V9JzRLY1XqiNfD0OzPx4Kh1vmVLjIyffJUWgMZ_haIF2lLOau1z-1O57sYYfXVO1agyF16dYU6GkBS4ItSZdyqNW0Sz7yGFQ.jpg"
+  },
+  "countwithsasha": {
+    "title": "Поляков считает: AI, код и кейсы",
+    "description": "Пишу про AI, вайбкодинг и кейсы применения. Связаться: @polyakovbest",
+    "descriptionHTML": "Пишу про AI, вайбкодинг и кейсы применения. Связаться: <a href=\"https://t.me/polyakovbest\" target=\"_blank\">@polyakovbest</a>",
+    "avatar": "https://cdn4.telesco.pe/file/GoGw6jRZooXfTXPAhQkpnBshgnVAidiyAlhJgqSDFLVmd6aDngqxCled0G2laXjw_M0V5hmHpmvXNuR_9sXYmjVogb8PZxG421NIbb-JtHzdO45QTMtVzZskntwELcQe1wTMN40DrOflf_qL0YcqPg9akmqeR8RV3jZukVo8zX4vYJwg6lZEksUg4eoJQbign0pWpWHaq36oGrmuztPZHsVvF9GnB_AhpFcOkEcsNhSDem74khC2hmhJX6mRLKR2B6c9aaoNkN8VzHifcYwQUsnUdfyGC0pa5sGQQRsjVcRvjcecYdbAFIPEi5Bohq1HgNixrkbJBptxipT-5njx0w.jpg"
+  },
+  "elkornacio": {
+    "title": "ElKornacio",
+    "description": "Авторский канал про технологии и бизнес.Тут матерятся (и дают качественную аналитику).@sewald",
+    "descriptionHTML": "Авторский канал про технологии и бизнес.<br>Тут матерятся (и дают качественную аналитику).<br><a href=\"https://t.me/sewald\" target=\"_blank\">@sewald</a>",
+    "avatar": "https://cdn4.telesco.pe/file/DbKQEQ_GZThdb8WsndgKG5gtssnLu-80wn-eLIGGCMs01WEWWxBwek0W9o8LfR_MB9QlwO5-uBzxI12ECYPKZ60A7YzONdkfrGK5tyP9I_6RtPmc1shCYmrl3aa9YJ0CYHbC_86S77tJpyOxTvz2VbaLD7x0OWssfz7XGlvyfBFvHxm1dDD86UV2XmBWBtAGfxRwNZU_sM80RfUrdu_CR75vZnlt2QRJ_QdXqrVmBpH80G1q6uEjhS1YQ3-iOClRNGNmCIMr-khhHalpoFxst53dfsBVAwLSwUAEVfusa1FvgmUsBjpJzxrzx-pb-u6MdE_h1wDIRm1O5VwSDUSS9w.jpg"
+  },
+  "etechlead": {
+    "title": "Этихлид",
+    "description": "Канал техлида с мыслями об AI, IT и спорте.https://t.me/etechlead/6 - содержаниеhttps://t.me/etechlead/8 - о каналеhttps://t.me/+NgQZbosvypEyYWQ6 - чат канала, там отвечаю(т) быстрее :)(без рекламы)",
+    "descriptionHTML": "Канал техлида с мыслями об AI, IT и спорте.<br><br><a href=\"https://t.me/etechlead/6\" target=\"_blank\" rel=\"noopener\">https://t.me/etechlead/6</a> - содержание<br><br><a href=\"https://t.me/etechlead/8\" target=\"_blank\" rel=\"noopener\">https://t.me/etechlead/8</a> - о канале<br><br><a href=\"https://t.me/+NgQZbosvypEyYWQ6\" target=\"_blank\" rel=\"noopener\">https://t.me/+NgQZbosvypEyYWQ6</a> - чат канала, там отвечаю(т) быстрее :)<br><br>(без рекламы)",
+    "avatar": "https://cdn4.telesco.pe/file/HHz1PGWjLVQsWhqxUjpg-Q9xA2BZIipSmtTiHPXMgMs93kFRSE81wYtk4yFy7ByFsLWjvirsUvWNO9xC6hm_V1khiaacNYTSiWksteHi2vo5x-mX6Bti8mdbhElIkXV0YGJ0hphXmi6FPhOykvH5sxU4v4RSZG_HUf3r-sOqZCQH7nL7gqfK1Wm0sTYC4jlavnERkg23I7TebQF3174a4hrtiZCOnp2WOfLG52wKfEX0rLx-1o6yhLtPNm6_kGrqCtR4O8pyRVTFWgHRkoNj1JDaC-9PlkTO0ig6SuIJSjb9r8WFapGgTXNwWfbzF0FLh7ZIrcd36kH5VZBJtdrO7Q.jpg"
+  }
 }
