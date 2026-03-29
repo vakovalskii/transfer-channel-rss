@@ -90,17 +90,17 @@ jobs:
           TIMEZONE: Europe/Moscow
           REACTIONS: 'true'
 
+      - name: Commit dist
+        run: |
+          git add dist/
+          git diff --staged --quiet || git commit -m "build: update static site"
+
       - name: Push to GitHub
         run: git push origin main
 
-      - name: Push to Gitverse
-        run: |
-          git remote add gitverse https://oauth2:${{ secrets.GITVERSE_TOKEN }}@gitverse.ru/${{ secrets.GITVERSE_REPO }}.git 2>/dev/null || true
-          git push gitverse main --force
-        continue-on-error: true
-
       - name: Push to SourceCraft
+        if: ${{ secrets.SOURCECRAFT_TOKEN != '' }}
         run: |
           git remote add sourcecraft https://oauth2:${{ secrets.SOURCECRAFT_TOKEN }}@git.sourcecraft.dev/${{ secrets.SOURCECRAFT_REPO }}.git 2>/dev/null || true
-          git push sourcecraft main --force
+          git push sourcecraft main:master --force
         continue-on-error: true

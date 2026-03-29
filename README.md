@@ -1,160 +1,248 @@
-# BroadcastChannel
+# Transfer Channel RSS
 
-**Turn your Telegram Channel into a MicroBlog.**
+Система зеркалирования Telegram-канала на российские платформы с кросспостингом и PWA.
 
----
+Решает проблему блокировки Telegram в РФ: контент канала автоматически парсится, публикуется как статический сайт и дублируется в VK, Дзен, OK и email-рассылку.
 
-English | [简体中文](./README.zh-cn.md)
+## Архитектура
 
-## ✨ Features
-
-- **Turn your Telegram Channel into a MicroBlog**
-- **SEO friendly** `/sitemap.xml`
-- **0 JS on the browser side**
-- **RSS and RSS JSON** `/rss.xml` `/rss.json`
-
-## 🪧 Demo
-
-### Real users
-
-- [面条实验室](https://memo.miantiao.me/)
-- [Find Blog👁发现博客](https://broadcastchannel.pages.dev/)
-- [Memos 广场 🎪](https://now.memobbs.app/)
-- [APPDO 数字生活指南](https://mini.appdo.xyz/)
-- [85.60×53.98卡粉订阅/提醒](https://tg.docofcard.com/)
-- [新闻在花频道](https://tg.istore.app/)
-- [ALL About RSS](https://blog.rss.tips/)
-- [Charles Chin's Whisper](https://memo.eallion.com/)
-- [PlayStation 新闻转发](https://playstationnews.pages.dev)
-- [Yu's Life](https://daily.pseudoyu.com/)
-- [Leslie 和朋友们](https://tg.imlg.co/)
-- [OKHK 分享](https://tg.okhk.net/)
-- [gledos 的微型博客](https://microblogging.gledos.science)
-- [Steve Studio](https://tgc.surgeee.me/)
-- [LiFePO4:沙雕吐槽](https://lifepo4.top)
-- [Hotspot Hourly](https://hourly.top/)
-- [大河马中文财经新闻分享](https://a.xiaomi318.com/)
-- [\_My. Tricks 🎩 Collection](https://channel.mykeyvans.com)
-- [小报童专栏精选](https://xiaobaotong.genaiprism.site/)
-- [Fake news](https://fake-news.csgo.ovh/)
-- [miyi23's Geekhub资源分享](https://gh.miyi23.top/)
-- [Magazine｜期刊杂志｜财新周刊](https://themagazine.top)
-- [Remote Jobs & Cooperation](https://share-remote-jobs.vercel.app/)
-- [甬哥侃侃侃--频道发布](https://ygkkktg.pages.dev)
-- [Fugoou.log](https://fugoou.xyz)
-- [Bboysoul的博客](https://tg.bboy.app/)
-- [MakerHunter](https://share.makerhunter.com/)
-- [ChatGPT/AI新闻聚合](https://g4f.icu/)
-- [Abner's memos](https://memos.abnerz6.top/)
-- [Appinn Talk](https://talk.appinn.net/)
-- [小报童优惠与排行榜](https://youhui.xiaobaoto.com/)
-
-### Platform
-
-1. [Cloudflare](https://broadcast-channel.pages.dev/)
-2. [Netlify](https://broadcast-channel.netlify.app/)
-3. [Vercel](https://broadcast-channel.vercel.app/)
-
-BroadcastChannel supports deployment on serverless platforms like Cloudflare, Netlify, Vercel that support Node.js SSR, or on a VPS.
-For detailed tutorials, see [Deploy your Astro site](https://docs.astro.build/en/guides/deploy/).
-
-## 🧱 Tech Stack
-
-- Framework: [Astro](https://astro.build/)
-- CMS: [Telegram Channels](https://telegram.org/tour/channels)
-- Template: [Sepia](https://github.com/Planetable/SiteTemplateSepia)
-
-## 🏗️ Deployment
-
-### Docker
-
-1. `docker pull ghcr.io/miantiao-me/broadcastchannel:main`
-2. `docker run -d --name broadcastchannel -p 4321:4321 -e CHANNEL=miantiao_me ghcr.io/miantiao-me/broadcastchannel:main`
-
-### Serverless
-
-1. [Fork](https://github.com/miantiao-me/BroadcastChannel/fork) this project to your GitHub
-2. Create a project on Cloudflare/Netlify/Vercel
-3. Select the `BroadcastChannel` project and the `Astro` framework
-4. Configure the environment variable `CHANNEL` with your channel name. This is the minimal configuration, for more configurations see the options below
-5. Save and deploy
-6. Bind a domain (optional).
-7. Update code, refer to the official GitHub documentation [Syncing a fork branch from the web UI](https://docs.github.com/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork#syncing-a-fork-branch-from-the-web-ui).
-
-## ⚒️ Configuration
-
-```env
-## Telegram Channel Username, must be configured. The string of characters following t.me/
-CHANNEL=miantiao_me
-
-## Language and timezone settings, language options see [dayjs](https://github.com/iamkun/dayjs/tree/dev/src/locale)
-LOCALE=en
-TIMEZONE=America/New_York
-
-## Social media usernames
-TELEGRAM=miantiao-me
-TWITTER=miantiao-me
-GITHUB=miantiao-me
-MASTODON=mastodon.social/@Mastodon
-BLUESKY=bsky.app
-
-## The following two social media need to be URLs
-DISCORD=https://DISCORD.com
-PODCAST=https://PODCAST.com
-
-## Header and footer code injection, supports HTML
-FOOTER_INJECT=FOOTER_INJECT
-HEADER_INJECT=HEADER_INJECT
-
-## SEO configuration options, can prevent search engines from indexing content
-NO_FOLLOW=false
-NO_INDEX=false
-
-## Hide Telegram channel description
-HIDE_DESCRIPTION=false
-
-## Sentry configuration options, collect server-side errors
-SENTRY_AUTH_TOKEN=SENTRY_AUTH_TOKEN
-SENTRY_DSN=SENTRY_DSN
-SENTRY_PROJECT=SENTRY_PROJECT
-
-## Telegram host name and static resource proxy, not recommended to modify
-HOST=telegram.dog
-STATIC_PROXY=
-
-## Enable Google Site Search
-GOOGLE_SEARCH_SITE=memo.miantiao.me
-
-## Enable tags page, separate tags with commas
-TAGS=tag1,tag2,tag3
-
-## Show comments
-COMMENTS=true
-
-## Show reactions
-REACTIONS=true
-
-## List of links in the Links page, Separate using commas and semicolons
-LINKS=Title1,URL1;Title2,URL3;Title3,URL3;
-
-## Sidebar Navigation Item, Separate using commas and semicolons
-NAVS=Title1,URL1;Title2,URL3;Title3,URL3;
-
-## Enable RSS beautify
-RSS_BEAUTIFY=true
+```
+GitHub Actions (cron каждые 15 мин, серверы за рубежом)
+│
+├─ 1. Парсит t.me/s/CHANNEL через cheerio
+│     Сохраняет посты → data/posts.json
+│
+├─ 2. Кросспостит новые посты:
+│     ├─ VK API (wall.post)
+│     ├─ Яндекс.Дзен (Publisher API)
+│     ├─ OK / Max (mediatopic.post)
+│     └─ Email (SMTP Yandex/Mail.ru)
+│
+├─ 3. Отправляет Web Push уведомления
+│
+├─ 4. Собирает Astro SSG → dist/
+│
+└─ 5. Пушит в зеркала:
+      ├─► GitHub Pages (PWA + Push)
+      └─► SourceCraft Sites (RU-инфра)
 ```
 
-## 🙋🏻 FAQs
+### Почему так
 
-1. Why is the content empty after deployment?
-   - Check if the channel is public, it must be public
-   - The channel username is a string, not a number
-   - Turn off the "Restricting Saving Content" setting in the channel
-   - Redeploy after modifying environment variables
-   - Telegram blocks public display of some sensitive channels, you can verify by visiting `https://t.me/s/channelusername`.
+| Компонент       | Где                    | Почему                                          |
+| --------------- | ---------------------- | ----------------------------------------------- |
+| Парсер Telegram | GitHub Actions         | t.me заблокирован в РФ, нужен сервер за рубежом |
+| Сайт (PWA)      | GitHub Pages           | Поддерживает Service Worker, PWA install, push  |
+| Зеркало         | SourceCraft Sites      | Яндекс-инфра, гарантированный доступ из РФ      |
+| Кросспост       | GitHub Actions         | Выполняется вместе с парсингом, один пайплайн   |
+| Push-сервер     | SourceCraft Serverless | Хранит подписки, доступен из РФ                 |
 
-## ☕ Sponsor
+## Быстрый старт
 
-1. [Follow me on Telegram](https://t.me/miantiao_me)
-2. [Follow me on 𝕏](https://404.li/kai)
-3. [Sponsor me on GitHub](https://github.com/sponsors/miantiao-me)
+### 1. Форкни репо
+
+```bash
+git clone https://github.com/vakovalskii/transfer-channel-rss.git
+cd transfer-channel-rss
+pnpm install
+```
+
+### 2. Настрой канал
+
+```bash
+cp .env.example .env
+# Отредактируй .env — минимум нужен CHANNEL
+```
+
+### 3. Загрузи посты
+
+```bash
+CHANNEL=your_channel pnpm run fetch
+```
+
+Парсер загрузит посты с `t.me/s/your_channel` и сохранит в `data/posts.json`.
+
+### 4. Собери сайт
+
+```bash
+pnpm run build
+```
+
+Astro сгенерирует статику в `dist/`. Готово к деплою.
+
+### 5. Запусти локально
+
+```bash
+pnpm run preview
+```
+
+## Структура проекта
+
+```
+├── scripts/
+│   ├── fetch-channel.ts       # Парсер Telegram → JSON
+│   ├── send-push.ts           # Отправка Web Push уведомлений
+│   └── crosspost/
+│       ├── vk.ts              # Кросспост в VK
+│       ├── dzen.ts            # Кросспост в Дзен
+│       ├── ok.ts              # Кросспост в OK (Max)
+│       └── email.ts           # Email-рассылка (SMTP)
+│
+├── src/
+│   ├── lib/
+│   │   └── data.ts            # Чтение постов из data/posts.json
+│   ├── pages/                 # Astro SSG страницы
+│   ├── components/            # UI компоненты
+│   └── layouts/               # Layouts с PWA-баннером
+│
+├── data/
+│   ├── posts.json             # Все посты канала
+│   ├── channel.json           # Метаданные канала
+│   ├── new-posts.json         # Новые посты (для кросспоста)
+│   └── posted.json            # Трекер кросспоста
+│
+├── push-server/               # Push subscription API (Serverless)
+│   ├── index.ts
+│   └── Dockerfile
+│
+├── public/
+│   ├── manifest.json          # PWA manifest
+│   ├── sw.js                  # Service Worker (push + offline)
+│   └── pwa.js                 # PWA install logic
+│
+├── dist/                      # Собранный статический сайт
+│
+├── .github/workflows/
+│   ├── sync.yml               # Cron: парсинг + кросспост + деплой
+│   └── pages.yml              # GitHub Pages деплой
+│
+├── .sourcecraft/
+│   └── sites.yaml             # SourceCraft Sites конфиг
+│
+├── Dockerfile.site            # Nginx-контейнер (PWA-совместимый)
+├── nginx.conf                 # Nginx с правильным CSP для SW
+└── astro.config.mjs           # Astro SSG конфигурация
+```
+
+## Как работает парсинг
+
+```
+t.me/s/CHANNEL → HTML → cheerio → posts.json
+```
+
+Скрипт `scripts/fetch-channel.ts`:
+
+1. Загружает публичный веб-превью канала (`https://t.me/s/CHANNEL`)
+2. Парсит HTML через cheerio (тексты, изображения, видео, стикеры, реакции)
+3. Сравнивает с существующим `data/posts.json`
+4. Добавляет новые посты, сохраняет `data/new-posts.json` для кросспоста
+
+Поддерживает пагинацию — `MAX_PAGES=10` загрузит до 10 страниц истории.
+
+## Как работает кросспост
+
+После парсинга скрипты из `scripts/crosspost/` берут `data/new-posts.json` и отправляют в каждую платформу. Трекер `data/posted.json` предотвращает дубликаты.
+
+| Платформа | API               | Env-переменные                                                  |
+| --------- | ----------------- | --------------------------------------------------------------- |
+| VK        | `wall.post`       | `VK_TOKEN`, `VK_GROUP_ID`                                       |
+| Дзен      | Publisher API     | `DZEN_TOKEN`                                                    |
+| OK        | `mediatopic.post` | `OK_ACCESS_TOKEN`, `OK_GROUP_ID`, `OK_APP_KEY`, `OK_APP_SECRET` |
+| Email     | SMTP              | `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`              |
+
+## PWA и Push-уведомления
+
+Сайт на GitHub Pages работает как PWA:
+
+- Баннер "Установить" появляется автоматически
+- Service Worker кэширует страницы для офлайн-доступа
+- Web Push уведомления о новых постах (требует push-сервер)
+
+Push-сервер (`push-server/`) — минимальный API:
+
+- `POST /api/subscribe` — сохранить подписку
+- `POST /api/unsubscribe` — удалить подписку
+- `GET /api/subscriptions` — список подписок (auth)
+
+## GitHub Actions
+
+### sync.yml (каждые 15 мин)
+
+```
+fetch → crosspost → push-notify → build → commit → push mirrors
+```
+
+### pages.yml (при пуше в main)
+
+Деплоит `dist/` на GitHub Pages.
+
+## Переменные окружения
+
+### Обязательные
+
+| Переменная | Описание                 |
+| ---------- | ------------------------ |
+| `CHANNEL`  | Username Telegram-канала |
+
+### Кросспост (опционально)
+
+| Переменная        | Описание                     |
+| ----------------- | ---------------------------- |
+| `VK_TOKEN`        | Токен группы VK              |
+| `VK_GROUP_ID`     | ID группы VK                 |
+| `DZEN_TOKEN`      | Токен Дзен Publisher         |
+| `OK_ACCESS_TOKEN` | Токен OK API                 |
+| `OK_GROUP_ID`     | ID группы OK                 |
+| `OK_APP_KEY`      | Ключ приложения OK           |
+| `OK_APP_SECRET`   | Секрет приложения OK         |
+| `SMTP_HOST`       | SMTP сервер (smtp.yandex.ru) |
+| `SMTP_USER`       | Email отправителя            |
+| `SMTP_PASS`       | Пароль SMTP                  |
+
+### Push-уведомления
+
+| Переменная          | Описание                       |
+| ------------------- | ------------------------------ |
+| `VAPID_PUBLIC_KEY`  | Публичный VAPID-ключ           |
+| `VAPID_PRIVATE_KEY` | Приватный VAPID-ключ           |
+| `PUSH_SERVER_URL`   | URL push-сервера               |
+| `API_SECRET`        | Секрет для доступа к подпискам |
+
+### Зеркала
+
+| Переменная          | Описание                  |
+| ------------------- | ------------------------- |
+| `SOURCECRAFT_TOKEN` | Токен SourceCraft         |
+| `SOURCECRAFT_REPO`  | Репо в формате `org/repo` |
+
+### Сайт
+
+| Переменная  | По умолчанию             | Описание           |
+| ----------- | ------------------------ | ------------------ |
+| `LOCALE`    | `ru`                     | Язык               |
+| `TIMEZONE`  | `Europe/Moscow`          | Часовой пояс       |
+| `REACTIONS` | `true`                   | Показывать реакции |
+| `TAGS`      |                          | Теги через запятую |
+| `SITE_URL`  |                          | Базовый URL сайта  |
+| `BASE_PATH` | `/transfer-channel-rss/` | Base path          |
+
+## Для AI-агентов
+
+Этот репо структурирован для понимания AI-агентами:
+
+1. **Парсинг**: `scripts/fetch-channel.ts` — единственная точка входа для получения данных из Telegram
+2. **Данные**: всё в `data/*.json` — посты, метаданные, трекеры
+3. **Сайт**: стандартный Astro SSG, данные читаются через `src/lib/data.ts`
+4. **Кросспост**: каждая платформа в отдельном файле `scripts/crosspost/*.ts`, общий формат
+5. **CI/CD**: `.github/workflows/sync.yml` — полный пайплайн в одном файле
+
+Для добавления новой платформы кросспоста:
+
+1. Создай `scripts/crosspost/platform.ts` по образцу `vk.ts`
+2. Добавь скрипт в `package.json`
+3. Добавь шаг в `.github/workflows/sync.yml`
+4. Добавь env-переменные в GitHub Secrets
+
+## Основано на
+
+[BroadcastChannel](https://github.com/miantiao-me/BroadcastChannel) — AGPL-3.0
