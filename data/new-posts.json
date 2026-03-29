@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id": "evilfreelancer/1617",
+    "title": "Мой третий PR в llama.cpp",
+    "type": "text",
+    "datetime": "2026-03-29T19:57:11+00:00",
+    "tags": [],
+    "text": "Мой третий PR в llama.cpp",
+    "content": "<a class=\"tgme_widget_message_reply user-color-default\" href=\"/posts/1613\" \"=\"\"><blockquote><small><i class=\"tgme_widget_message_reply_thumb\" style=\"background-image:url('https://cdn4.telesco.pe/file/Ac56UyxxPHLPRvt9oX9teRdWZnytW78FsaZDjkuawxdKOBha6pmu2ODHyS4Df16iCRqpzl_aOTdFz8YSmfMMS2hJdDYO8s9tYAGnZIAgBVJmtL4I_P_rkdxTQluazN0NZG9Ucx0XmA4SFBqfSskZ7eDNIVZuU8FCjRJGAhzFSoMnZTBbMKwKr7nhMhzEyoxhasXyg-WcIfoojDnCWlTBG8B05ciYgOxr5j2-6ilrqbsCpTMbNOh2eS54eBlWlj-2w69nosXwY2setjxqT_QlL03apnI_rxOSAUlQdCRqomFj_XAtQMfdAmuwxe9JsUviOrb-E83_BgRmd46uWuZYPQ.jpg')\"></i>\n<div class=\"tgme_widget_message_author accent_color\">\n  <span class=\"tgme_widget_message_author_name\" dir=\"auto\">Pavel Zloi</span>\n</div>\n<div class=\"tgme_widget_message_text js-message_reply_text\" dir=\"auto\">Sparse Attention Is All I Need  Вчера в соседнем чатике мне задали резонный вопрос о том какие метрики использовались для оценки качества работы конвертированной ruGPT3XL модели? И это очень правильный вопрос, я честно не знал, что ответить, так как гонял…</div>\n</small></blockquote></a>Мой третий <a href=\"https://github.com/ggml-org/llama.cpp/pull/21161\" target=\"_blank\" rel=\"noopener\" title=\"PR\">PR</a> в llama.cpp<a class=\"tgme_widget_message_link_preview\" href=\"https://github.com/ggml-org/llama.cpp/pull/21161\" target=\"_blank\" rel=\"noopener\" title=\"OverviewAdd dedicated RUGPT3XL architecture with block-sparse per-head attention support for the ruGPT-3 XL (1.3B) language model. ruGPT-3 XL was trained with DeepSpeed's FixedSparsityConf...\">\n  \n  <div class=\"link_preview_site_name accent_color\" dir=\"auto\">GitHub</div>\n  \n  <div class=\"link_preview_title\" dir=\"auto\">cpp: Adding new arch RUGPT3XL by EvilFreelancer · Pull Request #21161 · ggml-org/llama.cpp</div>\n  <div class=\"link_preview_description\" dir=\"auto\">Overview<br>Add dedicated RUGPT3XL architecture with block-sparse per-head attention support for the ruGPT-3 XL (1.3B) language model. ruGPT-3 XL was trained with DeepSpeed's FixedSparsityConf...</div>\n</a>",
+    "reactions": [
+      {
+        "emoji": "👏",
+        "count": "5",
+        "isPaid": false
+      },
+      {
+        "emoji": "❤️",
+        "count": "3",
+        "isPaid": false
+      },
+      {
+        "emoji": "🔥",
+        "count": "3",
+        "isPaid": false
+      }
+    ],
+    "channel": "evilfreelancer",
+    "channelTitle": "Pavel Zloi"
+  }
+]
