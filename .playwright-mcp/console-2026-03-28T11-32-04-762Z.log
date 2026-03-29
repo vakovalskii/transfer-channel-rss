@@ -1,2 +1,0 @@
-[    1886ms] [ERROR] Failed to load resource: net::ERR_SOCKET_NOT_CONNECTED @ https://telegram.org/img/emoji/40/F09F9882.png:0
-[    4368ms] [WARNING] Error while trying to use the following icon from the Manifest: https://vakovlaskii.gitverse.site/icons/icon-192.png (Download error or resource isn't a valid image) @ https://vakovlaskii.gitverse.site/transfer-channel-rss/:0

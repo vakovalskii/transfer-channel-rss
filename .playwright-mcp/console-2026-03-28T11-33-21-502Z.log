@@ -1,5 +1,0 @@
-[    3431ms] [ERROR] Creating a worker from 'https://ndts.sourcecraft.site/transfer-channel-rss/sw.js' violates the following Content Security Policy directive: "worker-src 'none'". The action has been blocked. @ https://ndts.sourcecraft.site/transfer-channel-rss/pwa.js:3
-[    3433ms] Failed to register a ServiceWorker: The provided scriptURL ('https://ndts.sourcecraft.site/transfer-channel-rss/sw.js') violates the Content Security Policy.
-[    3493ms] [ERROR] Failed to load resource: net::ERR_SOCKET_NOT_CONNECTED @ https://telegram.org/img/emoji/40/F09F9882.png:0
-[    4772ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://ndts.sourcecraft.site/icons/icon-192.png:0
-[    4772ms] [WARNING] Error while trying to use the following icon from the Manifest: https://ndts.sourcecraft.site/icons/icon-192.png (Download error or resource isn't a valid image) @ https://ndts.sourcecraft.site/transfer-channel-rss/:0

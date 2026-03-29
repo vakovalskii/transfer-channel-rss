@@ -1,247 +1,153 @@
 # Transfer Channel RSS
 
-Система зеркалирования Telegram-канала на российские платформы с кросспостингом и PWA.
+Зеркало Telegram-канала как статический сайт. Решает проблему блокировки Telegram в РФ.
 
-Решает проблему блокировки Telegram в РФ: контент канала автоматически парсится, публикуется как статический сайт и дублируется в VK, Дзен, OK и email-рассылку.
+**GitHub Actions** парсит канал с серверов за рубежом, генерирует статику через Astro и деплоит на **GitHub Pages** + **SourceCraft Sites** (Яндекс-инфра, белые списки РФ).
 
 ## Архитектура
 
 ```
-GitHub Actions (cron каждые 15 мин, серверы за рубежом)
+GitHub Actions (cron каждые 15 мин)
 │
-├─ 1. Парсит t.me/s/CHANNEL через cheerio
-│     Сохраняет посты → data/posts.json
+├─ Парсит t.me/s/CHANNEL → data/posts.json
+├─ Собирает Astro SSG → dist/
 │
-├─ 2. Кросспостит новые посты:
-│     ├─ VK API (wall.post)
-│     ├─ Яндекс.Дзен (Publisher API)
-│     ├─ OK / Max (mediatopic.post)
-│     └─ Email (SMTP Yandex/Mail.ru)
-│
-├─ 3. Отправляет Web Push уведомления
-│
-├─ 4. Собирает Astro SSG → dist/
-│
-└─ 5. Пушит в зеркала:
-      ├─► GitHub Pages (PWA + Push)
-      └─► SourceCraft Sites (RU-инфра)
+└─ Деплоит:
+   ├─► GitHub Pages      ← основной сайт
+   └─► SourceCraft Sites ← RU-зеркало (Яндекс)
 ```
 
-### Почему так
-
-| Компонент       | Где                    | Почему                                          |
-| --------------- | ---------------------- | ----------------------------------------------- |
-| Парсер Telegram | GitHub Actions         | t.me заблокирован в РФ, нужен сервер за рубежом |
-| Сайт (PWA)      | GitHub Pages           | Поддерживает Service Worker, PWA install, push  |
-| Зеркало         | SourceCraft Sites      | Яндекс-инфра, гарантированный доступ из РФ      |
-| Кросспост       | GitHub Actions         | Выполняется вместе с парсингом, один пайплайн   |
-| Push-сервер     | SourceCraft Serverless | Хранит подписки, доступен из РФ                 |
+| Что     | Где               | Зачем                                           |
+| ------- | ----------------- | ----------------------------------------------- |
+| Парсер  | GitHub Actions    | t.me заблокирован в РФ, нужен сервер за рубежом |
+| Сайт    | GitHub Pages      | Основной хостинг, PWA, доступен из РФ           |
+| Зеркало | SourceCraft Sites | Яндекс-инфра, гарантированный доступ из РФ      |
 
 ## Быстрый старт
 
-### 1. Форкни репо
+### 1. Форкни и настрой
 
 ```bash
 git clone https://github.com/vakovalskii/transfer-channel-rss.git
 cd transfer-channel-rss
+cp .env.example .env
+# В .env укажи CHANNEL=your_channel_name
 pnpm install
 ```
 
-### 2. Настрой канал
+### 2. Загрузи посты
 
 ```bash
-cp .env.example .env
-# Отредактируй .env — минимум нужен CHANNEL
+pnpm run fetch
 ```
 
-### 3. Загрузи посты
-
-```bash
-CHANNEL=your_channel pnpm run fetch
-```
-
-Парсер загрузит посты с `t.me/s/your_channel` и сохранит в `data/posts.json`.
-
-### 4. Собери сайт
+### 3. Собери и проверь
 
 ```bash
 pnpm run build
-```
-
-Astro сгенерирует статику в `dist/`. Готово к деплою.
-
-### 5. Запусти локально
-
-```bash
 pnpm run preview
 ```
 
-## Структура проекта
+### 4. Задеплой
+
+Пуш в `main` — GitHub Pages деплоится автоматически через `.github/workflows/pages.yml`.
+
+Cron-синхронизация каждые 15 мин — `.github/workflows/sync.yml`.
+
+## Настройка GitHub
+
+1. Сделай репо **публичным** (нужен для GitHub Pages)
+2. `Settings → Pages → Source: GitHub Actions`
+3. `Settings → Secrets → Actions` — добавь:
+
+| Secret    | Описание                 |
+| --------- | ------------------------ |
+| `CHANNEL` | Username Telegram-канала |
+
+Готово. Через 15 минут сайт обновится.
+
+## Настройка SourceCraft (опционально)
+
+SourceCraft Sites — зеркало на Яндекс-инфре. Если GitHub заблокируют, сайт будет доступен через SourceCraft.
+
+1. Создай **публичную организацию** на [sourcecraft.dev](https://sourcecraft.dev)
+2. Создай **публичный репо** `transfer-channel-rss` в организации
+3. Добавь GitHub Secrets:
+
+| Secret              | Описание                                            |
+| ------------------- | --------------------------------------------------- |
+| `SOURCECRAFT_TOKEN` | Персональный токен SourceCraft (скоупы: repo write) |
+| `SOURCECRAFT_REPO`  | `org/repo` (например `ndts/transfer-channel-rss`)   |
+
+Конфиг `.sourcecraft/sites.yaml` уже в репо — Sites подхватит `dist/` из ветки `master` автоматически.
+
+URL зеркала: `https://<org>.sourcecraft.site/<repo>`
+
+## Структура
 
 ```
-├── scripts/
-│   ├── fetch-channel.ts       # Парсер Telegram → JSON
-│   ├── send-push.ts           # Отправка Web Push уведомлений
-│   └── crosspost/
-│       ├── vk.ts              # Кросспост в VK
-│       ├── dzen.ts            # Кросспост в Дзен
-│       ├── ok.ts              # Кросспост в OK (Max)
-│       └── email.ts           # Email-рассылка (SMTP)
-│
-├── src/
-│   ├── lib/
-│   │   └── data.ts            # Чтение постов из data/posts.json
-│   ├── pages/                 # Astro SSG страницы
-│   ├── components/            # UI компоненты
-│   └── layouts/               # Layouts с PWA-баннером
-│
-├── data/
-│   ├── posts.json             # Все посты канала
-│   ├── channel.json           # Метаданные канала
-│   ├── new-posts.json         # Новые посты (для кросспоста)
-│   └── posted.json            # Трекер кросспоста
-│
-├── push-server/               # Push subscription API (Serverless)
-│   ├── index.ts
-│   └── Dockerfile
-│
-├── public/
-│   ├── manifest.json          # PWA manifest
-│   ├── sw.js                  # Service Worker (push + offline)
-│   └── pwa.js                 # PWA install logic
-│
-├── dist/                      # Собранный статический сайт
-│
-├── .github/workflows/
-│   ├── sync.yml               # Cron: парсинг + кросспост + деплой
-│   └── pages.yml              # GitHub Pages деплой
-│
-├── .sourcecraft/
-│   └── sites.yaml             # SourceCraft Sites конфиг
-│
-├── Dockerfile.site            # Nginx-контейнер (PWA-совместимый)
-├── nginx.conf                 # Nginx с правильным CSP для SW
-└── astro.config.mjs           # Astro SSG конфигурация
+scripts/
+  fetch-channel.ts       ← парсер: t.me → data/posts.json
+
+src/
+  lib/data.ts            ← читает data/posts.json для Astro
+  pages/                 ← SSG-страницы (index, posts, search, rss)
+  components/            ← UI (header, list, item)
+  layouts/base.astro     ← layout + PWA
+
+data/
+  posts.json             ← все посты канала
+  channel.json           ← метаданные (title, avatar)
+  new-posts.json         ← новые посты (последний fetch)
+
+dist/                    ← собранный сайт (коммитится в репо)
+
+.github/workflows/
+  sync.yml               ← cron: fetch → build → deploy
+  pages.yml              ← GitHub Pages deploy
+
+.sourcecraft/
+  sites.yaml             ← SourceCraft Sites конфиг
 ```
 
-## Как работает парсинг
+## Как добавить кросспостинг
 
-```
-t.me/s/CHANNEL → HTML → cheerio → posts.json
-```
+Репо подготовлен для расширения. Чтобы добавить кросспост в VK, Дзен, OK или email:
 
-Скрипт `scripts/fetch-channel.ts`:
+1. Создай `scripts/crosspost/platform.ts`
+2. Читай новые посты из `data/new-posts.json`
+3. Веди трекер в `data/posted.json` (избегай дублей)
+4. Добавь скрипт в `package.json` и шаг в `sync.yml`
+5. Добавь API-токены в GitHub Secrets
 
-1. Загружает публичный веб-превью канала (`https://t.me/s/CHANNEL`)
-2. Парсит HTML через cheerio (тексты, изображения, видео, стикеры, реакции)
-3. Сравнивает с существующим `data/posts.json`
-4. Добавляет новые посты, сохраняет `data/new-posts.json` для кросспоста
+Формат поста в `data/posts.json`:
 
-Поддерживает пагинацию — `MAX_PAGES=10` загрузит до 10 страниц истории.
-
-## Как работает кросспост
-
-После парсинга скрипты из `scripts/crosspost/` берут `data/new-posts.json` и отправляют в каждую платформу. Трекер `data/posted.json` предотвращает дубликаты.
-
-| Платформа | API               | Env-переменные                                                  |
-| --------- | ----------------- | --------------------------------------------------------------- |
-| VK        | `wall.post`       | `VK_TOKEN`, `VK_GROUP_ID`                                       |
-| Дзен      | Publisher API     | `DZEN_TOKEN`                                                    |
-| OK        | `mediatopic.post` | `OK_ACCESS_TOKEN`, `OK_GROUP_ID`, `OK_APP_KEY`, `OK_APP_SECRET` |
-| Email     | SMTP              | `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`              |
-
-## PWA и Push-уведомления
-
-Сайт на GitHub Pages работает как PWA:
-
-- Баннер "Установить" появляется автоматически
-- Service Worker кэширует страницы для офлайн-доступа
-- Web Push уведомления о новых постах (требует push-сервер)
-
-Push-сервер (`push-server/`) — минимальный API:
-
-- `POST /api/subscribe` — сохранить подписку
-- `POST /api/unsubscribe` — удалить подписку
-- `GET /api/subscriptions` — список подписок (auth)
-
-## GitHub Actions
-
-### sync.yml (каждые 15 мин)
-
-```
-fetch → crosspost → push-notify → build → commit → push mirrors
+```json
+{
+  "id": "2017",
+  "title": "Текст заголовка",
+  "type": "text",
+  "datetime": "2026-03-28T09:30:00+00:00",
+  "tags": ["AI_moment"],
+  "text": "Чистый текст поста",
+  "content": "<html>Полный HTML</html>",
+  "reactions": [{ "emoji": "🔥", "count": "74" }]
+}
 ```
 
-### pages.yml (при пуше в main)
+## Переменные
 
-Деплоит `dist/` на GitHub Pages.
-
-## Переменные окружения
-
-### Обязательные
-
-| Переменная | Описание                 |
-| ---------- | ------------------------ |
-| `CHANNEL`  | Username Telegram-канала |
-
-### Кросспост (опционально)
-
-| Переменная        | Описание                     |
-| ----------------- | ---------------------------- |
-| `VK_TOKEN`        | Токен группы VK              |
-| `VK_GROUP_ID`     | ID группы VK                 |
-| `DZEN_TOKEN`      | Токен Дзен Publisher         |
-| `OK_ACCESS_TOKEN` | Токен OK API                 |
-| `OK_GROUP_ID`     | ID группы OK                 |
-| `OK_APP_KEY`      | Ключ приложения OK           |
-| `OK_APP_SECRET`   | Секрет приложения OK         |
-| `SMTP_HOST`       | SMTP сервер (smtp.yandex.ru) |
-| `SMTP_USER`       | Email отправителя            |
-| `SMTP_PASS`       | Пароль SMTP                  |
-
-### Push-уведомления
-
-| Переменная          | Описание                       |
-| ------------------- | ------------------------------ |
-| `VAPID_PUBLIC_KEY`  | Публичный VAPID-ключ           |
-| `VAPID_PRIVATE_KEY` | Приватный VAPID-ключ           |
-| `PUSH_SERVER_URL`   | URL push-сервера               |
-| `API_SECRET`        | Секрет для доступа к подпискам |
-
-### Зеркала
-
-| Переменная          | Описание                  |
-| ------------------- | ------------------------- |
-| `SOURCECRAFT_TOKEN` | Токен SourceCraft         |
-| `SOURCECRAFT_REPO`  | Репо в формате `org/repo` |
-
-### Сайт
-
-| Переменная  | По умолчанию             | Описание           |
-| ----------- | ------------------------ | ------------------ |
-| `LOCALE`    | `ru`                     | Язык               |
-| `TIMEZONE`  | `Europe/Moscow`          | Часовой пояс       |
-| `REACTIONS` | `true`                   | Показывать реакции |
-| `TAGS`      |                          | Теги через запятую |
-| `SITE_URL`  |                          | Базовый URL сайта  |
-| `BASE_PATH` | `/transfer-channel-rss/` | Base path          |
-
-## Для AI-агентов
-
-Этот репо структурирован для понимания AI-агентами:
-
-1. **Парсинг**: `scripts/fetch-channel.ts` — единственная точка входа для получения данных из Telegram
-2. **Данные**: всё в `data/*.json` — посты, метаданные, трекеры
-3. **Сайт**: стандартный Astro SSG, данные читаются через `src/lib/data.ts`
-4. **Кросспост**: каждая платформа в отдельном файле `scripts/crosspost/*.ts`, общий формат
-5. **CI/CD**: `.github/workflows/sync.yml` — полный пайплайн в одном файле
-
-Для добавления новой платформы кросспоста:
-
-1. Создай `scripts/crosspost/platform.ts` по образцу `vk.ts`
-2. Добавь скрипт в `package.json`
-3. Добавь шаг в `.github/workflows/sync.yml`
-4. Добавь env-переменные в GitHub Secrets
+| Переменная      | По умолчанию             | Описание                      |
+| --------------- | ------------------------ | ----------------------------- |
+| `CHANNEL`       | —                        | Username канала (обязательно) |
+| `TELEGRAM_HOST` | `t.me`                   | Хост для парсинга             |
+| `LOCALE`        | `ru`                     | Язык (dayjs)                  |
+| `TIMEZONE`      | `Europe/Moscow`          | Часовой пояс                  |
+| `MAX_PAGES`     | `5`                      | Страниц истории при fetch     |
+| `REACTIONS`     | `true`                   | Показывать реакции            |
+| `TAGS`          | —                        | Теги через запятую            |
+| `SITE_URL`      | —                        | URL сайта (Astro `site`)      |
+| `BASE_PATH`     | `/transfer-channel-rss/` | Base path (Astro `base`)      |
 
 ## Основано на
 

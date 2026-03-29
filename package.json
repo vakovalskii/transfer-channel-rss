@@ -11,12 +11,6 @@
     "preview": "astro preview",
     "astro": "astro",
     "fetch": "tsx scripts/fetch-channel.ts",
-    "crosspost:vk": "tsx scripts/crosspost/vk.ts",
-    "crosspost:dzen": "tsx scripts/crosspost/dzen.ts",
-    "crosspost:ok": "tsx scripts/crosspost/ok.ts",
-    "crosspost:email": "tsx scripts/crosspost/email.ts",
-    "crosspost": "pnpm run crosspost:vk && pnpm run crosspost:dzen && pnpm run crosspost:ok && pnpm run crosspost:email",
-    "push-notify": "tsx scripts/send-push.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "postinstall": "test -d .git && simple-git-hooks || true"

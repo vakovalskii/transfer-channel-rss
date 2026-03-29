@@ -35,46 +35,6 @@ jobs:
           CHANNEL: ${{ secrets.CHANNEL || 'neuraldeep' }}
           TELEGRAM_HOST: ${{ secrets.TELEGRAM_HOST || 't.me' }}
 
-      - name: Crosspost to VK
-        run: pnpm run crosspost:vk
-        continue-on-error: true
-        env:
-          VK_TOKEN: ${{ secrets.VK_TOKEN }}
-          VK_GROUP_ID: ${{ secrets.VK_GROUP_ID }}
-
-      - name: Crosspost to Dzen
-        run: pnpm run crosspost:dzen
-        continue-on-error: true
-        env:
-          DZEN_TOKEN: ${{ secrets.DZEN_TOKEN }}
-
-      - name: Crosspost to OK
-        run: pnpm run crosspost:ok
-        continue-on-error: true
-        env:
-          OK_ACCESS_TOKEN: ${{ secrets.OK_ACCESS_TOKEN }}
-          OK_GROUP_ID: ${{ secrets.OK_GROUP_ID }}
-          OK_APP_KEY: ${{ secrets.OK_APP_KEY }}
-          OK_APP_SECRET: ${{ secrets.OK_APP_SECRET }}
-
-      - name: Send email notifications
-        run: pnpm run crosspost:email
-        continue-on-error: true
-        env:
-          SMTP_HOST: ${{ secrets.SMTP_HOST }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASS: ${{ secrets.SMTP_PASS }}
-
-      - name: Send push notifications
-        run: pnpm run push-notify
-        continue-on-error: true
-        env:
-          PUSH_SERVER_URL: ${{ secrets.PUSH_SERVER_URL }}
-          API_SECRET: ${{ secrets.API_SECRET }}
-          VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
-          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
-
       - name: Commit data changes
         run: |
           git config user.name "github-actions[bot]"
