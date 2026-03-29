@@ -74,11 +74,13 @@ jobs:
       - name: Push to SourceCraft
         run: |
           git remote add sourcecraft https://oauth2:${{ secrets.SOURCECRAFT_TOKEN }}@git.sourcecraft.dev/${{ secrets.SOURCECRAFT_REPO }}.git 2>/dev/null || true
-          # Force add dist for SourceCraft (ignored in .gitignore)
-          git add -f dist/
-          git stash
-          git checkout -b sourcecraft-deploy
-          git stash pop
-          git commit -m "deploy: update site" --allow-empty
+          # Create orphan branch with dist + .sourcecraft config
+          git checkout --orphan sourcecraft-deploy
+          git rm -rf . 2>/dev/null || true
+          cp -r dist/* .
+          cp -r .sourcecraft . 2>/dev/null || true
+          touch .nojekyll
+          git add -A
+          git commit -m "deploy: update site"
           git push sourcecraft sourcecraft-deploy:master --force
         continue-on-error: true
