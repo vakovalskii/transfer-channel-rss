@@ -1,8 +1,108 @@
 ---
-import List from '../components/list.astro'
-import { getChannelData } from '../lib/data'
+import Layout from '../layouts/base.astro'
+import Item from '../components/item.astro'
+import { getChannelData, getAllChannels, getDigestTitle } from '../lib/data'
 
+const channels = getAllChannels()
+const totalPosts = channels.reduce((sum, ch) => sum + ch.postCount, 0)
+const digestTitle = getDigestTitle()
+
+// Only load first page for performance
 const channel = getChannelData()
+channel.title = digestTitle
+channel.description = `${totalPosts} posts from ${channels.length} channels`
+channel.descriptionHTML = null
+channel.avatar = undefined
+
+const SITE_URL = import.meta.env.BASE_URL ?? '/'
+const posts = channel.posts ?? []
+const beforeCursor = posts[posts.length - 1]?.id
 ---
 
-<List channel={channel} after={false} pageHeading={channel.title} />
+<Layout channel={channel}>
+  <div style="margin-bottom:16px;">
+    <h1 style="font-size:20px;font-weight:600;margin:0 0 8px;">{digestTitle}</h1>
+    <p style="font-size:14px;color:#888;margin:0 0 12px;">{totalPosts} posts from {channels.length} channels</p>
+
+    <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px;">
+      <button class="filter-btn active" data-period="all" onclick="filterPeriod('all')">All</button>
+      <button class="filter-btn" data-period="24h" onclick="filterPeriod('24h')">24h</button>
+      <button class="filter-btn" data-period="3d" onclick="filterPeriod('3d')">3 days</button>
+      <button class="filter-btn" data-period="7d" onclick="filterPeriod('7d')">Week</button>
+    </div>
+
+    <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px;">
+      <button class="channel-btn active" data-channel="all" onclick="filterChannel('all')">All</button>
+      {
+        channels.map((ch) => (
+          <button class="channel-btn" data-channel={ch.name} onclick={`filterChannel('${ch.name}')`}>
+            @{ch.name} <span style="opacity:0.6;">({ch.postCount})</span>
+          </button>
+        ))
+      }
+    </div>
+
+    <input
+      id="digest-search"
+      type="search"
+      placeholder="Search posts..."
+      oninput="filterSearch(this.value)"
+      style="width:100%;padding:8px 12px;border:1px solid #ddd;border-radius:8px;font-size:14px;box-sizing:border-box;"
+    />
+  </div>
+
+  <ol id="posts-list" class="mt-5 mb-0 ml-7 list-none pl-0 max-sm:ml-0" aria-label="Posts">
+    {
+      posts.map((post) => (
+        <li
+          class="digest-post"
+          data-channel={post.channel || ''}
+          data-datetime={post.datetime}
+          data-text={post.text?.toLowerCase().slice(0, 500) || ''}
+        >
+          <Item post={post} isItem={false} />
+        </li>
+      ))
+    }
+  </ol>
+
+  <nav style="margin:20px 0;display:flex;justify-content:center;">
+    {
+      beforeCursor && (
+        <a
+          href={`${SITE_URL}before/${beforeCursor}`}
+          style="display:inline-flex;min-height:36px;align-items:center;justify-content:center;border-radius:30px;border:1px solid #ccc;padding:5px 15px;font-size:14px;color:#666;text-decoration:none;"
+        >
+          Load more
+        </a>
+      )
+    }
+  </nav>
+
+  <p id="no-results" style="display:none;text-align:center;color:#999;padding:40px 0;">No posts match filters</p>
+</Layout>
+
+<style is:global>
+  .filter-btn,
+  .channel-btn {
+    padding: 4px 12px;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    background: #f8f8f8;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .filter-btn:hover,
+  .channel-btn:hover {
+    border-color: #999;
+  }
+  .filter-btn.active,
+  .channel-btn.active {
+    background: #1a1a2e;
+    color: #fff;
+    border-color: #1a1a2e;
+  }
+</style>
+
+<script is:inline src={`${import.meta.env.BASE_URL}digest.js`}></script>
