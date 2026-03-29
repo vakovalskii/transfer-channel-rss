@@ -103,6 +103,24 @@
   }
 }
 
+html[data-theme='dark'] {
+  color-scheme: dark;
+  --color-paper: #1a1a2e;
+  --color-ink: #e0e0e0;
+  --color-heading: #cccccc;
+  --color-accent: #e07040;
+  --color-surface: #22223a;
+  --color-code: #22223a;
+  --color-muted: #a09890;
+  --color-link: #8899aa;
+  --color-link-hover: #aabbcc;
+  --color-line: rgba(255, 255, 255, 0.08);
+  --color-footer: #888888;
+  --shadow-soft:
+    0 1px 2px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1),
+    0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
 @layer components {
   .tag-icon {
     width: 16px;

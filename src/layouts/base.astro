@@ -39,6 +39,8 @@ const hasCustomTitle = Boolean(pageTitle && pageTitle !== siteTitle)
 const isArticle = /\/posts\/[^/]+$/.test(pathname)
 const tagsPathname = normalizePathname(new URL('tags', absoluteSiteUrl).pathname)
 const linksPathname = normalizePathname(new URL('links', absoluteSiteUrl).pathname)
+const hotPathname = normalizePathname(new URL('hot', absoluteSiteUrl).pathname)
+const statsPathname = normalizePathname(new URL('stats', absoluteSiteUrl).pathname)
 
 const seoParams = {
   title: pageTitle,
@@ -121,6 +123,7 @@ const backToTopIconClass = 'h-auto w-auto [filter:var(--icon-secondary-filter)]'
       {...seoParams}
     />
     <Fragment set:html={HEADER_INJECT} />
+    <script is:inline src={`${import.meta.env.BASE_URL ?? '/'}theme.js`}></script>
   </head>
 
   <body>
@@ -170,6 +173,24 @@ const backToTopIconClass = 'h-auto w-auto [filter:var(--icon-secondary-filter)]'
                       </li>
                     ) : null
                   }
+                  <li class={navItemClass}>
+                    <a
+                      href={`${SITE_URL}hot`}
+                      title="Hot"
+                      class:list={[navLinkClass, currentPathname === hotPathname && navLinkCurrentClass]}
+                    >
+                      Hot
+                    </a>
+                  </li>
+                  <li class={navItemClass}>
+                    <a
+                      href={`${SITE_URL}stats`}
+                      title="Stats"
+                      class:list={[navLinkClass, currentPathname === statsPathname && navLinkCurrentClass]}
+                    >
+                      Stats
+                    </a>
+                  </li>
                   {
                     navs.map((nav) => (
                       <li class={navItemClass}>
@@ -187,6 +208,13 @@ const backToTopIconClass = 'h-auto w-auto [filter:var(--icon-secondary-filter)]'
                   }
                 </ul>
               </nav>
+
+              <button
+                id="theme-toggle"
+                onclick="toggleTheme()"
+                aria-label="Toggle dark/light theme"
+                style="margin-top:8px;padding:4px 10px;border:1px solid var(--color-line);border-radius:6px;background:var(--color-code);cursor:pointer;font-size:16px;line-height:1;"
+              ></button>
 
               <form class={searchFormClass} action={`${SITE_URL}search/result`} method="get" role="search">
                 <label class="sr-only" for="search-query">Search</label>

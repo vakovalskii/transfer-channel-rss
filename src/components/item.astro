@@ -10,6 +10,9 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
 const { post, isItem } = Astro.props
 
 const channel = import.meta.env.CHANNEL || 'neuraldeep'
+const postNumericId = post.id.includes('/') ? post.id.split('/').pop() : post.id
+const tgChannel = post.channel || channel
+const tgLink = `https://t.me/${tgChannel}/${postNumericId}`
 const COMMENTS = import.meta.env.COMMENTS
 const REACTIONS = import.meta.env.REACTIONS || 'true'
 
@@ -54,6 +57,14 @@ const commentsClass = 'ml-[3px] border-l-2 border-line pb-6 pl-[15px] pt-[6px] s
       <a href={`${SITE_URL}posts/${post.id}`} title={post.datetime} class={itemLinkClass}>
         <time datetime={post.datetime} title={timeago}>{timeago}</time>
       </a>
+      <a
+        href={tgLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Open in Telegram"
+        style="margin-left:6px;font-size:11px;color:#999;text-decoration:none;border:1px solid #ddd;border-radius:4px;padding:0 4px;line-height:1.6;"
+        >TG</a
+      >
     </p>
   </header>
   {hasContent && <div class:list={[contentClass, 'content']} set:html={post.content} />}
