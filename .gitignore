@@ -1,4 +1,5 @@
-# build output (committed for Gitverse Pages / SourceCraft Sites)
+# build output
+dist/
 # generated types
 .astro/
 

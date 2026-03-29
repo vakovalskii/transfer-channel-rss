@@ -7,15 +7,22 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: true
 
 jobs:
   sync:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
@@ -29,11 +36,12 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Fetch Telegram channel
+      - name: Fetch Telegram channels
         run: pnpm run fetch
         env:
           CHANNEL: ${{ secrets.CHANNEL || 'neuraldeep' }}
           TELEGRAM_HOST: ${{ secrets.TELEGRAM_HOST || 't.me' }}
+          MAX_PAGES: '3'
 
       - name: Commit data changes
         run: |
@@ -41,6 +49,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
           git diff --staged --quiet || git commit -m "sync: update channel data"
+          git push origin main
 
       - name: Build static site
         run: pnpm run build
@@ -50,16 +59,26 @@ jobs:
           TIMEZONE: Europe/Moscow
           REACTIONS: 'true'
 
-      - name: Commit dist
-        run: |
-          git add dist/
-          git diff --staged --quiet || git commit -m "build: update static site"
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
 
-      - name: Push to GitHub
-        run: git push origin main
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
 
       - name: Push to SourceCraft
         run: |
           git remote add sourcecraft https://oauth2:${{ secrets.SOURCECRAFT_TOKEN }}@git.sourcecraft.dev/${{ secrets.SOURCECRAFT_REPO }}.git 2>/dev/null || true
-          git push sourcecraft main:master --force
+          # Force add dist for SourceCraft (ignored in .gitignore)
+          git add -f dist/
+          git stash
+          git checkout -b sourcecraft-deploy
+          git stash pop
+          git commit -m "deploy: update site" --allow-empty
+          git push sourcecraft sourcecraft-deploy:master --force
         continue-on-error: true
