@@ -31,21 +31,19 @@ const breadcrumbTitleClass = 'ml-[10px] flex-1 text-[14px] text-heading'
 ---
 
 <List channel={channel} before={false} after={false} isItem={true} pageHeading={post.title || channel.title}>
-  <nav slot="header" class={breadcrumbClass} aria-label="Breadcrumb">
-    <ol class={breadcrumbListClass}>
-      <li>
-        <a href={SITE_URL} class={breadcrumbLinkClass} title={channel?.title}>
-          <img
-            src={channel?.avatar?.startsWith('http') ? channel?.avatar : voidFile.src}
-            alt={channel?.title}
-            loading="eager"
-            width="20"
-            height="20"
-            class={breadcrumbAvatarClass}
-          />
-          <span class={breadcrumbTitleClass}>{channel.title}</span>
-        </a>
-      </li>
-    </ol>
+  <nav slot="header" style="margin-bottom:12px;padding:10px 0;" aria-label="Breadcrumb">
+    <a
+      href={SITE_URL}
+      style="display:inline-flex;align-items:center;gap:6px;text-decoration:none;color:#666;font-size:14px;font-weight:500;"
+    >
+      <span style="font-size:18px;">&larr;</span> Digest
+    </a>
+    {
+      post.channel && (
+        <span style="margin-left:8px;background:#eee;border-radius:4px;padding:2px 8px;font-size:12px;color:#666;">
+          @{post.channel}
+        </span>
+      )
+    }
   </nav>
 </List>
