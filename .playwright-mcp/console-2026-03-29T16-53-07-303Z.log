@@ -1,0 +1,6 @@
+[     461ms] [ERROR] Failed to load resource: net::ERR_SOCKET_NOT_CONNECTED @ https://telegram.org/img/emoji/40/F09F9882.png:0
+[     461ms] [ERROR] Failed to load resource: net::ERR_SOCKET_NOT_CONNECTED @ https://telegram.org/img/emoji/40/F09F9AAC.png:0
+[     538ms] [ERROR] Failed to load resource: net::ERR_SOCKET_NOT_CONNECTED @ https://telegram.org/img/emoji/40/F09F92AA.png:0
+[     538ms] [ERROR] Failed to load resource: net::ERR_SOCKET_NOT_CONNECTED @ https://telegram.org/img/emoji/40/F09F9A80.png:0
+[     609ms] [ERROR] Failed to load resource: net::ERR_SOCKET_NOT_CONNECTED @ https://vakovalskii.github.io/transfer-channel-rss/manifest.json:0
+[   71098ms] [ERROR] Failed to load resource: net::ERR_SOCKET_NOT_CONNECTED @ https://vakovalskii.github.io/transfer-channel-rss/manifest.json:0
