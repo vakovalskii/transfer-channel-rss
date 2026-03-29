@@ -71,16 +71,18 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
+      - name: Prepare SourceCraft deploy
+        run: |
+          # Add dist to git temporarily (ignored in .gitignore)
+          git config advice.addIgnoredFile false
+          git add -f dist/
+          git commit -m "temp: add dist for sourcecraft" --no-verify
+          # Split dist/ into its own branch
+          git subtree split --prefix dist -b sc-deploy
+        continue-on-error: true
+
       - name: Push to SourceCraft
         run: |
           git remote add sourcecraft https://oauth2:${{ secrets.SOURCECRAFT_TOKEN }}@git.sourcecraft.dev/${{ secrets.SOURCECRAFT_REPO }}.git 2>/dev/null || true
-          # Create orphan branch with dist + .sourcecraft config
-          git checkout --orphan sourcecraft-deploy
-          git rm -rf . 2>/dev/null || true
-          cp -r dist/* .
-          cp -r .sourcecraft . 2>/dev/null || true
-          touch .nojekyll
-          git add -A
-          git commit -m "deploy: update site"
-          git push sourcecraft sourcecraft-deploy:master --force
+          git push sourcecraft sc-deploy:master --force
         continue-on-error: true
