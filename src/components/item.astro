@@ -49,9 +49,7 @@ const commentsClass = 'ml-[3px] border-l-2 border-line pb-6 pl-[15px] pt-[6px] s
     <p class={timeTextClass}>
       {
         post.channelTitle && (
-          <span style="background:#eee;border-radius:4px;padding:1px 6px;font-size:12px;margin-right:6px;color:#666;">
-            @{post.channel}
-          </span>
+          <span class="badge" style="margin-right:6px;">@{post.channel}</span>
         )
       }
       <a href={`${SITE_URL}posts/${post.id}`} title={post.datetime} class={itemLinkClass}>
@@ -62,7 +60,7 @@ const commentsClass = 'ml-[3px] border-l-2 border-line pb-6 pl-[15px] pt-[6px] s
         target="_blank"
         rel="noopener noreferrer"
         title="Open in Telegram"
-        style="margin-left:6px;font-size:11px;color:#999;text-decoration:none;border:1px solid #ddd;border-radius:4px;padding:0 4px;line-height:1.6;"
+        class="badge" style="margin-left:6px;font-size:11px;text-decoration:none;line-height:1.6;"
         >TG</a
       >
     </p>

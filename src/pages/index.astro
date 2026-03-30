@@ -62,38 +62,38 @@ const hotPosts = [...allPosts].sort((a, b) => sumReactions(b) - sumReactions(a))
       type="search"
       placeholder="Search posts..."
       oninput="filterSearch(this.value)"
-      style="width:100%;padding:8px 12px;border:1px solid #ddd;border-radius:8px;font-size:14px;box-sizing:border-box;"
+      class="search-input"
     />
   </div>
 
   <!-- Hot & Stats compact -->
   <div style="display:flex;gap:16px;margin-bottom:20px;flex-wrap:wrap;">
-    <div style="flex:1;min-width:250px;border:1px solid #eee;border-radius:10px;padding:12px;">
+    <div class="bg-card" style="flex:1;min-width:250px;">
       <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;">
         <strong style="font-size:14px;">Hot</strong>
-        <a href={`${SITE_URL}hot/`} style="font-size:11px;color:#999;text-decoration:none;">see all</a>
+        <a href={`${SITE_URL}hot/`} class="link-dim" style="font-size:11px;">see all</a>
       </div>
       {hotPosts.map((p, i) => (
-        <a href={`${SITE_URL}posts/${p.id}`} style="display:block;padding:4px 0;border-bottom:1px solid #f5f5f5;text-decoration:none;color:inherit;font-size:13px;">
-          <span style="color:#999;margin-right:4px;">{i + 1}.</span>
-          <span style="background:#eee;border-radius:3px;padding:0 4px;font-size:11px;color:#666;margin-right:4px;">@{p.channel}</span>
-          <span style="color:#333;">{p.text?.slice(0, 60)}{(p.text?.length || 0) > 60 ? '...' : ''}</span>
-          <span style="float:right;font-size:11px;color:#999;">{sumReactions(p)}</span>
+        <a href={`${SITE_URL}posts/${p.id}`} class="divider" style="display:block;padding:4px 0;text-decoration:none;color:inherit;font-size:13px;">
+          <span class="text-dim" style="margin-right:4px;">{i + 1}.</span>
+          <span class="badge" style="margin-right:4px;font-size:11px;">@{p.channel}</span>
+          <span class="text-body">{p.text?.slice(0, 60)}{(p.text?.length || 0) > 60 ? '...' : ''}</span>
+          <span class="text-dim" style="float:right;font-size:11px;">{sumReactions(p)}</span>
         </a>
       ))}
     </div>
-    <div style="flex:1;min-width:250px;border:1px solid #eee;border-radius:10px;padding:12px;">
+    <div class="bg-card" style="flex:1;min-width:250px;">
       <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;">
         <strong style="font-size:14px;">Channels</strong>
-        <a href={`${SITE_URL}stats/`} style="font-size:11px;color:#999;text-decoration:none;">stats</a>
+        <a href={`${SITE_URL}stats/`} class="link-dim" style="font-size:11px;">stats</a>
       </div>
       {channels.slice(0, 7).map(ch => (
         <div style="display:flex;align-items:center;gap:6px;padding:3px 0;font-size:13px;">
-          <span style="color:#333;flex:1;">@{ch.name}</span>
-          <div style="flex:2;height:8px;background:#f0f0f0;border-radius:4px;overflow:hidden;">
+          <span class="text-body" style="flex:1;">@{ch.name}</span>
+          <div style={`flex:2;height:8px;background:var(--color-line);border-radius:4px;overflow:hidden;`}>
             <div style={`width:${(ch.postCount / channels[0].postCount * 100)}%;height:100%;background:#6c63ff;border-radius:4px;`}></div>
           </div>
-          <span style="font-size:11px;color:#999;min-width:24px;text-align:right;">{ch.postCount}</span>
+          <span class="text-dim" style="font-size:11px;min-width:24px;text-align:right;">{ch.postCount}</span>
         </div>
       ))}
     </div>
