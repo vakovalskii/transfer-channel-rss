@@ -74,9 +74,10 @@ jobs:
       - name: Push to SourceCraft
         run: |
           git remote add sourcecraft https://oauth2:${{ secrets.SOURCECRAFT_TOKEN }}@git.sourcecraft.dev/${{ secrets.SOURCECRAFT_REPO }}.git 2>/dev/null || true
-          # Add dist to git temporarily
+          # Subtree split: extract dist/ as standalone branch
           git config advice.addIgnoredFile false
           git add -f dist/
-          git commit -m "deploy: update site with dist" --no-verify
-          git push sourcecraft HEAD:master --force
+          git commit -m "temp: sourcecraft deploy" --no-verify
+          git subtree split --prefix dist -b sc-deploy
+          git push sourcecraft sc-deploy:master --force
         continue-on-error: true
