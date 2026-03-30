@@ -209,13 +209,6 @@ const backToTopIconClass = 'h-auto w-auto [filter:var(--icon-secondary-filter)]'
                 </ul>
               </nav>
 
-              <button
-                id="theme-toggle"
-                onclick="toggleTheme()"
-                aria-label="Toggle dark/light theme"
-                style="margin-top:8px;padding:4px 10px;border:1px solid var(--color-line);border-radius:6px;background:var(--color-code);cursor:pointer;font-size:16px;line-height:1;"
-              ></button>
-
               <form class={searchFormClass} action={`${SITE_URL}search/result`} method="get" role="search">
                 <label class="sr-only" for="search-query">Search</label>
                 <input
