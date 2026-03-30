@@ -122,6 +122,14 @@ html[data-theme='dark'] {
 }
 
 @layer components {
+  /* Sidebar nav links */
+  .sidebar-nav-link:hover {
+    background: var(--color-surface);
+  }
+  .sidebar-nav-active {
+    background: var(--color-surface);
+  }
+
   /* Theme-aware utility classes for inline elements */
   .badge {
     background: var(--color-line);
