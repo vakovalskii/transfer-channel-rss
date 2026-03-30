@@ -138,50 +138,42 @@ const hotPosts = [...allPosts].sort((a, b) => sumReactions(b) - sumReactions(a))
   .filter-btn,
   .channel-btn {
     padding: 4px 12px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--color-line);
     border-radius: 16px;
-    background: #f8f8f8;
+    background: var(--color-surface);
+    color: var(--color-muted);
     font-size: 13px;
     cursor: pointer;
     transition: all 0.15s;
   }
   .filter-btn:hover,
   .channel-btn:hover {
-    border-color: #999;
+    border-color: var(--color-muted);
+    color: var(--color-heading);
   }
   .filter-btn.active,
   .channel-btn.active {
-    background: #1a1a2e;
+    background: var(--color-accent);
     color: #fff;
-    border-color: #1a1a2e;
+    border-color: var(--color-accent);
   }
   .nav-pill {
     display: inline-flex;
     align-items: center;
     padding: 4px 12px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--color-line);
     border-radius: 16px;
-    background: #f8f8f8;
+    background: var(--color-surface);
     font-size: 12px;
-    color: #555;
+    color: var(--color-muted);
     text-decoration: none;
     cursor: pointer;
     transition: all 0.15s;
   }
   .nav-pill:hover {
-    background: #1a1a2e;
+    background: var(--color-accent);
     color: #fff;
-    border-color: #1a1a2e;
-  }
-  html[data-theme='dark'] .nav-pill {
-    background: #333;
-    border-color: #555;
-    color: #ccc;
-  }
-  html[data-theme='dark'] .nav-pill:hover {
-    background: #6c63ff;
-    border-color: #6c63ff;
-    color: #fff;
+    border-color: var(--color-accent);
   }
 </style>
 
