@@ -71,23 +71,12 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-      - name: Prepare SourceCraft deploy
-        run: |
-          # Add sourcecraft config to dist (root = .)
-          mkdir -p dist/.sourcecraft
-          echo 'site:' > dist/.sourcecraft/sites.yaml
-          echo '  root: "."' >> dist/.sourcecraft/sites.yaml
-          echo '  ref: "master"' >> dist/.sourcecraft/sites.yaml
-          # Add dist to git temporarily (ignored in .gitignore)
-          git config advice.addIgnoredFile false
-          git add -f dist/
-          git commit -m "temp: add dist for sourcecraft" --no-verify
-          # Split dist/ into its own branch
-          git subtree split --prefix dist -b sc-deploy
-        continue-on-error: true
-
       - name: Push to SourceCraft
         run: |
           git remote add sourcecraft https://oauth2:${{ secrets.SOURCECRAFT_TOKEN }}@git.sourcecraft.dev/${{ secrets.SOURCECRAFT_REPO }}.git 2>/dev/null || true
-          git push sourcecraft sc-deploy:master --force
+          # Add dist to git temporarily
+          git config advice.addIgnoredFile false
+          git add -f dist/
+          git commit -m "deploy: update site with dist" --no-verify
+          git push sourcecraft HEAD:master --force
         continue-on-error: true
