@@ -8,8 +8,11 @@
 
 import * as cheerio from 'cheerio'
 import type { AnyNode, Cheerio, CheerioAPI } from 'cheerio'
-import { writeFileSync, readFileSync, existsSync, mkdirSync } from 'node:fs'
-import { resolve, dirname } from 'node:path'
+import { writeFileSync, readFileSync, existsSync, mkdirSync, createWriteStream } from 'node:fs'
+import { resolve, dirname, extname } from 'node:path'
+import { createHash } from 'node:crypto'
+import { pipeline } from 'node:stream/promises'
+import { Readable } from 'node:stream'
 import { fileURLToPath } from 'node:url'
 import flourite from 'flourite'
 import prism from 'prismjs'
@@ -76,6 +79,42 @@ const NEW_POSTS_FILE = resolve(DATA_DIR, 'new-posts.json')
 let CHANNEL = process.env.CHANNEL || 'neuraldeep'
 const HOST = process.env.TELEGRAM_HOST || 't.me'
 const STATIC_PROXY = ''
+const DOWNLOAD_MEDIA = process.env.DOWNLOAD_MEDIA !== 'false'
+const MEDIA_DIR = resolve(__dirname, '..', 'public', 'media')
+const MEDIA_BASE_URL = 'media/'
+
+// --- Media download ---
+
+async function downloadMedia(url: string): Promise<string | null> {
+  if (!DOWNLOAD_MEDIA || !url || url.startsWith('data:')) return null
+  try {
+    const hash = createHash('md5').update(url).digest('hex')
+    const ext = extname(new URL(url).pathname) || '.jpg'
+    const filename = `${hash}${ext}`
+    const filepath = resolve(MEDIA_DIR, filename)
+
+    if (existsSync(filepath)) return `${MEDIA_BASE_URL}${filename}`
+
+    const res = await fetch(url, {
+      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; BroadcastChannel/1.0)' },
+    })
+    if (!res.ok || !res.body) return null
+
+    if (!existsSync(MEDIA_DIR)) mkdirSync(MEDIA_DIR, { recursive: true })
+    await pipeline(Readable.fromWeb(res.body as any), createWriteStream(filepath))
+    return `${MEDIA_BASE_URL}${filename}`
+  } catch {
+    return null
+  }
+}
+
+function replaceMediaUrls(html: string, mediaMap: Map<string, string>): string {
+  let result = html
+  for (const [original, local] of mediaMap) {
+    result = result.replaceAll(original, local)
+  }
+  return result
+}
 
 // --- Regexes (from original) ---
 
@@ -495,6 +534,25 @@ async function fetchChannelPosts(channelName: string, maxPages: number): Promise
     channel: channelName,
     channelTitle,
   }))
+
+  // Download media and replace URLs
+  if (DOWNLOAD_MEDIA) {
+    const imgRegex = /https?:\/\/[^\s"'<>]+\.(?:jpg|jpeg|png|webp|gif)/gi
+    for (let i = 0; i < allFetchedPosts.length; i++) {
+      const post = allFetchedPosts[i]
+      const urls = post.content.match(imgRegex) || []
+      const mediaMap = new Map<string, string>()
+
+      for (const url of urls.slice(0, 5)) { // max 5 images per post
+        const localPath = await downloadMedia(url)
+        if (localPath) mediaMap.set(url, localPath)
+      }
+
+      if (mediaMap.size > 0) {
+        allFetchedPosts[i] = { ...post, content: replaceMediaUrls(post.content, mediaMap) }
+      }
+    }
+  }
 
   return { posts: allFetchedPosts, channel: channelInfo }
 }

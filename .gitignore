@@ -1,5 +1,8 @@
 # build output
 dist/
+
+# downloaded media (fetched in CI)
+public/media/
 # generated types
 .astro/
 
