@@ -76,6 +76,9 @@ jobs:
           git remote add sourcecraft https://oauth2:${{ secrets.SOURCECRAFT_TOKEN }}@git.sourcecraft.dev/${{ secrets.SOURCECRAFT_REPO }}.git 2>/dev/null || true
           # Remove heavy pagination to reduce push size
           rm -rf dist/before dist/after
+          # Add sites config inside dist (subtree won't include .sourcecraft from root)
+          mkdir -p dist/.sourcecraft
+          printf 'site:\n  ref: "master"\n' > dist/.sourcecraft/sites.yaml
           # Subtree split dist/ into branch
           git config advice.addIgnoredFile false
           git add -f dist/
