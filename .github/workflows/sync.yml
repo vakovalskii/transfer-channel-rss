@@ -74,11 +74,12 @@ jobs:
       - name: Push to SourceCraft
         run: |
           git remote add sourcecraft https://oauth2:${{ secrets.SOURCECRAFT_TOKEN }}@git.sourcecraft.dev/${{ secrets.SOURCECRAFT_REPO }}.git 2>/dev/null || true
-          # Remove heavy pagination dirs to reduce size for SourceCraft
+          # Remove heavy pagination to reduce push size
           rm -rf dist/before dist/after
-          # Add dist + .sourcecraft config
+          # Subtree split dist/ into branch
           git config advice.addIgnoredFile false
-          git add -f dist/ .sourcecraft/
-          git commit -m "deploy: update site" --no-verify
-          git push sourcecraft HEAD:master --force
+          git add -f dist/
+          git commit -m "temp: sc deploy" --no-verify
+          git subtree split --prefix dist -b sc-deploy
+          git push sourcecraft sc-deploy:master --force
         continue-on-error: true
