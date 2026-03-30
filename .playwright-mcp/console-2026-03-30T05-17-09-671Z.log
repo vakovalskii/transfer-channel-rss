@@ -1,0 +1,2 @@
+[     276ms] [ERROR] Failed to load resource: net::ERR_SOCKET_NOT_CONNECTED @ https://vakovalskii.github.io/transfer-channel-rss/manifest.json:0
+[    1044ms] [ERROR] Failed to load resource: net::ERR_SOCKET_NOT_CONNECTED @ https://vakovalskii.github.io/transfer-channel-rss/manifest.json:0

@@ -138,18 +138,18 @@ const hotPosts = [...allPosts].sort((a, b) => sumReactions(b) - sumReactions(a))
   .filter-btn,
   .channel-btn {
     padding: 4px 12px;
-    border: 1px solid var(--color-line);
+    border: 1px solid var(--color-muted);
     border-radius: 16px;
     background: var(--color-surface);
-    color: var(--color-muted);
+    color: var(--color-heading);
     font-size: 13px;
     cursor: pointer;
     transition: all 0.15s;
   }
   .filter-btn:hover,
   .channel-btn:hover {
-    border-color: var(--color-muted);
-    color: var(--color-heading);
+    border-color: var(--color-accent);
+    color: var(--color-accent);
   }
   .filter-btn.active,
   .channel-btn.active {
