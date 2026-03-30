@@ -1,26 +1,23 @@
 [
   {
-    "id": "data_secrets/8952",
-    "title": "Microsoft выпустили Critique: инструмент для deep research, который может вызывать несколько разных моделей одновременно То есть теперь вашим запросом занимаются сразу две модели: первая берет на себя основную генерацию, а вторая выступает в роли критика и рецензента и поправляет ошибки и неточности перед тем как система даст окончательный ответ.Какие модели участвовали в генерации – видно в шапке ответа.  По бенчмарку DRACO – яркая SOTA, других бенчей нет. Появился еще режим Council для обычных запросов: там ваш промпт просто прогоняют через несколько моделей, и вы сразу видите разные варианты ответа. Плюс есть кратенькая выжимка о том, где модели сходятся и где у них разногласия. Удобно. Пока на широкую общественность не раскатили, но можно податься на ранний доступ. Какие будут лимиты (и будет ли вообще доступ в обычной подписке за 20$) пока непонятно. Хотя в целом, такое можно и дома на коленке завайбкодить за вечер. Точно будет дешевле.techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-multi-model-intelligence-in-researcher/4506011Microsoft выпустили Critique: инструмент для deep research, который может вызывать несколько разных моделей одновременно То есть теперь вашим запросом занимаются сразу две модели: первая берет на себя основную генерацию, а вторая выступает в роли критика и рецензента и поправляет ошибки и неточности перед тем как система даст окончательный ответ.Какие модели участвовали в генерации – видно в шапке ответа.  По бенчмарку DRACO – яркая SOTA, других бенчей нет. Появился еще режим Council для обычных запросов: там ваш промпт просто прогоняют через несколько моделей, и вы сразу видите разные варианты ответа. Плюс есть кратенькая выжимка о том, где модели сходятся и где у них разногласия. Удобно. Пока на широкую общественность не раскатили, но можно податься на ранний доступ. Какие будут лимиты (и будет ли вообще доступ в обычной подписке за 20$) пока непонятно. Хотя в целом, такое можно и дома на коленке завайбкодить за вечер. Точно будет дешевле.techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-multi-model-intelligence-in-researcher/4506011",
+    "id": "tips_ai/4642",
+    "title": "Не хватало конечно такой фичи: Claude Code умеет пользоваться не файлами, а самим пк.Открывать приложения, печатать, делать скриншоты. Всё через CLI, без переключения на десктоп.То есть клод написал код, скомпилировал, запустил приложение, прокликал, нашёл баг, починил, проверил фикс. Пока только на Мак, и нужен Pro или Max подписка Включается через /mcp > computer-use. Надеюсь, что в скором времени линукс и винду добавят. [Документация]@tips_ai #news",
     "type": "text",
-    "datetime": "2026-03-30T17:02:35+00:00",
-    "tags": [],
-    "text": "Microsoft выпустили Critique: инструмент для deep research, который может вызывать несколько разных моделей одновременно То есть теперь вашим запросом занимаются сразу две модели: первая берет на себя основную генерацию, а вторая выступает в роли критика и рецензента и поправляет ошибки и неточности перед тем как система даст окончательный ответ.Какие модели участвовали в генерации – видно в шапке ответа.  По бенчмарку DRACO – яркая SOTA, других бенчей нет. Появился еще режим Council для обычных запросов: там ваш промпт просто прогоняют через несколько моделей, и вы сразу видите разные варианты ответа. Плюс есть кратенькая выжимка о том, где модели сходятся и где у них разногласия. Удобно. Пока на широкую общественность не раскатили, но можно податься на ранний доступ. Какие будут лимиты (и будет ли вообще доступ в обычной подписке за 20$) пока непонятно. Хотя в целом, такое можно и дома на коленке завайбкодить за вечер. Точно будет дешевле.techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-multi-model-intelligence-in-researcher/4506011Microsoft выпустили Critique: инструмент для deep research, который может вызывать несколько разных моделей одновременно То есть теперь вашим запросом занимаются сразу две модели: первая берет на себя основную генерацию, а вторая выступает в роли критика и рецензента и поправляет ошибки и неточности перед тем как система даст окончательный ответ.Какие модели участвовали в генерации – видно в шапке ответа.  По бенчмарку DRACO – яркая SOTA, других бенчей нет. Появился еще режим Council для обычных запросов: там ваш промпт просто прогоняют через несколько моделей, и вы сразу видите разные варианты ответа. Плюс есть кратенькая выжимка о том, где модели сходятся и где у них разногласия. Удобно. Пока на широкую общественность не раскатили, но можно податься на ранний доступ. Какие будут лимиты (и будет ли вообще доступ в обычной подписке за 20$) пока непонятно. Хотя в целом, такое можно и дома на коленке завайбкодить за вечер. Точно будет дешевле.techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-multi-model-intelligence-in-researcher/4506011",
-    "content": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">Microsoft выпустили Critique: инструмент для deep research, который может вызывать несколько разных моделей одновременно <br><br>То есть теперь вашим запросом занимаются сразу две модели: первая берет на себя основную генерацию, а вторая выступает в роли критика и рецензента и поправляет ошибки и неточности перед тем как система даст окончательный ответ.<br><br>Какие модели участвовали в генерации – видно в шапке ответа.  По бенчмарку DRACO – яркая SOTA, других бенчей нет. <br><br>Появился еще режим Council для обычных запросов: там ваш промпт просто прогоняют через несколько моделей, и вы сразу видите разные варианты ответа. Плюс есть кратенькая выжимка о том, где модели сходятся и где у них разногласия. Удобно. <br><br>Пока на широкую общественность не раскатили, но можно податься на ранний доступ. <br><br>Какие будут лимиты (и будет ли вообще доступ в обычной подписке за 20$) пока непонятно. <label class=\"spoiler-button\"><input type=\"checkbox\" aria-label=\"Reveal spoiler\" aria-controls=\"spoiler-12-0\"><tg-spoiler id=\"spoiler-12-0\">Хотя в целом, такое можно и дома на коленке завайбкодить за вечер. Точно будет дешевле.</tg-spoiler></label><br><br><a href=\"http://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-multi-model-intelligence-in-researcher/4506011\" target=\"_blank\" rel=\"noopener\" title=\"techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-multi-model-intelligence-in-researcher/4506011\">techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-multi-model-intelligence-in-researcher/4506011</a></div>",
+    "datetime": "2026-03-30T17:45:26+00:00",
+    "tags": [
+      "news"
+    ],
+    "text": "Не хватало конечно такой фичи: Claude Code умеет пользоваться не файлами, а самим пк.Открывать приложения, печатать, делать скриншоты. Всё через CLI, без переключения на десктоп.То есть клод написал код, скомпилировал, запустил приложение, прокликал, нашёл баг, починил, проверил фикс. Пока только на Мак, и нужен Pro или Max подписка Включается через /mcp > computer-use. Надеюсь, что в скором времени линукс и винду добавят. [Документация]@tips_ai #news",
+    "content": "<video src=\"https://cdn4.telesco.pe/file/a0aedd8175.mp4?token=lRkG0lwHwmqnTeKHaRDubSeYpAbjXxllkpqNZywR5sTZBlgeTlwaZv6okOffVkH3mYhk6nEPlXucgD6zhFvBzBcTwk4dk_KcbuvewMpFSl-tPKNanLjrCDuvjR3wBChVyV6nHQXAaOYX7qTkX8S3OGche_5WF7OpUDAT4CwpPi6pFGf8XjOBwmRzd26pOOJvoAWs0NAVffdk7qzNHG2tH1sVJL5nK5iq3_1iEfzv1n5gKaScTssD8ISyxIVM-rhOAoN4zYXhFTI5A9FaE3ExwDWnqSe8Zhu9EaxKMLRXEWIrpjXzd0vEkx_qj08Eg8piIZJG40S9ICdNNR9QaEug7Q\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"metadata\" playsinline=\"\"></video>Не хватало конечно такой фичи: Claude Code умеет пользоваться не файлами, а самим пк.<br><br>Открывать приложения, печатать, делать скриншоты. Всё через CLI, без переключения на десктоп.<br><br>То есть клод написал код, скомпилировал, запустил приложение, прокликал, нашёл баг, починил, проверил фикс. <br><br>Пока только на Мак, и нужен Pro или Max подписка <img class=\"tg-emoji\" src=\"media/f7b1a1013bc9bdd28993a44bf9364cac.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"><br><br>Включается через /mcp &gt; computer-use. <br><br>Надеюсь, что в скором времени линукс и винду добавят. <br><br>[<a href=\"https://code.claude.com/docs/en/computer-use\" target=\"_blank\" rel=\"noopener\" title=\"Документация\">Документация</a>]<br><br><a href=\"https://t.me/tips_ai\" target=\"_blank\" title=\"@tips_ai\">@tips_ai</a> <a href=\"/search/%23news\" title=\"#news\">#news</a>",
     "reactions": [
       {
-        "emoji": "😁",
-        "count": "18",
-        "isPaid": false
-      },
-      {
-        "emoji": "🔥",
+        "emoji": "👍",
         "count": "13",
         "isPaid": false
       },
       {
-        "emoji": "👍",
-        "count": "6",
+        "emoji": "🔥",
+        "count": "8",
         "isPaid": false
       },
       {
@@ -29,7 +26,47 @@
         "isPaid": false
       }
     ],
-    "channel": "data_secrets",
-    "channelTitle": "Data Secrets"
+    "channel": "tips_ai",
+    "channelTitle": "Tips AI | IT & AI"
+  },
+  {
+    "id": "cgevent/15287",
+    "title": "#Нейропрожарка\"Голос тех, кого нет\" — Мой дед.Автор: Дима Терем.Режиссёр, медиахудожник.Делюсь сниппетом нового трека —\"Голос тех, кого нет\" — Мой дед.Возникло желание вспомнить былое.Смешать девяностые, Казантип и Кин-дза-дза!.Немного ностальгии.Немного пыли.Немного абсурда и внутренней тишины.Пайплайн простой:NanoBanana Pro, Kling 2.6 и Kling 3.0.В следующих сериях добавлю диалогии больше деталей мира.Если интересно познакомиться с моим творчеством —посмотрите мой фильм God is Banned (ссылка Youtube).@cgevent",
+    "type": "text",
+    "datetime": "2026-03-30T17:45:28+00:00",
+    "tags": [
+      "Нейропрожарка"
+    ],
+    "text": "#Нейропрожарка\"Голос тех, кого нет\" — Мой дед.Автор: Дима Терем.Режиссёр, медиахудожник.Делюсь сниппетом нового трека —\"Голос тех, кого нет\" — Мой дед.Возникло желание вспомнить былое.Смешать девяностые, Казантип и Кин-дза-дза!.Немного ностальгии.Немного пыли.Немного абсурда и внутренней тишины.Пайплайн простой:NanoBanana Pro, Kling 2.6 и Kling 3.0.В следующих сериях добавлю диалогии больше деталей мира.Если интересно познакомиться с моим творчеством —посмотрите мой фильм God is Banned (ссылка Youtube).@cgevent",
+    "content": "<a href=\"/search/%23%D0%9D%D0%B5%D0%B9%D1%80%D0%BE%D0%BF%D1%80%D0%BE%D0%B6%D0%B0%D1%80%D0%BA%D0%B0\" title=\"#Нейропрожарка\"><b>#Нейропрожарка</b></a><br><br><b>\"Голос тех, кого нет\" — Мой дед.<br><br>Автор: </b>Дима Терем.<b><br></b><i>Режиссёр, медиахудожник.<br><br>Делюсь сниппетом нового трека —<br>\"Голос тех, кого нет\" — Мой дед.<br>Возникло желание вспомнить былое.<br>Смешать девяностые, Казантип и Кин-дза-дза!.<br>Немного ностальгии.<br>Немного пыли.<br>Немного абсурда и внутренней тишины.<br><br>Пайплайн простой:<br>NanoBanana Pro, Kling 2.6 и Kling 3.0.<br>В следующих сериях добавлю диалоги<br>и больше деталей мира.<br>Если интересно познакомиться с моим творчеством —<br>посмотрите мой фильм </i><a href=\"https://www.youtube.com/watch?v=7q3ZGD7N7jA\" target=\"_blank\" rel=\"noopener\" title=\"God is Banned (ссылка Youtube)\"><i>God is Banned (ссылка Youtube)</i></a><i>.</i><br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a><a class=\"tgme_widget_message_video_player not_supported js-message_video_player\" href=\"https://t.me/cgevent/15287\"><i class=\"tgme_widget_message_video_thumb\" style=\"background-image:url('https://cdn4.telesco.pe/file/Aeriddm6UYiPYWQRZ7t9S3i3QhUOIWWxsXmQV7pn3GK6CpkNkjeNvZlgliuLDwBK8AVZRD6n01zzLmUmNsyaH58oBSxvPiQXUKQTATjEkQWfQ8I1sZbzxBFV7CjILjXws4TV9iu3l0aUw4RWqfiWKON9fgC65SauWX0YRskK_ObdHCynKzLAO7syLw-oYsDOmxZ9f5vkgEgQdyNASwsF98FpKbZ17u1vvrJPMUTxBqA47pynetgb2YXAipPNAEO7ALwTLO_1inGcbOy42XcIxDDKMI4I0MuHI5MZFiC3OXHRA-3mZ5jCZWAopOvyhr_wNA8sZP6Js7HQvVB6nX27KA')\"></i>\n\n<div class=\"tgme_widget_message_video_wrap\" style=\"width:720px;padding-top:133.33333333333%\">\n  \n</div>\n<div class=\"message_video_play js-message_video_play\"></div>\n<time class=\"message_video_duration js-message_video_duration\">0:46</time>\n<div class=\"message_media_not_supported_wrap\">\n  <div class=\"message_media_not_supported\">\n    <div class=\"message_media_not_supported_label\">Media is too big</div>\n    <span class=\"message_media_view_in_telegram\">VIEW IN TELEGRAM</span>\n  </div>\n</div></a>",
+    "reactions": [
+      {
+        "emoji": "👎",
+        "count": "23",
+        "isPaid": false
+      },
+      {
+        "emoji": "👍",
+        "count": "15",
+        "isPaid": false
+      },
+      {
+        "emoji": "❤️",
+        "count": "5",
+        "isPaid": false
+      },
+      {
+        "emoji": "🔥",
+        "count": "3",
+        "isPaid": false
+      },
+      {
+        "emoji": "😁",
+        "count": "1",
+        "isPaid": false
+      }
+    ],
+    "channel": "cgevent",
+    "channelTitle": "Метаверсище и ИИще"
   }
 ]
