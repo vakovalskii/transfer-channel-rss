@@ -26,7 +26,7 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
 <Layout channel={channel}>
   <div style="margin-bottom:16px;">
     <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;flex-wrap:wrap;">
-      <h1 style="font-size:20px;font-weight:600;margin:0;">Hot posts</h1>
+      <h1 style="font-size:20px;font-weight:600;margin:0;color:var(--color-heading);">Hot posts</h1>
       <div style="display:flex;gap:4px;margin-left:auto;">
         <a href={SITE_URL} class="nav-pill">Home</a>
         <a href={`${SITE_URL}stats/`} class="nav-pill">Stats</a>
@@ -34,7 +34,7 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
         <button onclick="toggleTheme()" class="nav-pill" aria-label="Toggle theme" id="theme-btn"></button>
       </div>
     </div>
-    <p style="font-size:14px;color:#888;margin:0 0 12px;">Top 50 posts by total reactions</p>
+    <p class="text-dim" style="font-size:14px;margin:0 0 12px;">Top 50 posts by total reactions</p>
   </div>
 
   <ol class="mt-5 mb-0 ml-7 list-none pl-0 max-sm:ml-0" aria-label="Hot posts">

@@ -29,7 +29,7 @@ const hotPosts = [...allPosts].sort((a, b) => sumReactions(b) - sumReactions(a))
 <Layout channel={channel}>
   <div style="margin-bottom:16px;">
     <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;flex-wrap:wrap;">
-      <h1 style="font-size:20px;font-weight:600;margin:0;">{digestTitle}</h1>
+      <h1 style="font-size:20px;font-weight:600;margin:0;color:var(--color-heading);">{digestTitle}</h1>
       <div style="display:flex;gap:4px;margin-left:auto;">
         <a href={`${SITE_URL}hot/`} class="nav-pill">Hot</a>
         <a href={`${SITE_URL}stats/`} class="nav-pill">Stats</a>
@@ -37,7 +37,7 @@ const hotPosts = [...allPosts].sort((a, b) => sumReactions(b) - sumReactions(a))
         <button onclick="toggleTheme()" class="nav-pill" id="theme-btn" aria-label="Toggle theme"></button>
       </div>
     </div>
-    <p style="font-size:14px;color:#888;margin:0 0 12px;">{totalPosts} posts from {channels.length} channels</p>
+    <p class="text-dim" style="font-size:14px;margin:0 0 12px;">{totalPosts} posts from {channels.length} channels</p>
 
     <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px;">
       <button class="filter-btn active" data-period="all" onclick="filterPeriod('all')">All</button>
