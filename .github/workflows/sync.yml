@@ -73,6 +73,11 @@ jobs:
 
       - name: Prepare SourceCraft deploy
         run: |
+          # Add sourcecraft config to dist (root = .)
+          mkdir -p dist/.sourcecraft
+          echo 'site:' > dist/.sourcecraft/sites.yaml
+          echo '  root: "."' >> dist/.sourcecraft/sites.yaml
+          echo '  ref: "master"' >> dist/.sourcecraft/sites.yaml
           # Add dist to git temporarily (ignored in .gitignore)
           git config advice.addIgnoredFile false
           git add -f dist/
