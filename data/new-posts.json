@@ -1,157 +1,90 @@
 [
   {
-    "id": "cryptoEssay/2930",
-    "title": "В ближайших версиях Claude Code:— автономные агенты, которые работают в фоне— проактивные агенты, которые могут инициировать работу— встроенная система координации для оркестрации многих агентов— \"авто\" система вместо спроса разрешения на действия— встроенный голосовой помощник (как минимум, распознавание голоса)из случайно утекшего файла от Антропика, в котором видно над какими фичами они работают.",
+    "id": "dealerAI/1750",
+    "title": "Теперь и код Claude Code утек.  Говорят его слили... Ошибка в map пакете и можно разобрать на косточки.Что случилось?31 марта 2026 года в npm‑пакете Claude Code случайно опубликовали source map (файл для отладки). Через него любой желающий восстановил исходный код - около 1900 файлов, больше 500 тысяч строк TypeScript. Взлома не было, это ошибка сборки.Какие секреты нашли?В коде обнаружили несколько невыпущенных функций:Kairos - режим фонового агента, который работает постоянно и сам управляет памятью.Buddy System - целая игра «тамагочи» внутри Claude Code: 18 видов питомцев, редкость, блестящие варианты.Undercover mode - для сотрудников Anthropic: автоматически скрывает следы ИИ в коммитах, когда работаешь с публичными репозиториями.Coordinator mode - режим, где Claude становится управляющим и запускает параллельных агентов.Auto mode - автоматическое одобрение действий без вопросов пользователю.Это не просто утечка кода, впервые публично стали видны детали того, как устроен современный AI‑агент изнутри. А также выяснилось, что Anthropic допускает одну и ту же ошибку второй раз (первая утечка через source map была в феврале 2025 года).",
     "type": "text",
-    "datetime": "2026-03-31T13:09:41+00:00",
+    "datetime": "2026-03-31T14:52:27+00:00",
     "tags": [],
-    "text": "В ближайших версиях Claude Code:— автономные агенты, которые работают в фоне— проактивные агенты, которые могут инициировать работу— встроенная система координации для оркестрации многих агентов— \"авто\" система вместо спроса разрешения на действия— встроенный голосовой помощник (как минимум, распознавание голоса)из случайно утекшего файла от Антропика, в котором видно над какими фичами они работают.",
-    "content": "В ближайших версиях Claude Code:<br><br>— автономные агенты, которые работают в фоне<br>— проактивные агенты, которые могут инициировать работу<br>— встроенная система координации для оркестрации многих агентов<br>— \"авто\" система вместо спроса разрешения на действия<br>— встроенный голосовой помощник (как минимум, распознавание голоса)<br><br>из случайно утекшего <a href=\"https://x.com/Fried_rice/status/2038894956459290963\" target=\"_blank\" rel=\"noopener\" title=\"файла\">файла</a> от Антропика, в котором видно над какими фичами они работают.",
+    "text": "Теперь и код Claude Code утек.  Говорят его слили... Ошибка в map пакете и можно разобрать на косточки.Что случилось?31 марта 2026 года в npm‑пакете Claude Code случайно опубликовали source map (файл для отладки). Через него любой желающий восстановил исходный код - около 1900 файлов, больше 500 тысяч строк TypeScript. Взлома не было, это ошибка сборки.Какие секреты нашли?В коде обнаружили несколько невыпущенных функций:Kairos - режим фонового агента, который работает постоянно и сам управляет памятью.Buddy System - целая игра «тамагочи» внутри Claude Code: 18 видов питомцев, редкость, блестящие варианты.Undercover mode - для сотрудников Anthropic: автоматически скрывает следы ИИ в коммитах, когда работаешь с публичными репозиториями.Coordinator mode - режим, где Claude становится управляющим и запускает параллельных агентов.Auto mode - автоматическое одобрение действий без вопросов пользователю.Это не просто утечка кода, впервые публично стали видны детали того, как устроен современный AI‑агент изнутри. А также выяснилось, что Anthropic допускает одну и ту же ошибку второй раз (первая утечка через source map была в феврале 2025 года).",
+    "content": "<b>Теперь и код Claude Code утек.</b> <img class=\"tg-emoji\" src=\"media/751a426a0840c5bef3b459d5429b83b0.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> <br><br>Говорят его <a href=\"https://github.com/instructkr/claude-code\" target=\"_blank\" rel=\"noopener\" title=\"слили\">слили</a>... <a href=\"https://x.com/krishdotdev/status/2038924826006729159\" target=\"_blank\" rel=\"noopener\" title=\"Ошибка в map пакете\">Ошибка в map пакете</a> и можно разобрать на <a href=\"https://x.com/birdabo/status/2038914105436954980\" target=\"_blank\" rel=\"noopener\" title=\"косточки\">косточки</a>.<br><br><b>Что случилось?</b><br><br>31 марта 2026 года в npm‑пакете Claude Code случайно опубликовали source map (файл для отладки). Через него любой желающий восстановил исходный код - около 1900 файлов, больше 500 тысяч строк TypeScript. Взлома не было, это ошибка сборки.<br><br><b>Какие секреты нашли?</b><br><br>В коде обнаружили несколько невыпущенных функций:<br><br><b>Kairos</b> - режим фонового агента, который работает постоянно и сам управляет памятью.<br><br><b>Buddy System</b> - целая игра «тамагочи» внутри Claude Code: 18 видов питомцев, редкость, блестящие варианты.<br><br><b>Undercover mode</b> - для сотрудников Anthropic: автоматически скрывает следы ИИ в коммитах, когда работаешь с публичными репозиториями.<br><br><b>Coordinator mode</b> - режим, где Claude становится управляющим и запускает параллельных агентов.<br><b>Auto mode</b> - автоматическое одобрение действий без вопросов пользователю.<br><br>Это не просто утечка кода, впервые публично стали видны детали того, как устроен современный AI‑агент изнутри. А также выяснилось, что Anthropic допускает одну и ту же ошибку второй раз (первая утечка через source map была в феврале 2025 года).<a class=\"tgme_widget_message_link_preview\" href=\"https://github.com/instructkr/claude-code\" target=\"_blank\" rel=\"noopener\" title=\"An independent Python feature port of Claude Code, entirely rewritting from scratch using oh-my-codex. Educational Purpose only. - instructkr/claude-code\">\n  \n  <div class=\"link_preview_site_name accent_color\" dir=\"auto\">GitHub</div>\n  \n  <div class=\"link_preview_title\" dir=\"auto\">GitHub - instructkr/claude-code: An independent Python feature port of Claude Code, entirely rewritting from scratch using oh-my…</div>\n  <div class=\"link_preview_description\" dir=\"auto\">An independent Python feature port of Claude Code, entirely rewritting from scratch using oh-my-codex. Educational Purpose only. - instructkr/claude-code</div>\n</a>",
     "reactions": [
       {
-        "emoji": "❤️",
-        "count": "51",
-        "isPaid": false
-      }
-    ],
-    "channel": "cryptoEssay",
-    "channelTitle": "e/acc"
-  },
-  {
-    "id": "data_secrets/8957",
-    "title": "Похоже, Яндекс решил помочь в задачах enterprise по разработке приложений и управлению данными.Компания представила Stackland – контейнерную платформу, где вся необходимая для разработки инфраструктура предоставляется \"из коробки\". Там есть базовый слой - Kubernetes, средства обработки и хранения данных, а также встроены управляемые СУБД от Yandex Cloud. Разворачивается все за несколько часов в в закрытом корпоративном контуре и сразу готово к работе.Это значит без долгой настройки, без ручной сборки и без постоянной поддержки на стороне команды. Можно значительно ускорить запуск сервисов и data-продуктов.Запросить демо платформы – ссылка.",
-    "type": "text",
-    "datetime": "2026-03-31T12:46:42+00:00",
-    "tags": [],
-    "text": "Похоже, Яндекс решил помочь в задачах enterprise по разработке приложений и управлению данными.Компания представила Stackland – контейнерную платформу, где вся необходимая для разработки инфраструктура предоставляется \"из коробки\". Там есть базовый слой - Kubernetes, средства обработки и хранения данных, а также встроены управляемые СУБД от Yandex Cloud. Разворачивается все за несколько часов в в закрытом корпоративном контуре и сразу готово к работе.Это значит без долгой настройки, без ручной сборки и без постоянной поддержки на стороне команды. Можно значительно ускорить запуск сервисов и data-продуктов.Запросить демо платформы – ссылка.",
-    "content": "Похоже, Яндекс решил помочь в задачах enterprise по разработке приложений и управлению данными.<br><br>Компания <a href=\"https://www.vedomosti.ru/technologies/new_technologies/news/2026/03/26/1185532-razrabotki-it-produktov\" target=\"_blank\" rel=\"noopener\" title=\"представила\">представила</a> Stackland – контейнерную платформу, где вся необходимая для разработки инфраструктура предоставляется \"из коробки\". Там есть базовый слой - Kubernetes, средства обработки и хранения данных, а также встроены управляемые СУБД от Yandex Cloud. Разворачивается все за несколько часов в в закрытом корпоративном контуре и сразу готово к работе.<br><br>Это значит без долгой настройки, без ручной сборки и без постоянной поддержки на стороне команды. Можно значительно ускорить запуск сервисов и data-продуктов.<br><br>Запросить демо платформы – <a href=\"https://clc.to/19R-lA?erid=2SDnjdHchLd\" target=\"_blank\" rel=\"noopener\" title=\"ссылка\">ссылка</a>.<a class=\"tgme_widget_message_video_player not_supported js-message_video_player\" href=\"https://t.me/data_secrets/8957\"><i class=\"tgme_widget_message_video_thumb\" style=\"background-image:url('https://cdn4.telesco.pe/file/IxZo46kXufq3UtQLVYm7KnkeQGVdk4dgfmNw042ZOKG3-2AJAQ7L1VwYAFDDE17hmvZtSwV82PNIcRPryYWcV9SYWeToaVy5L-qtLYgtc7Pc_OpWNcQDSFwswBjyzgUzyqvWE5KPRB9u-Kuyz9ms30pNCviiPL0Th-l1fXtDlYQFf1ok0ekOGyt-uiAUMpmLZrirQx0nSjiOkHUhIuWriDRUq2Z5zBFYEbwJH5BEVn-JCumR7MsDjMMQWXMykmJycMsQ8L2BLDN-FzJiUefXT5592R4FCasgcl8xIQTC7gAJjSPngyS3okYwIO8rpoc8ajW8kCOg-WnJ9T81QtsGow')\"></i>\n\n<div class=\"tgme_widget_message_video_wrap\" style=\"width:1280px;padding-top:52.03125%\">\n  \n</div>\n<div class=\"message_video_play js-message_video_play\"></div>\n<time class=\"message_video_duration js-message_video_duration\">2:31</time>\n<div class=\"message_media_not_supported_wrap\">\n  <div class=\"message_media_not_supported\">\n    <div class=\"message_media_not_supported_label\">Media is too big</div>\n    <span class=\"message_media_view_in_telegram\">VIEW IN TELEGRAM</span>\n  </div>\n</div></a>",
-    "reactions": [
-      {
-        "emoji": "❤️",
-        "count": "29",
-        "isPaid": false
-      },
-      {
-        "emoji": "🗿",
-        "count": "22",
+        "emoji": "🔥",
+        "count": "12",
         "isPaid": false
       },
       {
         "emoji": "👍",
-        "count": "10",
+        "count": "5",
         "isPaid": false
       },
       {
+        "emoji": "❤️",
+        "count": "3",
+        "isPaid": false
+      },
+      {
+        "emoji": "🤩",
+        "count": "1",
+        "isPaid": false
+      },
+      {
+        "emoji": "🤗",
+        "count": "1",
+        "isPaid": false
+      }
+    ],
+    "channel": "dealerAI",
+    "channelTitle": "Dealer.AI"
+  },
+  {
+    "id": "data_secrets/8958",
+    "title": "В сеть утек исходный код Claude CodeПри публикации пакетов кто-то в Anthropic совершил ✨некий просчет✨, и билд обфусцированного cli.js оказался в публичном npm‑пакете вместе с полноценным cli.js.map, которого там никак не должно было быть. То есть любой, кто установил пакет или скачал его, мог легко восстановить исходники через sourcemap. Естественно, код почти моментально разошелся по репам. Популярные инфобез-комьюнити подтвердили, что это не фейк и не обычная обертка над API, а именно продвинутая CLI‑платформа. ",
+    "type": "text",
+    "datetime": "2026-03-31T14:45:24+00:00",
+    "tags": [],
+    "text": "В сеть утек исходный код Claude CodeПри публикации пакетов кто-то в Anthropic совершил ✨некий просчет✨, и билд обфусцированного cli.js оказался в публичном npm‑пакете вместе с полноценным cli.js.map, которого там никак не должно было быть. То есть любой, кто установил пакет или скачал его, мог легко восстановить исходники через sourcemap. Естественно, код почти моментально разошелся по репам. Популярные инфобез-комьюнити подтвердили, что это не фейк и не обычная обертка над API, а именно продвинутая CLI‑платформа. https://github.com/instructkr/claude-codeОказалось, что под капотом 1906 файлов TypeScript и примерно 500к строк. Из интересного: – Есть намеки на нереализованные фичи типа глубокого планирования, постоянной памяти и \"сна\". – Можно посмотреть, как у Anthropic реализована мультиагентность (файл coordinator/coordinatorMode.ts)– Также доступны все системные промпты (constants/prompts.ts)С днем опенсорса, так сказать.UPD: автор начал менять репозиторий, так что вот тут ловите дополнительную ссылку на архив с исходниками",
+    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-8958-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: В сеть утек исходный код Claude CodeПри публикации пакетов кто-то в Anthropic совершил ✨некий просчет✨, и билд обфусцированного cli.js оказался в публичном npm‑пакете вместе с полноценным cli.js.map, которого там никак не должно было быть. То есть любой, кто установил пакет или скачал его, мог легко восстановить исходники через sourcemap. Естественно, код почти моментально разошелся по репам. Популярные инфобез-комьюнити подтвердили, что это не фейк и не обычная обертка над API, а именно продвинутая CLI‑платформа. \">\n        <img src=\"media/7ff8b9156042b038876f64058e468190.jpg\" alt=\"В сеть утек исходный код Claude CodeПри публикации пакетов кто-то в Anthropic совершил ✨некий просчет✨, и билд обфусцированного cli.js оказался в публичном npm‑пакете вместе с полноценным cli.js.map, которого там никак не должно было быть. То есть любой, кто установил пакет или скачал его, мог легко восстановить исходники через sourcemap. Естественно, код почти моментально разошелся по репам. Популярные инфобез-комьюнити подтвердили, что это не фейк и не обычная обертка над API, а именно продвинутая CLI‑платформа. \" width=\"800\" height=\"395\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-8958-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-8958-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-8958-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/7ff8b9156042b038876f64058e468190.jpg\" alt=\"В сеть утек исходный код Claude CodeПри публикации пакетов кто-то в Anthropic совершил ✨некий просчет✨, и билд обфусцированного cli.js оказался в публичном npm‑пакете вместе с полноценным cli.js.map, которого там никак не должно было быть. То есть любой, кто установил пакет или скачал его, мог легко восстановить исходники через sourcemap. Естественно, код почти моментально разошелся по репам. Популярные инфобез-комьюнити подтвердили, что это не фейк и не обычная обертка над API, а именно продвинутая CLI‑платформа. \" width=\"800\" height=\"395\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><b>В сеть утек исходный код Claude Code</b><br><br>При публикации пакетов кто-то в Anthropic совершил <i class=\"emoji\"><b>✨</b></i>некий просчет<i class=\"emoji\"><b>✨</b></i>, и билд обфусцированного cli.js оказался в публичном npm‑пакете вместе с полноценным <a href=\"http://cli.js.map/\" target=\"_blank\" rel=\"noopener\" title=\"cli.js.map\">cli.js.map</a>, которого там никак не должно было быть. То есть любой, кто установил пакет или скачал его, мог легко восстановить исходники через sourcemap. <br><br>Естественно, код почти моментально разошелся по репам. Популярные инфобез-комьюнити подтвердили, что это не фейк и не обычная обертка над API, а именно продвинутая CLI‑платформа. <br><br><a href=\"https://github.com/instructkr/claude-code\" target=\"_blank\" rel=\"noopener\" title=\"https://github.com/instructkr/claude-code\">https://github.com/instructkr/claude-code</a><br><br>Оказалось, что под капотом 1906 файлов TypeScript и примерно 500к строк. <br><br>Из интересного: <br>– Есть намеки на нереализованные фичи типа глубокого планирования, постоянной памяти и \"сна\". <br>– Можно посмотреть, как у Anthropic реализована мультиагентность (файл coordinator/coordinatorMode.ts)<br>– Также доступны все системные промпты (constants/prompts.ts)<br><br><b>С днем опенсорса, так сказать</b>.<br><br>UPD: автор начал менять репозиторий, так что <a href=\"https://x.com/Fried_rice/status/2038894956459290963?s=20\" target=\"_blank\" rel=\"noopener\" title=\"вот тут\">вот тут</a> ловите дополнительную ссылку на архив с исходниками",
+    "reactions": [
+      {
         "emoji": "😁",
-        "count": "10",
+        "count": "217",
+        "isPaid": false
+      },
+      {
+        "emoji": "❤️",
+        "count": "38",
+        "isPaid": false
+      },
+      {
+        "emoji": "🤯",
+        "count": "14",
         "isPaid": false
       },
       {
         "emoji": "🔥",
-        "count": "8",
+        "count": "9",
         "isPaid": false
       },
       {
-        "emoji": "🤨",
-        "count": "4",
+        "emoji": "",
+        "emojiId": "5773848767941842357",
+        "emojiImage": "https://t.me/i/emoji/5773848767941842357.webp",
+        "count": "7",
         "isPaid": false
       },
       {
-        "emoji": "☃",
-        "count": "1",
+        "emoji": "😎",
+        "count": "6",
         "isPaid": false
       },
       {
-        "emoji": "🕊",
-        "count": "1",
+        "emoji": "⚡",
+        "count": "2",
         "isPaid": false
       }
     ],
     "channel": "data_secrets",
     "channelTitle": "Data Secrets"
-  },
-  {
-    "id": "cgevent/15306",
-    "title": "Для тех, кто забыл, напомню, что есть опенсорсный аналог Runway Characters.Это DeepCamLive - загружаешь одну фотку - и ну говорить ее лицом в любой камере на компе. Устанавливается как виртуальная камера, поверх любой вебки.У них недавно вышла версия 2.7, но хотя они и опенсорс с кодом, доступ к последним бетам и расширенным фишкам они дают по подписке (22 доллара, а для юзеров Мака - 32 доллара (эпплешейминг, однако))Качество, конечно, трешеватое, но для стримов может сгодится. Интересная фишка - маскирование области губ, чтобы в звук попадали оригинальные губы.",
-    "type": "text",
-    "datetime": "2026-03-31T14:01:15+00:00",
-    "tags": [],
-    "text": "Для тех, кто забыл, напомню, что есть опенсорсный аналог Runway Characters.Это DeepCamLive - загружаешь одну фотку - и ну говорить ее лицом в любой камере на компе. Устанавливается как виртуальная камера, поверх любой вебки.У них недавно вышла версия 2.7, но хотя они и опенсорс с кодом, доступ к последним бетам и расширенным фишкам они дают по подписке (22 доллара, а для юзеров Мака - 32 доллара (эпплешейминг, однако))Качество, конечно, трешеватое, но для стримов может сгодится. Интересная фишка - маскирование области губ, чтобы в звук попадали оригинальные губы.https://deeplivecam.net/https://github.com/hacksider/Deep-Live-Cam@cgevent",
-    "content": "<video src=\"https://cdn4.telesco.pe/file/527aa2ef78.mp4?token=nfPc3GV94qxPQ9uUBE2a6CoFX9apue6o7M5csVWZ3nLXRzFU-G5ZKhP12zynvuJLLJDA6ljXXDH6GN8gejJQXCDXU2Azh1da7RLG5eo6LZHk1Bv6tX_6SHNsCosE3ee8uD9ZRqHLN2XHpid2vjOUzb088dwpOQOXEMTenqMGIoZAI4WR0BxQHdAfY60uKWdgrItrET9TuYATBF85C_sBqVrY2CcCiMkigM5hhnskva_gTEgCo1WTgdQih0e4htB6xBd_TJZaXbHopWwPsKWfN4YOB5HBYWRPGUrHhBBgIuXTHscIS616xETJsbkcpAGZ6yfrCQB1658oFCOCbTz63w\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" preload=\"auto\" muted=\"\" autoplay=\"\" loop=\"\" playsinline=\"\" controls=\"\"></video><b>Для тех, кто забыл, напомню, что есть опенсорсный аналог Runway Characters.</b><br><br>Это DeepCamLive - загружаешь одну фотку - и ну говорить ее лицом в любой камере на компе. Устанавливается как виртуальная камера, поверх любой вебки.<br><br>У них недавно вышла версия 2.7, но хотя они и опенсорс с кодом, доступ к последним бетам и расширенным фишкам они дают по подписке (22 доллара, а для юзеров Мака - 32 доллара (эпплешейминг, однако))<br><br>Качество, конечно, трешеватое, но для стримов может сгодится. Интересная фишка - маскирование области губ, чтобы в звук попадали оригинальные губы.<br><br><a href=\"https://deeplivecam.net/\" target=\"_blank\" rel=\"noopener\" title=\"https://deeplivecam.net/\">https://deeplivecam.net/</a><br><br><a href=\"https://github.com/hacksider/Deep-Live-Cam\" target=\"_blank\" rel=\"noopener\" title=\"https://github.com/hacksider/Deep-Live-Cam\">https://github.com/hacksider/Deep-Live-Cam</a><br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a>",
-    "reactions": [
-      {
-        "emoji": "🔥",
-        "count": "1",
-        "isPaid": false
-      }
-    ],
-    "channel": "cgevent",
-    "channelTitle": "Метаверсище и ИИще"
-  },
-  {
-    "id": "cgevent/15303",
-    "title": "Runway Characters - это реально работает.Не знаю, сколько это будет жрать денег по API - с меня списало по 10-20 кредитов за каждый разговор.И да, у них есть лайв-демо, можно поболтать (за кредиты) с разными персонажами. Я поболтал - там хорошо отрабатывают роли: HR специалист тупой но настойчивый, а инфлюенсер истерично восторгается любым вопросом.Но что интересно, там можно создать своего РЕАЛТАЙМОВОГО персонажа. Просто загрузить фотку. Дать промптом инструкции и даже загрузить базу знаний (но мы тестируем не это, а внешний вид).Поэтому я вонзил в него любимую фотку Марго Роби и он сожрал ея как зайчик морковку, никаких \"я не могу использовать реальных людей\".Ну конечно, грех было не поговорить с таким персонажем про дипфейки.Все работает, задержка небольшая, можно сохранить запись после разговора, жрет немного кредитов (использовал два гугл-акка для тестов). Да, она туповатая, но мы сейчас не про это - в ваших решениях и ботах работают ваши чат-модели.Я про то, что я загрузил довольно кривую фотку - взгляд не в камеру, артефакты на черном фоне - но все равно, оно сделало очень узнаваемый аватар и он очень живой. Да, у нее двоится носик местами и иногда косят глазки, но надо просто фотки нормальные использовать, две других сущности нормально отработали, не косят, не двоятся.В общем это очень круто. Посмотрите еще примеров у них на сайте:",
-    "type": "text",
-    "datetime": "2026-03-31T13:01:15+00:00",
-    "tags": [],
-    "text": "Runway Characters - это реально работает.Не знаю, сколько это будет жрать денег по API - с меня списало по 10-20 кредитов за каждый разговор.И да, у них есть лайв-демо, можно поболтать (за кредиты) с разными персонажами. Я поболтал - там хорошо отрабатывают роли: HR специалист тупой но настойчивый, а инфлюенсер истерично восторгается любым вопросом.Но что интересно, там можно создать своего РЕАЛТАЙМОВОГО персонажа. Просто загрузить фотку. Дать промптом инструкции и даже загрузить базу знаний (но мы тестируем не это, а внешний вид).Поэтому я вонзил в него любимую фотку Марго Роби и он сожрал ея как зайчик морковку, никаких \"я не могу использовать реальных людей\".Ну конечно, грех было не поговорить с таким персонажем про дипфейки.Все работает, задержка небольшая, можно сохранить запись после разговора, жрет немного кредитов (использовал два гугл-акка для тестов). Да, она туповатая, но мы сейчас не про это - в ваших решениях и ботах работают ваши чат-модели.Я про то, что я загрузил довольно кривую фотку - взгляд не в камеру, артефакты на черном фоне - но все равно, оно сделало очень узнаваемый аватар и он очень живой. Да, у нее двоится носик местами и иногда косят глазки, но надо просто фотки нормальные использовать, две других сущности нормально отработали, не косят, не двоятся.В общем это очень круто. Посмотрите еще примеров у них на сайте:https://runwayml.com/product/charactersИ попробуйте демо тут:https://app.runwayml.com/video-tools/teams/cgevent/ai-tools/charactersЖду вашего треша в коментах.@cgeventRunway Characters - это реально работает.Не знаю, сколько это будет жрать денег по API - с меня списало по 10-20 кредитов за каждый разговор.И да, у них есть лайв-демо, можно поболтать (за кредиты) с разными персонажами. Я поболтал - там хорошо отрабатывают роли: HR специалист тупой но настойчивый, а инфлюенсер истерично восторгается любым вопросом.Но что интересно, там можно создать своего РЕАЛТАЙМОВОГО персонажа. Просто загрузить фотку. Дать промптом инструкции и даже загрузить базу знаний (но мы тестируем не это, а внешний вид).Поэтому я вонзил в него любимую фотку Марго Роби и он сожрал ея как зайчик морковку, никаких \"я не могу использовать реальных людей\".Ну конечно, грех было не поговорить с таким персонажем про дипфейки.Все работает, задержка небольшая, можно сохранить запись после разговора, жрет немного кредитов (использовал два гугл-акка для тестов). Да, она туповатая, но мы сейчас не про это - в ваших решениях и ботах работают ваши чат-модели.Я про то, что я загрузил довольно кривую фотку - взгляд не в камеру, артефакты на черном фоне - но все равно, оно сделало очень узнаваемый аватар и он очень живой. Да, у нее двоится носик местами и иногда косят глазки, но надо просто фотки нормальные использовать, две других сущности нормально отработали, не косят, не двоятся.В общем это очень круто. Посмотрите еще примеров у них на сайте:https://runwayml.com/product/charactersИ попробуйте демо тут:https://app.runwayml.com/video-tools/teams/cgevent/ai-tools/charactersЖду вашего треша в коментах.@cgevent",
-    "content": "<video src=\"https://cdn4.telesco.pe/file/45aa9d84f4.mp4?token=j7FZC4JZyUymrQr57XUgmgTOjOv9mrMzEYbJhiwr3_3wCp9Mx1Qpa0jySwSluLFcr4Q24DFfgu99y_Dk5vKKOzQolSXYXO5Q-6dnUV1Gvs_Snn_BzAjqf12rFRUbfHHuNcE2sT0eVReXrF57_sTTRiIGR6hXWbm9fKXzSBOGAt2uY4j42bcU7zuFppq6Y7pvTO-8KeFJHSwq_baVThVgSNqMFwDZZuT11OyfYCwePBgwwJ9yZ2cbgBSvrcDBF3qS9x_8XW7WTQsnNAgRn4gW7mjdh3G18a8MVk5MsQ9no24HP2zHuBezXeToRK790V9j330GHvNaaXltMVCUJsnMIlAPFzp2MixpKgN-p1UxVki60rXD7Vg9yp4TBGl8vieo41CnIV9WV2UjogV11-n18Ml-CCW-ywbflykYyywh3jhvNleCf0k8RTBpoAOakoOUosZiFJureZYvnAL8Vfg6t023e-MdVaZMj5_vZVDNBHxU02p_oDUN46uFpo7QtmzMBa8lbrimPtnaQvtDkpQwT2tMXkwdf8h9lS_zoxWTS7XzlArtLOkuANJlnkgDuSV1q5qtYH4nE7J1SxkMYv9-wqMF2A9YvuRGy3-fxiAjzWrW_dlA_J5GwRgJD0UlPdo6nf5O10mybONrcLVWbWQYc5rXlqaz7l8Of3PnAmPisD0\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"auto\" playsinline=\"\"></video><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\"><b>Runway Characters - это реально работает.<br></b><br>Не знаю, сколько это будет жрать денег по API - с меня списало по 10-20 кредитов за каждый разговор.<br>И да, у них есть лайв-демо, можно поболтать (за кредиты) с разными персонажами. Я поболтал - там хорошо отрабатывают роли: HR специалист тупой но настойчивый, а инфлюенсер истерично восторгается любым вопросом.<br><br>Но что интересно, там можно создать своего РЕАЛТАЙМОВОГО персонажа. Просто загрузить фотку. Дать промптом инструкции и даже загрузить базу знаний (но мы тестируем не это, а внешний вид).<br><br>Поэтому я вонзил в него любимую фотку Марго Роби и он сожрал ея как зайчик морковку, никаких \"я не могу использовать реальных людей\".<br>Ну конечно, грех было не поговорить с таким персонажем про дипфейки.<br>Все работает, задержка небольшая, можно сохранить запись после разговора, жрет немного кредитов (использовал два гугл-акка для тестов). Да, она туповатая, но мы сейчас не про это - в ваших решениях и ботах работают ваши чат-модели.<br><br>Я про то, что я загрузил довольно кривую фотку - взгляд не в камеру, артефакты на черном фоне - но все равно, оно сделало очень узнаваемый аватар и он очень живой. Да, у нее двоится носик местами и иногда косят глазки, но надо просто фотки нормальные использовать, две других сущности нормально отработали, не косят, не двоятся.<br><br>В общем это очень круто. Посмотрите еще примеров у них на сайте:<br><a href=\"https://runwayml.com/product/characters\" target=\"_blank\" rel=\"noopener\" title=\"https://runwayml.com/product/characters\">https://runwayml.com/product/characters</a><br><br>И попробуйте демо тут:<br><a href=\"https://app.runwayml.com/video-tools/teams/cgevent/ai-tools/characters\" target=\"_blank\" rel=\"noopener\" title=\"https://app.runwayml.com/video-tools/teams/cgevent/ai-tools/characters\">https://app.runwayml.com/video-tools/teams/cgevent/ai-tools/characters</a><br><br>Жду вашего треша в коментах.<br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a></div><a class=\"tgme_widget_message_video_player grouped_media_wrap blured not_supported js-message_video_player\" style=\"left:0px;top:0px;width:453px;height:293px;margin-right:0px;margin-bottom:2px;\" data-ratio=\"1.5454545454545\" href=\"https://t.me/cgevent/15303?single\">\n  <i class=\"tgme_widget_message_video_thumb\" style=\"background-image:url('https://cdn4.telesco.pe/file/BbIL4qW5v9qwan1bghzWbVQGVAlKkMTGL3qVPw2zngVyLq0jki8yRd1GtkIFlk808jJ0EUxgRkkd9Up_bfkAPswMJbK64riUrmiWsjsRoO5O7CQ8YuIrlynGsTHTm9MUYD_4X5t55FYOLl7qddpNUru973IjjfgdG4-eTjPTsqyJ5CO2Ctb2BHPT6eAoIOKRRqsxBB8ynzNsDlb6uzRQXLYjQO2t81KthGOKbK8jztL29oijw7U3A4A_gUd3Pnytp5uv5jxFp6koOk9Np59WZTaa63NApINYE8I1f0C1IlNZxR9wM8cbjWu7nGxqvC3aWhU_qVaA8jqOA1YhdSyaAA')\"></i>\n  <div class=\"tgme_widget_message_video_wrap grouped_media js-message_video_wrap\" style=\"left:0;right:0;top:-1px;bottom:0px;\">\n    \n  </div>\n  <div class=\"message_video_play js-message_video_play\"></div>\n<time class=\"message_video_duration js-message_video_duration\">2:47</time>\n  <div class=\"message_media_not_supported_wrap\">\n    <div class=\"message_media_not_supported\">\n      <div class=\"message_media_not_supported_label\">Media is too big</div>\n      <span class=\"message_media_view_in_telegram\">VIEW IN TELEGRAM</span>\n    </div>\n  </div>\n</a><a class=\"tgme_widget_message_video_player grouped_media_wrap blured not_supported js-message_video_player\" style=\"left:0px;top:295px;width:225px;height:145px;margin-right:2px;margin-bottom:0px;\" data-ratio=\"1.5454545454545\" href=\"https://t.me/cgevent/15304?single\">\n  <i class=\"tgme_widget_message_video_thumb\" style=\"background-image:url('https://cdn4.telesco.pe/file/RIM3kjHQoHGJsQ7vGbyEWM_TDHYqIcZWhHJMWAYzIzqjT46sZ03uS8nk64IHuLsLLYsUjCHqYftvRmPLYstzSz8lh6eszlW2kIfo8oPDRR9a6zppVe-2k13vLSORxFSvge1GRRtJUXlz1BR5QkNm8fiJtUqXJgg2uubxAv-i56QPamU2cq9wZpYH9Id3-kWardesWXy1CJdJYT4_QW7HP57gAW1eZ9ki0qRfDNP6rgN6BNJqcKSu976cDLv8OJEGcdGQ1g0HFTqdzd2DU_eBjJURsqT1UxrpSIhDRy_P4IHSThBlL4ImaKb-Yr_EENIe_1-eBPqGdkf-Hemd5FJKVQ')\"></i>\n  <div class=\"tgme_widget_message_video_wrap grouped_media js-message_video_wrap\" style=\"left:0;right:0;top:-1px;bottom:0px;\">\n    \n  </div>\n  <div class=\"message_video_play js-message_video_play\"></div>\n<time class=\"message_video_duration js-message_video_duration\">1:17</time>\n  <div class=\"message_media_not_supported_wrap\">\n    <div class=\"message_media_not_supported\">\n      <div class=\"message_media_not_supported_label\">Media is too big</div>\n      <span class=\"message_media_view_in_telegram\">VIEW IN TELEGRAM</span>\n    </div>\n  </div>\n</a>",
-    "reactions": [
-      {
-        "emoji": "😁",
-        "count": "10",
-        "isPaid": false
-      },
-      {
-        "emoji": "🔥",
-        "count": "4",
-        "isPaid": false
-      },
-      {
-        "emoji": "👍",
-        "count": "3",
-        "isPaid": false
-      },
-      {
-        "emoji": "❤️",
-        "count": "2",
-        "isPaid": false
-      },
-      {
-        "emoji": "👎",
-        "count": "1",
-        "isPaid": false
-      }
-    ],
-    "channel": "cgevent",
-    "channelTitle": "Метаверсище и ИИще"
-  },
-  {
-    "id": "cgevent/15302",
-    "title": "Тут как бы твиттор приподвзорвался новостью о том, что утек код Клода.С новостями об утечках надо быть осторожными, лучше выяснить полноту кода, версии, время утечки и прочее.Заниматься этим у меня нет времени и квалификации. Поэтому просто вывалю ссылку на Гитхаб, там студент, обнаруживший дыру поясняет за детали.Просто приведу часть того, что твитторские уже нашли:> kairos — невыпущенный автономный режим демона с фоновыми сессиями и консолидацией памяти. Агент, работающий в постоянном режиме.> buddy system — полноценная система виртуальных питомцев в стиле «Тамагочи». 18 видов, уровни редкости,  варианты, характеристики. > undercover mode — автоматически активируется для сотрудников Anthropic в публичных репозиториях. Удаляет указание на ИИ из коммитов. Без возможности отключения.> Режим координатора — превращает Claude в оркестратора, управляющего параллельными рабочими агентами.> Автоматический режим — это классификатор ИИ, который автоматически утверждает разрешения инструментов. Больше никаких запросов.Гикам сюда:",
-    "type": "text",
-    "datetime": "2026-03-31T12:44:47+00:00",
-    "tags": [],
-    "text": "Тут как бы твиттор приподвзорвался новостью о том, что утек код Клода.С новостями об утечках надо быть осторожными, лучше выяснить полноту кода, версии, время утечки и прочее.Заниматься этим у меня нет времени и квалификации. Поэтому просто вывалю ссылку на Гитхаб, там студент, обнаруживший дыру поясняет за детали.Просто приведу часть того, что твитторские уже нашли:> kairos — невыпущенный автономный режим демона с фоновыми сессиями и консолидацией памяти. Агент, работающий в постоянном режиме.> buddy system — полноценная система виртуальных питомцев в стиле «Тамагочи». 18 видов, уровни редкости,  варианты, характеристики. > undercover mode — автоматически активируется для сотрудников Anthropic в публичных репозиториях. Удаляет указание на ИИ из коммитов. Без возможности отключения.> Режим координатора — превращает Claude в оркестратора, управляющего параллельными рабочими агентами.> Автоматический режим — это классификатор ИИ, который автоматически утверждает разрешения инструментов. Больше никаких запросов.Гикам сюда:https://github.com/instructkr/claude-codeАнализ: https://github.com/sanbuphy/claude-code-source-codehttps://www.mintlify.com/VineeTagarwaL-code/claude-code/concepts/how-it-works@cgevent",
-    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-15302-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Тут как бы твиттор приподвзорвался новостью о том, что утек код Клода.С новостями об утечках надо быть осторожными, лучше выяснить полноту кода, версии, время утечки и прочее.Заниматься этим у меня нет времени и квалификации. Поэтому просто вывалю ссылку на Гитхаб, там студент, обнаруживший дыру поясняет за детали.Просто приведу часть того, что твитторские уже нашли:&gt; kairos — невыпущенный автономный режим демона с фоновыми сессиями и консолидацией памяти. Агент, работающий в постоянном режиме.&gt; buddy system — полноценная система виртуальных питомцев в стиле «Тамагочи». 18 видов, уровни редкости,  варианты, характеристики. &gt; undercover mode — автоматически активируется для сотрудников Anthropic в публичных репозиториях. Удаляет указание на ИИ из коммитов. Без возможности отключения.&gt; Режим координатора — превращает Claude в оркестратора, управляющего параллельными рабочими агентами.&gt; Автоматический режим — это классификатор ИИ, который автоматически утверждает разрешения инструментов. Больше никаких запросов.Гикам сюда:\">\n        <img src=\"media/2e576b4978fb0aa4025ac3d2b88736d6.jpg\" alt=\"Тут как бы твиттор приподвзорвался новостью о том, что утек код Клода.С новостями об утечках надо быть осторожными, лучше выяснить полноту кода, версии, время утечки и прочее.Заниматься этим у меня нет времени и квалификации. Поэтому просто вывалю ссылку на Гитхаб, там студент, обнаруживший дыру поясняет за детали.Просто приведу часть того, что твитторские уже нашли:&gt; kairos — невыпущенный автономный режим демона с фоновыми сессиями и консолидацией памяти. Агент, работающий в постоянном режиме.&gt; buddy system — полноценная система виртуальных питомцев в стиле «Тамагочи». 18 видов, уровни редкости,  варианты, характеристики. &gt; undercover mode — автоматически активируется для сотрудников Anthropic в публичных репозиториях. Удаляет указание на ИИ из коммитов. Без возможности отключения.&gt; Режим координатора — превращает Claude в оркестратора, управляющего параллельными рабочими агентами.&gt; Автоматический режим — это классификатор ИИ, который автоматически утверждает разрешения инструментов. Больше никаких запросов.Гикам сюда:\" width=\"240\" height=\"300\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-15302-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-15302-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-15302-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/2e576b4978fb0aa4025ac3d2b88736d6.jpg\" alt=\"Тут как бы твиттор приподвзорвался новостью о том, что утек код Клода.С новостями об утечках надо быть осторожными, лучше выяснить полноту кода, версии, время утечки и прочее.Заниматься этим у меня нет времени и квалификации. Поэтому просто вывалю ссылку на Гитхаб, там студент, обнаруживший дыру поясняет за детали.Просто приведу часть того, что твитторские уже нашли:&gt; kairos — невыпущенный автономный режим демона с фоновыми сессиями и консолидацией памяти. Агент, работающий в постоянном режиме.&gt; buddy system — полноценная система виртуальных питомцев в стиле «Тамагочи». 18 видов, уровни редкости,  варианты, характеристики. &gt; undercover mode — автоматически активируется для сотрудников Anthropic в публичных репозиториях. Удаляет указание на ИИ из коммитов. Без возможности отключения.&gt; Режим координатора — превращает Claude в оркестратора, управляющего параллельными рабочими агентами.&gt; Автоматический режим — это классификатор ИИ, который автоматически утверждает разрешения инструментов. Больше никаких запросов.Гикам сюда:\" width=\"240\" height=\"300\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><b>Тут как бы твиттор приподвзорвался новостью о том, что утек код Клода.</b><br><br>С новостями об утечках надо быть осторожными, лучше выяснить полноту кода, версии, время утечки и прочее.<br><br>Заниматься этим у меня нет времени и квалификации. Поэтому просто вывалю ссылку на Гитхаб, там студент, обнаруживший дыру поясняет за детали.<br><br>Просто приведу часть того, что твитторские уже нашли:<br><br>&gt; kairos — невыпущенный автономный режим демона с фоновыми сессиями и консолидацией памяти. Агент, работающий в постоянном режиме.<br>&gt; buddy system — полноценная система виртуальных питомцев в стиле «Тамагочи». 18 видов, уровни редкости,  варианты, характеристики. <br>&gt; undercover mode — автоматически активируется для сотрудников Anthropic в публичных репозиториях. Удаляет указание на ИИ из коммитов. Без возможности отключения.<br>&gt; Режим координатора — превращает Claude в оркестратора, управляющего параллельными рабочими агентами.<br>&gt; Автоматический режим — это классификатор ИИ, который автоматически утверждает разрешения инструментов. Больше никаких запросов.<br><br>Гикам сюда:<br><a href=\"https://github.com/instructkr/claude-code\" target=\"_blank\" rel=\"noopener\" title=\"https://github.com/instructkr/claude-code\">https://github.com/instructkr/claude-code</a><br><br>Анализ: <br><a href=\"https://github.com/sanbuphy/claude-code-source-code\" target=\"_blank\" rel=\"noopener\" title=\"https://github.com/sanbuphy/claude-code-source-code\">https://github.com/sanbuphy/claude-code-source-code</a><br><a href=\"https://www.mintlify.com/VineeTagarwaL-code/claude-code/concepts/how-it-works\" target=\"_blank\" rel=\"noopener\" title=\"https://www.mintlify.com/VineeTagarwaL-code/claude-code/concepts/how-it-works\">https://www.mintlify.com/VineeTagarwaL-code/claude-code/concepts/how-it-works</a><br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a>",
-    "reactions": [
-      {
-        "emoji": "😱",
-        "count": "13",
-        "isPaid": false
-      },
-      {
-        "emoji": "❤️",
-        "count": "1",
-        "isPaid": false
-      },
-      {
-        "emoji": "🔥",
-        "count": "1",
-        "isPaid": false
-      }
-    ],
-    "channel": "cgevent",
-    "channelTitle": "Метаверсище и ИИще"
   }
 ]
