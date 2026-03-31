@@ -1,35 +1,38 @@
 [
   {
-    "id": "data_secrets/8956",
-    "title": "Понравилось определение AGI, которое дал на днях Франсуа Шолле (создатель ARC-AGI) на подкасте у Y Combinator Его идея – в том, что в настоящее индустрия путает автоматизацию с интеллектом. AGI чаще всего определяется как то, что автоматизирует большинство экономически значимых задач. Но эта формулировка на самом деле не описывает общий интеллект. Альтернативное определение Шолле звучит так: AGI – это система, которая при встрече с абсолютно новой задачей или абсолютно новым для нее доменом может разобраться в нем с той же эффективностью, что и человек. Это значит, что ей потребуется примерно столько же обучающих данных и компьюта. И это довольно мало, потому что люди крайне эффективно обрабатывают данные. Так что AGI – это не про автоматизацию, а про способность приобретения навыков на уровне человека на том же объеме задач, который люди потенциально могут научиться выполнять. Подкаст полностью тут: ",
+    "id": "neuraldeep/2026",
+    "title": "Скандальчик очередной с атакой на цепочку поставок. На сей раз под ударом все кто имеют в цепочке зависимостей библиотку axios в npm (очень популярная библиотека для сетевых запросов).Более пяти часов она ставила зашифрованный малварь на машины жертв. Объемы инсталляций библиотеки— 100 млн в месяц, так что заражены могут быть миллионы машин.Проверяйте себя ",
     "type": "text",
-    "datetime": "2026-03-31T10:49:36+00:00",
+    "datetime": "2026-03-31T11:56:19+00:00",
     "tags": [],
-    "text": "Понравилось определение AGI, которое дал на днях Франсуа Шолле (создатель ARC-AGI) на подкасте у Y Combinator Его идея – в том, что в настоящее индустрия путает автоматизацию с интеллектом. AGI чаще всего определяется как то, что автоматизирует большинство экономически значимых задач. Но эта формулировка на самом деле не описывает общий интеллект. Альтернативное определение Шолле звучит так: AGI – это система, которая при встрече с абсолютно новой задачей или абсолютно новым для нее доменом может разобраться в нем с той же эффективностью, что и человек. Это значит, что ей потребуется примерно столько же обучающих данных и компьюта. И это довольно мало, потому что люди крайне эффективно обрабатывают данные. Так что AGI – это не про автоматизацию, а про способность приобретения навыков на уровне человека на том же объеме задач, который люди потенциально могут научиться выполнять. Подкаст полностью тут: https://youtu.be/k2ZLQC8P7dc",
-    "content": "Понравилось определение AGI, которое дал на днях Франсуа Шолле (создатель ARC-AGI) на подкасте у Y Combinator <br><br>Его идея – в том, что в настоящее <b>индустрия путает автоматизацию с интеллектом</b>. AGI чаще всего определяется как то, что автоматизирует большинство экономически значимых задач. Но эта формулировка на самом деле не описывает общий интеллект. <br><br>Альтернативное определение Шолле звучит так: <br><br><blockquote>AGI – это система, которая при встрече с абсолютно новой задачей или абсолютно новым для нее доменом может разобраться в нем с той же эффективностью, что и человек. Это значит, что ей потребуется примерно столько же обучающих данных и компьюта. И это довольно мало, потому что люди крайне эффективно обрабатывают данные. </blockquote><br><br>Так что AGI – это не про автоматизацию, а про способность приобретения навыков на уровне человека на том же объеме задач, который люди потенциально могут научиться выполнять. <br><br>Подкаст полностью тут: <a href=\"https://youtu.be/k2ZLQC8P7dc\" target=\"_blank\" rel=\"noopener\" title=\"https://youtu.be/k2ZLQC8P7dc\">https://youtu.be/k2ZLQC8P7dc</a><a class=\"tgme_widget_message_video_player not_supported js-message_video_player\" href=\"https://t.me/data_secrets/8956\"><i class=\"tgme_widget_message_video_thumb\" style=\"background-image:url('https://cdn4.telesco.pe/file/Sx4RK2FvnApiyi-7zVTyDa8-fas4Tla-dJKvSdI-AIv6eWJlMA7lk7NxMVSiPpBj2j1BR7odvYWZvcqJJheMX_aWssgvcnFlvIqvtP6lkDDKmI5GnEk3g9vnFO9MYA_wp3GKOOFGQD6Psd_wPYpIFgtAoOdP5dolwoO9lfXhIb_D6Ptb8nxAN2jE-BcNXD4iw177nsXYtk2VMfsSHna9rRHtvftUjEUv3MMJxLv7zPhVACvabopeag_6RZJbd_BdkWFUwX6WxtBh5O7c7zZ2T-uNgWzSlN_lTwK6kPByPzVLi5TRo_GtL-o35h8LniY8bM-X0Cq3i74Xa3U-4105bg')\"></i>\n\n<div class=\"tgme_widget_message_video_wrap\" style=\"width:848px;padding-top:54.716981132075%\">\n  \n</div>\n<div class=\"message_video_play js-message_video_play\"></div>\n<time class=\"message_video_duration js-message_video_duration\">1:00</time>\n<div class=\"message_media_not_supported_wrap\">\n  <div class=\"message_media_not_supported\">\n    <div class=\"message_media_not_supported_label\">Media is too big</div>\n    <span class=\"message_media_view_in_telegram\">VIEW IN TELEGRAM</span>\n  </div>\n</div></a>",
+    "text": "Скандальчик очередной с атакой на цепочку поставок. На сей раз под ударом все кто имеют в цепочке зависимостей библиотку axios в npm (очень популярная библиотека для сетевых запросов).Более пяти часов она ставила зашифрованный малварь на машины жертв. Объемы инсталляций библиотеки— 100 млн в месяц, так что заражены могут быть миллионы машин.Проверяйте себя https://x.com/feross/status/2038807290422370479?s=46&t=X0WelBfVXZJ6DwiINUU8mAЕсли вы запускали npm install в последние сутки: Проверка, попали ли вы под атаку:# blackhole C2 Domainecho '127.0.0.1 sfrclak.com' | sudo tee -a /etc/hosts# flush DNS cache for good measuresudo dscacheutil -flushcache# check for IoC - if this file exists you are pwned# shut down your machine immediatelyls /Library/Caches/com.apple.act.mond",
+    "content": "Скандальчик очередной с атакой на цепочку поставок. На сей раз под ударом все кто имеют в цепочке зависимостей библиотку axios в npm (очень популярная библиотека для сетевых запросов).<br><br>Более пяти часов она ставила зашифрованный малварь на машины жертв. Объемы инсталляций библиотеки— 100 млн в месяц, так что заражены могут быть миллионы машин.<br><br>Проверяйте себя <br><br><a href=\"https://x.com/feross/status/2038807290422370479?s=46&amp;t=X0WelBfVXZJ6DwiINUU8mA\" target=\"_blank\" rel=\"noopener\" title=\"https://x.com/feross/status/2038807290422370479?s=46&amp;t=X0WelBfVXZJ6DwiINUU8mA\">https://x.com/feross/status/2038807290422370479?s=46&amp;t=X0WelBfVXZJ6DwiINUU8mA</a><br><br>Если вы запускали npm install в последние сутки: Проверка, попали ли вы под атаку:<br><br><blockquote><code># blackhole C2 Domain<br>echo '127.0.0.1 sfrclak.com' | sudo tee -a /etc/hosts<br><br># flush DNS cache for good measure<br>sudo dscacheutil -flushcache<br><br># check for IoC - if this file exists you are pwned<br># shut down your machine immediately<br>ls /Library/Caches/com.apple.act.mond</code></blockquote><a class=\"tgme_widget_message_link_preview\" href=\"https://x.com/feross/status/2038807290422370479?s=46&amp;t=X0WelBfVXZJ6DwiINUU8mA\" target=\"_blank\" rel=\"noopener\" title=\"🚨 CRITICAL: Active supply chain attack on axios -- one of npm's most depended-on packages.The latest axios@1.14.1 now pulls in plain-crypto-js@4.2.1, a package that did not exist before today. This is a live compromise.This is textbook supply chain installer…\">\n  <i class=\"link_preview_right_image\" style=\"background-image:url('media/fc78841183ae6c722efcc1a44ea560a3.jpg')\"></i>\n  <div class=\"link_preview_site_name accent_color\" dir=\"auto\">X (formerly Twitter)</div>\n  \n  <div class=\"link_preview_title\" dir=\"auto\">Feross (@feross) on X</div>\n  <div class=\"link_preview_description\" dir=\"auto\"><i class=\"emoji\" style=\"background-image:url('media/0d52cc88b7126327ddeb4511d9549d4e.png')\"><b>🚨</b></i> CRITICAL: Active supply chain attack on axios -- one of npm's most depended-on packages.<br><br>The latest axios@1.14.1 now pulls in plain-crypto-js@4.2.1, a package that did not exist before today. This is a live compromise.<br><br>This is textbook supply chain installer…</div>\n</a>",
     "reactions": [
       {
+        "emoji": "👀",
+        "count": "19",
+        "isPaid": false
+      }
+    ],
+    "channel": "neuraldeep",
+    "channelTitle": "Валера Ковальский"
+  },
+  {
+    "id": "gleb_pro_ai/500",
+    "title": "Скандальчик очередной с атакой на цепочку поставок. На сей раз под ударом все кто имеют в цепочке зависимостей библиотку axios в npm (очень популярная библиотека для сетевых запросов).Более пяти часов она ставила зашифрованный малварь на машины жертв. Объемы инсталляций библиотеки— 100 млн в месяц, так что заражены могут быть миллионы машин.Проверяйте себя ",
+    "type": "text",
+    "datetime": "2026-03-31T11:55:34+00:00",
+    "tags": [],
+    "text": "Скандальчик очередной с атакой на цепочку поставок. На сей раз под ударом все кто имеют в цепочке зависимостей библиотку axios в npm (очень популярная библиотека для сетевых запросов).Более пяти часов она ставила зашифрованный малварь на машины жертв. Объемы инсталляций библиотеки— 100 млн в месяц, так что заражены могут быть миллионы машин.Проверяйте себя https://x.com/feross/status/2038807290422370479?s=46&t=X0WelBfVXZJ6DwiINUU8mAЕсли вы запускали npm install в последние сутки, выполните эти действия:# blackhole C2 Domainecho '127.0.0.1 sfrclak.com' | sudo tee -a /etc/hosts# flush DNS cache for good measuresudo dscacheutil -flushcache# check for IoC - if this file exists you are pwned# shut down your machine immediatelyls /Library/Caches/com.apple.act.mond",
+    "content": "Скандальчик очередной с атакой на цепочку поставок. На сей раз под ударом все кто имеют в цепочке зависимостей библиотку axios в npm (очень популярная библиотека для сетевых запросов).<br><br>Более пяти часов она ставила зашифрованный малварь на машины жертв. Объемы инсталляций библиотеки— 100 млн в месяц, так что заражены могут быть миллионы машин.<br><br>Проверяйте себя <br><br><a href=\"https://x.com/feross/status/2038807290422370479?s=46&amp;t=X0WelBfVXZJ6DwiINUU8mA\" target=\"_blank\" rel=\"noopener\" title=\"https://x.com/feross/status/2038807290422370479?s=46&amp;t=X0WelBfVXZJ6DwiINUU8mA\">https://x.com/feross/status/2038807290422370479?s=46&amp;t=X0WelBfVXZJ6DwiINUU8mA</a><br><br>Если вы запускали npm install в последние сутки, выполните эти действия:<br><br><blockquote><code># blackhole C2 Domain<br>echo '127.0.0.1 sfrclak.com' | sudo tee -a /etc/hosts<br><br># flush DNS cache for good measure<br>sudo dscacheutil -flushcache<br><br># check for IoC - if this file exists you are pwned<br># shut down your machine immediately<br>ls /Library/Caches/com.apple.act.mond</code></blockquote><a class=\"tgme_widget_message_link_preview\" href=\"https://x.com/feross/status/2038807290422370479?s=46&amp;t=X0WelBfVXZJ6DwiINUU8mA\" target=\"_blank\" rel=\"noopener\" title=\"🚨 CRITICAL: Active supply chain attack on axios -- one of npm's most depended-on packages.The latest axios@1.14.1 now pulls in plain-crypto-js@4.2.1, a package that did not exist before today. This is a live compromise.This is textbook supply chain installer…\">\n  <i class=\"link_preview_right_image\" style=\"background-image:url('media/91bda282d406f5f1f7170ddb1c376168.jpg')\"></i>\n  <div class=\"link_preview_site_name accent_color\" dir=\"auto\">X (formerly Twitter)</div>\n  \n  <div class=\"link_preview_title\" dir=\"auto\">Feross (@feross) on X</div>\n  <div class=\"link_preview_description\" dir=\"auto\"><i class=\"emoji\" style=\"background-image:url('media/0d52cc88b7126327ddeb4511d9549d4e.png')\"><b>🚨</b></i> CRITICAL: Active supply chain attack on axios -- one of npm's most depended-on packages.<br><br>The latest axios@1.14.1 now pulls in plain-crypto-js@4.2.1, a package that did not exist before today. This is a live compromise.<br><br>This is textbook supply chain installer…</div>\n</a>",
+    "reactions": [
+      {
+        "emoji": "👀",
+        "count": "5",
+        "isPaid": false
+      },
+      {
         "emoji": "❤️",
-        "count": "87",
-        "isPaid": false
-      },
-      {
-        "emoji": "👍",
-        "count": "35",
-        "isPaid": false
-      },
-      {
-        "emoji": "🔥",
-        "count": "14",
-        "isPaid": false
-      },
-      {
-        "emoji": "💯",
-        "count": "4",
-        "isPaid": false
-      },
-      {
-        "emoji": "🤔",
         "count": "1",
         "isPaid": false
       },
@@ -39,7 +42,30 @@
         "isPaid": false
       }
     ],
-    "channel": "data_secrets",
-    "channelTitle": "Data Secrets"
+    "channel": "gleb_pro_ai",
+    "channelTitle": "Глеб Кудрявцев про AI кодинг"
+  },
+  {
+    "id": "cryptoEssay/2929",
+    "title": "Когда ты пытаешься создать какой-то бизнес-процесс или систему с помощью ИИ, ты не строишь такую систему, а открываешь её. Как физику - она есть, но мы не знаем все правила и хаки.Объясню. Возможности LLM -- во-первых, крайне неровная, а во-вторых, постоянно двигающаяся граница. GPT может решать сложные задачи по квантовой механике лучше кандидата наук, но не в состоянии придумать смешную и оригинальную шутку. Он может написать сложнейший контракт на 50 страниц, но не умеет сделать лендинг чтобы там был читаемый текст. Когда мы начинаем добавлять скилы, харнесы и мультиагентные системы все это \"пространство возможного\" становится еще сложнее и начинает двигаться и морфиться в непредсказуемую сторону.Итого: ты не можешь сказать какие конкретно бизнес функции могут быть гарантированно автоматизированы или (в чем, собственно, цель) перестроены в куда более эффективном, самоулучшающемся ключе. И нет способа это задизайнить на доске в миро или бумажке. Единственный способ реально найти эффективные решения для себя -- это постоянные эксперименты и итерации. Любой другой совет по сути является теорией и философией, но при этом этот простой факт все равно очень многие не принимают и не исполняют.Ждать \"готового решения\" является самой большой ошибкой, которую можно сегодня допустить.",
+    "type": "text",
+    "datetime": "2026-03-31T12:25:42+00:00",
+    "tags": [],
+    "text": "Когда ты пытаешься создать какой-то бизнес-процесс или систему с помощью ИИ, ты не строишь такую систему, а открываешь её. Как физику - она есть, но мы не знаем все правила и хаки.Объясню. Возможности LLM -- во-первых, крайне неровная, а во-вторых, постоянно двигающаяся граница. GPT может решать сложные задачи по квантовой механике лучше кандидата наук, но не в состоянии придумать смешную и оригинальную шутку. Он может написать сложнейший контракт на 50 страниц, но не умеет сделать лендинг чтобы там был читаемый текст. Когда мы начинаем добавлять скилы, харнесы и мультиагентные системы все это \"пространство возможного\" становится еще сложнее и начинает двигаться и морфиться в непредсказуемую сторону.Итого: ты не можешь сказать какие конкретно бизнес функции могут быть гарантированно автоматизированы или (в чем, собственно, цель) перестроены в куда более эффективном, самоулучшающемся ключе. И нет способа это задизайнить на доске в миро или бумажке. Единственный способ реально найти эффективные решения для себя -- это постоянные эксперименты и итерации. Любой другой совет по сути является теорией и философией, но при этом этот простой факт все равно очень многие не принимают и не исполняют.Ждать \"готового решения\" является самой большой ошибкой, которую можно сегодня допустить.",
+    "content": "Когда ты пытаешься создать какой-то бизнес-процесс или систему с помощью ИИ, <i>ты не строишь такую систему, а открываешь её</i>. Как физику - она есть, но мы не знаем все правила и хаки.<br><br>Объясню. Возможности LLM -- во-первых, крайне неровная, а во-вторых, постоянно двигающаяся граница. GPT может решать сложные задачи по квантовой механике лучше кандидата наук, но не в состоянии придумать смешную и оригинальную шутку. Он может написать сложнейший контракт на 50 страниц, но не умеет сделать лендинг чтобы там был читаемый текст. Когда мы начинаем добавлять скилы, харнесы и мультиагентные системы все это \"пространство возможного\" становится еще сложнее и начинает двигаться и морфиться в непредсказуемую сторону.<br><br>Итого: ты не можешь сказать какие конкретно бизнес функции могут быть гарантированно автоматизированы или (в чем, собственно, цель) перестроены в куда более эффективном, самоулучшающемся ключе. И нет способа это задизайнить на доске в миро или бумажке. Единственный способ реально найти эффективные решения для себя -- это постоянные эксперименты и итерации. Любой другой совет по сути является теорией и философией, но при этом этот простой факт все равно очень многие не принимают и не исполняют.<br><br>Ждать \"готового решения\" является самой большой ошибкой, которую можно сегодня допустить.",
+    "reactions": [
+      {
+        "emoji": "⭐",
+        "count": "13",
+        "isPaid": true
+      },
+      {
+        "emoji": "❤️",
+        "count": "33",
+        "isPaid": false
+      }
+    ],
+    "channel": "cryptoEssay",
+    "channelTitle": "e/acc"
   }
 ]
