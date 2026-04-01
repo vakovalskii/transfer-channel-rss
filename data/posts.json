@@ -1,5 +1,48 @@
 [
   {
+    "id": "seeallochnaya/3493",
+    "title": "🚀",
+    "type": "text",
+    "datetime": "2026-04-01T22:36:04+00:00",
+    "tags": [],
+    "text": "🚀",
+    "content": "<a class=\"tgme_widget_message_reply user-color-default\" href=\"/posts/3492\" \"=\"\"><blockquote><small>\n<div class=\"tgme_widget_message_author accent_color\">\n  <span class=\"tgme_widget_message_author_name\" dir=\"auto\">Сиолошная</span>\n</div>\n<div class=\"tgme_widget_message_text js-message_reply_text\" dir=\"auto\">Запуск Artemis II ровно через полчаса тут: https://www.youtube.com/watch?v=Tf_UjBMIzNo  За 10-дневную миссию космонавты облетят Луну, а человечество поставит новый рекорд в удалённости человека от Земли (пока будут за Луной).</div>\n</small></blockquote></a><div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-3493-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: 🚀\">\n        <img src=\"media/845f8ac0ee1079632ef41a36a48546ec.jpg\" alt=\"🚀\" width=\"763\" height=\"800\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-3493-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-3493-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-3493-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/845f8ac0ee1079632ef41a36a48546ec.jpg\" alt=\"🚀\" width=\"763\" height=\"800\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><i class=\"emoji\"><b>🚀</b></i>",
+    "reactions": [
+      {
+        "emoji": "⭐",
+        "count": "20",
+        "isPaid": true
+      },
+      {
+        "emoji": "🔥",
+        "count": "141",
+        "isPaid": false
+      },
+      {
+        "emoji": "🎉",
+        "count": "26",
+        "isPaid": false
+      },
+      {
+        "emoji": "❤‍🔥",
+        "count": "7",
+        "isPaid": false
+      },
+      {
+        "emoji": "👍",
+        "count": "5",
+        "isPaid": false
+      },
+      {
+        "emoji": "💩",
+        "count": "1",
+        "isPaid": false
+      }
+    ],
+    "channel": "seeallochnaya",
+    "channelTitle": "Сиолошная"
+  },
+  {
     "id": "seeallochnaya/3492",
     "title": "Запуск Artemis II ровно через полчаса тут: ",
     "type": "text",
@@ -15,12 +58,17 @@
       },
       {
         "emoji": "❤‍🔥",
-        "count": "35",
+        "count": "49",
         "isPaid": false
       },
       {
         "emoji": "🔥",
-        "count": "10",
+        "count": "20",
+        "isPaid": false
+      },
+      {
+        "emoji": "🎉",
+        "count": "3",
         "isPaid": false
       },
       {
@@ -34,7 +82,7 @@
         "isPaid": false
       },
       {
-        "emoji": "🎉",
+        "emoji": "💩",
         "count": "1",
         "isPaid": false
       }
@@ -53,7 +101,7 @@
     "reactions": [
       {
         "emoji": "👍",
-        "count": "84",
+        "count": "87",
         "isPaid": false
       },
       {
@@ -79,12 +127,12 @@
         "isPaid": false
       },
       {
-        "emoji": "🤔",
-        "count": "2",
+        "emoji": "💩",
+        "count": "3",
         "isPaid": false
       },
       {
-        "emoji": "💩",
+        "emoji": "🤔",
         "count": "2",
         "isPaid": false
       },
@@ -108,7 +156,7 @@
     "reactions": [
       {
         "emoji": "🤡",
-        "count": "11",
+        "count": "12",
         "isPaid": false
       },
       {
@@ -136,12 +184,12 @@
     "reactions": [
       {
         "emoji": "🔥",
-        "count": "221",
+        "count": "228",
         "isPaid": false
       },
       {
         "emoji": "😁",
-        "count": "44",
+        "count": "45",
         "isPaid": false
       },
       {
@@ -189,7 +237,7 @@
       },
       {
         "emoji": "👍",
-        "count": "4",
+        "count": "5",
         "isPaid": false
       },
       {
@@ -227,7 +275,7 @@
     "reactions": [
       {
         "emoji": "🤣",
-        "count": "419",
+        "count": "421",
         "isPaid": false
       },
       {
@@ -339,7 +387,7 @@
     "reactions": [
       {
         "emoji": "👎",
-        "count": "48",
+        "count": "49",
         "isPaid": false
       },
       {
@@ -387,7 +435,7 @@
       },
       {
         "emoji": "🤯",
-        "count": "39",
+        "count": "40",
         "isPaid": false
       },
       {
@@ -396,14 +444,14 @@
         "isPaid": false
       },
       {
-        "emoji": "👍",
-        "count": "13",
-        "isPaid": false
-      },
-      {
         "emoji": "",
         "emojiId": "5773848767941842357",
         "emojiImage": "https://t.me/i/emoji/5773848767941842357.webp",
+        "count": "14",
+        "isPaid": false
+      },
+      {
+        "emoji": "👍",
         "count": "13",
         "isPaid": false
       },
@@ -693,7 +741,7 @@
     "datetime": "2026-04-01T12:52:29+00:00",
     "tags": [],
     "text": "Со стороны защиты в целом доступны те же инструменты — агенты для чтения всего кода и изменений в нём.Например, атака на прошлой неделе на axios, одну из самых популярных библиотек для JavaScript, добавляла одну зависимость очень странного содержания, которая выкачивала что-то с интернета (очень плохой паттерн).CEO Cognition (которые делают Devin) похвастался, что их агент обнаружил проблему для множества их клиентов в течении часа — за несколько часов до того, как о ней начали сообщать публично.Интересно, появится ли фонд/эндаумент, собирающий деньги на ИИ-защиту самых популярных и широкоиспользуемых библиотек?",
-    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-3489-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Со стороны защиты в целом доступны те же инструменты — агенты для чтения всего кода и изменений в нём.Например, атака на прошлой неделе на axios, одну из самых популярных библиотек для JavaScript, добавляла одну зависимость очень странного содержания, которая выкачивала что-то с интернета (очень плохой паттерн).CEO Cognition (которые делают Devin) похвастался, что их агент обнаружил проблему для множества их клиентов в течении часа — за несколько часов до того, как о ней начали сообщать публично.Интересно, появится ли фонд/эндаумент, собирающий деньги на ИИ-защиту самых популярных и широкоиспользуемых библиотек?\">\n        <img src=\"media/897ffb7dbbf6ffb762226d2aacb713ba.jpg\" alt=\"Со стороны защиты в целом доступны те же инструменты — агенты для чтения всего кода и изменений в нём.Например, атака на прошлой неделе на axios, одну из самых популярных библиотек для JavaScript, добавляла одну зависимость очень странного содержания, которая выкачивала что-то с интернета (очень плохой паттерн).CEO Cognition (которые делают Devin) похвастался, что их агент обнаружил проблему для множества их клиентов в течении часа — за несколько часов до того, как о ней начали сообщать публично.Интересно, появится ли фонд/эндаумент, собирающий деньги на ИИ-защиту самых популярных и широкоиспользуемых библиотек?\" width=\"621\" height=\"800\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-3489-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-3489-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-3489-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/897ffb7dbbf6ffb762226d2aacb713ba.jpg\" alt=\"Со стороны защиты в целом доступны те же инструменты — агенты для чтения всего кода и изменений в нём.Например, атака на прошлой неделе на axios, одну из самых популярных библиотек для JavaScript, добавляла одну зависимость очень странного содержания, которая выкачивала что-то с интернета (очень плохой паттерн).CEO Cognition (которые делают Devin) похвастался, что их агент обнаружил проблему для множества их клиентов в течении часа — за несколько часов до того, как о ней начали сообщать публично.Интересно, появится ли фонд/эндаумент, собирающий деньги на ИИ-защиту самых популярных и широкоиспользуемых библиотек?\" width=\"621\" height=\"800\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Со стороны защиты в целом доступны те же инструменты —&nbsp;агенты для чтения всего кода и изменений в нём.<br><br>Например, атака на прошлой неделе на axios, одну из самых популярных библиотек для JavaScript, добавляла одну зависимость очень странного содержания, которая выкачивала что-то с интернета (очень плохой паттерн).<br><br>CEO Cognition (которые делают Devin) похвастался, что их агент обнаружил проблему для множества их клиентов в течении часа —&nbsp;за несколько часов до того, как о ней начали сообщать публично.<br><br>Интересно, появится ли фонд/эндаумент, собирающий деньги на ИИ-защиту самых популярных и широкоиспользуемых библиотек?",
+    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-3489-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Со стороны защиты в целом доступны те же инструменты — агенты для чтения всего кода и изменений в нём.Например, атака на прошлой неделе на axios, одну из самых популярных библиотек для JavaScript, добавляла одну зависимость очень странного содержания, которая выкачивала что-то с интернета (очень плохой паттерн).CEO Cognition (которые делают Devin) похвастался, что их агент обнаружил проблему для множества их клиентов в течении часа — за несколько часов до того, как о ней начали сообщать публично.Интересно, появится ли фонд/эндаумент, собирающий деньги на ИИ-защиту самых популярных и широкоиспользуемых библиотек?\">\n        <img src=\"media/897ffb7dbbf6ffb762226d2aacb713ba.jpg\" alt=\"Со стороны защиты в целом доступны те же инструменты — агенты для чтения всего кода и изменений в нём.Например, атака на прошлой неделе на axios, одну из самых популярных библиотек для JavaScript, добавляла одну зависимость очень странного содержания, которая выкачивала что-то с интернета (очень плохой паттерн).CEO Cognition (которые делают Devin) похвастался, что их агент обнаружил проблему для множества их клиентов в течении часа — за несколько часов до того, как о ней начали сообщать публично.Интересно, появится ли фонд/эндаумент, собирающий деньги на ИИ-защиту самых популярных и широкоиспользуемых библиотек?\" width=\"621\" height=\"800\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-3489-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-3489-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-3489-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/897ffb7dbbf6ffb762226d2aacb713ba.jpg\" alt=\"Со стороны защиты в целом доступны те же инструменты — агенты для чтения всего кода и изменений в нём.Например, атака на прошлой неделе на axios, одну из самых популярных библиотек для JavaScript, добавляла одну зависимость очень странного содержания, которая выкачивала что-то с интернета (очень плохой паттерн).CEO Cognition (которые делают Devin) похвастался, что их агент обнаружил проблему для множества их клиентов в течении часа — за несколько часов до того, как о ней начали сообщать публично.Интересно, появится ли фонд/эндаумент, собирающий деньги на ИИ-защиту самых популярных и широкоиспользуемых библиотек?\" width=\"621\" height=\"800\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Со стороны защиты в целом доступны те же инструменты —&nbsp;агенты для чтения всего кода и изменений в нём.<br><br>Например, атака на прошлой неделе на axios, одну из самых популярных библиотек для JavaScript, добавляла одну зависимость очень странного содержания, которая выкачивала что-то с интернета (очень плохой паттерн).<br><br>CEO Cognition (которые делают Devin) похвастался, что их агент обнаружил проблему для множества их клиентов в течении часа —&nbsp;за несколько часов до того, как о ней начали сообщать публично.<br><br>Интересно, появится ли фонд/эндаумент, собирающий деньги на ИИ-защиту самых популярных и широкоиспользуемых библиотек?",
     "reactions": [
       {
         "emoji": "👍",
@@ -1005,7 +1053,7 @@
       },
       {
         "emoji": "😁",
-        "count": "463",
+        "count": "464",
         "isPaid": false
       },
       {
@@ -1311,7 +1359,7 @@
       },
       {
         "emoji": "❤‍🔥",
-        "count": "224",
+        "count": "226",
         "isPaid": false
       },
       {
@@ -1321,7 +1369,7 @@
       },
       {
         "emoji": "🌚",
-        "count": "45",
+        "count": "46",
         "isPaid": false
       },
       {
@@ -1630,7 +1678,7 @@
       },
       {
         "emoji": "🤨",
-        "count": "6",
+        "count": "7",
         "isPaid": false
       },
       {
@@ -1814,7 +1862,7 @@
       },
       {
         "emoji": "🤔",
-        "count": "13",
+        "count": "14",
         "isPaid": false
       },
       {
@@ -2273,12 +2321,12 @@
       },
       {
         "emoji": "🔥",
-        "count": "293",
+        "count": "294",
         "isPaid": false
       },
       {
         "emoji": "🎉",
-        "count": "56",
+        "count": "57",
         "isPaid": false
       },
       {
@@ -2541,11 +2589,6 @@
     "text": "Делаем второй комьюнити стримИтак, в эту субботу в 14.00 по МСК будет наш второй zoom-созвон, отвечаем на любые ваши вопросы.На этот раз в жюри шоу Голос:- Валера @neuraldeep- Рефат @nobilix- секретный гость - Мистер XПравила все те же - это просто zoom звонок, вы на него залетаете, поднимаете руку, включаете камеру (если одеты) и спрашиваете что душе угодно:- сколько первых мест возьмут openclaw агенты в bitgn 11 апреля? (все, но не твой крабик на кими)- какой лучший курс купить по ИИ в 2026 году? (но ответ уже есть)- будут ли n8n инженеры получать 600к к концу 2026 года? (да, можно и про n8n в этот раз)- ...и что-то посерьезнее, плиииз!Ссылка на Google Calendar:https://calendar.app.google/C6CTc7uRF2GVL1fp8SEE YOU THERE 👊🏻Кидайте заранее вопросы в комменты, останется время - поотвечаем на них",
     "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-241-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Делаем второй комьюнити стримИтак, в эту субботу в 14.00 по МСК будет наш второй zoom-созвон, отвечаем на любые ваши вопросы.На этот раз в жюри шоу Голос:- Валера @neuraldeep- Рефат @nobilix- секретный гость - Мистер XПравила все те же - это просто zoom звонок, вы на него залетаете, поднимаете руку, включаете камеру (если одеты) и спрашиваете что душе угодно:- сколько первых мест возьмут openclaw агенты в bitgn 11 апреля? (все, но не твой крабик на кими)- какой лучший курс купить по ИИ в 2026 году? (но ответ уже есть)- будут ли n8n инженеры получать 600к к концу 2026 года? (да, можно и про n8n в этот раз)- ...и что-то посерьезнее, плиииз!Ссылка на Google Calendar:\">\n        <img src=\"media/f641e68e775d87a53074009e329e33b2.jpg\" alt=\"Делаем второй комьюнити стримИтак, в эту субботу в 14.00 по МСК будет наш второй zoom-созвон, отвечаем на любые ваши вопросы.На этот раз в жюри шоу Голос:- Валера @neuraldeep- Рефат @nobilix- секретный гость - Мистер XПравила все те же - это просто zoom звонок, вы на него залетаете, поднимаете руку, включаете камеру (если одеты) и спрашиваете что душе угодно:- сколько первых мест возьмут openclaw агенты в bitgn 11 апреля? (все, но не твой крабик на кими)- какой лучший курс купить по ИИ в 2026 году? (но ответ уже есть)- будут ли n8n инженеры получать 600к к концу 2026 года? (да, можно и про n8n в этот раз)- ...и что-то посерьезнее, плиииз!Ссылка на Google Calendar:\" width=\"800\" height=\"437\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-241-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-241-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-241-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/f641e68e775d87a53074009e329e33b2.jpg\" alt=\"Делаем второй комьюнити стримИтак, в эту субботу в 14.00 по МСК будет наш второй zoom-созвон, отвечаем на любые ваши вопросы.На этот раз в жюри шоу Голос:- Валера @neuraldeep- Рефат @nobilix- секретный гость - Мистер XПравила все те же - это просто zoom звонок, вы на него залетаете, поднимаете руку, включаете камеру (если одеты) и спрашиваете что душе угодно:- сколько первых мест возьмут openclaw агенты в bitgn 11 апреля? (все, но не твой крабик на кими)- какой лучший курс купить по ИИ в 2026 году? (но ответ уже есть)- будут ли n8n инженеры получать 600к к концу 2026 года? (да, можно и про n8n в этот раз)- ...и что-то посерьезнее, плиииз!Ссылка на Google Calendar:\" width=\"800\" height=\"437\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><b>Делаем второй комьюнити стрим</b><br><br>Итак, <a href=\"https://calendar.app.google/C6CTc7uRF2GVL1fp8\" target=\"_blank\" rel=\"noopener\" title=\"в эту субботу в 14.00 по МСК\">в эту субботу в 14.00 по МСК</a> будет наш второй zoom-созвон, отвечаем на любые ваши вопросы.<br><br>На этот раз в жюри шоу Голос:<br>- <b>Валера</b> <a href=\"https://t.me/neuraldeep\" target=\"_blank\" title=\"@neuraldeep\">@neuraldeep</a><br>- <b>Рефат</b> <a href=\"https://t.me/nobilix\" target=\"_blank\" title=\"@nobilix\">@nobilix</a><br>- секретный гость - <b>Мистер X</b><br><br>Правила все те же - это просто zoom звонок, вы на него залетаете, поднимаете руку, включаете камеру (если одеты) и спрашиваете что душе угодно:<br><br>- сколько первых мест возьмут openclaw агенты в bitgn 11 апреля? (все, но не твой крабик на кими)<br><br>- какой лучший курс купить по ИИ в 2026 году? (но ответ <a href=\"https://t.me/neuraldeep/2009\" target=\"_blank\" rel=\"noopener\" title=\"уже есть\">уже есть</a>)<br><br>- будут ли n8n инженеры получать 600к к концу 2026 года? (да, можно и про n8n в этот раз)<br><br>- ...и что-то посерьезнее, плиииз!<br><br><br>Ссылка на Google Calendar:<br><a href=\"https://calendar.app.google/C6CTc7uRF2GVL1fp8\" target=\"_blank\" rel=\"noopener\" title=\"https://calendar.app.google/C6CTc7uRF2GVL1fp8\">https://calendar.app.google/C6CTc7uRF2GVL1fp8</a><br><br>SEE YOU THERE <i class=\"emoji\"><b>👊🏻</b></i><br><br>Кидайте заранее вопросы в комменты, останется время - поотвечаем на них",
     "reactions": [
-      {
-        "emoji": "⭐",
-        "count": "1",
-        "isPaid": true
-      },
       {
         "emoji": "🔥",
         "count": "19",
@@ -4543,7 +4586,7 @@
     "datetime": "2026-03-27T23:43:52+00:00",
     "tags": [],
     "text": "Встречайте мой новый пост \"Реставрация ruGPT-3 XL или как я вернул к жизни забытую русскую языковую модель\" на Хабр, в нём я подробно рассказал о том как была реализована конвертация, как проводилось её тестирование, как запустить локально, как конвертировать в GGUF.А вот ссылочки:- evilfreelancer/ruGPT3XL - сконвертированная модель в формате HuggingFace (safetensors)- evilfreelancer/ruGPT3XL-GGUF - квантизированные GGUF-веса для llama.cpp и Ollama- evilfreelancer/rugpt3 - GGUF загруженные на Ollama- EvilFreelancer/rugpt3xl-convert - исходники скриптов конвертации",
-    "content": "Встречайте мой новый пост \"<a href=\"https://habr.com/ru/articles/1016148/\" target=\"_blank\" rel=\"noopener\" title=\"Реставрация ruGPT-3 XL или как я вернул к жизни забытую русскую языковую модель\">Реставрация ruGPT-3 XL или как я вернул к жизни забытую русскую языковую модель</a>\" на Хабр, в нём я подробно рассказал о том как была реализована конвертация, как проводилось её тестирование, как запустить локально, как конвертировать в GGUF.<br><br>А вот ссылочки:<br>- <a href=\"https://huggingface.co/evilfreelancer/ruGPT3XL\" target=\"_blank\" rel=\"noopener\" title=\"evilfreelancer/ruGPT3XL\">evilfreelancer/ruGPT3XL</a> - сконвертированная модель в формате HuggingFace (safetensors)<br>- <a href=\"https://huggingface.co/evilfreelancer/ruGPT3XL-GGUF\" target=\"_blank\" rel=\"noopener\" title=\"evilfreelancer/ruGPT3XL-GGUF\">evilfreelancer/ruGPT3XL-GGUF</a> - квантизированные GGUF-веса для llama.cpp и Ollama<br>- <a href=\"https://ollama.com/evilfreelancer/rugpt3\" target=\"_blank\" rel=\"noopener\" title=\"evilfreelancer/rugpt3\">evilfreelancer/rugpt3</a> - GGUF загруженные на Ollama<br>- <a href=\"https://github.com/EvilFreelancer/rugpt3xl-convert\" target=\"_blank\" rel=\"noopener\" title=\"EvilFreelancer/rugpt3xl-convert\">EvilFreelancer/rugpt3xl-convert</a> - исходники скриптов конвертации<a class=\"tgme_widget_message_link_preview\" href=\"https://habr.com/ru/articles/1016148/?utm_source=telegram_habr&amp;utm_medium=social&amp;utm_campaign=29184581\" target=\"_blank\" rel=\"noopener\" title=\"Несколько дней к ряду я занимался реставрацией легаси модели ai-forever/rugpt3xl , это классическая языковая модель от SberDevices на 1.3B параметров, крошка по современным меркам, на которой сберовцы...\">\n  \n  <div class=\"link_preview_site_name accent_color\" dir=\"auto\">Хабр</div>\n  <img class=\"link_preview_image\" alt=\"Реставрация ruGPT-3 XL или как я вернул к жизни забытую русскую языковую модель\" src=\"media/79333867eeebc1e7816423566b311cd8.jpg\" width=\"1200\" height=\"630\" loading=\"eager\">\n  <div class=\"link_preview_title\" dir=\"auto\">Реставрация ruGPT-3 XL или как я вернул к жизни забытую русскую языковую модель</div>\n  <div class=\"link_preview_description\" dir=\"auto\">Несколько дней к ряду я занимался реставрацией легаси модели ai-forever/rugpt3xl , это классическая языковая модель от SberDevices на 1.3B параметров, крошка по современным меркам, на которой сберовцы...</div>\n</a>",
+    "content": "Встречайте мой новый пост \"<a href=\"https://habr.com/ru/articles/1016148/\" target=\"_blank\" rel=\"noopener\" title=\"Реставрация ruGPT-3 XL или как я вернул к жизни забытую русскую языковую модель\">Реставрация ruGPT-3 XL или как я вернул к жизни забытую русскую языковую модель</a>\" на Хабр, в нём я подробно рассказал о том как была реализована конвертация, как проводилось её тестирование, как запустить локально, как конвертировать в GGUF.<br><br>А вот ссылочки:<br>- <a href=\"https://huggingface.co/evilfreelancer/ruGPT3XL\" target=\"_blank\" rel=\"noopener\" title=\"evilfreelancer/ruGPT3XL\">evilfreelancer/ruGPT3XL</a> - сконвертированная модель в формате HuggingFace (safetensors)<br>- <a href=\"https://huggingface.co/evilfreelancer/ruGPT3XL-GGUF\" target=\"_blank\" rel=\"noopener\" title=\"evilfreelancer/ruGPT3XL-GGUF\">evilfreelancer/ruGPT3XL-GGUF</a> - квантизированные GGUF-веса для llama.cpp и Ollama<br>- <a href=\"https://ollama.com/evilfreelancer/rugpt3\" target=\"_blank\" rel=\"noopener\" title=\"evilfreelancer/rugpt3\">evilfreelancer/rugpt3</a> - GGUF загруженные на Ollama<br>- <a href=\"https://github.com/EvilFreelancer/rugpt3xl-convert\" target=\"_blank\" rel=\"noopener\" title=\"EvilFreelancer/rugpt3xl-convert\">EvilFreelancer/rugpt3xl-convert</a> - исходники скриптов конвертации<a class=\"tgme_widget_message_link_preview\" href=\"https://habr.com/ru/articles/1016148/?utm_source=telegram_habr&amp;utm_medium=social&amp;utm_campaign=29184581\" target=\"_blank\" rel=\"noopener\" title=\"Несколько дней к ряду я занимался реставрацией легаси модели ai-forever/rugpt3xl , это классическая языковая модель от SberDevices на 1.3B параметров, крошка по современным меркам, на которой сберовцы...\">\n  \n  <div class=\"link_preview_site_name accent_color\" dir=\"auto\">Хабр</div>\n  <img class=\"link_preview_image\" alt=\"Реставрация ruGPT-3 XL или как я вернул к жизни забытую русскую языковую модель\" src=\"media/174e21d63829b6a02845a18376952eef.jpg\" width=\"1200\" height=\"630\" loading=\"eager\">\n  <div class=\"link_preview_title\" dir=\"auto\">Реставрация ruGPT-3 XL или как я вернул к жизни забытую русскую языковую модель</div>\n  <div class=\"link_preview_description\" dir=\"auto\">Несколько дней к ряду я занимался реставрацией легаси модели ai-forever/rugpt3xl , это классическая языковая модель от SberDevices на 1.3B параметров, крошка по современным меркам, на которой сберовцы...</div>\n</a>",
     "reactions": [
       {
         "emoji": "⭐",
@@ -5446,7 +5489,7 @@
     "datetime": "2026-03-26T23:57:38+00:00",
     "tags": [],
     "text": "Федеральный судья в Сан-Франциско вынесла предварительный судебный запрет в пользу Anthropic, приостановив действие решений администрации Трампа о включении компании в чёрный список Пентагона и запрете на использование моделей Claude федеральными агентствами. Судья Рита Лин квалифицировала действия правительства как «классическое незаконное преследование по Первой поправке» — формулировка, которая задаёт тон всему дальнейшему разбирательству.Судья Лин прямо назвала происходящее «оруэлловским» — и это не риторическая фигура, а сигнал о том, как суд оценивает правовую обоснованность позиции правительства. Это не окончательное решение — но обычно суды очень детально разбирают иск по сути, прежде чем выносить обеспечительное решение.https://www.cnbc.com/2026/03/26/anthropic-pentagon-dod-claude-court-ruling.html",
-    "content": "Федеральный судья в Сан-Франциско вынесла предварительный судебный запрет в пользу Anthropic, приостановив действие решений администрации Трампа о включении компании в чёрный список Пентагона и запрете на использование моделей Claude федеральными агентствами. Судья Рита Лин квалифицировала действия правительства как «классическое незаконное преследование по Первой поправке» — формулировка, которая задаёт тон всему дальнейшему разбирательству.<br><br>Судья Лин прямо назвала происходящее «оруэлловским» — и это не риторическая фигура, а сигнал о том, как суд оценивает правовую обоснованность позиции правительства. Это не окончательное решение — но обычно суды очень детально разбирают иск по сути, прежде чем выносить обеспечительное решение.<br><br><a href=\"https://www.cnbc.com/2026/03/26/anthropic-pentagon-dod-claude-court-ruling.html\" target=\"_blank\" rel=\"noopener\" title=\"https://www.cnbc.com/2026/03/26/anthropic-pentagon-dod-claude-court-ruling.html\">https://www.cnbc.com/2026/03/26/anthropic-pentagon-dod-claude-court-ruling.html</a><a class=\"tgme_widget_message_link_preview\" href=\"https://www.cnbc.com/2026/03/26/anthropic-pentagon-dod-claude-court-ruling.html\" target=\"_blank\" rel=\"noopener\" title=\"A federal judge in San Francisco granted Anthropic's request for a preliminary injunction in its lawsuit against the Trump administration.&nbsp;\">\n  \n  <div class=\"link_preview_site_name accent_color\" dir=\"auto\">CNBC</div>\n  <img class=\"link_preview_image\" alt=\"Anthropic wins preliminary injunction in DOD fight as judge cites 'First Amendment retaliation'\" src=\"media/2ab030001a1b8c6145f8ebd97ea4a861.jpg\" width=\"1200\" height=\"630\" loading=\"eager\">\n  <div class=\"link_preview_title\" dir=\"auto\">Anthropic wins preliminary injunction in DOD fight as judge cites 'First Amendment retaliation'</div>\n  <div class=\"link_preview_description\" dir=\"auto\">A federal judge in San Francisco granted Anthropic's request for a preliminary injunction in its lawsuit against the Trump administration.&nbsp;</div>\n</a>",
+    "content": "Федеральный судья в Сан-Франциско вынесла предварительный судебный запрет в пользу Anthropic, приостановив действие решений администрации Трампа о включении компании в чёрный список Пентагона и запрете на использование моделей Claude федеральными агентствами. Судья Рита Лин квалифицировала действия правительства как «классическое незаконное преследование по Первой поправке» — формулировка, которая задаёт тон всему дальнейшему разбирательству.<br><br>Судья Лин прямо назвала происходящее «оруэлловским» — и это не риторическая фигура, а сигнал о том, как суд оценивает правовую обоснованность позиции правительства. Это не окончательное решение — но обычно суды очень детально разбирают иск по сути, прежде чем выносить обеспечительное решение.<br><br><a href=\"https://www.cnbc.com/2026/03/26/anthropic-pentagon-dod-claude-court-ruling.html\" target=\"_blank\" rel=\"noopener\" title=\"https://www.cnbc.com/2026/03/26/anthropic-pentagon-dod-claude-court-ruling.html\">https://www.cnbc.com/2026/03/26/anthropic-pentagon-dod-claude-court-ruling.html</a><a class=\"tgme_widget_message_link_preview\" href=\"https://www.cnbc.com/2026/03/26/anthropic-pentagon-dod-claude-court-ruling.html\" target=\"_blank\" rel=\"noopener\" title=\"A federal judge in San Francisco granted Anthropic's request for a preliminary injunction in its lawsuit against the Trump administration.&nbsp;\">\n  \n  <div class=\"link_preview_site_name accent_color\" dir=\"auto\">CNBC</div>\n  <img class=\"link_preview_image\" alt=\"Anthropic wins preliminary injunction in DOD fight as judge cites 'First Amendment retaliation'\" src=\"media/f081e1a59089d7b623db38b88604816b.jpg\" width=\"1200\" height=\"630\" loading=\"eager\">\n  <div class=\"link_preview_title\" dir=\"auto\">Anthropic wins preliminary injunction in DOD fight as judge cites 'First Amendment retaliation'</div>\n  <div class=\"link_preview_description\" dir=\"auto\">A federal judge in San Francisco granted Anthropic's request for a preliminary injunction in its lawsuit against the Trump administration.&nbsp;</div>\n</a>",
     "reactions": [
       {
         "emoji": "⭐",
@@ -9715,11 +9758,6 @@
     "text": "В последнее время актуально Парень сделал устройство для выживания, которое работает полностью офлайн и продает за 1k $Советы по выживанию с цитатами из мануалов, офлайн-карты, и можно отправлять сообщения на расстояние до 50 миль без сотовой связи.+ на GitHub есть проект в том же направлении: Project N.O.M.A.DЛокальные AI-модели через Ollama, полный архив Wikipedia через Kiwix, офлайн-карты через OpenStreetMap, справочники, книги, локальные заметки.@tips_ai #news",
     "content": "<video src=\"https://cdn4.telesco.pe/file/61467e42ea.mp4?token=iIXkwS9Yp_V9RCT0R_C837uG2n0M1RWnTb_mjuS7yvUpAm45HectY-jQuWbMTHXsR_ffU4ZENtuKiz5cw8kOZfd1QFFBdBCh__EZH92RtZ_g48wdZN6SSdBjVCQ40G1tAay30il6npFOVgW3B3gmhx20KLVZd6zMeMUM4ScxayCBHZrjolFI92QOTrJ4zr2Xiy0SyEeDRoxcKIegv54LiBZtAK4x_iK3FfJKAT3NkbgFcSBb0AYp8WisdPHYHWsOVxKRkkSBUKKcM1xuv1FY9SMNOoMTtyYQWkMUEHM28jdPvapF8K27N5MDxcgFhIoG711v3AjaOh9JsfrBAXUpphkzorwvm3ABny_3INJt3F0j3-ddDz0Lk5Tj5Sj86vqVhmJYfz3eoatEnTjKQ2Oq4Qtv-9UplJRqhu-HVwFp9khR7l7cIDiqVt0gnHx3cGR4nUFk4qWUQzbPJdnpUK06nZmA4Fes9cE9fYMUEzQpApxbZNGP9XCnmYvqlOd-Yg08NDASAwcR2lmun_l7bUyxxaYPPmZV8pUHo1DmRp2kqVzPIGarvkYkTbB3GNy0L0hID2HxJF9ZDUShG-cuVjxgQpvyxTL-tsWOdQ7uuX2LiGYpPGBvZkpluM-Y_IarBSMXsky5DMfBKD6AaS6cSY2jMCa36LPo9j6V9zA-71krPrc\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" preload=\"auto\" muted=\"\" autoplay=\"\" loop=\"\" playsinline=\"\" controls=\"\"></video>В последнее время актуально <img class=\"tg-emoji\" src=\"media/58f213e516289e660dcdba43ea49ff73.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"><br><br>Парень <a href=\"https://x.com/om_patel5/status/2033048283241697695?s=20\" target=\"_blank\" rel=\"noopener\" title=\"сделал\">сделал</a> устройство для выживания, которое работает полностью офлайн и <a href=\"https://scorpiodevices.store/order\" target=\"_blank\" rel=\"noopener\" title=\"продает\">продает</a> за 1k $<br><br><blockquote>Советы по выживанию с цитатами из мануалов, офлайн-карты, и можно отправлять сообщения на расстояние до 50 миль без сотовой связи.</blockquote><br><br>+ на GitHub есть проект в том же направлении: <a href=\"https://github.com/Crosstalk-Solutions/project-nomad\" target=\"_blank\" rel=\"noopener\" title=\"Project N.O.M.A.D\">Project N.O.M.A.D</a><br><br><blockquote>Локальные AI-модели через Ollama, полный архив Wikipedia через Kiwix, офлайн-карты через OpenStreetMap, справочники, книги, локальные заметки.</blockquote><br><br><a href=\"https://t.me/tips_ai\" target=\"_blank\" title=\"@tips_ai\">@tips_ai</a> <a href=\"/search/%23news\" title=\"#news\">#news</a>",
     "reactions": [
-      {
-        "emoji": "⭐",
-        "count": "3",
-        "isPaid": true
-      },
       {
         "emoji": "👍",
         "count": "59",
@@ -15636,7 +15674,7 @@
     "datetime": "2026-03-10T12:57:45+00:00",
     "tags": [],
     "text": "Вчера Anthropic запустили Claude Code Review — агента для ревью кода. Это не входит в подписку, и придётся платить $15-25 за ревью одного PR (ну или любого куска кода, который вы хотите).С одной стороны это кажется много — у OpenAI даже в Plus-подписке за $20 включено 40-100 ревью в месяц. Сравнить качество сложно, никакого бенчмарка я не видел, да и с такими ценами не уверен, что кто-то будет гонять хотя бы сотню PR, чтобы сделать оценку Anthropic дают такую оценку по результатам внутреннего тестирования: в больших PR (более 1000 измененных строк) выявляются ошибки в 84% случаев, в среднем 7,5 проблем. Инженеры в основном согласны с тем, что выявляется: менее 1% ошибок помечаются как неверные. (7.5 проблем на 1000 строк звучит уж очень много )С другой стороны, если брать зарплату сеньор-инженера из Google, то час времени стоит $200 (средняя компенсация в США — не в СФ! — $420k в год, за 250 рабочих дней), и получается что в среднем $20 за PR — это эквивалент 6 минут времени такого специалиста.И так как количество написанного кода начинает сильно расти, и именно ревью становятся бутылочным горлышком — сомнений, что пользоваться фичей будут, у меня нет. А OpenAI упускает большую выручку ===Вспомнился ответ Mike Bloomberg тем, кто возмущается стоимостью Bloomberg Terminal в 2700 долларов в месяц: «Если вы не можете зарабатывать 2700 долларов в месяц с помощью нашего продукта, у вас есть проблемы поважнее».",
-    "content": "Вчера Anthropic <a href=\"https://claude.com/blog/code-review\" target=\"_blank\" rel=\"noopener\" title=\"запустили\">запустили</a> Claude Code Review — агента для ревью кода. Это не входит в подписку, и придётся платить $15-25 за ревью одного PR (ну или любого куска кода, который вы хотите).<br><br>С одной стороны это кажется много — у OpenAI даже в Plus-подписке за $20 включено 40-100 ревью в месяц. Сравнить качество сложно, никакого бенчмарка я не видел, да и с такими ценами не уверен, что кто-то будет гонять хотя бы сотню PR, чтобы сделать оценку <img class=\"tg-emoji\" src=\"media/fa9c1c45575cb40d4add06d32bc4f690.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"><br><br>Anthropic дают такую оценку по результатам внутреннего тестирования: в больших PR (более 1000 измененных строк) выявляются ошибки в 84% случаев, в среднем 7,5 проблем. Инженеры в основном согласны с тем, что выявляется: менее 1% ошибок помечаются как неверные. <br><br>(7.5 проблем на 1000 строк звучит уж очень много <img class=\"tg-emoji\" src=\"media/61d8477083b7019a2b8d4d5f9303895c.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\">)<br><br>С другой стороны, если брать зарплату сеньор-инженера из Google, то час времени стоит $200 (средняя компенсация в США —&nbsp;не в СФ! —&nbsp;$420k в год, за 250 рабочих дней), и получается что в среднем $20 за PR — это эквивалент 6 минут времени такого специалиста.<br><br>И так как количество написанного кода начинает сильно расти, и именно ревью становятся бутылочным горлышком —&nbsp;сомнений, что пользоваться фичей будут, у меня нет. А OpenAI упускает большую выручку <img class=\"tg-emoji\" src=\"media/0fc7d51b5b4b0dc8273e54b3b5c9e9cc.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"><br><br>===<br><br>Вспомнился ответ Mike Bloomberg тем, кто возмущается стоимостью Bloomberg Terminal в 2700 долларов в месяц: «Если вы не можете зарабатывать 2700 долларов в месяц с помощью нашего продукта, у вас есть проблемы поважнее».<a class=\"tgme_widget_message_link_preview\" href=\"https://claude.com/blog/code-review\" target=\"_blank\" rel=\"noopener\" title=\"Claude Code now dispatches a team of agents on every PR to catch bugs that skims miss. Available in research preview for Team and Enterprise.\">\n  \n  <div class=\"link_preview_site_name accent_color\" dir=\"auto\">Claude</div>\n  <img class=\"link_preview_image\" alt=\"Code Review for Claude Code | Claude\" src=\"media/4f0bf34cfca1f8cadaa05674fab2d3ba.jpg\" width=\"1200\" height=\"630\" loading=\"lazy\">\n  <div class=\"link_preview_title\" dir=\"auto\">Code Review for Claude Code | Claude</div>\n  <div class=\"link_preview_description\" dir=\"auto\">Claude Code now dispatches a team of agents on every PR to catch bugs that skims miss. Available in research preview for Team and Enterprise.</div>\n</a>",
+    "content": "Вчера Anthropic <a href=\"https://claude.com/blog/code-review\" target=\"_blank\" rel=\"noopener\" title=\"запустили\">запустили</a> Claude Code Review — агента для ревью кода. Это не входит в подписку, и придётся платить $15-25 за ревью одного PR (ну или любого куска кода, который вы хотите).<br><br>С одной стороны это кажется много — у OpenAI даже в Plus-подписке за $20 включено 40-100 ревью в месяц. Сравнить качество сложно, никакого бенчмарка я не видел, да и с такими ценами не уверен, что кто-то будет гонять хотя бы сотню PR, чтобы сделать оценку <img class=\"tg-emoji\" src=\"media/fa9c1c45575cb40d4add06d32bc4f690.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"><br><br>Anthropic дают такую оценку по результатам внутреннего тестирования: в больших PR (более 1000 измененных строк) выявляются ошибки в 84% случаев, в среднем 7,5 проблем. Инженеры в основном согласны с тем, что выявляется: менее 1% ошибок помечаются как неверные. <br><br>(7.5 проблем на 1000 строк звучит уж очень много <img class=\"tg-emoji\" src=\"media/61d8477083b7019a2b8d4d5f9303895c.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\">)<br><br>С другой стороны, если брать зарплату сеньор-инженера из Google, то час времени стоит $200 (средняя компенсация в США —&nbsp;не в СФ! —&nbsp;$420k в год, за 250 рабочих дней), и получается что в среднем $20 за PR — это эквивалент 6 минут времени такого специалиста.<br><br>И так как количество написанного кода начинает сильно расти, и именно ревью становятся бутылочным горлышком —&nbsp;сомнений, что пользоваться фичей будут, у меня нет. А OpenAI упускает большую выручку <img class=\"tg-emoji\" src=\"media/0fc7d51b5b4b0dc8273e54b3b5c9e9cc.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"><br><br>===<br><br>Вспомнился ответ Mike Bloomberg тем, кто возмущается стоимостью Bloomberg Terminal в 2700 долларов в месяц: «Если вы не можете зарабатывать 2700 долларов в месяц с помощью нашего продукта, у вас есть проблемы поважнее».<a class=\"tgme_widget_message_link_preview\" href=\"https://claude.com/blog/code-review\" target=\"_blank\" rel=\"noopener\" title=\"Claude Code now dispatches a team of agents on every PR to catch bugs that skims miss. Available in research preview for Team and Enterprise.\">\n  \n  <div class=\"link_preview_site_name accent_color\" dir=\"auto\">Claude</div>\n  <img class=\"link_preview_image\" alt=\"Code Review for Claude Code | Claude\" src=\"media/4f0bf34cfca1f8cadaa05674fab2d3ba.jpg\" width=\"1200\" height=\"630\" loading=\"eager\">\n  <div class=\"link_preview_title\" dir=\"auto\">Code Review for Claude Code | Claude</div>\n  <div class=\"link_preview_description\" dir=\"auto\">Claude Code now dispatches a team of agents on every PR to catch bugs that skims miss. Available in research preview for Team and Enterprise.</div>\n</a>",
     "reactions": [
       {
         "emoji": "⭐",
