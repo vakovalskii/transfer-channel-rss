@@ -1,30 +1,30 @@
 [
   {
-    "id": "cgevent/15316",
-    "title": "Нейрозловещая долинаТут один аниматор и риггер сделал сетап для Maya(!), который анализирует playblast(черновую анимацию из вьюпорта) и добавляет мех, текстуры, освещение и выполняет рендеринг, сохраняя при этом исходное движение. Ну то есть нейрорендеринг.В довольно длинном треде  аниматоры обсуждают, что нейрорендеринг \"скрадывает\" и как бы портит исходную анимацию. Крупные движения сохраняются, а мимика становится \"дубовой\", меньше деталей. Ну и как бы зловещая долина.Не знаю как насчет долины, но эффект скрадывания деталей действительно есть. Интересно, это результат применения конкретных моделей или в целом нейрорендеринг всегда будет воровать детали? Надо подумать.@cgevent",
+    "id": "dealerAI/1754",
+    "title": "Говорят, что антропик с гитом стали банить форки утечки, в тч доработанные (правда для них отеатили). Кто успел форкнуть и скачать локально? Знаю, что были уникумы, кто на GitVerse залили, чтобы рука госдепа не достала. Вот уж поистине говорит о том, что утекло важное. ",
     "type": "text",
-    "datetime": "2026-04-02T08:03:47+00:00",
+    "datetime": "2026-04-02T09:33:33+00:00",
     "tags": [],
-    "text": "Нейрозловещая долинаТут один аниматор и риггер сделал сетап для Maya(!), который анализирует playblast(черновую анимацию из вьюпорта) и добавляет мех, текстуры, освещение и выполняет рендеринг, сохраняя при этом исходное движение. Ну то есть нейрорендеринг.В довольно длинном треде  аниматоры обсуждают, что нейрорендеринг \"скрадывает\" и как бы портит исходную анимацию. Крупные движения сохраняются, а мимика становится \"дубовой\", меньше деталей. Ну и как бы зловещая долина.Не знаю как насчет долины, но эффект скрадывания деталей действительно есть. Интересно, это результат применения конкретных моделей или в целом нейрорендеринг всегда будет воровать детали? Надо подумать.@cgevent",
-    "content": "<video src=\"https://cdn4.telesco.pe/file/8e98364227.mp4?token=k2Vn67OfNiEYqGdSE_3H-sSRWUXywzLFFTwYW3wz6RVKAwiK394y_9GAOIrqqJyaadhjFq9XZV5VMpWmjJmGuZPp-9usFk0DAe-LxVVqzZtoqdIQG_QDF6MTUVETYF6I6alKFmpEuBNsHoVwydtabpsEwBXr_npLmeA9hk6zNpnztiYl_6EsP-IvH3syi_JoSuLtVOZQ05AgnYo4BlBVkrhOf76_7XSJaJJsAFzDaPatp9Mz8n1BLlJC76Ak8D23bdX9VSbsrOUra4A2Fs627vaBhCOzWBIT3TDIwLKi8dxsocsvIw4F3vhZ9l5iz0aThi0jS4ViOzSuAQxvJevSxA\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"auto\" playsinline=\"\"></video><b>Нейрозловещая долина</b><br><br>Тут один аниматор и риггер сделал сетап для Maya(!), который анализирует playblast(черновую анимацию из вьюпорта) и добавляет мех, текстуры, освещение и выполняет рендеринг, сохраняя при этом исходное движение. Ну то есть нейрорендеринг.<br><br>В довольно <a href=\"https://x.com/Matarawi_Film/status/2039284235526160403\" target=\"_blank\" rel=\"noopener\" title=\"длинном треде \">длинном треде </a> аниматоры обсуждают, что нейрорендеринг \"скрадывает\" и как бы портит исходную анимацию. Крупные движения сохраняются, а мимика становится \"дубовой\", меньше деталей. Ну и как бы зловещая долина.<br><br>Не знаю как насчет долины, но эффект скрадывания деталей действительно есть. Интересно, это результат применения конкретных моделей или в целом нейрорендеринг всегда будет воровать детали? Надо подумать.<br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a>",
+    "text": "Говорят, что антропик с гитом стали банить форки утечки, в тч доработанные (правда для них отеатили). Кто успел форкнуть и скачать локально? Знаю, что были уникумы, кто на GitVerse залили, чтобы рука госдепа не достала. Вот уж поистине говорит о том, что утекло важное. ",
+    "content": "<a class=\"tgme_widget_message_reply user-color-default\" href=\"/posts/1750\" \"=\"\"><blockquote><small>\n<div class=\"tgme_widget_message_author accent_color\">\n  <span class=\"tgme_widget_message_author_name\" dir=\"auto\">Dealer.AI</span>\n</div>\n<div class=\"tgme_widget_message_text js-message_reply_text\" dir=\"auto\">Теперь и код Claude Code утек. <tg-emoji emoji-id=\"5460740725735955037\"><i class=\"emoji\" style=\"background-image:url('media/584335e4997e5437a2b66f070afa31ab.png')\"><b>👍</b></i></tg-emoji>   Говорят его слили... Ошибка в map пакете и можно разобрать на косточки.  Что случилось?  31 марта 2026 года в npm‑пакете Claude Code случайно опубликовали source map (файл для отладки). Через него любой желающий восстановил…</div>\n</small></blockquote></a>Говорят, что антропик с гитом стали банить форки утечки, в тч доработанные (правда для них отеатили). Кто успел форкнуть и скачать локально? <label class=\"spoiler-button\"><input type=\"checkbox\" aria-label=\"Reveal spoiler\" aria-controls=\"spoiler-19-0\"><tg-spoiler id=\"spoiler-19-0\">Знаю, что были уникумы, кто на GitVerse залили, чтобы рука госдепа не достала. </tg-spoiler></label><label class=\"spoiler-button\"><input type=\"checkbox\" aria-label=\"Reveal spoiler\" aria-controls=\"spoiler-19-1\"><tg-spoiler id=\"spoiler-19-1\"><img class=\"tg-emoji\" src=\"media/7a083a3b745e23b9d151f6a8b2d10d5e.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"></tg-spoiler></label><br><br>Вот уж поистине говорит о том, что утекло важное. <img class=\"tg-emoji\" src=\"media/751a426a0840c5bef3b459d5429b83b0.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\">",
     "reactions": [
       {
+        "emoji": "🤩",
+        "count": "6",
+        "isPaid": false
+      },
+      {
         "emoji": "👍",
-        "count": "11",
+        "count": "2",
         "isPaid": false
       },
       {
-        "emoji": "❤️",
-        "count": "3",
-        "isPaid": false
-      },
-      {
-        "emoji": "🔥",
+        "emoji": "👨‍💻",
         "count": "1",
         "isPaid": false
       }
     ],
-    "channel": "cgevent",
-    "channelTitle": "Метаверсище и ИИще"
+    "channel": "dealerAI",
+    "channelTitle": "Dealer.AI"
   }
 ]
