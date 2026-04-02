@@ -1,86 +1,45 @@
 [
   {
-    "id": "seeallochnaya/3494",
-    "title": "Google выпускают обновление линейки Gemma — стала доступна версия с номером 4",
+    "id": "data_secrets/8970",
+    "title": " Встречаем Gemma-4 – 4 размера: 31В Dense, 26B MoE А4В, E4B и E2B. Все с ризонингом. – Последние две предназначены специально для локального запуска на устройствах (E = edge). Мультимодальные: в комплекте картинки, текст и звук. – Первые две – новые SOTA в своем размере, в целом дотягивают даже до моделей в 20-30 раз больше. – Контекст, можно сказать, огромный: 256К для больших, 128К для маленьких. – Теперь лицензия Apache 2.0! Отличный релизБлог: blog.google/innovation-and-ai/technology/developers-tools/gemma-4/Веса: huggingface.co/collections/google/gemma-4Ниже выложим инструкцию по запуску с минимальными необходимыми конфигурациями ",
     "type": "text",
-    "datetime": "2026-04-02T16:08:45+00:00",
+    "datetime": "2026-04-02T16:38:56+00:00",
     "tags": [],
-    "text": "Google выпускают обновление линейки Gemma — стала доступна версия с номером 4https://deepmind.google/models/gemma/gemma-4/Всего доступны модели 4 размеров: поменьше E2B, E4b (бывшие Gemma 3n/Gemini Nano); и побольше, 26A4B, 31B (Dense).Модели поддерживают рассуждения и вызов инструментов, понимают картинки и видео. Заявлена поддержка 35 языков (но тренировали на 140). Контекст 128к/256к.E2B и E4B (для смартфонов) поддерживают аудио на входе — можно делать распознавание голоса.Веса: https://huggingface.co/collections/google/gemma-4Google выпускают обновление линейки Gemma — стала доступна версия с номером 4https://deepmind.google/models/gemma/gemma-4/Всего доступны модели 4 размеров: поменьше E2B, E4b (бывшие Gemma 3n/Gemini Nano); и побольше, 26A4B, 31B (Dense).Модели поддерживают рассуждения и вызов инструментов, понимают картинки и видео. Заявлена поддержка 35 языков (но тренировали на 140). Контекст 128к/256к.E2B и E4B (для смартфонов) поддерживают аудио на входе — можно делать распознавание голоса.Веса: https://huggingface.co/collections/google/gemma-4",
-    "content": "<div class=\"image-list-container image-list-even\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-3494-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Google выпускают обновление линейки Gemma — стала доступна версия с номером 4\">\n        <img src=\"media/1a98ade47c33430f00f5e412c06b4179.jpg\" alt=\"Google выпускают обновление линейки Gemma — стала доступна версия с номером 4\" width=\"225\" height=\"205\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-3494-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-3494-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-3494-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/1a98ade47c33430f00f5e412c06b4179.jpg\" alt=\"Google выпускают обновление линейки Gemma — стала доступна версия с номером 4\" width=\"225\" height=\"205\" loading=\"lazy\" />\n        </div>\n      </div>\n    \n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-3494-1\" popovertargetaction=\"show\" aria-label=\"Open image preview: Google выпускают обновление линейки Gemma — стала доступна версия с номером 4\">\n        <img src=\"media/3b9e1cb522b09745045567fb34992be2.jpg\" alt=\"Google выпускают обновление линейки Gemma — стала доступна версия с номером 4\" width=\"226\" height=\"205\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-3494-1\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-3494-1\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-3494-1\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/3b9e1cb522b09745045567fb34992be2.jpg\" alt=\"Google выпускают обновление линейки Gemma — стала доступна версия с номером 4\" width=\"226\" height=\"205\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">Google выпускают обновление линейки Gemma —&nbsp;стала доступна версия с номером 4<br><br><a href=\"https://deepmind.google/models/gemma/gemma-4/\" target=\"_blank\" rel=\"noopener\" title=\"https://deepmind.google/models/gemma/gemma-4/\">https://deepmind.google/models/gemma/gemma-4/</a><br><br>Всего доступны модели 4 размеров: поменьше E2B, E4b (бывшие Gemma 3n/Gemini Nano); и побольше, 26A4B, 31B (Dense).<br><br>Модели поддерживают рассуждения и вызов инструментов, понимают картинки и видео. Заявлена поддержка 35 языков (но тренировали на 140). Контекст 128к/256к.<br><br>E2B и E4B (для смартфонов) поддерживают аудио на входе —&nbsp;можно делать распознавание голоса.<br><br>Веса: <a href=\"https://huggingface.co/collections/google/gemma-4\" target=\"_blank\" rel=\"noopener\" title=\"https://huggingface.co/collections/google/gemma-4\">https://huggingface.co/collections/google/gemma-4</a></div>",
-    "reactions": [
-      {
-        "emoji": "⭐",
-        "count": "3",
-        "isPaid": true
-      },
-      {
-        "emoji": "🔥",
-        "count": "52",
-        "isPaid": false
-      },
-      {
-        "emoji": "❤‍🔥",
-        "count": "11",
-        "isPaid": false
-      },
-      {
-        "emoji": "🎉",
-        "count": "5",
-        "isPaid": false
-      },
-      {
-        "emoji": "",
-        "emojiId": "5355083340548419513",
-        "emojiImage": "https://t.me/i/emoji/5355083340548419513.webp",
-        "count": "4",
-        "isPaid": false
-      },
-      {
-        "emoji": "🤡",
-        "count": "1",
-        "isPaid": false
-      },
-      {
-        "emoji": "👨‍💻",
-        "count": "1",
-        "isPaid": false
-      }
-    ],
-    "channel": "seeallochnaya",
-    "channelTitle": "Сиолошная"
-  },
-  {
-    "id": "cgevent/15321",
-    "title": "Нашёл интересный проект - top3d.ai. Ребята сделали слепую арену для сравнения 3D AI генераторов. Работает просто: две модели рядом, названия скрыты, голосуешь за лучшую. Уже больше 100 000 голосов.Залип на лидерборде и вот что заметил: Лидер рейтинга сменился буквально за 10 дней - вышла новая версия YVO3D и перетасовала всё Open-source инструменты (Hunyuan, стабильно держатся в топе - платные не всегда выигрывают Разница между топами - считанные очки ELO. Одно обновление и ситуация меняется Самое интересное - некоторые генераторы делают отличную геометрию но слабые текстуры, и наоборот. Универсального лидера пока нетЕщё у них появились два новых режима:🧩 Segmentation - сравнение качества разбивки моделей на части🧊 Low Poly - отдельный рейтинг для low-poly Плюс на страницах инструментов бывают промо-коды на скидки.В целом если работаете с 3D AI - полезная платформа чтобы понимать что сейчас реально работает, ещё и полностью бесплатно.ссылка#AI #3D #Blender #нейросети #benchmark",
-    "type": "text",
-    "datetime": "2026-04-02T16:12:13+00:00",
-    "tags": [
-      "AI",
-      "3D",
-      "Blender",
-      "нейросети",
-      "benchmark"
-    ],
-    "text": "Нашёл интересный проект - top3d.ai. Ребята сделали слепую арену для сравнения 3D AI генераторов. Работает просто: две модели рядом, названия скрыты, голосуешь за лучшую. Уже больше 100 000 голосов.Залип на лидерборде и вот что заметил: Лидер рейтинга сменился буквально за 10 дней - вышла новая версия YVO3D и перетасовала всё Open-source инструменты (Hunyuan, стабильно держатся в топе - платные не всегда выигрывают Разница между топами - считанные очки ELO. Одно обновление и ситуация меняется Самое интересное - некоторые генераторы делают отличную геометрию но слабые текстуры, и наоборот. Универсального лидера пока нетЕщё у них появились два новых режима:🧩 Segmentation - сравнение качества разбивки моделей на части🧊 Low Poly - отдельный рейтинг для low-poly Плюс на страницах инструментов бывают промо-коды на скидки.В целом если работаете с 3D AI - полезная платформа чтобы понимать что сейчас реально работает, ещё и полностью бесплатно.ссылка#AI #3D #Blender #нейросети #benchmark",
-    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-15321-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Нашёл интересный проект - top3d.ai. Ребята сделали слепую арену для сравнения 3D AI генераторов. Работает просто: две модели рядом, названия скрыты, голосуешь за лучшую. Уже больше 100 000 голосов.Залип на лидерборде и вот что заметил: Лидер рейтинга сменился буквально за 10 дней - вышла новая версия YVO3D и перетасовала всё Open-source инструменты (Hunyuan, стабильно держатся в топе - платные не всегда выигрывают Разница между топами - считанные очки ELO. Одно обновление и ситуация меняется Самое интересное - некоторые генераторы делают отличную геометрию но слабые текстуры, и наоборот. Универсального лидера пока нетЕщё у них появились два новых режима:🧩 Segmentation - сравнение качества разбивки моделей на части🧊 Low Poly - отдельный рейтинг для low-poly Плюс на страницах инструментов бывают промо-коды на скидки.В целом если работаете с 3D AI - полезная платформа чтобы понимать что сейчас реально работает, ещё и полностью бесплатно.ссылка#AI #3D #Blender #нейросети #benchmark\">\n        <img src=\"media/3d4ab665c8fdd73cfe88f4285082efd7.jpg\" alt=\"Нашёл интересный проект - top3d.ai. Ребята сделали слепую арену для сравнения 3D AI генераторов. Работает просто: две модели рядом, названия скрыты, голосуешь за лучшую. Уже больше 100 000 голосов.Залип на лидерборде и вот что заметил: Лидер рейтинга сменился буквально за 10 дней - вышла новая версия YVO3D и перетасовала всё Open-source инструменты (Hunyuan, стабильно держатся в топе - платные не всегда выигрывают Разница между топами - считанные очки ELO. Одно обновление и ситуация меняется Самое интересное - некоторые генераторы делают отличную геометрию но слабые текстуры, и наоборот. Универсального лидера пока нетЕщё у них появились два новых режима:🧩 Segmentation - сравнение качества разбивки моделей на части🧊 Low Poly - отдельный рейтинг для low-poly Плюс на страницах инструментов бывают промо-коды на скидки.В целом если работаете с 3D AI - полезная платформа чтобы понимать что сейчас реально работает, ещё и полностью бесплатно.ссылка#AI #3D #Blender #нейросети #benchmark\" width=\"800\" height=\"446\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-15321-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-15321-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-15321-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/3d4ab665c8fdd73cfe88f4285082efd7.jpg\" alt=\"Нашёл интересный проект - top3d.ai. Ребята сделали слепую арену для сравнения 3D AI генераторов. Работает просто: две модели рядом, названия скрыты, голосуешь за лучшую. Уже больше 100 000 голосов.Залип на лидерборде и вот что заметил: Лидер рейтинга сменился буквально за 10 дней - вышла новая версия YVO3D и перетасовала всё Open-source инструменты (Hunyuan, стабильно держатся в топе - платные не всегда выигрывают Разница между топами - считанные очки ELO. Одно обновление и ситуация меняется Самое интересное - некоторые генераторы делают отличную геометрию но слабые текстуры, и наоборот. Универсального лидера пока нетЕщё у них появились два новых режима:🧩 Segmentation - сравнение качества разбивки моделей на части🧊 Low Poly - отдельный рейтинг для low-poly Плюс на страницах инструментов бывают промо-коды на скидки.В целом если работаете с 3D AI - полезная платформа чтобы понимать что сейчас реально работает, ещё и полностью бесплатно.ссылка#AI #3D #Blender #нейросети #benchmark\" width=\"800\" height=\"446\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><b>Нашёл интересный проект -</b><a href=\"https://top3d.ai/?utm_source=telegram&amp;amp;utm_medium=paid&amp;amp;utm_campaign=tg-monkeyinlaw-apr26\" target=\"_blank\" rel=\"noopener\" title=\" top3d.ai\"><b> top3d.ai</b></a><b>.</b> <br><br>Ребята сделали слепую арену для сравнения 3D AI генераторов. Работает просто: две модели рядом, названия скрыты, голосуешь за лучшую. Уже больше 100 000 голосов.<br><br>Залип на лидерборде и вот что заметил:<br><img class=\"tg-emoji\" src=\"media/ddd939cbd961f58abdd6271145d8a802.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Лидер рейтинга сменился буквально за 10 дней - вышла новая версия YVO3D и перетасовала всё<br><img class=\"tg-emoji\" src=\"media/ddd939cbd961f58abdd6271145d8a802.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Open-source инструменты (Hunyuan, стабильно держатся в топе - платные не всегда выигрывают<br><img class=\"tg-emoji\" src=\"media/ddd939cbd961f58abdd6271145d8a802.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Разница между топами - считанные очки ELO. Одно обновление и ситуация меняется<br><img class=\"tg-emoji\" src=\"media/ddd939cbd961f58abdd6271145d8a802.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Самое интересное - некоторые генераторы делают отличную геометрию но слабые текстуры, и наоборот. Универсального лидера пока нет<br><br>Ещё у них появились два новых режима:<br><i class=\"emoji\"><b>🧩</b></i> Segmentation - сравнение качества разбивки моделей на части<br><i class=\"emoji\"><b>🧊</b></i> Low Poly - отдельный рейтинг для low-poly<br><br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5240483107601150912.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Плюс на страницах инструментов бывают промо-коды на скидки.<br><br>В целом если работаете с 3D AI - полезная платформа чтобы понимать что сейчас реально работает, ещё и полностью бесплатно.<br><br><a href=\"https://top3d.ai/?utm_source=telegram&amp;amp;utm_medium=paid&amp;amp;utm_campaign=tg-monkeyinlaw-apr26\" target=\"_blank\" rel=\"noopener\" title=\"ссылка\">ссылка</a><br><br><a href=\"/search/%23AI\" title=\"#AI\">#AI</a> <a href=\"/search/%233D\" title=\"#3D\">#3D</a> <a href=\"/search/%23Blender\" title=\"#Blender\">#Blender</a> <a href=\"/search/%23%D0%BD%D0%B5%D0%B9%D1%80%D0%BE%D1%81%D0%B5%D1%82%D0%B8\" title=\"#нейросети\">#нейросети</a> <a href=\"/search/%23benchmark\" title=\"#benchmark\">#benchmark</a>",
+    "text": " Встречаем Gemma-4 – 4 размера: 31В Dense, 26B MoE А4В, E4B и E2B. Все с ризонингом. – Последние две предназначены специально для локального запуска на устройствах (E = edge). Мультимодальные: в комплекте картинки, текст и звук. – Первые две – новые SOTA в своем размере, в целом дотягивают даже до моделей в 20-30 раз больше. – Контекст, можно сказать, огромный: 256К для больших, 128К для маленьких. – Теперь лицензия Apache 2.0! Отличный релизБлог: blog.google/innovation-and-ai/technology/developers-tools/gemma-4/Веса: huggingface.co/collections/google/gemma-4Ниже выложим инструкцию по запуску с минимальными необходимыми конфигурациями ",
+    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-8970-0\" popovertargetaction=\"show\" aria-label=\"Open image preview:  Встречаем Gemma-4 – 4 размера: 31В Dense, 26B MoE А4В, E4B и E2B. Все с ризонингом. – Последние две предназначены специально для локального запуска на устройствах (E = edge). Мультимодальные: в комплекте картинки, текст и звук. – Первые две – новые SOTA в своем размере, в целом дотягивают даже до моделей в 20-30 раз больше. – Контекст, можно сказать, огромный: 256К для больших, 128К для маленьких. – Теперь лицензия Apache 2.0! Отличный релизБлог: blog.google/innovation-and-ai/technology/developers-tools/gemma-4/Веса: huggingface.co/collections/google/gemma-4Ниже выложим инструкцию по запуску с минимальными необходимыми конфигурациями \">\n        <img src=\"media/de30d7aef4bbaee0df1a6b8d6ccc3fff.jpg\" alt=\" Встречаем Gemma-4 – 4 размера: 31В Dense, 26B MoE А4В, E4B и E2B. Все с ризонингом. – Последние две предназначены специально для локального запуска на устройствах (E = edge). Мультимодальные: в комплекте картинки, текст и звук. – Первые две – новые SOTA в своем размере, в целом дотягивают даже до моделей в 20-30 раз больше. – Контекст, можно сказать, огромный: 256К для больших, 128К для маленьких. – Теперь лицензия Apache 2.0! Отличный релизБлог: blog.google/innovation-and-ai/technology/developers-tools/gemma-4/Веса: huggingface.co/collections/google/gemma-4Ниже выложим инструкцию по запуску с минимальными необходимыми конфигурациями \" width=\"800\" height=\"450\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-8970-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-8970-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-8970-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/de30d7aef4bbaee0df1a6b8d6ccc3fff.jpg\" alt=\" Встречаем Gemma-4 – 4 размера: 31В Dense, 26B MoE А4В, E4B и E2B. Все с ризонингом. – Последние две предназначены специально для локального запуска на устройствах (E = edge). Мультимодальные: в комплекте картинки, текст и звук. – Первые две – новые SOTA в своем размере, в целом дотягивают даже до моделей в 20-30 раз больше. – Контекст, можно сказать, огромный: 256К для больших, 128К для маленьких. – Теперь лицензия Apache 2.0! Отличный релизБлог: blog.google/innovation-and-ai/technology/developers-tools/gemma-4/Веса: huggingface.co/collections/google/gemma-4Ниже выложим инструкцию по запуску с минимальными необходимыми конфигурациями \" width=\"800\" height=\"450\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><img class=\"tg-emoji\" src=\"media/ebb8a2ed12cd955973c8b0dd4d17e0e5.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> <b>Встречаем Gemma-4</b> <br><br>– 4 размера: 31В Dense, 26B MoE А4В, E4B и E2B. Все с ризонингом. <br><br>– Последние две предназначены специально для локального запуска на устройствах (E = edge). Мультимодальные: в комплекте картинки, текст и звук. <br><br>– Первые две – новые SOTA в своем размере, в целом дотягивают даже до моделей в 20-30 раз больше. <br><br>– Контекст, можно сказать, огромный: 256К для больших, 128К для маленьких. <br><br>– Теперь лицензия Apache 2.0! <br><br>Отличный релиз<br><br>Блог: <a href=\"http://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/\" target=\"_blank\" rel=\"noopener\" title=\"blog.google/innovation-and-ai/technology/developers-tools/gemma-4/\">blog.google/innovation-and-ai/technology/developers-tools/gemma-4/</a><br><br>Веса: <a href=\"http://huggingface.co/collections/google/gemma-4\" target=\"_blank\" rel=\"noopener\" title=\"huggingface.co/collections/google/gemma-4\">huggingface.co/collections/google/gemma-4</a><br><br>Ниже выложим инструкцию по запуску с минимальными необходимыми конфигурациями <img class=\"tg-emoji\" src=\"media/b1f8053cbe27fbd6d5663d2a14baf952.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\">",
     "reactions": [
       {
         "emoji": "🔥",
-        "count": "4",
-        "isPaid": false
-      },
-      {
-        "emoji": "👍",
-        "count": "2",
+        "count": "91",
         "isPaid": false
       },
       {
         "emoji": "❤️",
+        "count": "29",
+        "isPaid": false
+      },
+      {
+        "emoji": "⚡",
+        "count": "9",
+        "isPaid": false
+      },
+      {
+        "emoji": "👍",
+        "count": "5",
+        "isPaid": false
+      },
+      {
+        "emoji": "🤔",
+        "count": "1",
+        "isPaid": false
+      },
+      {
+        "emoji": "🤯",
         "count": "1",
         "isPaid": false
       }
     ],
-    "channel": "cgevent",
-    "channelTitle": "Метаверсище и ИИще"
+    "channel": "data_secrets",
+    "channelTitle": "Data Secrets"
   }
 ]
