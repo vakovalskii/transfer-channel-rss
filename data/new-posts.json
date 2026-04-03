@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "neuraldeep/2036",
+    "title": "Мне стало страшно перезагружать нотубук И я решил навайбкодить дашборд для сессий Claude Code + Codex (дабы не рыскать по сессиям в терминале) Встречайте CodeDash для тех кто любит терминал, и не нашел еще решения такой проблемы, или если вы нашли присылайте в коментарии app не предлагать =)npx codedash-app@latest runну и по классике вы всегда можете допилить что хотите самиРепо:  ",
+    "type": "text",
+    "datetime": "2026-04-03T20:55:36+00:00",
+    "tags": [],
+    "text": "Мне стало страшно перезагружать нотубук И я решил навайбкодить дашборд для сессий Claude Code + Codex (дабы не рыскать по сессиям в терминале) Встречайте CodeDash для тех кто любит терминал, и не нашел еще решения такой проблемы, или если вы нашли присылайте в коментарии app не предлагать =)npx codedash-app@latest runну и по классике вы всегда можете допилить что хотите самиРепо:  https://github.com/vakovalskii/codedash",
+    "content": "<video src=\"https://cdn4.telesco.pe/file/0388d00211.mp4?token=gsg_0NuFZdk_fjiKM-8n8puuB_ujXtytQbHeCmzVUH6b6Yxx4RkTN1YdnXxuKE7OrlLze0SYcp7ffLfV467NNdvWZTiOifpf_u_9WwRIjoeZ9ZngLSFKPblPtYHmLPjuDNfXI9H0XpCs8K7R2oSYxd-x1frFAbRc0KPevTeNOs1B4YRzbuPjonTcQu-2zsz25vEVNOZUvA5CLSAxDc_tEkzgSAxGNhog1TwiwO5pRhPLM0OBsFdsOjkGjbEFnOZXYXMtpQUOb0eeQIM0VvBERU4ySTTOQ1EYbgh90QdqOy2KO6VLzqUqhD3CZNd-Snh8ot2JV5JHcCdJoUdvfox_61cuXqTWBFyabFyXWeRdo7P2aOYXAms_LzS4t9E2dvwyRFm3t2jF6Y-D_Mw3HwKjD4SDMgh4KsN0Lxr9LA8ANU_fUa-g64PVfSxK4rFRBnyK4hlLlC0c3DkzUFhTJsn0nRDuuMdQmCRh9sflFk0rduAu6TmdKRnjVAelH4nk4_AudEXs2KyMAVkklZN7nDyJgFNHZv99i7SZUZmnad8pik7GiPXLZ1mrWMp9_ws3Wu_0YixIVe7XWLW1xRaeMrNdL-2LBO2EQz2U3ABzxpLLxOedcKclHCm5TJpjwP0sUUhcnD1oses6Y4ENt2DIDu73MlhkbAqwMqpYX-K3XICpxHc\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"metadata\" playsinline=\"\"></video>Мне стало страшно перезагружать нотубук <br><br>И я решил навайбкодить дашборд для сессий Claude Code + Codex (дабы не рыскать по сессиям в терминале) <br><br>Встречайте CodeDash для тех кто любит терминал, и не нашел еще решения такой проблемы, или если вы нашли присылайте в коментарии app не предлагать =)<br><br><pre><code class=\"language-ruby\">npx codedash<span class=\"token operator\">-</span>app<span class=\"token variable\">@latest</span> run</code></pre><br><br>ну и по классике вы всегда можете допилить что хотите сами<br><br>Репо:  <a href=\"https://github.com/vakovalskii/codedash\" target=\"_blank\" rel=\"noopener\" title=\"https://github.com/vakovalskii/codedash\">https://github.com/vakovalskii/codedash</a>",
+    "reactions": [
+      {
+        "emoji": "⭐",
+        "count": "1",
+        "isPaid": true
+      },
+      {
+        "emoji": "👍",
+        "count": "8",
+        "isPaid": false
+      },
+      {
+        "emoji": "🔥",
+        "count": "5",
+        "isPaid": false
+      },
+      {
+        "emoji": "😁",
+        "count": "3",
+        "isPaid": false
+      },
+      {
+        "emoji": "",
+        "emojiId": "5217608395250485583",
+        "emojiImage": "https://t.me/i/emoji/5217608395250485583.webp",
+        "count": "2",
+        "isPaid": false
+      }
+    ],
+    "channel": "neuraldeep",
+    "channelTitle": "Валера Ковальский"
+  }
+]
