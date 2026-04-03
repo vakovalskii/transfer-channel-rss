@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id": "data_secrets/8983",
+    "title": "Краткий пересказ статьи для тех, кому лень читать наш разбор ⬆️",
+    "type": "text",
+    "datetime": "2026-04-03T17:48:02+00:00",
+    "tags": [],
+    "text": "Краткий пересказ статьи для тех, кому лень читать наш разбор ⬆️",
+    "content": "<a class=\"tgme_widget_message_reply user-color-12 js-message_emoji_bg\" href=\"/posts/8982\" data-bg-emoji=\"5424846043365784811\" \"=\"\"><blockquote><small><i class=\"tgme_widget_message_reply_thumb\" style=\"background-image:url('media/49509acd746db6ecf47c8bf0b1146e4a.jpg')\"></i>\n<div class=\"tgme_widget_message_author accent_color\">\n  <span class=\"tgme_widget_message_author_name\" dir=\"auto\">Data Secrets</span>\n</div>\n<div class=\"tgme_widget_message_text js-message_reply_text\" dir=\"auto\">Эмоции Claude и как они влияют на его ответы: новое исследование от Anthropic  Итак, ученые Anthropic официально обнаружили в Claude нечто функционально похожее на человеческие эмоции и объяснили, как это работает. Разбираемся.   Технически, они взяли 171…</div>\n</small></blockquote></a><div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-8983-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Краткий пересказ статьи для тех, кому лень читать наш разбор ⬆️\">\n        <img src=\"media/0afbe3033bd3ced9d88870ed401704f4.jpg\" alt=\"Краткий пересказ статьи для тех, кому лень читать наш разбор ⬆️\" width=\"517\" height=\"689\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-8983-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-8983-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-8983-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/0afbe3033bd3ced9d88870ed401704f4.jpg\" alt=\"Краткий пересказ статьи для тех, кому лень читать наш разбор ⬆️\" width=\"517\" height=\"689\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Краткий пересказ статьи для тех, кому лень читать наш разбор <i class=\"emoji\"><b>⬆️</b></i>",
+    "reactions": [
+      {
+        "emoji": "😁",
+        "count": "52",
+        "isPaid": false
+      },
+      {
+        "emoji": "❤️",
+        "count": "6",
+        "isPaid": false
+      },
+      {
+        "emoji": "👍",
+        "count": "6",
+        "isPaid": false
+      }
+    ],
+    "channel": "data_secrets",
+    "channelTitle": "Data Secrets"
+  }
+]
