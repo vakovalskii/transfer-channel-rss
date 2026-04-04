@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "id": "cgevent/15339",
+    "title": "У меня на телефоне в приложении chatgpt появилась опция Change Aspect Ratio.Надо кликнуть на сгенеренную картинку и выбрать  Еdit.Но это не срабатывает, картинка остаётся 3:2.Забавно, приложение уже обновили, а модель нет.Зато можно посмотреть какие разрешения будут в новой gpt-image-2.@cgevent",
+    "type": "text",
+    "datetime": "2026-04-04T21:01:33+00:00",
+    "tags": [],
+    "text": "У меня на телефоне в приложении chatgpt появилась опция Change Aspect Ratio.Надо кликнуть на сгенеренную картинку и выбрать  Еdit.Но это не срабатывает, картинка остаётся 3:2.Забавно, приложение уже обновили, а модель нет.Зато можно посмотреть какие разрешения будут в новой gpt-image-2.@cgevent",
+    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-15339-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: У меня на телефоне в приложении chatgpt появилась опция Change Aspect Ratio.Надо кликнуть на сгенеренную картинку и выбрать  Еdit.Но это не срабатывает, картинка остаётся 3:2.Забавно, приложение уже обновили, а модель нет.Зато можно посмотреть какие разрешения будут в новой gpt-image-2.@cgevent\">\n        <img src=\"media/fdaecd233d4bb41de427de42c5d3d9db.jpg\" alt=\"У меня на телефоне в приложении chatgpt появилась опция Change Aspect Ratio.Надо кликнуть на сгенеренную картинку и выбрать  Еdit.Но это не срабатывает, картинка остаётся 3:2.Забавно, приложение уже обновили, а модель нет.Зато можно посмотреть какие разрешения будут в новой gpt-image-2.@cgevent\" width=\"548\" height=\"731\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-15339-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-15339-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-15339-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/fdaecd233d4bb41de427de42c5d3d9db.jpg\" alt=\"У меня на телефоне в приложении chatgpt появилась опция Change Aspect Ratio.Надо кликнуть на сгенеренную картинку и выбрать  Еdit.Но это не срабатывает, картинка остаётся 3:2.Забавно, приложение уже обновили, а модель нет.Зато можно посмотреть какие разрешения будут в новой gpt-image-2.@cgevent\" width=\"548\" height=\"731\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>У меня на телефоне в приложении chatgpt появилась опция Change Aspect Ratio.<br>Надо кликнуть на сгенеренную картинку и выбрать  Еdit.<br><br>Но это не срабатывает, картинка остаётся 3:2.<br><br>Забавно, приложение уже обновили, а модель нет.<br><br>Зато можно посмотреть какие разрешения будут в новой gpt-image-2.<br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a>",
+    "reactions": [
+      {
+        "emoji": "🔥",
+        "count": "7",
+        "isPaid": false
+      },
+      {
+        "emoji": "👍",
+        "count": "1",
+        "isPaid": false
+      }
+    ],
+    "channel": "cgevent",
+    "channelTitle": "Метаверсище и ИИще"
+  }
+]
