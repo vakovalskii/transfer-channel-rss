@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id": "neuraldeep/2041",
+    "title": "К нам присоединился Коля автор канала ",
+    "type": "text",
+    "datetime": "2026-04-04T12:08:26+00:00",
+    "tags": [],
+    "text": "К нам присоединился Коля автор канала https://t.me/oestickhttps://us06web.zoom.us/j/85633161275?pwd=MH9bycZ9k1kPv3sYRuV9C66aDJQWva.1",
+    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-2041-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: К нам присоединился Коля автор канала \">\n        <img src=\"media/b4f3821666deb63ff5e6831794176a7c.jpg\" alt=\"К нам присоединился Коля автор канала \" width=\"800\" height=\"610\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-2041-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-2041-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-2041-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/b4f3821666deb63ff5e6831794176a7c.jpg\" alt=\"К нам присоединился Коля автор канала \" width=\"800\" height=\"610\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>К нам присоединился Коля автор канала <a href=\"https://t.me/oestick\" target=\"_blank\" rel=\"noopener\" title=\"https://t.me/oestick\">https://t.me/oestick</a><br><br><a href=\"https://us06web.zoom.us/j/85633161275?pwd=MH9bycZ9k1kPv3sYRuV9C66aDJQWva.1\" target=\"_blank\" rel=\"noopener\" title=\"https://us06web.zoom.us/j/85633161275?pwd=MH9bycZ9k1kPv3sYRuV9C66aDJQWva.1\">https://us06web.zoom.us/j/85633161275?pwd=MH9bycZ9k1kPv3sYRuV9C66aDJQWva.1</a>",
+    "reactions": [
+      {
+        "emoji": "❤️",
+        "count": "7",
+        "isPaid": false
+      },
+      {
+        "emoji": "👍",
+        "count": "2",
+        "isPaid": false
+      },
+      {
+        "emoji": "🔥",
+        "count": "1",
+        "isPaid": false
+      }
+    ],
+    "channel": "neuraldeep",
+    "channelTitle": "Валера Ковальский"
+  }
+]
