@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "seeallochnaya/3502",
+    "title": "Свежий материал от TheInforamtion: DeepSeek будут предоставлять свою модель DeepSeek V4 эксклюзивно на чипах Huawei, показывая самодостатчноссть Китая.Главное:— первоначально релиз был намечен на февраль, однако адаптация модели под чипы Huawei оказалась непростой задачей. Инженеры DeepSeek долгое время создавали и запускали свои модели, используя аппаратное и программное обеспечение от Nvidia, и многие инженерные оптимизации для уменьшения цены заточены именно под зелёных.— Китайские технологические гиганты, в том числе Alibaba Group, ByteDance и Tencent Holdings, уже разместили крупные заказы на готовящиеся к выпуску чипы Huawei общим объемом в сотни тысяч штук.— DeepSeek также разрабатывает два дополнительных варианта V4: каждый из них оптимизирован под разные задачи, и при этом оба созданы для работы на китайских чипах.— Будут использоваться чипы Ascend 950PR, вычислительная мощность которых в 2,8 раза превосходит показатели Nvidia H20. Но чипы уступает H200. По данным компании Bernstein, Huawei сможет полностью преодолеть это отставание не раньше 2027 года, когда выйдет чип следующего поколения Ascend 960, чьи вычислительные возможности будут сопоставимы с чипами H200 (выпущенными...во втором квартале 2024-го).— 950PR заточены на инференс, а в четвертом квартале Huawei планирует выпустить Ascend 950DT — чип, предназначенный для обучения.===Компании надо успевать до релиза свежих моделей OpenAI и Anthropic, иначе можно отстать по метрикам (моё понимание такое, что релиз несколько раз из-за этого откладывался). Хуже них сейчас, акжется, только компании META ",
+    "type": "text",
+    "datetime": "2026-04-05T16:26:47+00:00",
+    "tags": [],
+    "text": "Свежий материал от TheInforamtion: DeepSeek будут предоставлять свою модель DeepSeek V4 эксклюзивно на чипах Huawei, показывая самодостатчноссть Китая.Главное:— первоначально релиз был намечен на февраль, однако адаптация модели под чипы Huawei оказалась непростой задачей. Инженеры DeepSeek долгое время создавали и запускали свои модели, используя аппаратное и программное обеспечение от Nvidia, и многие инженерные оптимизации для уменьшения цены заточены именно под зелёных.— Китайские технологические гиганты, в том числе Alibaba Group, ByteDance и Tencent Holdings, уже разместили крупные заказы на готовящиеся к выпуску чипы Huawei общим объемом в сотни тысяч штук.— DeepSeek также разрабатывает два дополнительных варианта V4: каждый из них оптимизирован под разные задачи, и при этом оба созданы для работы на китайских чипах.— Будут использоваться чипы Ascend 950PR, вычислительная мощность которых в 2,8 раза превосходит показатели Nvidia H20. Но чипы уступает H200. По данным компании Bernstein, Huawei сможет полностью преодолеть это отставание не раньше 2027 года, когда выйдет чип следующего поколения Ascend 960, чьи вычислительные возможности будут сопоставимы с чипами H200 (выпущенными...во втором квартале 2024-го).— 950PR заточены на инференс, а в четвертом квартале Huawei планирует выпустить Ascend 950DT — чип, предназначенный для обучения.===Компании надо успевать до релиза свежих моделей OpenAI и Anthropic, иначе можно отстать по метрикам (моё понимание такое, что релиз несколько раз из-за этого откладывался). Хуже них сейчас, акжется, только компании META ",
+    "content": "Свежий <a href=\"https://www.theinformation.com/articles/deepseeks-new-ai-model-will-victory-huawei?rc=7b5eag\" target=\"_blank\" rel=\"noopener\" title=\"материал\">материал</a> от TheInforamtion: DeepSeek будут предоставлять свою модель DeepSeek V4 эксклюзивно на чипах Huawei, показывая самодостатчноссть Китая.<br><br>Главное:<br>— первоначально релиз был намечен на февраль, однако адаптация модели под чипы Huawei оказалась непростой задачей. Инженеры DeepSeek долгое время создавали и запускали свои модели, используя аппаратное и программное обеспечение от Nvidia, и многие инженерные оптимизации для уменьшения цены заточены именно под зелёных.<br><br>— Китайские технологические гиганты, в том числе Alibaba Group, ByteDance и Tencent Holdings, уже разместили крупные заказы на готовящиеся к выпуску чипы Huawei общим объемом в сотни тысяч штук.<br><br>— DeepSeek также разрабатывает два дополнительных варианта V4: каждый из них оптимизирован под разные задачи, и при этом оба созданы для работы на китайских чипах.<br><br>— Будут использоваться чипы Ascend 950PR, вычислительная мощность которых в 2,8 раза превосходит показатели Nvidia H20. Но чипы уступает H200. По данным компании Bernstein, Huawei сможет полностью преодолеть это отставание не раньше 2027 года, когда выйдет чип следующего поколения Ascend 960, чьи вычислительные возможности будут сопоставимы с чипами H200 (выпущенными...во втором квартале 2024-го).<br><br>— 950PR заточены на инференс, а в четвертом квартале Huawei планирует выпустить Ascend 950DT — чип, предназначенный для обучения.<br><br>===<br><br>Компании надо успевать до релиза свежих моделей OpenAI и Anthropic, иначе можно отстать по метрикам (моё понимание такое, что релиз несколько раз из-за этого откладывался). Хуже них сейчас, акжется, только компании META <img class=\"tg-emoji\" src=\"media/fa9c1c45575cb40d4add06d32bc4f690.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"><a class=\"tgme_widget_message_link_preview\" href=\"https://www.theinformation.com/articles/deepseeks-new-ai-model-will-victory-huawei?rc=7b5eag\" target=\"_blank\" rel=\"noopener\" title=\"When DeepSeek introduces its next-generation model, likely in the next few weeks, it will mark a milestone in China’s yearslong quest for semiconductor self-sufficiency. That’s because the new model, called V4, will be able to run on the latest chips designed…\">\n  \n  <div class=\"link_preview_site_name accent_color\" dir=\"auto\">The Information</div>\n  <img class=\"link_preview_image\" alt=\"DeepSeek’s New AI Model Will Be a Victory for Huawei\" src=\"media/c177af5ad91743fb3d158acd8a88766c.jpg\" width=\"1200\" height=\"630\" loading=\"eager\">\n  <div class=\"link_preview_title\" dir=\"auto\">DeepSeek’s New AI Model Will Be a Victory for Huawei</div>\n  <div class=\"link_preview_description\" dir=\"auto\">When DeepSeek introduces its next-generation model, likely in the next few weeks, it will mark a milestone in China’s yearslong quest for semiconductor self-sufficiency. That’s because the new model, called V4, will be able to run on the latest chips designed…</div>\n</a>",
+    "reactions": [
+      {
+        "emoji": "👍",
+        "count": "43",
+        "isPaid": false
+      },
+      {
+        "emoji": "🌚",
+        "count": "7",
+        "isPaid": false
+      },
+      {
+        "emoji": "",
+        "emojiId": "5355083340548419513",
+        "emojiImage": "https://t.me/i/emoji/5355083340548419513.webp",
+        "count": "3",
+        "isPaid": false
+      },
+      {
+        "emoji": "🤯",
+        "count": "2",
+        "isPaid": false
+      },
+      {
+        "emoji": "😭",
+        "count": "1",
+        "isPaid": false
+      }
+    ],
+    "channel": "seeallochnaya",
+    "channelTitle": "Сиолошная"
+  }
+]
