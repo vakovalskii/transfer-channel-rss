@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "data_secrets/8993",
+    "title": "В Китае завирусился проект Colleague Skill – система для оцифровки живого сотрудника в ИИ-агента",
+    "type": "text",
+    "datetime": "2026-04-07T05:29:22+00:00",
+    "tags": [],
+    "text": "В Китае завирусился проект Colleague Skill – система для оцифровки живого сотрудника в ИИ-агентаhttps://github.com/titanwings/colleague-skillНекто сделал опенсорсный проект под флагом “Distill your colleague into an AI Skill”, и за пару дней он набрал почти 9к звезд. По сути, проект позволяет собрать цифрового двойника сотрудника.Просто загружаешь рабочие чаты, письма, результаты работы и прочее, и это превращается в базу знаний и упакованные скиллы для агентов с инструкциями о том, как человек работает и решает задачи, чем и как при этом пользуется, как общается и тд. С одной стороны удобно, можно же сделать цифровую копию самого себя  Но в китайских медиа типа RedNote пишут, что проект начали массово использовать коллеги против коллег. Люди буквально обучают агентов для выполнения задач других сотрудников, готовясь к моменту, когда руководство решит кого-нибудь уволить и надеясь, что так они защитят от увольнения самих себя. На этом фоне уже даже начали появляться всякие Anti-distillation tools, которые портят ваши логи и документацию так, чтобы агент не смог на них \"обучиться\". Вот так.",
+    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-8993-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: В Китае завирусился проект Colleague Skill – система для оцифровки живого сотрудника в ИИ-агента\">\n        <img src=\"media/a80827676a2b9b4f6017213b3a1a6059.jpg\" alt=\"В Китае завирусился проект Colleague Skill – система для оцифровки живого сотрудника в ИИ-агента\" width=\"800\" height=\"505\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-8993-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-8993-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-8993-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/a80827676a2b9b4f6017213b3a1a6059.jpg\" alt=\"В Китае завирусился проект Colleague Skill – система для оцифровки живого сотрудника в ИИ-агента\" width=\"800\" height=\"505\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><b>В Китае завирусился проект Colleague Skill – система для оцифровки живого сотрудника в ИИ-агента</b><br><br><a href=\"https://github.com/titanwings/colleague-skill\" target=\"_blank\" rel=\"noopener\" title=\"https://github.com/titanwings/colleague-skill\">https://github.com/titanwings/colleague-skill</a><br><br>Некто сделал опенсорсный проект под флагом “Distill your colleague into an AI Skill”, и за пару дней он набрал почти 9к звезд. По сути, проект позволяет собрать цифрового двойника сотрудника.<br><br>Просто загружаешь рабочие чаты, письма, результаты работы и прочее, и это превращается в базу знаний и упакованные скиллы для агентов с инструкциями о том, как человек работает и решает задачи, чем и как при этом пользуется, как общается и тд. <br><br>С одной стороны удобно, можно же сделать цифровую копию самого себя  <img class=\"tg-emoji\" src=\"media/58f213e516289e660dcdba43ea49ff73.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"><br><br>Но в китайских медиа типа RedNote <a href=\"https://www.financialexpress.com/life/technology-chinese-employees-using-ai-to-get-their-colleagues-fired-heres-why-4197028/\" target=\"_blank\" rel=\"noopener\" title=\"пишут\">пишут</a>, что проект начали массово использовать коллеги против коллег. Люди буквально обучают агентов для выполнения задач других сотрудников, готовясь к моменту, когда руководство решит кого-нибудь уволить и надеясь, что так они защитят от увольнения самих себя. <br><br>На этом фоне уже даже начали появляться всякие Anti-distillation tools, которые портят ваши логи и документацию так, чтобы агент не смог на них \"обучиться\". <br><br>Вот так.",
+    "reactions": [
+      {
+        "emoji": "❤️",
+        "count": "9",
+        "isPaid": false
+      },
+      {
+        "emoji": "🫡",
+        "count": "2",
+        "isPaid": false
+      },
+      {
+        "emoji": "🔥",
+        "count": "1",
+        "isPaid": false
+      },
+      {
+        "emoji": "😁",
+        "count": "1",
+        "isPaid": false
+      },
+      {
+        "emoji": "",
+        "emojiId": "5850279489090627237",
+        "emojiImage": "https://t.me/i/emoji/5850279489090627237.webp",
+        "count": "1",
+        "isPaid": false
+      }
+    ],
+    "channel": "data_secrets",
+    "channelTitle": "Data Secrets"
+  }
+]
