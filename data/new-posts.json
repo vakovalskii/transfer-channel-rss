@@ -1,1 +1,88 @@
-[]
+[
+  {
+    "id": "neuraldeep/2058",
+    "title": "PAC1-DEVПочитать что это такое можно тут (Ринат не перестает удивлять нас бенчмарками и соревнованиями)Решил пожечь подписку и реализовать свой подход, за старт спасибо (@multiagentsys) он выложил репо от которого я начал)За ночь(в ленивом ральф лупе через СС + Opus) довел gpt oss 120b + openai agent sdk + skills search + skills classificator до 39 pass 4 failed 90%( не стабильно) в среднем 83-84% Из приятного сделал полноценный центр управления запуском НастройкиЗапускСравнениеДефрагментация диска =)Можно ранить парарельно до 30 агентов (столько держит мои 4090 48гб 2штуки) на сегодня такое добро стоит как сервер с одной ada 6000(96гб) (1.1-1.3 млн рублей)Весь ран длится примерно 198 секунд  или 3.3 минуты (можете оценить, как такая модель будет у вас работать в проде по скорости и точности)Репо: ",
+    "type": "text",
+    "datetime": "2026-04-09T06:14:19+00:00",
+    "tags": [],
+    "text": "PAC1-DEVПочитать что это такое можно тут (Ринат не перестает удивлять нас бенчмарками и соревнованиями)Решил пожечь подписку и реализовать свой подход, за старт спасибо (@multiagentsys) он выложил репо от которого я начал)За ночь(в ленивом ральф лупе через СС + Opus) довел gpt oss 120b + openai agent sdk + skills search + skills classificator до 39 pass 4 failed 90%( не стабильно) в среднем 83-84% Из приятного сделал полноценный центр управления запуском НастройкиЗапускСравнениеДефрагментация диска =)Можно ранить парарельно до 30 агентов (столько держит мои 4090 48гб 2штуки) на сегодня такое добро стоит как сервер с одной ada 6000(96гб) (1.1-1.3 млн рублей)Весь ран длится примерно 198 секунд  или 3.3 минуты (можете оценить, как такая модель будет у вас работать в проде по скорости и точности)Репо: https://github.com/vakovalskii/phantom-agentPAC1-DEVПочитать что это такое можно тут (Ринат не перестает удивлять нас бенчмарками и соревнованиями)Решил пожечь подписку и реализовать свой подход, за старт спасибо (@multiagentsys) он выложил репо от которого я начал)За ночь(в ленивом ральф лупе через СС + Opus) довел gpt oss 120b + openai agent sdk + skills search + skills classificator до 39 pass 4 failed 90%( не стабильно) в среднем 83-84% Из приятного сделал полноценный центр управления запуском НастройкиЗапускСравнениеДефрагментация диска =)Можно ранить парарельно до 30 агентов (столько держит мои 4090 48гб 2штуки) на сегодня такое добро стоит как сервер с одной ada 6000(96гб) (1.1-1.3 млн рублей)Весь ран длится примерно 198 секунд  или 3.3 минуты (можете оценить, как такая модель будет у вас работать в проде по скорости и точности)Репо: https://github.com/vakovalskii/phantom-agent",
+    "content": "<div class=\"image-list-container image-list-even\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-2058-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: PAC1-DEVПочитать что это такое можно тут (Ринат не перестает удивлять нас бенчмарками и соревнованиями)Решил пожечь подписку и реализовать свой подход, за старт спасибо (@multiagentsys) он выложил репо от которого я начал)За ночь(в ленивом ральф лупе через СС + Opus) довел gpt oss 120b + openai agent sdk + skills search + skills classificator до 39 pass 4 failed 90%( не стабильно) в среднем 83-84% Из приятного сделал полноценный центр управления запуском НастройкиЗапускСравнениеДефрагментация диска =)Можно ранить парарельно до 30 агентов (столько держит мои 4090 48гб 2штуки) на сегодня такое добро стоит как сервер с одной ada 6000(96гб) (1.1-1.3 млн рублей)Весь ран длится примерно 198 секунд  или 3.3 минуты (можете оценить, как такая модель будет у вас работать в проде по скорости и точности)Репо: \">\n        <img src=\"media/9beb40101d5a0d73fb0403e3762661dd.jpg\" alt=\"PAC1-DEVПочитать что это такое можно тут (Ринат не перестает удивлять нас бенчмарками и соревнованиями)Решил пожечь подписку и реализовать свой подход, за старт спасибо (@multiagentsys) он выложил репо от которого я начал)За ночь(в ленивом ральф лупе через СС + Opus) довел gpt oss 120b + openai agent sdk + skills search + skills classificator до 39 pass 4 failed 90%( не стабильно) в среднем 83-84% Из приятного сделал полноценный центр управления запуском НастройкиЗапускСравнениеДефрагментация диска =)Можно ранить парарельно до 30 агентов (столько держит мои 4090 48гб 2штуки) на сегодня такое добро стоит как сервер с одной ada 6000(96гб) (1.1-1.3 млн рублей)Весь ран длится примерно 198 секунд  или 3.3 минуты (можете оценить, как такая модель будет у вас работать в проде по скорости и точности)Репо: \" width=\"453\" height=\"252\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-2058-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-2058-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-2058-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/9beb40101d5a0d73fb0403e3762661dd.jpg\" alt=\"PAC1-DEVПочитать что это такое можно тут (Ринат не перестает удивлять нас бенчмарками и соревнованиями)Решил пожечь подписку и реализовать свой подход, за старт спасибо (@multiagentsys) он выложил репо от которого я начал)За ночь(в ленивом ральф лупе через СС + Opus) довел gpt oss 120b + openai agent sdk + skills search + skills classificator до 39 pass 4 failed 90%( не стабильно) в среднем 83-84% Из приятного сделал полноценный центр управления запуском НастройкиЗапускСравнениеДефрагментация диска =)Можно ранить парарельно до 30 агентов (столько держит мои 4090 48гб 2штуки) на сегодня такое добро стоит как сервер с одной ada 6000(96гб) (1.1-1.3 млн рублей)Весь ран длится примерно 198 секунд  или 3.3 минуты (можете оценить, как такая модель будет у вас работать в проде по скорости и точности)Репо: \" width=\"453\" height=\"252\" loading=\"lazy\" />\n        </div>\n      </div>\n    \n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-2058-1\" popovertargetaction=\"show\" aria-label=\"Open image preview: PAC1-DEVПочитать что это такое можно тут (Ринат не перестает удивлять нас бенчмарками и соревнованиями)Решил пожечь подписку и реализовать свой подход, за старт спасибо (@multiagentsys) он выложил репо от которого я начал)За ночь(в ленивом ральф лупе через СС + Opus) довел gpt oss 120b + openai agent sdk + skills search + skills classificator до 39 pass 4 failed 90%( не стабильно) в среднем 83-84% Из приятного сделал полноценный центр управления запуском НастройкиЗапускСравнениеДефрагментация диска =)Можно ранить парарельно до 30 агентов (столько держит мои 4090 48гб 2штуки) на сегодня такое добро стоит как сервер с одной ada 6000(96гб) (1.1-1.3 млн рублей)Весь ран длится примерно 198 секунд  или 3.3 минуты (можете оценить, как такая модель будет у вас работать в проде по скорости и точности)Репо: \">\n        <img src=\"media/15da27f9a38e23314140ba4921a30d08.jpg\" alt=\"PAC1-DEVПочитать что это такое можно тут (Ринат не перестает удивлять нас бенчмарками и соревнованиями)Решил пожечь подписку и реализовать свой подход, за старт спасибо (@multiagentsys) он выложил репо от которого я начал)За ночь(в ленивом ральф лупе через СС + Opus) довел gpt oss 120b + openai agent sdk + skills search + skills classificator до 39 pass 4 failed 90%( не стабильно) в среднем 83-84% Из приятного сделал полноценный центр управления запуском НастройкиЗапускСравнениеДефрагментация диска =)Можно ранить парарельно до 30 агентов (столько держит мои 4090 48гб 2штуки) на сегодня такое добро стоит как сервер с одной ada 6000(96гб) (1.1-1.3 млн рублей)Весь ран длится примерно 198 секунд  или 3.3 минуты (можете оценить, как такая модель будет у вас работать в проде по скорости и точности)Репо: \" width=\"453\" height=\"253\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-2058-1\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-2058-1\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-2058-1\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/15da27f9a38e23314140ba4921a30d08.jpg\" alt=\"PAC1-DEVПочитать что это такое можно тут (Ринат не перестает удивлять нас бенчмарками и соревнованиями)Решил пожечь подписку и реализовать свой подход, за старт спасибо (@multiagentsys) он выложил репо от которого я начал)За ночь(в ленивом ральф лупе через СС + Opus) довел gpt oss 120b + openai agent sdk + skills search + skills classificator до 39 pass 4 failed 90%( не стабильно) в среднем 83-84% Из приятного сделал полноценный центр управления запуском НастройкиЗапускСравнениеДефрагментация диска =)Можно ранить парарельно до 30 агентов (столько держит мои 4090 48гб 2штуки) на сегодня такое добро стоит как сервер с одной ada 6000(96гб) (1.1-1.3 млн рублей)Весь ран длится примерно 198 секунд  или 3.3 минуты (можете оценить, как такая модель будет у вас работать в проде по скорости и точности)Репо: \" width=\"453\" height=\"253\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">PAC1-DEV<br><br>Почитать что это такое можно <a href=\"https://bitgn.com/challenge/PAC\" target=\"_blank\" rel=\"noopener\" title=\"тут\">тут</a> (<a href=\"https://t.me/llm_under_hood\" target=\"_blank\" rel=\"noopener\" title=\"Ринат\">Ринат</a> не перестает удивлять нас бенчмарками и соревнованиями)<br><br>Решил пожечь подписку и реализовать свой подход, за старт спасибо (<a href=\"https://t.me/multiagentsys\" target=\"_blank\" title=\"@multiagentsys\">@multiagentsys</a>) он выложил <a href=\"https://github.com/snow-ghost/sample-agent\" target=\"_blank\" rel=\"noopener\" title=\"репо\">репо</a> от которого я начал)<br>За ночь(в ленивом ральф лупе через СС + Opus) довел gpt oss 120b + openai agent sdk + skills search + skills classificator до 39 pass 4 failed 90%( не стабильно) в среднем 83-84% <br><br>Из приятного сделал полноценный центр управления запуском <br>Настройки<br>Запуск<br>Сравнение<br>Дефрагментация диска =)<br>Можно ранить парарельно до 30 агентов (столько держит мои 4090 48гб 2штуки) на сегодня такое добро стоит как сервер с одной ada 6000(96гб) (1.1-1.3 млн рублей)<br><br>Весь ран длится примерно 198 секунд  или 3.3 минуты (можете оценить, как такая модель будет у вас работать в проде по скорости и точности)<br><br>Репо: <a href=\"https://github.com/vakovalskii/phantom-agent\" target=\"_blank\" rel=\"noopener\" title=\"https://github.com/vakovalskii/phantom-agent\">https://github.com/vakovalskii/phantom-agent</a></div>",
+    "reactions": [
+      {
+        "emoji": "⭐",
+        "count": "1",
+        "isPaid": true
+      },
+      {
+        "emoji": "🔥",
+        "count": "16",
+        "isPaid": false
+      },
+      {
+        "emoji": "🤔",
+        "count": "1",
+        "isPaid": false
+      }
+    ],
+    "channel": "neuraldeep",
+    "channelTitle": "Валера Ковальский"
+  },
+  {
+    "id": "data_secrets/9015",
+    "title": "Кстати, теперь мы наконец знаем, благодаря кому у Anthropic такая невероятная скорость разработки ",
+    "type": "text",
+    "datetime": "2026-04-09T06:56:44+00:00",
+    "tags": [],
+    "text": "Кстати, теперь мы наконец знаем, благодаря кому у Anthropic такая невероятная скорость разработки ",
+    "content": "<a class=\"tgme_widget_message_reply user-color-12 js-message_emoji_bg\" href=\"/posts/8999\" data-bg-emoji=\"5424846043365784811\" \"=\"\"><blockquote><small><i class=\"tgme_widget_message_reply_thumb\" style=\"background-image:url('media/60a3b42ee9c624ce9c985c5dccafbff2.jpg')\"></i>\n<div class=\"tgme_widget_message_author accent_color\">\n  <span class=\"tgme_widget_message_author_name\" dir=\"auto\">Data Secrets</span>\n</div>\n<div class=\"tgme_widget_message_text js-message_reply_text\" dir=\"auto\">Anthropic выпускают новую суперсильную модель Claude Mythos, но доступ к ней есть только по закрытой программе поиска уязвимостей  Итак, это не учебная тревога: в Anthropic разработали новую мощнейшую модель. Вот здесь лежит системная карта с бенчмарками:…</div>\n</small></blockquote></a>Кстати, теперь мы наконец знаем, благодаря кому у Anthropic такая невероятная скорость разработки <img class=\"tg-emoji\" src=\"media/5c772f079fec5bbbccd552d749b0f5f3.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\">",
+    "reactions": [
+      {
+        "emoji": "😁",
+        "count": "21",
+        "isPaid": false
+      },
+      {
+        "emoji": "🔥",
+        "count": "3",
+        "isPaid": false
+      },
+      {
+        "emoji": "",
+        "emojiId": "5773848767941842357",
+        "emojiImage": "https://t.me/i/emoji/5773848767941842357.webp",
+        "count": "3",
+        "isPaid": false
+      }
+    ],
+    "channel": "data_secrets",
+    "channelTitle": "Data Secrets"
+  },
+  {
+    "id": "data_secrets/9014",
+    "title": "Anthropic выпустили Claude Managed Agents – среду для запуска сложных и долгих агентных задач По сути, автопилот: вы задаете цель, инструменты и ограничения, а платформа берет на себя весь рантайм, все планирование, весь мониторинг и инфраструктуру. То есть теперь вам вообще не нужно самостоятельно заниматься оркестрацией, управлять файлами и тд, Managed Agents все делает за вас. Систему уже успели попробовать несколько ранних клиентов. Например, у Notion она уже внедрена на уровне полноценного исполнителя: команды работают с Managed Agents над долгоиграющими процессами. Они захватывают этот рынок все больше ",
+    "type": "text",
+    "datetime": "2026-04-09T06:54:52+00:00",
+    "tags": [],
+    "text": "Anthropic выпустили Claude Managed Agents – среду для запуска сложных и долгих агентных задач По сути, автопилот: вы задаете цель, инструменты и ограничения, а платформа берет на себя весь рантайм, все планирование, весь мониторинг и инфраструктуру. То есть теперь вам вообще не нужно самостоятельно заниматься оркестрацией, управлять файлами и тд, Managed Agents все делает за вас. Систему уже успели попробовать несколько ранних клиентов. Например, у Notion она уже внедрена на уровне полноценного исполнителя: команды работают с Managed Agents над долгоиграющими процессами. Они захватывают этот рынок все больше https://www.anthropic.com/engineering/managed-agents",
+    "content": "<b>Anthropic выпустили Claude Managed Agents – среду для запуска сложных и долгих агентных задач </b><br><br>По сути, автопилот: вы задаете цель, инструменты и ограничения, а платформа берет на себя весь рантайм, все планирование, весь мониторинг и инфраструктуру. <br><br>То есть теперь вам вообще не нужно самостоятельно заниматься оркестрацией, управлять файлами и тд, Managed Agents все делает за вас. <br><br>Систему уже успели попробовать несколько ранних клиентов. Например, у Notion она уже внедрена на уровне полноценного исполнителя: команды работают с Managed Agents над долгоиграющими процессами. <br><br>Они захватывают этот рынок все больше <br><br><a href=\"https://www.anthropic.com/engineering/managed-agents\" target=\"_blank\" rel=\"noopener\" title=\"https://www.anthropic.com/engineering/managed-agents\">https://www.anthropic.com/engineering/managed-agents</a><a class=\"tgme_widget_message_video_player not_supported js-message_video_player\" href=\"https://t.me/data_secrets/9014\"><i class=\"tgme_widget_message_video_thumb\" style=\"background-image:url('https://cdn4.telesco.pe/file/iY_5fFV3P6AcCUXLFUpWhIieWkXyRG5hmryn8V-v-OAA6CP9qlcwV37LwFnhBWlKt4m8jw6O0UjSCrEiiXp3cHz_bMqd8oiUjFNrd73aN8GhLhLqHwMTrlNlCMBzPmcKjUkr80wu2vMfc3v9e-2f5QUfE5QJ_HeMHSTnv8E539mE_CSWkxSizm4wBFAxAKie_4OigjjpRhp_H9QJsmTypNUXdBCfs5RSep1aYQOiP89nffAGs_KvFCvCT2FVQyC6YbLyn2bobA_KXUA1GkNjvtZUUT0ka3Zp3jiFkIk4k09H6rP5hTzjbBdglYOnBMU_V7W594vS3_YaMqi_327LsA')\"></i>\n\n<div class=\"tgme_widget_message_video_wrap\" style=\"width:848px;padding-top:54.716981132075%\">\n  \n</div>\n<div class=\"message_video_play js-message_video_play\"></div>\n<time class=\"message_video_duration js-message_video_duration\">0:59</time>\n<div class=\"message_media_not_supported_wrap\">\n  <div class=\"message_media_not_supported\">\n    <div class=\"message_media_not_supported_label\">Media is too big</div>\n    <span class=\"message_media_view_in_telegram\">VIEW IN TELEGRAM</span>\n  </div>\n</div></a>",
+    "reactions": [
+      {
+        "emoji": "🤯",
+        "count": "15",
+        "isPaid": false
+      },
+      {
+        "emoji": "🔥",
+        "count": "11",
+        "isPaid": false
+      },
+      {
+        "emoji": "❤️",
+        "count": "6",
+        "isPaid": false
+      }
+    ],
+    "channel": "data_secrets",
+    "channelTitle": "Data Secrets"
+  }
+]
