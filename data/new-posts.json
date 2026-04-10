@@ -1,110 +1,21 @@
 [
   {
-    "id": "neuraldeep/2065",
-    "title": "Собрал Handy + Paste в одно приложение",
+    "id": "cgevent/15384",
+    "title": "И вот уже процесс пошел на уровне государств...Министр финансов США Скотт Бессент и председатель Федеральной резервной системы Джером Пауэлл провели на этой неделе экстренное совещание с генеральными директорами банков, чтобы предупредить о киберрисках, создаваемых новейшей моделью искусственного интеллекта компании Anthropic, сообщили в четверг два источника, знакомые с ситуацией.Компания Anthropic запустила мощную модель Mythos в начале этой недели, но воздержалась от ее широкого распространения, сославшись на опасения, что она может выявить ранее неизвестные уязвимости в сфере кибербезопасности.",
     "type": "text",
-    "datetime": "2026-04-10T09:32:19+00:00",
+    "datetime": "2026-04-10T10:32:18+00:00",
     "tags": [],
-    "text": "Собрал Handy + Paste в одно приложениеhttps://github.com/vakovalskii/copyosityРекомендую к изучению как я решал кучу проблем десктопных аппок (невидимых, но использующих команды). После установки нужно на макбуке набрать Cmd+Shift+V, и вы увидите исторический буфер обмена в удобном виде как это вижу я =)Уже месяц потихоньку пилю и стабилизирую для себя буфер обмена для макбука. Чтобы работало как надо, чтобы скрины хранило ровно и текст копировался удобно. Даже подписал его своим кодом разработчика apple (не будет просить карантин).Как по мне (для себя же делал) удобно, полезно, и нет аналоговПосле настроек голосовой модели по урлу, можно получить Option+Space запус голосвого ввода в том месте где стоит курсорА так, конечно, можно скачать массу таких приложений готовых, но мы-то помним, зачем тут собрались? =)Download",
-    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-2065-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Собрал Handy + Paste в одно приложение\">\n        <img src=\"media/3cf39acf4fedfd5c681d443003e73bc1.jpg\" alt=\"Собрал Handy + Paste в одно приложение\" width=\"800\" height=\"458\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-2065-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-2065-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-2065-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/3cf39acf4fedfd5c681d443003e73bc1.jpg\" alt=\"Собрал Handy + Paste в одно приложение\" width=\"800\" height=\"458\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Собрал <a href=\"https://github.com/cjpais/handy\" target=\"_blank\" rel=\"noopener\" title=\"Handy\">Handy</a> + <a href=\"https://pasteapp.io/\" target=\"_blank\" rel=\"noopener\" title=\"Paste\">Paste</a> в одно приложение<br><br><a href=\"https://github.com/vakovalskii/copyosity\" target=\"_blank\" rel=\"noopener\" title=\"https://github.com/vakovalskii/copyosity\">https://github.com/vakovalskii/copyosity</a><br><br>Рекомендую к изучению как я решал кучу проблем десктопных аппок (невидимых, но использующих команды). После установки нужно на макбуке набрать <code>Cmd+Shift+V</code>, и вы увидите исторический буфер обмена в удобном виде как это вижу я =)<br>Уже месяц потихоньку пилю и стабилизирую для себя буфер обмена для макбука. <br>Чтобы работало как надо, чтобы скрины хранило ровно и текст копировался удобно. <br>Даже подписал его своим кодом разработчика apple (не будет просить карантин).<br>Как по мне (для себя же делал) удобно, полезно, и нет аналогов<br><br>После настроек голосовой модели по урлу, можно получить <code>Option+Space</code> запус голосвого ввода в том месте где стоит курсор<br><br>А так, конечно, можно скачать массу таких приложений готовых, но мы-то помним, зачем тут собрались? =)<br><br><a href=\"https://github.com/vakovalskii/copyosity/releases#:~:text=Copyosity_0.3.0_aarch64.dmg\" target=\"_blank\" rel=\"noopener\" title=\"Download\">Download</a>",
+    "text": "И вот уже процесс пошел на уровне государств...Министр финансов США Скотт Бессент и председатель Федеральной резервной системы Джером Пауэлл провели на этой неделе экстренное совещание с генеральными директорами банков, чтобы предупредить о киберрисках, создаваемых новейшей моделью искусственного интеллекта компании Anthropic, сообщили в четверг два источника, знакомые с ситуацией.Компания Anthropic запустила мощную модель Mythos в начале этой недели, но воздержалась от ее широкого распространения, сославшись на опасения, что она может выявить ранее неизвестные уязвимости в сфере кибербезопасности.https://finance.yahoo.com/sectors/technology/articles/bessent-powell-warn-bank-ceos-010258625.html@cgevent",
+    "content": "<a class=\"tgme_widget_message_reply user-color-default tgme_widget_message_reply_quote\" href=\"/posts/15373\" \"=\"\"><blockquote><small>\n<div class=\"tgme_widget_message_author accent_color\">\n  <span class=\"tgme_widget_message_author_name\" dir=\"auto\">Метаверсище и ИИще</span>\n</div>\n<div class=\"tgme_widget_message_text js-message_reply_text\" dir=\"auto\">Мне кажется мы очень быстро перейдем к фазе, аналогичной наличию ядерных вооружений в тех или иных руках. Просто щелк! и вот уже надо договариваться на уровне государств,</div>\n</small></blockquote></a><b>И вот уже процесс пошел на уровне государств...</b><br><br>Министр финансов США Скотт Бессент и председатель Федеральной резервной системы Джером Пауэлл провели на этой неделе экстренное совещание с генеральными директорами банков, чтобы предупредить о киберрисках, создаваемых новейшей моделью искусственного интеллекта компании Anthropic, сообщили в четверг два источника, знакомые с ситуацией.<br><br>Компания Anthropic запустила мощную модель Mythos в начале этой недели, но воздержалась от ее широкого распространения, сославшись на опасения, что она может выявить ранее неизвестные уязвимости в сфере кибербезопасности.<br><br><a href=\"https://finance.yahoo.com/sectors/technology/articles/bessent-powell-warn-bank-ceos-010258625.html\" target=\"_blank\" rel=\"noopener\" title=\"https://finance.yahoo.com/sectors/technology/articles/bessent-powell-warn-bank-ceos-010258625.html\">https://finance.yahoo.com/sectors/technology/articles/bessent-powell-warn-bank-ceos-010258625.html</a><br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a><a class=\"tgme_widget_message_link_preview\" href=\"https://finance.yahoo.com/sectors/technology/articles/bessent-powell-warn-bank-ceos-010258625.html\" target=\"_blank\" rel=\"noopener\" title=\"U.S. Treasury Secretary Scott Bessent and Federal Reserve Chair Jerome Powell convened an urgent meeting with bank ‌CEOs this week to warn of cyber risks posed by Anthropic's ‌latest AI model, two sources familiar with the matter said on Thursday.  Last week…\">\n  \n  <div class=\"link_preview_site_name accent_color\" dir=\"auto\">Yahoo Finance</div>\n  <img class=\"link_preview_image\" alt=\"Bessent, Powell warned bank CEOs about Anthropic model risks, sources say\" src=\"media/43695ae0b2cf279a2b27fddb1372bfeb.jpg\" width=\"1200\" height=\"630\" loading=\"lazy\">\n  <div class=\"link_preview_title\" dir=\"auto\">Bessent, Powell warned bank CEOs about Anthropic model risks, sources say</div>\n  <div class=\"link_preview_description\" dir=\"auto\">U.S. Treasury Secretary Scott Bessent and Federal Reserve Chair Jerome Powell convened an urgent meeting with bank ‌CEOs this week to warn of cyber risks posed by Anthropic's ‌latest AI model, two sources familiar with the matter said on Thursday.  Last week…</div>\n</a>",
     "reactions": [
       {
-        "emoji": "🔥",
-        "count": "15",
+        "emoji": "😁",
+        "count": "10",
         "isPaid": false
       },
       {
-        "emoji": "👍",
-        "count": "9",
-        "isPaid": false
-      },
-      {
-        "emoji": "❤️",
-        "count": "5",
-        "isPaid": false
-      },
-      {
-        "emoji": "🤡",
-        "count": "3",
-        "isPaid": false
-      },
-      {
-        "emoji": "🤮",
-        "count": "1",
-        "isPaid": false
-      },
-      {
-        "emoji": "🖕",
-        "count": "1",
-        "isPaid": false
-      }
-    ],
-    "channel": "neuraldeep",
-    "channelTitle": "Валера Ковальский"
-  },
-  {
-    "id": "cgevent/15383",
-    "title": "Gemini теперь сам пишет приложения для визуализации прямо в чате.Раньше я его просил \"Напиши на three.js визуализацию аттрактора Лоренца\". Он выдавал мне код и говорил, как его запустить. Можно было даже запустить в нем самом.Теперь процесс еще более упростился, но в принципе все осталось как прежде: пишете промпт \"помоги визуализировать траектории аттрактора Лоренца\" и оно пишет код, и выдает вам красивую кнопку \"Show Visualisation\". Нажав на которую вы видите сниппет прямо в чате.Телеграмчик уже приподвзвизгивает про \"новую фичу\", и \"Gemini научился\"но как по мне - это хорошо упакованная и довольно старая фича. Просто теперь не надо сильно растолковывать Gemini, что именно ты хочешь получить. Она сама решает, какие параметры визуализировать.Трюк в том, что в чате с Gemini надо выбрать модель Pro (Thinking не работает, проверил) и сказать \"помоги визуализировать (неведомую хрень)\". Получите кнопку.О чем еще не пишет телеграмчик, так это то, что в новом чате на этот же запрос вы получите совсем другую визуализацию. Совсем по-другому оформленную. У меня другой аттрактор Лоренца вышел белый и довольно \"лоу-поли\" (шаг рунге-кутты слишком большой).@cgevent",
-    "type": "text",
-    "datetime": "2026-04-10T09:57:38+00:00",
-    "tags": [],
-    "text": "Gemini теперь сам пишет приложения для визуализации прямо в чате.Раньше я его просил \"Напиши на three.js визуализацию аттрактора Лоренца\". Он выдавал мне код и говорил, как его запустить. Можно было даже запустить в нем самом.Теперь процесс еще более упростился, но в принципе все осталось как прежде: пишете промпт \"помоги визуализировать траектории аттрактора Лоренца\" и оно пишет код, и выдает вам красивую кнопку \"Show Visualisation\". Нажав на которую вы видите сниппет прямо в чате.Телеграмчик уже приподвзвизгивает про \"новую фичу\", и \"Gemini научился\"но как по мне - это хорошо упакованная и довольно старая фича. Просто теперь не надо сильно растолковывать Gemini, что именно ты хочешь получить. Она сама решает, какие параметры визуализировать.Трюк в том, что в чате с Gemini надо выбрать модель Pro (Thinking не работает, проверил) и сказать \"помоги визуализировать (неведомую хрень)\". Получите кнопку.О чем еще не пишет телеграмчик, так это то, что в новом чате на этот же запрос вы получите совсем другую визуализацию. Совсем по-другому оформленную. У меня другой аттрактор Лоренца вышел белый и довольно \"лоу-поли\" (шаг рунге-кутты слишком большой).@cgevent",
-    "content": "<video src=\"https://cdn4.telesco.pe/file/87baf6ced0.mp4?token=Tg8sxFVRem1G_YbxfL4FaRAts9JFqUR-dTGLUbgAWqPAg-l1lHjaHE4ppJhIYGT8BqxINH9D4nlcM-KKaQGrlDi29rVj2Sk7tSpuPmYvIOdQM4SIAsqyscGBD7vP49GdMWLr7cuToiaHFI9FkRi2auiog0b4RmJIpqDlZunZCf9TaTBKHkXUkT-kn7uhzGmzMEc9qrCS6mng40XvJG-jQ2WNkd-mzVZGdDuk8THYjVsAFZh79IaZvc0WtNR7LllhKfTwdYryVzQBLvetF2PJno3KxHH0lp4_mx-98bRLmbBL2SUCI61dsKPthVjCcug4E_IXM7D-p7jd14qn3vXnLw\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" preload=\"metadata\" muted=\"\" autoplay=\"\" loop=\"\" playsinline=\"\" controls=\"\"></video><a href=\"https://gemini.google.com/app\" target=\"_blank\" rel=\"noopener\" title=\"Gemini\"><b>Gemini</b></a><b> теперь сам пишет приложения для визуализации прямо в чате.</b><br><br>Раньше я его просил \"Напиши на three.js визуализацию аттрактора Лоренца\". Он выдавал мне код и говорил, как его запустить. Можно было даже запустить в нем самом.<br><br>Теперь процесс еще более упростился, но в принципе все осталось как прежде: пишете промпт \"помоги визуализировать траектории аттрактора Лоренца\" и оно пишет код, и выдает вам красивую кнопку \"Show Visualisation\". Нажав на которую вы видите сниппет прямо в чате.<br><br>Телеграмчик уже приподвзвизгивает про \"новую фичу\", и \"Gemini научился\"но как по мне - это хорошо упакованная и довольно старая фича. Просто теперь не надо сильно растолковывать Gemini, что именно ты хочешь получить. Она сама решает, какие параметры визуализировать.<br><br>Трюк в том, что в чате с Gemini надо выбрать модель Pro (Thinking не работает, проверил) и сказать \"помоги визуализировать (неведомую хрень)\". Получите кнопку.<br><br>О чем еще не пишет телеграмчик, так это то, что в новом чате на этот же запрос вы получите совсем другую визуализацию. Совсем по-другому оформленную. У меня другой аттрактор Лоренца вышел белый и довольно \"лоу-поли\" (шаг рунге-кутты слишком большой).<br><br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a>",
-    "reactions": [
-      {
-        "emoji": "👍",
-        "count": "6",
-        "isPaid": false
-      },
-      {
-        "emoji": "❤️",
-        "count": "3",
-        "isPaid": false
-      },
-      {
-        "emoji": "👎",
-        "count": "3",
-        "isPaid": false
-      }
-    ],
-    "channel": "cgevent",
-    "channelTitle": "Метаверсище и ИИще"
-  },
-  {
-    "id": "cgevent/15382",
-    "title": "HappyHorse: сравненияИнтересное сопоставление Счастливой Лошади и Veo, Kling, SkyReel и PixVerse.Когда смотришь первый раз, без пауз, то кажется, что все модели хороши. И подумалось мне, что довольно скоро мы перестанем рассуждать о том, кто круче. А просто будет как со сменной оптикой - здесь хорошо сработает телевик, а тут давайте коротыша. Далее видеофилы будут биться в духе Canon против Nikon - сидэнский 5.0 лучше рисует тени, а Клинг лучше в боке. Впрочем, я не уверен, что зумеры знают, что такое сменная оптика и тем более Никон. Просто будут спорить, чья кнопка на телефоне делает красивее.P.S. Все это сделано на Video Arena, никаких доступов пока нет. Алибаба молчит.@cgevent",
-    "type": "text",
-    "datetime": "2026-04-10T09:25:09+00:00",
-    "tags": [],
-    "text": "HappyHorse: сравненияИнтересное сопоставление Счастливой Лошади и Veo, Kling, SkyReel и PixVerse.Когда смотришь первый раз, без пауз, то кажется, что все модели хороши. И подумалось мне, что довольно скоро мы перестанем рассуждать о том, кто круче. А просто будет как со сменной оптикой - здесь хорошо сработает телевик, а тут давайте коротыша. Далее видеофилы будут биться в духе Canon против Nikon - сидэнский 5.0 лучше рисует тени, а Клинг лучше в боке. Впрочем, я не уверен, что зумеры знают, что такое сменная оптика и тем более Никон. Просто будут спорить, чья кнопка на телефоне делает красивее.P.S. Все это сделано на Video Arena, никаких доступов пока нет. Алибаба молчит.@cgevent",
-    "content": "<a href=\"https://t.me/cgevent/15355\" target=\"_blank\" rel=\"noopener\" title=\"HappyHorse\"><b>HappyHorse</b></a><b>: сравнения</b><br><br>Интересное сопоставление Счастливой Лошади и Veo, Kling, SkyReel и PixVerse.<br><br>Когда смотришь первый раз, без пауз, то кажется, что все модели хороши. И подумалось мне, что довольно скоро мы перестанем рассуждать о том, кто круче. А просто будет как со сменной оптикой - здесь хорошо сработает телевик, а тут давайте коротыша. Далее видеофилы будут биться в духе Canon против Nikon - сидэнский 5.0 лучше рисует тени, а Клинг лучше в боке. <br>Впрочем, я не уверен, что зумеры знают, что такое сменная оптика и тем более Никон. Просто будут спорить, чья кнопка на телефоне делает красивее.<br><br>P.S. Все это сделано на Video Arena, никаких доступов пока нет. Алибаба молчит.<br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a><a class=\"tgme_widget_message_video_player not_supported js-message_video_player\" href=\"https://t.me/cgevent/15382\"><i class=\"tgme_widget_message_video_thumb\" style=\"background-image:url('https://cdn4.telesco.pe/file/KywoE8JCO9rqB58NNEJ7jz34t_ICsFEVguJzBcexwoK5M0xShiJVD6yDtgKjNcUI8d8ju7P5UbYODZdwdJ3iv6noA3__j1sVWQFrIxKlxSmF9bSU1JRHyCJ_q6YXk9JQDmqFZLczNGnIBFpDIugBV54MvmFoZ9Dgn0R1OklNufmwVsYiClGzM0LpItNwk4N6efDO5HwGSKz4t-RYKbsw7sFuTxlyYlen2DCPLgGfn5FuX-FMiO6D03Ud575Ii4u7zFeht_tfitZbOB9ZtbTEg_F6Nd-ZaMKweLcG4xDmRpDF_KFcMNKYk3lbrS1LFjBBOgd7k7fXw_zhdBkDu8rhZQ')\"></i>\n\n<div class=\"tgme_widget_message_video_wrap\" style=\"width:1920px;padding-top:112.5%\">\n  \n</div>\n<div class=\"message_video_play js-message_video_play\"></div>\n<time class=\"message_video_duration js-message_video_duration\">0:56</time>\n<div class=\"message_media_not_supported_wrap\">\n  <div class=\"message_media_not_supported\">\n    <div class=\"message_media_not_supported_label\">Media is too big</div>\n    <span class=\"message_media_view_in_telegram\">VIEW IN TELEGRAM</span>\n  </div>\n</div></a>",
-    "reactions": [
-      {
-        "emoji": "❤️",
-        "count": "12",
-        "isPaid": false
-      },
-      {
-        "emoji": "🔥",
-        "count": "11",
-        "isPaid": false
-      }
-    ],
-    "channel": "cgevent",
-    "channelTitle": "Метаверсище и ИИще"
-  },
-  {
-    "id": "cgevent/15381",
-    "title": "OpenAI релизнули подписку ChatGPT Pro за $100Он всё так же даёт доступ к GPT 5.4 Pro и прочим фичам Pro подписки (помните про ChatGPT Pulse?), но с меньшими лимитами на Codex. Пользователи нового Pro тира будут получать 5x использования Codex по сравнению с Plus, но до 31 мая действует акция, которая удваивает использование для всех Pro пользователей, то есть на почти два месяца лимиты в 10x больше чем у Plus.@ai_newz",
-    "type": "text",
-    "datetime": "2026-04-10T09:01:30+00:00",
-    "tags": [],
-    "text": "OpenAI релизнули подписку ChatGPT Pro за $100Он всё так же даёт доступ к GPT 5.4 Pro и прочим фичам Pro подписки (помните про ChatGPT Pulse?), но с меньшими лимитами на Codex. Пользователи нового Pro тира будут получать 5x использования Codex по сравнению с Plus, но до 31 мая действует акция, которая удваивает использование для всех Pro пользователей, то есть на почти два месяца лимиты в 10x больше чем у Plus.@ai_newz",
-    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-15381-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: OpenAI релизнули подписку ChatGPT Pro за $100Он всё так же даёт доступ к GPT 5.4 Pro и прочим фичам Pro подписки (помните про ChatGPT Pulse?), но с меньшими лимитами на Codex. Пользователи нового Pro тира будут получать 5x использования Codex по сравнению с Plus, но до 31 мая действует акция, которая удваивает использование для всех Pro пользователей, то есть на почти два месяца лимиты в 10x больше чем у Plus.@ai_newz\">\n        <img src=\"media/1e661ff3bfd2c9f0fd1c154a0868250d.jpg\" alt=\"OpenAI релизнули подписку ChatGPT Pro за $100Он всё так же даёт доступ к GPT 5.4 Pro и прочим фичам Pro подписки (помните про ChatGPT Pulse?), но с меньшими лимитами на Codex. Пользователи нового Pro тира будут получать 5x использования Codex по сравнению с Plus, но до 31 мая действует акция, которая удваивает использование для всех Pro пользователей, то есть на почти два месяца лимиты в 10x больше чем у Plus.@ai_newz\" width=\"581\" height=\"405\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-15381-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-15381-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-15381-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/1e661ff3bfd2c9f0fd1c154a0868250d.jpg\" alt=\"OpenAI релизнули подписку ChatGPT Pro за $100Он всё так же даёт доступ к GPT 5.4 Pro и прочим фичам Pro подписки (помните про ChatGPT Pulse?), но с меньшими лимитами на Codex. Пользователи нового Pro тира будут получать 5x использования Codex по сравнению с Plus, но до 31 мая действует акция, которая удваивает использование для всех Pro пользователей, то есть на почти два месяца лимиты в 10x больше чем у Plus.@ai_newz\" width=\"581\" height=\"405\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><b>OpenAI релизнули подписку ChatGPT Pro за $100</b><br><br>Он всё так же даёт доступ к GPT 5.4 Pro и прочим фичам Pro подписки (помните про ChatGPT Pulse?), но с меньшими лимитами на Codex. Пользователи нового Pro тира будут получать 5x использования Codex по сравнению с Plus, но до 31 мая действует акция, которая удваивает использование для всех Pro пользователей, то есть на почти два месяца лимиты в 10x больше чем у Plus.<br><br><a href=\"https://t.me/ai_newz\" target=\"_blank\" title=\"@ai_newz\">@ai_newz</a>",
-    "reactions": [
-      {
-        "emoji": "🔥",
-        "count": "6",
+        "emoji": "😱",
+        "count": "7",
         "isPaid": false
       },
       {
