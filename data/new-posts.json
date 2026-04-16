@@ -1,63 +1,20 @@
 [
   {
-    "id": "evilfreelancer/1650",
-    "title": "Сегодня день горячий на релизы, так что я с самого утра наблюдаю за схваткой двух больших домов: адептус клод кодус и хранителями кодекса, хихикаю и дальше пишу курсору и кими что надо будет сгенерировать пока я ужинаю.Кстати, напоминаю ещё раз про мой недавний пост про поднятие цен на модельки, если вы думаете, что стало очень дорого, то успокойтесь, будет ещё дороже.",
+    "id": "dealerAI/1776",
+    "title": "О как в тему похоливарили. А теперь вышел новый Opus 4.7. Заверяют, что лучше GPT 5.4 в кодинге, да ещё и умеет сам себя оценивать/проверять перед отправкой ответа юзеру. Ещё посмотреть тут.",
     "type": "text",
-    "datetime": "2026-04-16T18:12:08+00:00",
+    "datetime": "2026-04-16T19:19:40+00:00",
     "tags": [],
-    "text": "Сегодня день горячий на релизы, так что я с самого утра наблюдаю за схваткой двух больших домов: адептус клод кодус и хранителями кодекса, хихикаю и дальше пишу курсору и кими что надо будет сгенерировать пока я ужинаю.Кстати, напоминаю ещё раз про мой недавний пост про поднятие цен на модельки, если вы думаете, что стало очень дорого, то успокойтесь, будет ещё дороже.",
-    "content": "Сегодня день горячий на релизы, так что я с самого утра наблюдаю за схваткой двух больших домов: адептус клод кодус и хранителями кодекса, хихикаю и дальше пишу курсору и кими что надо будет сгенерировать пока я ужинаю.<br><br>Кстати, напоминаю ещё раз про мой недавний <a href=\"https://t.me/evilfreelancer/1624\" target=\"_blank\" rel=\"noopener\" title=\"пост\">пост</a> про поднятие цен на модельки, если вы думаете, что стало очень дорого, то успокойтесь, будет ещё дороже.",
+    "text": "О как в тему похоливарили. А теперь вышел новый Opus 4.7. Заверяют, что лучше GPT 5.4 в кодинге, да ещё и умеет сам себя оценивать/проверять перед отправкой ответа юзеру. Ещё посмотреть тут.",
+    "content": "<a class=\"tgme_widget_message_reply user-color-default\" href=\"/posts/1775\" \"=\"\"><blockquote><small><i class=\"tgme_widget_message_reply_thumb\" style=\"background-image:url('media/2ad1438c84d10cc4290c6c9fadc5de88.jpg')\"></i>\n<div class=\"tgme_widget_message_author accent_color\">\n  <span class=\"tgme_widget_message_author_name\" dir=\"auto\">Поляков считает: AI, код и кейсы</span>\n</div>\n<div class=\"tgme_widget_message_text js-message_reply_text\" dir=\"auto\">Почему Claude не должен проверять код Claude (подставить сюда  любого провайдера LLM)  Короче кажется можно ставить точку в обсуждениях оценок, которые модели ставят самим себе. И точка будет в виде пейпера Prior Prejudice (ACL 2026, UIUC).  Ссылка: https://uiuc…</div>\n</small></blockquote></a><div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-1776-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: О как в тему похоливарили. А теперь вышел новый Opus 4.7. Заверяют, что лучше GPT 5.4 в кодинге, да ещё и умеет сам себя оценивать/проверять перед отправкой ответа юзеру. Ещё посмотреть тут.\">\n        <img src=\"media/e545fd8754145f2ba276a2a106dd80be.jpg\" alt=\"О как в тему похоливарили. А теперь вышел новый Opus 4.7. Заверяют, что лучше GPT 5.4 в кодинге, да ещё и умеет сам себя оценивать/проверять перед отправкой ответа юзеру. Ещё посмотреть тут.\" width=\"800\" height=\"800\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-1776-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-1776-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-1776-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/e545fd8754145f2ba276a2a106dd80be.jpg\" alt=\"О как в тему похоливарили. А теперь вышел новый Opus 4.7. Заверяют, что лучше GPT 5.4 в кодинге, да ещё и умеет сам себя оценивать/проверять перед отправкой ответа юзеру. Ещё посмотреть тут.\" width=\"800\" height=\"800\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>О как в тему похоливарили. А теперь <a href=\"https://x.com/claudeai/status/2044785261393977612?s=20\" target=\"_blank\" rel=\"noopener\" title=\"вышел новый Opus\">вышел новый Opus</a> 4.7. Заверяют, что лучше GPT 5.4 в кодинге, да ещё и умеет сам себя оценивать/проверять перед отправкой ответа юзеру. <img class=\"tg-emoji\" src=\"media/751a426a0840c5bef3b459d5429b83b0.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"><br>Ещё посмотреть <a href=\"https://claude.ai/new\" target=\"_blank\" rel=\"noopener\" title=\"тут\">тут</a>.",
     "reactions": [
       {
-        "emoji": "😁",
+        "emoji": "👍",
         "count": "4",
         "isPaid": false
       }
     ],
-    "channel": "evilfreelancer",
-    "channelTitle": "Pavel Zloi"
-  },
-  {
-    "id": "data_secrets/9066",
-    "title": "Вся ваша вечерняя новостная лента в одном скрине Opus 4.7 – это нечто. Он прекрасен, это другой взгляд на все привычное, что у нас было. Новый стандарт, несомненный знак новой эры. (Я его еще не попробовал)",
-    "type": "text",
-    "datetime": "2026-04-16T18:53:12+00:00",
-    "tags": [],
-    "text": "Вся ваша вечерняя новостная лента в одном скрине Opus 4.7 – это нечто. Он прекрасен, это другой взгляд на все привычное, что у нас было. Новый стандарт, несомненный знак новой эры. (Я его еще не попробовал)",
-    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-9066-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Вся ваша вечерняя новостная лента в одном скрине Opus 4.7 – это нечто. Он прекрасен, это другой взгляд на все привычное, что у нас было. Новый стандарт, несомненный знак новой эры. (Я его еще не попробовал)\">\n        <img src=\"media/835d58dc77d7d6307e03b88fa7db0de9.jpg\" alt=\"Вся ваша вечерняя новостная лента в одном скрине Opus 4.7 – это нечто. Он прекрасен, это другой взгляд на все привычное, что у нас было. Новый стандарт, несомненный знак новой эры. (Я его еще не попробовал)\" width=\"660\" height=\"281\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-9066-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-9066-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-9066-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/835d58dc77d7d6307e03b88fa7db0de9.jpg\" alt=\"Вся ваша вечерняя новостная лента в одном скрине Opus 4.7 – это нечто. Он прекрасен, это другой взгляд на все привычное, что у нас было. Новый стандарт, несомненный знак новой эры. (Я его еще не попробовал)\" width=\"660\" height=\"281\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Вся ваша вечерняя новостная лента в одном скрине <br><br><blockquote>Opus 4.7 – это нечто. Он прекрасен, это другой взгляд на все привычное, что у нас было. Новый стандарт, несомненный знак новой эры. <br><br>(Я его еще не попробовал)</blockquote>",
-    "reactions": [
-      {
-        "emoji": "😁",
-        "count": "114",
-        "isPaid": false
-      },
-      {
-        "emoji": "❤️",
-        "count": "20",
-        "isPaid": false
-      },
-      {
-        "emoji": "😎",
-        "count": "7",
-        "isPaid": false
-      },
-      {
-        "emoji": "🔥",
-        "count": "4",
-        "isPaid": false
-      },
-      {
-        "emoji": "🤯",
-        "count": "2",
-        "isPaid": false
-      },
-      {
-        "emoji": "😍",
-        "count": "1",
-        "isPaid": false
-      }
-    ],
-    "channel": "data_secrets",
-    "channelTitle": "Data Secrets"
+    "channel": "dealerAI",
+    "channelTitle": "Dealer.AI"
   }
 ]
