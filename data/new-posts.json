@@ -1,30 +1,58 @@
 [
   {
-    "id": "cgevent/15451",
-    "title": "Google Flow MusicНе так давно Гугл пожрал генератор музыки Producer AI.Не так давно Гугль выкатил свою модель для генерации vузыки - Lyria.Теперь они объединили это все в одном продукте.Идем, тестируем:",
+    "id": "kdoronin_blog/1258",
+    "title": "Мы начинаем стрим \"Создание AI-агентов с помощью фреймворка Mastra\" с Рефатом .Ссылка на трансляцию: ",
     "type": "text",
-    "datetime": "2026-04-18T10:07:22+00:00",
+    "datetime": "2026-04-18T11:05:01+00:00",
     "tags": [],
-    "text": "Google Flow MusicНе так давно Гугл пожрал генератор музыки Producer AI.Не так давно Гугль выкатил свою модель для генерации vузыки - Lyria.Теперь они объединили это все в одном продукте.Идем, тестируем:http://flowmusic.googleИз интересного - даешь картинку на вход, он по ней генерит музыку.Есть ремиксы, есть редактирование, replace & extend через промпт:Extend a lofi piano intro into a massive dubstep dropTry 5 variations of a guitar solo to find the perfect takeReplace multiple choruses at the exact same timeСама музыка довольно слухабельная, мейнстримная, хотя структура песен слегка плывет. Ну и про качество Суно, а главное инструментарий Суно мы даже не говорим.Просто интересно видеть как Гугл планомерно укрепляет себя на поляне аудио и видео генерации. Откуда OpenAI недавно самовыпилилась.В шапке картинка и песня, которую он сгенерил по картинке. Контекст (про социальное расслоение) не считал, но сделал аккуратный блюз.@cgeventGoogle Flow MusicНе так давно Гугл пожрал генератор музыки Producer AI.Не так давно Гугль выкатил свою модель для генерации vузыки - Lyria.Теперь они объединили это все в одном продукте.Идем, тестируем:http://flowmusic.googleИз интересного - даешь картинку на вход, он по ней генерит музыку.Есть ремиксы, есть редактирование, replace & extend через промпт:Extend a lofi piano intro into a massive dubstep dropTry 5 variations of a guitar solo to find the perfect takeReplace multiple choruses at the exact same timeСама музыка довольно слухабельная, мейнстримная, хотя структура песен слегка плывет. Ну и про качество Суно, а главное инструментарий Суно мы даже не говорим.Просто интересно видеть как Гугл планомерно укрепляет себя на поляне аудио и видео генерации. Откуда OpenAI недавно самовыпилилась.В шапке картинка и песня, которую он сгенерил по картинке. Контекст (про социальное расслоение) не считал, но сделал аккуратный блюз.@cgevent",
-    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-15451-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Google Flow MusicНе так давно Гугл пожрал генератор музыки Producer AI.Не так давно Гугль выкатил свою модель для генерации vузыки - Lyria.Теперь они объединили это все в одном продукте.Идем, тестируем:\">\n        <img src=\"media/23463f644880b213cc49a88fe1d4b49e.jpg\" alt=\"Google Flow MusicНе так давно Гугл пожрал генератор музыки Producer AI.Не так давно Гугль выкатил свою модель для генерации vузыки - Lyria.Теперь они объединили это все в одном продукте.Идем, тестируем:\" width=\"329\" height=\"216\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-15451-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-15451-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-15451-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/23463f644880b213cc49a88fe1d4b49e.jpg\" alt=\"Google Flow MusicНе так давно Гугл пожрал генератор музыки Producer AI.Не так давно Гугль выкатил свою модель для генерации vузыки - Lyria.Теперь они объединили это все в одном продукте.Идем, тестируем:\" width=\"329\" height=\"216\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><video src=\"https://cdn4.telesco.pe/file/be89fc3900.mp4?token=ukFJ5-zzVMETkDKS1QbHhdfWBlwtoL5DyLDsPAz7rvwLWji5DWCImd4CHo62QF4_U4pdV2aIFGXNlkn2kGJCArNAv5tLNA8cql1MPO84hRlJT9Q2MUoPznKhAg0c1ssSSjld2yXoVERVZ_5q8rqq7uxZrefV7BHHcjS8SoIB6mEuaHDHiliP779wdtCXLuGA6RsxhgKSj1Tk9FZd9b6KUEBno8gUfb94WwsUM4eDO47Gqm08yHOHwhDf5uis0M4cFzm4AiKWShkMF6BPBB4B4N7yeMGVnhuYsbs-gGoW9ythuUVatULij_lP5zEAOJIXntFmKJVWOXmpj2oSx1vfOrmaGiVsGRpAaz-jRMuib1sjHpSORESDNh_RCPBqRzrBEM5l0u2WJfWdIhsf6nLrJ_QJK8tZIDt00BveayR5h-ciHaB9oPnJDDLKJqF66nA8QirRi67wKdMnVANVElwrOcZEKV-GqfKAhoIO71w_OvFSORN2XPnTb5-FwYzvZXQVmYluotIIRUnLLJ09ED__HPxDZwuPAchFkykscsGwgIUZz4oDqm0l1UDZY05pfxUiEAeyDvtFUAFT2bkcgslITVTDo-g3DHaZAUUwSTvkWTlbgN251AJs5V3x3QnvjHm2Gz_f7ali7pFUokFvWMvlwvMGtnbrl9Qgi29zhDvmWXY\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"metadata\" playsinline=\"\"></video><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\"><b>Google Flow Music</b><br><br>Не так давно Гугл пожрал генератор музыки Producer AI.<br>Не так давно Гугль выкатил свою модель для генерации vузыки - Lyria.<br><br>Теперь они объединили это все в одном продукте.<br><br>Идем, тестируем:<br><br><a href=\"http://flowmusic.google/\" target=\"_blank\" rel=\"noopener\" title=\"http://flowmusic.google\">http://flowmusic.google</a><br><br>Из интересного - даешь картинку на вход, он по ней генерит музыку.<br><br>Есть ремиксы, есть редактирование, replace &amp; extend через промпт:<br><br>Extend a lofi piano intro into a massive dubstep drop<br>Try 5 variations of a guitar solo to find the perfect take<br>Replace multiple choruses at the exact same time<br><br>Сама музыка довольно слухабельная, мейнстримная, хотя структура песен слегка плывет. Ну и про качество Суно, а главное инструментарий Суно мы даже не говорим.<br><br>Просто интересно видеть как Гугл планомерно укрепляет себя на поляне аудио и видео генерации. Откуда OpenAI недавно самовыпилилась.<br><br>В шапке картинка и песня, которую он сгенерил по картинке. Контекст (про социальное расслоение) не считал, но сделал аккуратный блюз.<br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a></div>",
+    "text": "Мы начинаем стрим \"Создание AI-агентов с помощью фреймворка Mastra\" с Рефатом .Ссылка на трансляцию: https://www.youtube.com/live/8lnUOalPDpQПодключайтесь 🙂",
+    "content": "Мы начинаем стрим <b>\"Создание AI-агентов с помощью фреймворка Mastra\"</b> с <a href=\"https://t.me/nobilix\" target=\"_blank\" rel=\"noopener\" title=\"Рефатом\">Рефатом</a> .<br><br>Ссылка на трансляцию: <a href=\"https://www.youtube.com/live/8lnUOalPDpQ\" target=\"_blank\" rel=\"noopener\" title=\"https://www.youtube.com/live/8lnUOalPDpQ\">https://www.youtube.com/live/8lnUOalPDpQ</a><br><br>Подключайтесь <i class=\"emoji\"><b>🙂</b></i>",
     "reactions": [
       {
-        "emoji": "❤️",
+        "emoji": "⭐",
+        "count": "1",
+        "isPaid": true
+      },
+      {
+        "emoji": "🔥",
         "count": "2",
+        "isPaid": false
+      },
+      {
+        "emoji": "❤️",
+        "count": "1",
         "isPaid": false
       },
       {
         "emoji": "👍",
         "count": "1",
         "isPaid": false
+      }
+    ],
+    "channel": "kdoronin_blog",
+    "channelTitle": "Константин Доронин"
+  },
+  {
+    "id": "nobilix/249",
+    "title": "Мы начинаем стрим \"Создание AI-агентов с помощью фреймворка Mastra\" с Рефатом .Ссылка на трансляцию: ",
+    "type": "text",
+    "datetime": "2026-04-18T11:06:06+00:00",
+    "tags": [],
+    "text": "Мы начинаем стрим \"Создание AI-агентов с помощью фреймворка Mastra\" с Рефатом .Ссылка на трансляцию: https://www.youtube.com/live/8lnUOalPDpQПодключайтесь 🙂",
+    "content": "Мы начинаем стрим <b>\"Создание AI-агентов с помощью фреймворка Mastra\"</b> с <a href=\"https://t.me/nobilix\" target=\"_blank\" rel=\"noopener\" title=\"Рефатом\">Рефатом</a> .<br><br>Ссылка на трансляцию: <a href=\"https://www.youtube.com/live/8lnUOalPDpQ\" target=\"_blank\" rel=\"noopener\" title=\"https://www.youtube.com/live/8lnUOalPDpQ\">https://www.youtube.com/live/8lnUOalPDpQ</a><br><br>Подключайтесь <i class=\"emoji\"><b>🙂</b></i>",
+    "reactions": [
+      {
+        "emoji": "👍",
+        "count": "8",
+        "isPaid": false
       },
       {
         "emoji": "🔥",
-        "count": "1",
+        "count": "2",
         "isPaid": false
       }
     ],
-    "channel": "cgevent",
-    "channelTitle": "Метаверсище и ИИще"
+    "channel": "nobilix",
+    "channelTitle": "Refat Talks: Tech & AI"
   }
 ]
