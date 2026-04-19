@@ -1,79 +1,40 @@
 [
   {
-    "id": "neuraldeep/2080",
-    "title": "Страх и ненависть в AI кодинга за 24 часа Скорость разработки MVP точно не будет прежним, мир изменился.Но что с масштабированием и безопасностью?Вчера понял что у меня слишком много своих серверов, где-то аренда, что-то стоит в Колокейшн - это услуга размещения собственного физического сервера или сетевого оборудования клиента на территории дата-центра (ЦОД) провайдера) и что 85% времени они стоят и я плачу за интернет и аренду Как итог после 1 часа общения с клодом и сбора ТЗ выбора самого производительного сервера у меня в офисе, было поднято 11 контейнеров и написано 15к строк кода ",
+    "id": "data_secrets/9069",
+    "title": "В Пекине прошел полумарафон для роботов-гуманоидов. Лучший результат оказался быстрее человеческого рекорда.Робот Lightning от Honor пробежал дистанцию за 50 минут 26 секунд. Действующий человеческий мировой рекорд составляет 56 минут 42 секунды.В этом году в марафоне участвовало более 300 роботов (в 5 раз больше, чем в 2025). Были две категории: автономные роботы и управляемые. Победитель, обратите внимание, работал в автономном режиме. Когда там уже робо-олимпиада?",
     "type": "text",
-    "datetime": "2026-04-19T15:34:13+00:00",
+    "datetime": "2026-04-19T15:57:08+00:00",
     "tags": [],
-    "text": "Страх и ненависть в AI кодинга за 24 часа Скорость разработки MVP точно не будет прежним, мир изменился.Но что с масштабированием и безопасностью?Вчера понял что у меня слишком много своих серверов, где-то аренда, что-то стоит в Колокейшн - это услуга размещения собственного физического сервера или сетевого оборудования клиента на территории дата-центра (ЦОД) провайдера) и что 85% времени они стоят и я плачу за интернет и аренду Как итог после 1 часа общения с клодом и сбора ТЗ выбора самого производительного сервера у меня в офисе, было поднято 11 контейнеров и написано 15к строк кода https://hub.neuraldeep.ru/Первые 30 пользователей получат подписку на 2 месяца сразу к 6 моделям (по всем тарифам есть RPM)gpt-oss-120bqwen3.6-35b-a3be5-largebge-m3bge-reranker-v2-m3whisper-1Так же скоро будут добавлены qwen3-8b-embedding gemma4Из интересного попробовал реализовать механику и систему подписок как в кодинг агентах (часовые лимит и недельные лимиты)Платежей пока нет (но скоро будут)",
-    "content": "<b>Страх и ненависть в AI кодинга за 24 часа</b> <br><br><i>Скорость разработки MVP точно не будет прежним, мир изменился.<br>Но что с масштабированием и безопасностью?</i><br><br>Вчера понял что у меня слишком много своих серверов, где-то аренда, что-то стоит в Колокейшн - это услуга размещения собственного физического сервера или сетевого оборудования клиента на территории дата-центра (ЦОД) провайдера) и что 85% времени они стоят и я плачу за интернет и аренду <br><br>Как итог после 1 часа общения с клодом и сбора ТЗ выбора самого производительного сервера у меня в офисе, было поднято 11 контейнеров и написано 15к строк кода <br><br><a href=\"https://hub.neuraldeep.ru/\" target=\"_blank\" rel=\"noopener\" title=\"https://hub.neuraldeep.ru/\">https://hub.neuraldeep.ru/</a><br><br>Первые 30 пользователей получат подписку на 2 месяца сразу к 6 моделям (по всем тарифам есть RPM)<br><br><code>gpt-oss-120b<br>qwen3.6-35b-a3b<br>e5-large<br>bge-m3<br>bge-</code>reranker-v2-m3<br>whisper-1<br><br>Так же скоро будут добавлены qwen3-8b-embedding <br>gemma4<br><br>Из интересного попробовал реализовать механику и систему подписок как в кодинг агентах (часовые лимит и недельные лимиты)<br><br>Платежей пока нет (но скоро будут)",
-    "reactions": [],
-    "channel": "neuraldeep",
-    "channelTitle": "Валера Ковальский"
-  },
-  {
-    "id": "seeallochnaya/3550",
-    "title": "Сегодня пару часов назад прошёл третий пуск ракеты New Glenn — флагмана Blue Origin (компания Jeff Bezos, ex-CEO Amazon и некогда самый богатый человек в мире).Компания во второй раз смогла посадить первую ступень на баржу — при этом летала та же ступень, что использовалась в прошлом пуске! Таким образом, New Glenn стала третей ракетой (а Blue Origin — второй компанией), которая смогла переиспользовать ускоритель ракеты.Это выдающееся достижение (ни одно государственное агентство всё ещё не расчехлилось...) , но стоит помнить, что у SpaceX есть бустер, который летал ... 34 раза  а когда-то и 10 казались фантастикой!",
-    "type": "text",
-    "datetime": "2026-04-19T15:01:32+00:00",
-    "tags": [],
-    "text": "Сегодня пару часов назад прошёл третий пуск ракеты New Glenn — флагмана Blue Origin (компания Jeff Bezos, ex-CEO Amazon и некогда самый богатый человек в мире).Компания во второй раз смогла посадить первую ступень на баржу — при этом летала та же ступень, что использовалась в прошлом пуске! Таким образом, New Glenn стала третей ракетой (а Blue Origin — второй компанией), которая смогла переиспользовать ускоритель ракеты.Это выдающееся достижение (ни одно государственное агентство всё ещё не расчехлилось...) , но стоит помнить, что у SpaceX есть бустер, который летал ... 34 раза  а когда-то и 10 казались фантастикой!",
-    "content": "<a class=\"tgme_widget_message_reply user-color-default\" href=\"/posts/3087\" \"=\"\"><blockquote><small><i class=\"tgme_widget_message_reply_thumb\" style=\"background-image:url('https://cdn4.telesco.pe/file/ErCyaZMhbMCNWEArLVm6XJabxfGy6SRT7lNvDJcEdLKwlgiKOmHRw3dEbTq2p0C-AM4EQfSkHWti9sS1Japv3HH3BNdzxtRx1NuaEaVwEc9paZWlBLwx6cPNZMfexMkPFtqXvCwY05jB98Jth6qh57aUfP6tQgmC-PLn0MhPYhRSKcNAVpMWcn5qiks1k6SWVhvyj8pSaSzeenU0vaig6UjhMD6LFFSFT0zl9i-QkZWuGRX9TUuZlMtDInkPGhHxxHyoZgq8vX3HsiW3vzpkMQdtG3DjpSGrQsTkzNW5c4p68wDZtaAVT9H4JWnBS-FD8BmG2GwanDUQo-6fD25qRQ')\"></i>\n<div class=\"tgme_widget_message_author accent_color\">\n  <span class=\"tgme_widget_message_author_name\" dir=\"auto\">Техасский Вестник</span>\n</div>\n<div class=\"tgme_widget_message_text js-message_reply_text\" dir=\"auto\">Как успешный запуск и посадка New Glenn влияют на SpaceX?  Достаточно распространённый вопрос, ответ на который нельзя упростить до «никак» или «им хана». Но это важный и позитивный шаг для всей американской космической отрасли. 2 успешных запуска — это прохождение…</div>\n</small></blockquote></a><video src=\"https://cdn4.telesco.pe/file/134adb010c.mp4?token=RLq9KNSYJhfztzqRZQ8VQi-QlCxpR-y_N7z_-5fA0JqdVxbiVAivSK-HGP42C6CIqZ_yi-WMCWx4sIfY0z-m5XXq-SG0z2tkuKDfzqmumRSKZBrxrHwP3NwIiQKAs7TThpqp769QHWL3c5kd7ndvu2d_ScNS9Tzj37DDSpnmaF2BfjmNJ40qsxIP8vb6U0k--vAa_wnymQXhtERmuo_upBgUgdd4XWhkSxxU75oN1mLZLDqgO_OcpbfQgLprOk2vjdjym6OLTWivsywxl2gZrUlcccrj647dllHQTy9SbmlGIjjsKCTIdEuObQfBMdoXAYgLHkPLw7OjNOsUrcqk4g\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"auto\" playsinline=\"\"></video>Сегодня пару часов назад прошёл третий пуск ракеты New Glenn — флагмана Blue Origin (компания Jeff Bezos, ex-CEO Amazon и некогда самый богатый человек в мире).<br><br>Компания во второй раз смогла посадить первую ступень на баржу — при этом летала та же ступень, что использовалась в прошлом пуске! Таким образом, New Glenn стала третей ракетой (а Blue Origin — второй компанией), которая смогла переиспользовать ускоритель ракеты.<br><br>Это выдающееся достижение (ни одно государственное агентство всё ещё не расчехлилось...) <img class=\"tg-emoji\" src=\"media/a92c3ec932b4c942620f5c42959af39a.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\">, но стоит помнить, что у SpaceX есть бустер, который летал ... 34 раза <img class=\"tg-emoji\" src=\"media/fa9c1c45575cb40d4add06d32bc4f690.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> а когда-то и 10 казались фантастикой!",
+    "text": "В Пекине прошел полумарафон для роботов-гуманоидов. Лучший результат оказался быстрее человеческого рекорда.Робот Lightning от Honor пробежал дистанцию за 50 минут 26 секунд. Действующий человеческий мировой рекорд составляет 56 минут 42 секунды.В этом году в марафоне участвовало более 300 роботов (в 5 раз больше, чем в 2025). Были две категории: автономные роботы и управляемые. Победитель, обратите внимание, работал в автономном режиме. Когда там уже робо-олимпиада?",
+    "content": "<video src=\"https://cdn4.telesco.pe/file/2b2fd2cf53.mp4?token=tbkAz1xFTVgEoIV-AWHJkR6hohuKQ5MZewYHO9ANt_3XgtT4DysbWAGtBcTS62QsHHQ36-1TQYEErWCCv7AUNTv1-3FeDisU9ygSWXNVFhoZ2_sik2UBTqJtAEv7WKqQzWzdXYPUhLgcIQFCthlF4PVp0TBQYl2AONj6BZY9bS4Koda4FXJE-MafOHTQAuXw93g42MSDcgBvnVRMGL3xSz4-l-Y2eF9q27-8AxCpBlclUwil2UMldMtXXWZ7m8GJtTsgl_egZSt6A7wwQYI35qJ2FuRhQDyA1G0CdAYtYNGulogE0Tc8VvifOI1y4hUYxMJUTHwNQUA7mEjQag6t8g\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"metadata\" playsinline=\"\"></video><b>В Пекине прошел полумарафон для роботов-гуманоидов. Лучший результат оказался быстрее человеческого рекорда.<br><br></b>Робот Lightning от Honor пробежал дистанцию за 50 минут 26 секунд. Действующий человеческий мировой рекорд составляет 56 минут 42 секунды.<br><br>В этом году в марафоне участвовало более 300 роботов (в 5 раз больше, чем в 2025). Были две категории: автономные роботы и управляемые. Победитель, обратите внимание, работал в автономном режиме. <br><br>Когда там уже робо-олимпиада?",
     "reactions": [
       {
-        "emoji": "⭐",
-        "count": "2",
-        "isPaid": true
-      },
-      {
-        "emoji": "🔥",
-        "count": "118",
-        "isPaid": false
-      },
-      {
-        "emoji": "❤‍🔥",
-        "count": "15",
+        "emoji": "😁",
+        "count": "53",
         "isPaid": false
       },
       {
         "emoji": "👍",
-        "count": "11",
+        "count": "19",
+        "isPaid": false
+      },
+      {
+        "emoji": "🔥",
+        "count": "12",
+        "isPaid": false
+      },
+      {
+        "emoji": "❤️",
+        "count": "1",
         "isPaid": false
       },
       {
         "emoji": "🤯",
-        "count": "9",
-        "isPaid": false
-      },
-      {
-        "emoji": "💩",
-        "count": "4",
-        "isPaid": false
-      },
-      {
-        "emoji": "🤡",
-        "count": "4",
-        "isPaid": false
-      },
-      {
-        "emoji": "👎",
-        "count": "2",
-        "isPaid": false
-      },
-      {
-        "emoji": "👨‍💻",
-        "count": "1",
-        "isPaid": false
-      },
-      {
-        "emoji": "",
-        "emojiId": "5355083340548419513",
-        "emojiImage": "https://t.me/i/emoji/5355083340548419513.webp",
         "count": "1",
         "isPaid": false
       }
     ],
-    "channel": "seeallochnaya",
-    "channelTitle": "Сиолошная"
+    "channel": "data_secrets",
+    "channelTitle": "Data Secrets"
   }
 ]
