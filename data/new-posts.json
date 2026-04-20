@@ -1,39 +1,94 @@
 [
   {
-    "id": "gleb_pro_ai/519",
-    "title": "Шаблоны сайтов для агентовВообще конечно запарно для каждого нового сервиса писать заново:— авторизацию с админкой и имперсонализацией— биллинг с тарифами и множеством провайдеров— тулзу для LLM пайплайнов с логированием и удобным представлением флоу— интеграцию с телегой и ботами— что-то еще? Это то, что всплывает вообще в каждом проекте. Я блин этих авторизаций за прошлый год уже штук 20 написал. И каждый раз продолжаю это делать. Вот подумал — а неплохо бы, если бы такая штука уже была кем-то написана. И на базе нее уже лепить что нужно. Эдакий жирный-прежирный бутстрап-шаблон. Есть что на примете?",
+    "id": "data_secrets/9070",
+    "title": "Агентство национальной безопасности США использует Claude Mythos, несмотря на то, что Пентагон отменил Anthropic для гос. учреждений Как вы помните, Anthropic уже пару месяцев как обладает статусом supply chain risk. Это значит, что все федеральные агентства должны были прекратить использовать их технологии. Пентагон, кстати, продолжает судиться со стартапом. Но сейчас не про это. Тут вскрылось, что NSA (National Security Agency) не просто не отказываются от продуктов Anthropic, но и активно используют новейший Claude Mythos Preview Источники сообщают, что NSA стала одной из 40 организаций, которым Anthropic предоставила ограниченный доступ к этой модели. Название агентства не было включено в публичный список, но в неофициальных условиях оно там есть.Модель используется для поиска уязвимостей. Конечно, если откинуть контекст, использовать ее в госсекторе критически важно. По словам СМИ это делает не только NSA, но и другие госструктуры. Вот только ирония в том, что Anthropic попала в черный список как раз из-за «угрозы национальной безопасности»",
     "type": "text",
-    "datetime": "2026-04-20T06:12:00+00:00",
+    "datetime": "2026-04-20T06:51:59+00:00",
     "tags": [],
-    "text": "Шаблоны сайтов для агентовВообще конечно запарно для каждого нового сервиса писать заново:— авторизацию с админкой и имперсонализацией— биллинг с тарифами и множеством провайдеров— тулзу для LLM пайплайнов с логированием и удобным представлением флоу— интеграцию с телегой и ботами— что-то еще? Это то, что всплывает вообще в каждом проекте. Я блин этих авторизаций за прошлый год уже штук 20 написал. И каждый раз продолжаю это делать. Вот подумал — а неплохо бы, если бы такая штука уже была кем-то написана. И на базе нее уже лепить что нужно. Эдакий жирный-прежирный бутстрап-шаблон. Есть что на примете?",
-    "content": "<b>Шаблоны сайтов для агентов</b><br><br>Вообще конечно запарно для каждого нового сервиса писать заново:<br><br>— авторизацию с админкой и имперсонализацией<br>— биллинг с тарифами и множеством провайдеров<br>— тулзу для LLM пайплайнов с логированием и удобным представлением флоу<br>— интеграцию с телегой и ботами<br>— что-то еще? <br><br>Это то, что всплывает вообще в каждом проекте. Я блин этих авторизаций за прошлый год уже штук 20 написал. И каждый раз продолжаю это делать. <br><br>Вот подумал — а неплохо бы, если бы такая штука уже была кем-то написана. И на базе нее уже лепить что нужно. Эдакий жирный-прежирный бутстрап-шаблон. <br><br>Есть что на примете?",
+    "text": "Агентство национальной безопасности США использует Claude Mythos, несмотря на то, что Пентагон отменил Anthropic для гос. учреждений Как вы помните, Anthropic уже пару месяцев как обладает статусом supply chain risk. Это значит, что все федеральные агентства должны были прекратить использовать их технологии. Пентагон, кстати, продолжает судиться со стартапом. Но сейчас не про это. Тут вскрылось, что NSA (National Security Agency) не просто не отказываются от продуктов Anthropic, но и активно используют новейший Claude Mythos Preview Источники сообщают, что NSA стала одной из 40 организаций, которым Anthropic предоставила ограниченный доступ к этой модели. Название агентства не было включено в публичный список, но в неофициальных условиях оно там есть.Модель используется для поиска уязвимостей. Конечно, если откинуть контекст, использовать ее в госсекторе критически важно. По словам СМИ это делает не только NSA, но и другие госструктуры. Вот только ирония в том, что Anthropic попала в черный список как раз из-за «угрозы национальной безопасности»",
+    "content": "<a class=\"tgme_widget_message_reply user-color-12 js-message_emoji_bg\" href=\"/posts/8798\" data-bg-emoji=\"5424846043365784811\" \"=\"\"><blockquote><small><i class=\"tgme_widget_message_reply_thumb\" style=\"background-image:url('media/6bcee813c649c71c1510ebe31b0ca2bf.jpg')\"></i>\n<div class=\"tgme_widget_message_author accent_color\">\n  <span class=\"tgme_widget_message_author_name\" dir=\"auto\">Data Secrets</span>\n</div>\n<div class=\"tgme_widget_message_text js-message_reply_text\" dir=\"auto\">Бан Anthropic и триумф OpenAI: история с Пентагоном с каждым днем становится все безумнее и безумнее  Итак, Anthropic отказались безусловно принимать условия Министерства Обороны и заявили, что те не смогут использовать Claude для автономного оружия и массовой…</div>\n</small></blockquote></a><div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-9070-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Агентство национальной безопасности США использует Claude Mythos, несмотря на то, что Пентагон отменил Anthropic для гос. учреждений Как вы помните, Anthropic уже пару месяцев как обладает статусом supply chain risk. Это значит, что все федеральные агентства должны были прекратить использовать их технологии. Пентагон, кстати, продолжает судиться со стартапом. Но сейчас не про это. Тут вскрылось, что NSA (National Security Agency) не просто не отказываются от продуктов Anthropic, но и активно используют новейший Claude Mythos Preview Источники сообщают, что NSA стала одной из 40 организаций, которым Anthropic предоставила ограниченный доступ к этой модели. Название агентства не было включено в публичный список, но в неофициальных условиях оно там есть.Модель используется для поиска уязвимостей. Конечно, если откинуть контекст, использовать ее в госсекторе критически важно. По словам СМИ это делает не только NSA, но и другие госструктуры. Вот только ирония в том, что Anthropic попала в черный список как раз из-за «угрозы национальной безопасности»\">\n        <img src=\"media/b7b4cafdd9a45023f186364c7c4ebfd9.jpg\" alt=\"Агентство национальной безопасности США использует Claude Mythos, несмотря на то, что Пентагон отменил Anthropic для гос. учреждений Как вы помните, Anthropic уже пару месяцев как обладает статусом supply chain risk. Это значит, что все федеральные агентства должны были прекратить использовать их технологии. Пентагон, кстати, продолжает судиться со стартапом. Но сейчас не про это. Тут вскрылось, что NSA (National Security Agency) не просто не отказываются от продуктов Anthropic, но и активно используют новейший Claude Mythos Preview Источники сообщают, что NSA стала одной из 40 организаций, которым Anthropic предоставила ограниченный доступ к этой модели. Название агентства не было включено в публичный список, но в неофициальных условиях оно там есть.Модель используется для поиска уязвимостей. Конечно, если откинуть контекст, использовать ее в госсекторе критически важно. По словам СМИ это делает не только NSA, но и другие госструктуры. Вот только ирония в том, что Anthropic попала в черный список как раз из-за «угрозы национальной безопасности»\" width=\"800\" height=\"417\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-9070-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-9070-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-9070-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/b7b4cafdd9a45023f186364c7c4ebfd9.jpg\" alt=\"Агентство национальной безопасности США использует Claude Mythos, несмотря на то, что Пентагон отменил Anthropic для гос. учреждений Как вы помните, Anthropic уже пару месяцев как обладает статусом supply chain risk. Это значит, что все федеральные агентства должны были прекратить использовать их технологии. Пентагон, кстати, продолжает судиться со стартапом. Но сейчас не про это. Тут вскрылось, что NSA (National Security Agency) не просто не отказываются от продуктов Anthropic, но и активно используют новейший Claude Mythos Preview Источники сообщают, что NSA стала одной из 40 организаций, которым Anthropic предоставила ограниченный доступ к этой модели. Название агентства не было включено в публичный список, но в неофициальных условиях оно там есть.Модель используется для поиска уязвимостей. Конечно, если откинуть контекст, использовать ее в госсекторе критически важно. По словам СМИ это делает не только NSA, но и другие госструктуры. Вот только ирония в том, что Anthropic попала в черный список как раз из-за «угрозы национальной безопасности»\" width=\"800\" height=\"417\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Агентство национальной безопасности США использует Claude Mythos, несмотря на то, что Пентагон отменил Anthropic для гос. учреждений <br><br>Как вы помните, Anthropic уже пару месяцев как обладает статусом supply chain risk. Это значит, что все федеральные агентства должны были прекратить использовать их технологии. <br><br>Пентагон, кстати, продолжает судиться со стартапом. Но сейчас не про это. <br><br>Тут вскрылось, что NSA (National Security Agency) не просто не отказываются от продуктов Anthropic, но и активно используют новейший Claude Mythos Preview <img class=\"tg-emoji\" src=\"media/e1d526981fa9c053f9287b1c1f5827ce.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"><br><br>Источники <a href=\"https://www.axios.com/2026/04/19/nsa-anthropic-mythos-pentagon\" target=\"_blank\" rel=\"noopener\" title=\"сообщают,\">сообщают,</a> что NSA стала одной из 40 организаций, которым Anthropic предоставила ограниченный доступ к этой модели. Название агентства не было включено в публичный список, но в неофициальных условиях оно там есть.<br><br>Модель используется для поиска уязвимостей. Конечно, если откинуть контекст, использовать ее в госсекторе критически важно. По словам СМИ это делает не только NSA, но и другие госструктуры. <br><br>Вот только ирония в том, что Anthropic попала в черный список как раз из-за «угрозы национальной безопасности»",
     "reactions": [
       {
-        "emoji": "🔥",
-        "count": "18",
+        "emoji": "😁",
+        "count": "123",
+        "isPaid": false
+      },
+      {
+        "emoji": "",
+        "emojiId": "5850279489090627237",
+        "emojiImage": "https://t.me/i/emoji/5850279489090627237.webp",
+        "count": "30",
         "isPaid": false
       },
       {
         "emoji": "❤️",
+        "count": "9",
+        "isPaid": false
+      },
+      {
+        "emoji": "🫡",
+        "count": "4",
+        "isPaid": false
+      },
+      {
+        "emoji": "👍",
+        "count": "1",
+        "isPaid": false
+      },
+      {
+        "emoji": "🦄",
         "count": "1",
         "isPaid": false
       }
     ],
-    "channel": "gleb_pro_ai",
-    "channelTitle": "Глеб Кудрявцев про AI кодинг"
+    "channel": "data_secrets",
+    "channelTitle": "Data Secrets"
   },
   {
-    "id": "cgevent/15454",
-    "title": "Sato: AI UVНачнем понедельник с 3Д, помолясь.Deemos Tech, авторы генератора Rodin, выкатили новую работу по генерации UV-разверток.Звучит довольно замороченно: Strips as Tokens (SATO) — создавая последовательность в виде связанной цепочки граней, явно кодирующей границы UV-координат, наш метод естественным образом сохраняет организованный поток ребер и семантическую структуру, характерные для сеток, созданных художниками. Если поглядеть внимательно на их развертки, то там можно найти много косяков. Но радует, что работы по ИИ-ретопу и ИИ-анврапу ведутся довольно активно.Более того, они обещают выложить код к Сигграфу.Сайт проекта:",
+    "id": "cgevent/15456",
+    "title": "LTX 2.3 IC-LoRA EditAnything - огонь, конечноУ автора есть еще несколько очень полезных Лор:",
     "type": "text",
-    "datetime": "2026-04-20T06:01:24+00:00",
+    "datetime": "2026-04-20T09:00:32+00:00",
     "tags": [],
-    "text": "Sato: AI UVНачнем понедельник с 3Д, помолясь.Deemos Tech, авторы генератора Rodin, выкатили новую работу по генерации UV-разверток.Звучит довольно замороченно: Strips as Tokens (SATO) — создавая последовательность в виде связанной цепочки граней, явно кодирующей границы UV-координат, наш метод естественным образом сохраняет организованный поток ребер и семантическую структуру, характерные для сеток, созданных художниками. Если поглядеть внимательно на их развертки, то там можно найти много косяков. Но радует, что работы по ИИ-ретопу и ИИ-анврапу ведутся довольно активно.Более того, они обещают выложить код к Сигграфу.Сайт проекта:https://ruixu.me/html/SATO/index.htmlТам примеры разверток.@cgevent",
-    "content": "<video src=\"https://cdn4.telesco.pe/file/7669b2142f.mp4?token=X5wgTQLmQ2afhKdM729WkCM4lv-6J8RiM4NymgrAYOi23FRXOgWGBOj0bfjM6WuoXoD264IXULoJwqFjmFT168SvBJkyiBbvfbklK0bJnGQh9TRjwb7S_IVp9OtZL_IBj4W0wKX3mxj44RY-ZE1-Y0vsdXIG8J-w9-oisI_xfjrc6eCVKfvDvCbgNsu2mDsshSLkQbtQp5E5RfT2m1ooeswv-aOqhoZwmMtGbpw-ssZK-SGP6WtdWRzadY6chQqkjHYrwxweCmAmWhybnG1JJQCFzr35zs_4SrUaRCrSkr023GkwiAWxz0FbPjWKv_9aL9m9AjJsL8Pa1jPXypNlzA\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"metadata\" playsinline=\"\"></video><b>Sato: AI UV</b><br><br>Начнем понедельник с 3Д, помолясь.<br><br>Deemos Tech, авторы <a href=\"https://hyper3d.ai/\" target=\"_blank\" rel=\"noopener\" title=\"генератора Rodin\">генератора Rodin</a>, выкатили новую работу по генерации UV-разверток.<br><br>Звучит довольно замороченно: <i>Strips as Tokens (SATO) — создавая последовательность в виде связанной цепочки граней, явно кодирующей границы UV-координат, наш метод естественным образом сохраняет организованный поток ребер и семантическую структуру, характерные для сеток, созданных художниками. </i><br><br>Если поглядеть внимательно на их развертки, то там можно найти много косяков. Но радует, что работы по ИИ-ретопу и ИИ-анврапу ведутся довольно активно.<br><br>Более того, они обещают выложить код к Сигграфу.<br><br>Сайт проекта:<br><a href=\"https://ruixu.me/html/SATO/index.html\" target=\"_blank\" rel=\"noopener\" title=\"https://ruixu.me/html/SATO/index.html\">https://ruixu.me/html/SATO/index.html</a><br><br>Там примеры разверток.<br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a>",
+    "text": "LTX 2.3 IC-LoRA EditAnything - огонь, конечноУ автора есть еще несколько очень полезных Лор:https://huggingface.co/Alissonerdx/LTX-LoRAsВокфлоу для Комфи:https://huggingface.co/Alissonerdx/LTX-LoRAs/blob/main/workflows/ltx23_edit_anything_v1.json@cgeventLTX 2.3 IC-LoRA EditAnything - огонь, конечноУ автора есть еще несколько очень полезных Лор:https://huggingface.co/Alissonerdx/LTX-LoRAsВокфлоу для Комфи:https://huggingface.co/Alissonerdx/LTX-LoRAs/blob/main/workflows/ltx23_edit_anything_v1.json@cgevent",
+    "content": "<video src=\"https://cdn4.telesco.pe/file/978567b03f.mp4?token=Jvo_7bcovM_k-qoqJ5oa7UzZg0t7nfPUWVZBqtTXmKiLwRmGKkUmMTxBfpSpHH9IW26u_Tslqj8Ti9Dzc7lmsMyJ42o_vEbemWrq7ovUycR1ohDCHI8X2OF_XHxkbULwPIHl1-rHxWh2hOgG0ljYw4Oh0urjYKP75yL3V2ox8BMhAU8oJOk3Tzt1nj4IWSYnmZvhiVYZWLA10hWQFi1MBvQseyV4R0ysHsoGv90xkVMQsautKhBwSUiNqNjt4y7wK3d5Pl1bBPfSV0MlF-0ALuHLE-BQA53tP3CyLEwxbjOoQOUf-xaVJxKKTg0baAdaRLL5fEFBIThfrh_apRn1mQ\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"metadata\" playsinline=\"\"></video><video src=\"https://cdn4.telesco.pe/file/978567b03f.mp4?token=Jvo_7bcovM_k-qoqJ5oa7UzZg0t7nfPUWVZBqtTXmKiLwRmGKkUmMTxBfpSpHH9IW26u_Tslqj8Ti9Dzc7lmsMyJ42o_vEbemWrq7ovUycR1ohDCHI8X2OF_XHxkbULwPIHl1-rHxWh2hOgG0ljYw4Oh0urjYKP75yL3V2ox8BMhAU8oJOk3Tzt1nj4IWSYnmZvhiVYZWLA10hWQFi1MBvQseyV4R0ysHsoGv90xkVMQsautKhBwSUiNqNjt4y7wK3d5Pl1bBPfSV0MlF-0ALuHLE-BQA53tP3CyLEwxbjOoQOUf-xaVJxKKTg0baAdaRLL5fEFBIThfrh_apRn1mQ\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"metadata\" playsinline=\"\"></video><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\"><b>LTX 2.3 IC-LoRA EditAnything - огонь, конечно</b><br><br>У автора есть еще несколько очень полезных Лор:<br><a href=\"https://huggingface.co/Alissonerdx/LTX-LoRAs\" target=\"_blank\" rel=\"noopener\" title=\"https://huggingface.co/Alissonerdx/LTX-LoRAs\">https://huggingface.co/Alissonerdx/LTX-LoRAs</a><br><br>Вокфлоу для Комфи:<br><a href=\"https://huggingface.co/Alissonerdx/LTX-LoRAs/blob/main/workflows/ltx23_edit_anything_v1.json\" target=\"_blank\" rel=\"noopener\" title=\"https://huggingface.co/Alissonerdx/LTX-LoRAs/blob/main/workflows/ltx23_edit_anything_v1.json\">https://huggingface.co/Alissonerdx/LTX-LoRAs/blob/main/workflows/ltx23_edit_anything_v1.json</a><br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a></div>",
     "reactions": [
       {
+        "emoji": "🔥",
+        "count": "3",
+        "isPaid": false
+      },
+      {
         "emoji": "👍",
-        "count": "5",
+        "count": "1",
+        "isPaid": false
+      }
+    ],
+    "channel": "cgevent",
+    "channelTitle": "Метаверсище и ИИще"
+  },
+  {
+    "id": "cgevent/15455",
+    "title": "В больницах Китая вовсю используют LLM.В одной из больниц в Цинхуа работают 42 врача и медсестры, использующие LLM по 21 специальности. А недавно в Хайнане  открылась первая в Китае полностью основанная на ИИ больница, а медицинские LLM от DeepSeek уже используются в более чем 260 реальных больницах по всему Китаю. Китай в этом смысле далеко обгоняет и будет обгонять всех остальных, принимая во внимание количество регуляций в других странах.сорс@cgevent",
+    "type": "text",
+    "datetime": "2026-04-20T08:03:40+00:00",
+    "tags": [],
+    "text": "В больницах Китая вовсю используют LLM.В одной из больниц в Цинхуа работают 42 врача и медсестры, использующие LLM по 21 специальности. А недавно в Хайнане  открылась первая в Китае полностью основанная на ИИ больница, а медицинские LLM от DeepSeek уже используются в более чем 260 реальных больницах по всему Китаю. Китай в этом смысле далеко обгоняет и будет обгонять всех остальных, принимая во внимание количество регуляций в других странах.сорс@cgevent",
+    "content": "<video src=\"https://cdn4.telesco.pe/file/40fabd69f8.mp4?token=PFYo_ZWFVRTFmP9QYOk2vPVMdlkBX4McXFzg1vpCzTau61kRFYcQjGukk9tqOIHWGx35kZ9Au5x-b2BbRe21bXmr6jShcGyZfYyy3o4K2Poldcz11ALKf9dCwppO4LTjlkICKes77h66sFc0-8s-D88qCtlnJnUeDIETTDqyED-CNHkDiLaiSRRkk7b09QAjh-1F7yKr8IDOQdCCaIx027rwzODYLTHcBxsK6Utt5-ikeDoRyyFzCEELwbavVkRa07_Z8VWoirmPsypNCnMo1hIF8rmdDd_17IJmeLN2pqSEOZY1yLFs43vBWtuKXL7pufhdi9WsFUAiYrmEyfdfGw\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"auto\" playsinline=\"\"></video><b>В больницах Китая вовсю используют LLM</b>.<br><br>В одной из больниц в Цинхуа работают 42 врача и медсестры, использующие LLM по 21 специальности. А недавно в Хайнане  открылась первая в Китае полностью основанная на ИИ больница, а медицинские LLM от DeepSeek уже используются в более чем 260 реальных больницах по всему Китаю. <br><br>Китай в этом смысле далеко обгоняет и будет обгонять всех остальных, принимая во внимание количество регуляций в других странах.<br><br><a href=\"https://x.com/birdabo/status/2045379297024864366?s=20\" target=\"_blank\" rel=\"noopener\" title=\"сорс\">сорс</a><br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a>",
+    "reactions": [
+      {
+        "emoji": "🔥",
+        "count": "30",
+        "isPaid": false
+      },
+      {
+        "emoji": "😱",
+        "count": "10",
+        "isPaid": false
+      },
+      {
+        "emoji": "❤️",
+        "count": "3",
         "isPaid": false
       }
     ],
