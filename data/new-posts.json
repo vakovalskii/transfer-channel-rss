@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "id": "neuraldeep/2082",
+    "title": "LLM hub by KovalskiiВчера анонсировал ",
+    "type": "text",
+    "datetime": "2026-04-20T02:53:20+00:00",
+    "tags": [],
+    "text": "LLM hub by KovalskiiВчера анонсировал https://hub.neuraldeep.ru/, а сегодня с утра уже есть что анализировать (вы просто супер аудитория!)Что интересно из аналитики для меня:Много кто взял модели для прогона pac1 (бенчмарка от Рината)Кто-то взял для подключения к opencodeИ самое интересное что на таком объеме запросов и людей, некоторые высказались тем что очень радует скорость и доступность моделей (gpt oss 120b)Через неделю я планирую провести закрытий стрим для всех активных пользователей Важные условия для участия1) Активно юзать хаб2) Смотреть почту на предмет сообщений с домена @neuraldeep.ruМы разберем как и зачем я использую такой набор моделей, и как начать строить что-то свое, как доводить до продакшена и прокачивать экспертизуСпасибо всем за идеи и предложения, я все впитываю и сразу же внедряюПо поводу оплат за подписку, она на текущим момент не планируется (тарифы добавлены для теста кликов)Ну и поздравляю первых 30 пользователей с про доступом на 2 месяца (там очень щедрые лимиты)",
+    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-2082-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: LLM hub by KovalskiiВчера анонсировал \">\n        <img src=\"media/d26d87d41f63984963e08eddd2651422.jpg\" alt=\"LLM hub by KovalskiiВчера анонсировал \" width=\"800\" height=\"541\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-2082-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-2082-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-2082-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/d26d87d41f63984963e08eddd2651422.jpg\" alt=\"LLM hub by KovalskiiВчера анонсировал \" width=\"800\" height=\"541\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><b>LLM hub by Kovalskii</b><br><br>Вчера анонсировал <a href=\"https://hub.neuraldeep.ru/\" target=\"_blank\" rel=\"noopener\" title=\"https://hub.neuraldeep.ru/\">https://hub.neuraldeep.ru/</a>, а сегодня с утра уже есть что анализировать (вы просто супер аудитория!)<br><br>Что интересно из аналитики для меня:<br><br>Много кто взял модели для прогона pac1 (бенчмарка от Рината)<br>Кто-то взял для подключения к <a href=\"https://t.me/neuraldeepchat/54442\" target=\"_blank\" rel=\"noopener\" title=\"opencode\">opencode</a><br><br>И самое интересное что на таком объеме запросов и людей, некоторые высказались тем что очень радует скорость и доступность моделей (gpt oss 120b)<br><br><br>Через неделю я планирую провести закрытий стрим для всех <b>активных</b> пользователей <br>Важные условия для участия<br><br>1) Активно юзать хаб<br>2) Смотреть почту на предмет сообщений с домена <a href=\"https://t.me/neuraldeep\" target=\"_blank\" title=\"@neuraldeep\">@neuraldeep</a>.ru<br><br>Мы разберем как и зачем я использую такой набор моделей, и как начать строить что-то свое, как доводить до продакшена и прокачивать экспертизу<br><br><br>Спасибо всем за <a href=\"https://t.me/neuraldeepchat/54455\" target=\"_blank\" rel=\"noopener\" title=\"идеи\">идеи</a> и предложения, я все впитываю и сразу же внедряю<br><br>По поводу оплат за подписку, она на текущим момент не планируется (тарифы добавлены для теста кликов)<br>Ну и поздравляю первых 30 пользователей с про доступом на 2 месяца (там очень щедрые лимиты)",
+    "reactions": [
+      {
+        "emoji": "👍",
+        "count": "13",
+        "isPaid": false
+      },
+      {
+        "emoji": "🔥",
+        "count": "6",
+        "isPaid": false
+      },
+      {
+        "emoji": "💯",
+        "count": "5",
+        "isPaid": false
+      },
+      {
+        "emoji": "❤️",
+        "count": "3",
+        "isPaid": false
+      }
+    ],
+    "channel": "neuraldeep",
+    "channelTitle": "Валера Ковальский"
+  }
+]
