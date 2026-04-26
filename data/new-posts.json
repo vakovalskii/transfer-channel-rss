@@ -1,1 +1,45 @@
-[]
+[
+  {
+    "id": "cgevent/15506",
+    "title": "вы всё ещё недостаточно молитесь",
+    "type": "text",
+    "datetime": "2026-04-26T17:12:22+00:00",
+    "tags": [],
+    "text": "вы всё ещё недостаточно молитесь",
+    "content": "<video src=\"https://cdn4.telesco.pe/file/d178f3fa80.mp4?token=Y5RHVGSFjtdFUbweRqUVQ2ytGc3-Z2n2bEcDW5BK0kamsbU-RzbEPCh22EcqqJLlj8pqcmLvrUDnG2prb9wnm5j26RurevRETMCiYFz8SwoxumHIWwWfnYACO3nKM78m77G3aLe0Fe10KQPs1TTLVg0e-o_AV_s4ezZrMUZa6keTh2iipb5F00o3BQgmg7CdH3jFzZQdss0Wosohoj2Myfwyz1nDJgmSWmKkTfowv39pDCQRVTLW4UciE6LAMsWNtEPlXCnPECSewZZpEyx7pIvSPfJOwJlAzpBwNS-Fi6ti5mu5kAK5TAQVrrFRELoLSr7jvb2StpKod3pU0Nj6RQ\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"metadata\" playsinline=\"\"></video>вы всё ещё недостаточно молитесь",
+    "reactions": [
+      {
+        "emoji": "😁",
+        "count": "35",
+        "isPaid": false
+      },
+      {
+        "emoji": "😱",
+        "count": "14",
+        "isPaid": false
+      },
+      {
+        "emoji": "🙏",
+        "count": "4",
+        "isPaid": false
+      },
+      {
+        "emoji": "👎",
+        "count": "2",
+        "isPaid": false
+      },
+      {
+        "emoji": "👍",
+        "count": "1",
+        "isPaid": false
+      },
+      {
+        "emoji": "🔥",
+        "count": "1",
+        "isPaid": false
+      }
+    ],
+    "channel": "cgevent",
+    "channelTitle": "Метаверсище и ИИще"
+  }
+]
