@@ -1,94 +1,16 @@
 [
   {
-    "id": "neuraldeep/2112",
-    "title": "NeuralDeep LLM HubДобавлено:qwen3.6-35b-a3bВторой инстанс под gpt oss 120bwhisper large-v3-turboВозможность в ЛК отключить логирование (тут конечно надо поверить мне на слово)Обе LLM протестированы с codex/opencode/hermes-agent/kiro/cursorОсталось 70 регистраций на free тир (добиваем 1к регистраций)Из-за активного юзеджа зарезал фритир и протир по лимитамЗа это время вы закинули 140 000 запросов и затестили все модели из спискаИ как-то дали 4 рпс на обе gpt oss 120bСпасибо, что используете, я продолжаю эксперименты и скоро расскажу про них! Расскажите в комментариях, какие эксперименты провели вы с этой платформой",
+    "id": "kdoronin_blog/1267",
+    "title": "Важная тема при работе с искусственным интеллектом – это \"Что не стоит отправлять в чат с LLM?\". Неаккуратно отправленное в чат сообщение может принести множество проблем, в том числе с законом.Собственно, пришла ко мне Ирина из МТС с предложением ответить на вопросы по теме. Я с большим теплом отношусь к информационным порталам (ставьте ⚡ если хотите послушать историю про то, как я с ними пускался во все тяжкие), поэтому не смог отказать в просьбе.Результат – статья на портале МТС Линк.Там про базовую цифровую гигиену при использовании ИИ. Многим будет полезно 😊",
     "type": "text",
-    "datetime": "2026-04-30T17:27:49+00:00",
+    "datetime": "2026-04-30T18:20:29+00:00",
     "tags": [],
-    "text": "NeuralDeep LLM HubДобавлено:qwen3.6-35b-a3bВторой инстанс под gpt oss 120bwhisper large-v3-turboВозможность в ЛК отключить логирование (тут конечно надо поверить мне на слово)Обе LLM протестированы с codex/opencode/hermes-agent/kiro/cursorОсталось 70 регистраций на free тир (добиваем 1к регистраций)Из-за активного юзеджа зарезал фритир и протир по лимитамЗа это время вы закинули 140 000 запросов и затестили все модели из спискаИ как-то дали 4 рпс на обе gpt oss 120bСпасибо, что используете, я продолжаю эксперименты и скоро расскажу про них! Расскажите в комментариях, какие эксперименты провели вы с этой платформойhttps://hub.neuraldeep.ru/",
-    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-2112-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: NeuralDeep LLM HubДобавлено:qwen3.6-35b-a3bВторой инстанс под gpt oss 120bwhisper large-v3-turboВозможность в ЛК отключить логирование (тут конечно надо поверить мне на слово)Обе LLM протестированы с codex/opencode/hermes-agent/kiro/cursorОсталось 70 регистраций на free тир (добиваем 1к регистраций)Из-за активного юзеджа зарезал фритир и протир по лимитамЗа это время вы закинули 140 000 запросов и затестили все модели из спискаИ как-то дали 4 рпс на обе gpt oss 120bСпасибо, что используете, я продолжаю эксперименты и скоро расскажу про них! Расскажите в комментариях, какие эксперименты провели вы с этой платформой\">\n        <img src=\"media/917b4e1679afe14fbfdf0c319e631c61.jpg\" alt=\"NeuralDeep LLM HubДобавлено:qwen3.6-35b-a3bВторой инстанс под gpt oss 120bwhisper large-v3-turboВозможность в ЛК отключить логирование (тут конечно надо поверить мне на слово)Обе LLM протестированы с codex/opencode/hermes-agent/kiro/cursorОсталось 70 регистраций на free тир (добиваем 1к регистраций)Из-за активного юзеджа зарезал фритир и протир по лимитамЗа это время вы закинули 140 000 запросов и затестили все модели из спискаИ как-то дали 4 рпс на обе gpt oss 120bСпасибо, что используете, я продолжаю эксперименты и скоро расскажу про них! Расскажите в комментариях, какие эксперименты провели вы с этой платформой\" width=\"800\" height=\"492\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-2112-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-2112-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-2112-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/917b4e1679afe14fbfdf0c319e631c61.jpg\" alt=\"NeuralDeep LLM HubДобавлено:qwen3.6-35b-a3bВторой инстанс под gpt oss 120bwhisper large-v3-turboВозможность в ЛК отключить логирование (тут конечно надо поверить мне на слово)Обе LLM протестированы с codex/opencode/hermes-agent/kiro/cursorОсталось 70 регистраций на free тир (добиваем 1к регистраций)Из-за активного юзеджа зарезал фритир и протир по лимитамЗа это время вы закинули 140 000 запросов и затестили все модели из спискаИ как-то дали 4 рпс на обе gpt oss 120bСпасибо, что используете, я продолжаю эксперименты и скоро расскажу про них! Расскажите в комментариях, какие эксперименты провели вы с этой платформой\" width=\"800\" height=\"492\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><b>NeuralDeep LLM Hub</b><br><br>Добавлено:<br><br>qwen3.6-35b-a3b<br>Второй инстанс под gpt oss 120b<br>whisper large-v3-turbo<br>Возможность в ЛК отключить логирование (тут конечно надо поверить мне на слово)<br><br>Обе LLM протестированы с codex/opencode/hermes-agent/kiro/cursor<br><br>Осталось 70 регистраций на free тир (добиваем 1к регистраций)<br><br>Из-за активного юзеджа зарезал фритир и протир по лимитам<br>За это время вы закинули 140 000 запросов и затестили все модели из <a href=\"https://hub.neuraldeep.ru/#models\" target=\"_blank\" rel=\"noopener\" title=\"списка\">списка</a><br>И как-то дали 4 рпс на обе gpt oss 120b<br><br>Спасибо, что используете, я продолжаю эксперименты и скоро расскажу про них! Расскажите в комментариях, какие эксперименты провели вы с этой платформой<br><br><a href=\"https://hub.neuraldeep.ru/\" target=\"_blank\" rel=\"noopener\" title=\"https://hub.neuraldeep.ru/\">https://hub.neuraldeep.ru/</a>",
+    "text": "Важная тема при работе с искусственным интеллектом – это \"Что не стоит отправлять в чат с LLM?\". Неаккуратно отправленное в чат сообщение может принести множество проблем, в том числе с законом.Собственно, пришла ко мне Ирина из МТС с предложением ответить на вопросы по теме. Я с большим теплом отношусь к информационным порталам (ставьте ⚡ если хотите послушать историю про то, как я с ними пускался во все тяжкие), поэтому не смог отказать в просьбе.Результат – статья на портале МТС Линк.Там про базовую цифровую гигиену при использовании ИИ. Многим будет полезно 😊",
+    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-1267-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Важная тема при работе с искусственным интеллектом – это &quot;Что не стоит отправлять в чат с LLM?&quot;. Неаккуратно отправленное в чат сообщение может принести множество проблем, в том числе с законом.Собственно, пришла ко мне Ирина из МТС с предложением ответить на вопросы по теме. Я с большим теплом отношусь к информационным порталам (ставьте ⚡ если хотите послушать историю про то, как я с ними пускался во все тяжкие), поэтому не смог отказать в просьбе.Результат – статья на портале МТС Линк.Там про базовую цифровую гигиену при использовании ИИ. Многим будет полезно 😊\">\n        <img src=\"media/5ca5208affdf5709e985f93d5d39738e.jpg\" alt=\"Важная тема при работе с искусственным интеллектом – это &quot;Что не стоит отправлять в чат с LLM?&quot;. Неаккуратно отправленное в чат сообщение может принести множество проблем, в том числе с законом.Собственно, пришла ко мне Ирина из МТС с предложением ответить на вопросы по теме. Я с большим теплом отношусь к информационным порталам (ставьте ⚡ если хотите послушать историю про то, как я с ними пускался во все тяжкие), поэтому не смог отказать в просьбе.Результат – статья на портале МТС Линк.Там про базовую цифровую гигиену при использовании ИИ. Многим будет полезно 😊\" width=\"800\" height=\"359\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-1267-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-1267-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-1267-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/5ca5208affdf5709e985f93d5d39738e.jpg\" alt=\"Важная тема при работе с искусственным интеллектом – это &quot;Что не стоит отправлять в чат с LLM?&quot;. Неаккуратно отправленное в чат сообщение может принести множество проблем, в том числе с законом.Собственно, пришла ко мне Ирина из МТС с предложением ответить на вопросы по теме. Я с большим теплом отношусь к информационным порталам (ставьте ⚡ если хотите послушать историю про то, как я с ними пускался во все тяжкие), поэтому не смог отказать в просьбе.Результат – статья на портале МТС Линк.Там про базовую цифровую гигиену при использовании ИИ. Многим будет полезно 😊\" width=\"800\" height=\"359\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><b>Важная тема при работе с искусственным интеллектом – это \"Что не стоит отправлять в чат с LLM?\". </b><br><br>Неаккуратно отправленное в чат сообщение может принести множество проблем, <b>в том числе с законом</b>.<br><br>Собственно, пришла ко мне Ирина из МТС с предложением ответить на вопросы по теме. Я с большим теплом отношусь к информационным порталам <label class=\"spoiler-button\"><input type=\"checkbox\" aria-label=\"Reveal spoiler\" aria-controls=\"spoiler-18-0\"><tg-spoiler id=\"spoiler-18-0\">(ставьте <i class=\"emoji\"><b>⚡</b></i> если хотите послушать историю про то, как я с ними пускался во все тяжкие)</tg-spoiler></label>, поэтому не смог отказать в просьбе.<br><br>Результат – <a href=\"https://mts-link.ru/blog/ii-pomnit-vsyo-chto-ne-stoit-zagruzhat-v-nejroseti/\" target=\"_blank\" rel=\"noopener\" title=\"статья на портале МТС Линк\">статья на портале МТС Линк</a>.<br><br>Там про базовую <b>цифровую гигиену при использовании ИИ</b>. Многим будет полезно <i class=\"emoji\"><b>😊</b></i>",
     "reactions": [
       {
-        "emoji": "⭐",
-        "count": "1",
-        "isPaid": true
-      },
-      {
-        "emoji": "🔥",
-        "count": "16",
-        "isPaid": false
-      },
-      {
-        "emoji": "👍",
-        "count": "8",
-        "isPaid": false
-      },
-      {
-        "emoji": "❤️",
-        "count": "1",
-        "isPaid": false
-      }
-    ],
-    "channel": "neuraldeep",
-    "channelTitle": "Валера Ковальский"
-  },
-  {
-    "id": "data_secrets/9146",
-    "title": "Figure AI поделились статистикой: теперь их завод BotQ выпускает одного полноценного робота гуманоида каждые 90 минут В течение этого года они планируют сделать 100к единиц (это уже уровень среднего автопрома), а на горизонте нескольких лет оптимизировать конвейер до 1 миллиона экземпляров в год. Тем временем их роботы еще даже не продаются на свободном рынке. Просто знайте, что где-то в мире есть вот такая армия ",
-    "type": "text",
-    "datetime": "2026-04-30T17:44:01+00:00",
-    "tags": [],
-    "text": "Figure AI поделились статистикой: теперь их завод BotQ выпускает одного полноценного робота гуманоида каждые 90 минут В течение этого года они планируют сделать 100к единиц (это уже уровень среднего автопрома), а на горизонте нескольких лет оптимизировать конвейер до 1 миллиона экземпляров в год. Тем временем их роботы еще даже не продаются на свободном рынке. Просто знайте, что где-то в мире есть вот такая армия ",
-    "content": "Figure AI поделились статистикой: теперь их завод BotQ выпускает одного полноценного робота гуманоида каждые 90 минут <br><br>В течение этого года они планируют сделать 100к единиц (это уже уровень среднего автопрома), а на горизонте нескольких лет оптимизировать конвейер до 1 миллиона экземпляров в год. <br><br>Тем временем их роботы еще даже не продаются на свободном рынке. Просто знайте, что где-то в мире есть вот такая армия <img class=\"tg-emoji\" src=\"media/1835c9506987b39d81a73eba511be4bb.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"><a class=\"tgme_widget_message_video_player not_supported js-message_video_player\" href=\"https://t.me/data_secrets/9146\"><i class=\"tgme_widget_message_video_thumb\" style=\"background-image:url('https://cdn4.telesco.pe/file/brbDSO2JDRCfWgVMmZJ3nTeeTxf-1kvarQgnSE6H7hycI4fhsM6B_XTeqKJ0-Jz_Z-tfnaB10AmJX4rftSP1ZSOV-qC6FX2t4XDEiXHp6NKcJRzmO_uIweM3X6GPWsM0nSNzalQmTC66R1NJF7Ec_F9lJWNE2tzH7S6SweZjufoIoPItpZaEAkZ9PhjrIJpwA5fKsmPMEC7uZlsfKHw_E2-5z19FzzbkgYOS9skdw_qKh-ni-CC3nzG1BWcOLzDsBuCux2jKhI0IkLLfcPnvpG59NYW5iNFiqHk51LUb1RBknJSKLm7Pe7EydWT6huiZLDmEU9km1ETz_VT5JTyqTA')\"></i>\n\n<div class=\"tgme_widget_message_video_wrap\" style=\"width:848px;padding-top:54.716981132075%\">\n  \n</div>\n<div class=\"message_video_play js-message_video_play\"></div>\n<time class=\"message_video_duration js-message_video_duration\">2:52</time>\n<div class=\"message_media_not_supported_wrap\">\n  <div class=\"message_media_not_supported\">\n    <div class=\"message_media_not_supported_label\">Media is too big</div>\n    <span class=\"message_media_view_in_telegram\">VIEW IN TELEGRAM</span>\n  </div>\n</div></a>",
-    "reactions": [
-      {
-        "emoji": "🔥",
-        "count": "24",
-        "isPaid": false
-      },
-      {
-        "emoji": "👍",
+        "emoji": "⚡",
         "count": "7",
-        "isPaid": false
-      },
-      {
-        "emoji": "🫡",
-        "count": "3",
-        "isPaid": false
-      },
-      {
-        "emoji": "❤️",
-        "count": "2",
-        "isPaid": false
-      },
-      {
-        "emoji": "🤔",
-        "count": "2",
-        "isPaid": false
-      },
-      {
-        "emoji": "🗿",
-        "count": "1",
-        "isPaid": false
-      }
-    ],
-    "channel": "data_secrets",
-    "channelTitle": "Data Secrets"
-  },
-  {
-    "id": "cgevent/15553",
-    "title": "#Нейропрожарка Трейлер несуществующей пока экранизации книги \"На пороге Тьмы\" Андрея Круза. Автор: Саянов Евгений. Цель: показать завязку истории приключений Владимира Бирюкова (ГГ), состоящую из набора сцен с ключевыми героями.Срок: полгода (работал редкими наскоками в свободное время, поэтому этот срок - не показатель).Инструменты:Референсы - НаноБананаВидео - Вео 3.1Озвучка - LuvvoiceФоновая музыка и песня (в финальных кадрах) - СуноМонтировал в КапКатеПотратился (1000 руб) только на покупку  студенческого аккаунта Гугл, где дается лимитированный по количеству генераций (в сутки, в месяц) доступ к инструментам Гугла.@cgevent",
-    "type": "text",
-    "datetime": "2026-04-30T17:05:16+00:00",
-    "tags": [
-      "Нейропрожарка"
-    ],
-    "text": "#Нейропрожарка Трейлер несуществующей пока экранизации книги \"На пороге Тьмы\" Андрея Круза. Автор: Саянов Евгений. Цель: показать завязку истории приключений Владимира Бирюкова (ГГ), состоящую из набора сцен с ключевыми героями.Срок: полгода (работал редкими наскоками в свободное время, поэтому этот срок - не показатель).Инструменты:Референсы - НаноБананаВидео - Вео 3.1Озвучка - LuvvoiceФоновая музыка и песня (в финальных кадрах) - СуноМонтировал в КапКатеПотратился (1000 руб) только на покупку  студенческого аккаунта Гугл, где дается лимитированный по количеству генераций (в сутки, в месяц) доступ к инструментам Гугла.@cgevent",
-    "content": "<a href=\"/search/%23%D0%9D%D0%B5%D0%B9%D1%80%D0%BE%D0%BF%D1%80%D0%BE%D0%B6%D0%B0%D1%80%D0%BA%D0%B0\" title=\"#Нейропрожарка\"><b>#Нейропрожарка</b></a> <br><br>Трейлер несуществующей пока экранизации книги \"На пороге Тьмы\" Андрея Круза. <br><br>Автор: Саянов Евгений. <br><br>Цель: показать завязку истории приключений Владимира Бирюкова (ГГ), состоящую из набора сцен с ключевыми героями.<br><br>Срок: полгода (работал редкими наскоками в свободное время, поэтому этот срок - не показатель).<br><br>Инструменты:<br>Референсы - НаноБанана<br>Видео - Вео 3.1<br>Озвучка - Luvvoice<br>Фоновая музыка и песня (в финальных кадрах) - Суно<br>Монтировал в КапКате<br>Потратился (1000 руб) только на покупку  студенческого аккаунта Гугл, где дается лимитированный по количеству генераций (в сутки, в месяц) доступ к инструментам Гугла.<br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a><a class=\"tgme_widget_message_video_player not_supported js-message_video_player\" href=\"https://t.me/cgevent/15553\"><i class=\"tgme_widget_message_video_thumb\" style=\"background-image:url('https://cdn4.telesco.pe/file/sshZFolyN_XwVdp0iENpTfnziCdgPooPOtfV6U4kach1dXEgPRc1CbnjRcqT8shsgetWN3CtU5XzRUHpc8jxeETGdcYU-daxMFnDf9AoOUG9MLDHe9tLSm2Wq258cvJadkfUNhTPMdItJeAJvG8jV8H9MnU9C25f3mcj-NORw1-CrB1ZbKwz07vF5MoeLinfVviAbmiT2VGbSfKH8Vxk3vCrZuBA_skecOU0pXgQL9hSuqw65PYDbRkMQr-l9AmcL4SejKetdo2BeE-3PZE0Y_4pJZ3F9BofbSdxCbGm6aKVEU7a9q1yG2hK83ioZ308FyWW2ozhJoOEb1_2S0jz6w')\"></i>\n\n<div class=\"tgme_widget_message_video_wrap\" style=\"width:1278px;padding-top:56.181533646322%\">\n  \n</div>\n<div class=\"message_video_play js-message_video_play\"></div>\n<time class=\"message_video_duration js-message_video_duration\">3:51</time>\n<div class=\"message_media_not_supported_wrap\">\n  <div class=\"message_media_not_supported\">\n    <div class=\"message_media_not_supported_label\">Media is too big</div>\n    <span class=\"message_media_view_in_telegram\">VIEW IN TELEGRAM</span>\n  </div>\n</div></a>",
-    "reactions": [
-      {
-        "emoji": "👎",
-        "count": "16",
         "isPaid": false
       },
       {
@@ -97,17 +19,22 @@
         "isPaid": false
       },
       {
-        "emoji": "😁",
-        "count": "2",
+        "emoji": "🔥",
+        "count": "4",
         "isPaid": false
       },
       {
-        "emoji": "😱",
-        "count": "1",
+        "emoji": "❤️",
+        "count": "3",
+        "isPaid": false
+      },
+      {
+        "emoji": "💩",
+        "count": "2",
         "isPaid": false
       }
     ],
-    "channel": "cgevent",
-    "channelTitle": "Метаверсище и ИИще"
+    "channel": "kdoronin_blog",
+    "channelTitle": "Константин Доронин"
   }
 ]
