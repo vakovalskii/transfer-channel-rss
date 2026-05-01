@@ -1,23 +1,62 @@
 [
   {
-    "id": "tips_ai/4680",
-    "title": "В Codex CLI добавили /goalЭто официальная версия Ralph loop, когда агент крутится в цикле и не выходит, пока не решит задачу полностью. Наверное помните, Anthropic добавлял это плагином ещё в декабре.Про команду /goal:  • /goal <задача> запускает цикл Plan > Execute > Test > Refine, не останавливается, пока цель не достигнута  • Можно создавать, ставить на паузу, возобновлять, сбрасывать  • Состояние живёт между сессиямиВключить можно одной командой: codex features enable goalsИли руками в ~/.codex/config.toml:  [features]goals = trueПока только в CLI, десктоп ещё не подвезли. Заодно сделали /side, когда можно задавать вопросы агенту пока он работает, не прерывая. @tips_ai #news",
+    "id": "evilfreelancer/1661",
+    "title": "Сижу пробую OpenDesign через qwen 3.6 35b, которая к слову доступна всем желающим на Hub NeuralDeep по подписке.Первый результат получил спустя пару минут, агент принял задачу, задал уточняющие вопросы, принял мои пожелания и инструкцию о том, что я хочу получить интерфейс чата похожий на ChatGPT и вот такой результат выдал.Тут конечно потребуются ещё доработки, но похоже концепция жизнеспособна, есть у меня в фигме один старенький макет чатика с моделями, попробую его скормить в качестве референса.",
     "type": "text",
-    "datetime": "2026-05-01T16:01:23+00:00",
-    "tags": [
-      "news"
-    ],
-    "text": "В Codex CLI добавили /goalЭто официальная версия Ralph loop, когда агент крутится в цикле и не выходит, пока не решит задачу полностью. Наверное помните, Anthropic добавлял это плагином ещё в декабре.Про команду /goal:  • /goal <задача> запускает цикл Plan > Execute > Test > Refine, не останавливается, пока цель не достигнута  • Можно создавать, ставить на паузу, возобновлять, сбрасывать  • Состояние живёт между сессиямиВключить можно одной командой: codex features enable goalsИли руками в ~/.codex/config.toml:  [features]goals = trueПока только в CLI, десктоп ещё не подвезли. Заодно сделали /side, когда можно задавать вопросы агенту пока он работает, не прерывая. @tips_ai #news",
-    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-4680-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: В Codex CLI добавили /goalЭто официальная версия Ralph loop, когда агент крутится в цикле и не выходит, пока не решит задачу полностью. Наверное помните, Anthropic добавлял это плагином ещё в декабре.Про команду /goal:  • /goal &lt;задача&gt; запускает цикл Plan &gt; Execute &gt; Test &gt; Refine, не останавливается, пока цель не достигнута  • Можно создавать, ставить на паузу, возобновлять, сбрасывать  • Состояние живёт между сессиямиВключить можно одной командой: codex features enable goalsИли руками в ~/.codex/config.toml:  [features]goals = trueПока только в CLI, десктоп ещё не подвезли. Заодно сделали /side, когда можно задавать вопросы агенту пока он работает, не прерывая. @tips_ai #news\">\n        <img src=\"media/382c557b509bc0f0ed269214d9608951.jpg\" alt=\"В Codex CLI добавили /goalЭто официальная версия Ralph loop, когда агент крутится в цикле и не выходит, пока не решит задачу полностью. Наверное помните, Anthropic добавлял это плагином ещё в декабре.Про команду /goal:  • /goal &lt;задача&gt; запускает цикл Plan &gt; Execute &gt; Test &gt; Refine, не останавливается, пока цель не достигнута  • Можно создавать, ставить на паузу, возобновлять, сбрасывать  • Состояние живёт между сессиямиВключить можно одной командой: codex features enable goalsИли руками в ~/.codex/config.toml:  [features]goals = trueПока только в CLI, десктоп ещё не подвезли. Заодно сделали /side, когда можно задавать вопросы агенту пока он работает, не прерывая. @tips_ai #news\" width=\"800\" height=\"433\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-4680-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-4680-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-4680-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/382c557b509bc0f0ed269214d9608951.jpg\" alt=\"В Codex CLI добавили /goalЭто официальная версия Ralph loop, когда агент крутится в цикле и не выходит, пока не решит задачу полностью. Наверное помните, Anthropic добавлял это плагином ещё в декабре.Про команду /goal:  • /goal &lt;задача&gt; запускает цикл Plan &gt; Execute &gt; Test &gt; Refine, не останавливается, пока цель не достигнута  • Можно создавать, ставить на паузу, возобновлять, сбрасывать  • Состояние живёт между сессиямиВключить можно одной командой: codex features enable goalsИли руками в ~/.codex/config.toml:  [features]goals = trueПока только в CLI, десктоп ещё не подвезли. Заодно сделали /side, когда можно задавать вопросы агенту пока он работает, не прерывая. @tips_ai #news\" width=\"800\" height=\"433\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>В Codex CLI добавили /goal<br><br>Это официальная версия Ralph loop, когда агент крутится в цикле и не выходит, пока не решит задачу полностью. <br><br>Наверное помните, Anthropic добавлял это <a href=\"https://t.me/tips_ai/4534\" target=\"_blank\" rel=\"noopener\" title=\"плагином\">плагином</a> ещё в декабре.<br><br>Про команду /goal:  <br>• /goal &lt;задача&gt; запускает цикл Plan &gt; Execute &gt; Test &gt; Refine, не останавливается, пока цель не достигнута  <br>• Можно создавать, ставить на паузу, возобновлять, сбрасывать  <br>• Состояние живёт между сессиями<br><br>Включить можно одной командой: <code>codex features enable goals</code><br><br>Или руками в <code>~/.codex/config.toml</code>:  <br><code>[features]<br>goals = true</code><br><br>Пока только в CLI, десктоп ещё не подвезли. Заодно сделали /side, когда можно задавать вопросы агенту пока он работает, не прерывая. <br><br><a href=\"https://t.me/tips_ai\" target=\"_blank\" title=\"@tips_ai\">@tips_ai</a> <a href=\"/search/%23news\" title=\"#news\">#news</a>",
+    "datetime": "2026-05-01T17:00:47+00:00",
+    "tags": [],
+    "text": "Сижу пробую OpenDesign через qwen 3.6 35b, которая к слову доступна всем желающим на Hub NeuralDeep по подписке.Первый результат получил спустя пару минут, агент принял задачу, задал уточняющие вопросы, принял мои пожелания и инструкцию о том, что я хочу получить интерфейс чата похожий на ChatGPT и вот такой результат выдал.Тут конечно потребуются ещё доработки, но похоже концепция жизнеспособна, есть у меня в фигме один старенький макет чатика с моделями, попробую его скормить в качестве референса.",
+    "content": "<a class=\"tgme_widget_message_reply user-color-default\" href=\"/posts/1658\" \"=\"\"><blockquote><small>\n<div class=\"tgme_widget_message_author accent_color\">\n  <span class=\"tgme_widget_message_author_name\" dir=\"auto\">Pavel Zloi</span>\n</div>\n<div class=\"tgme_widget_message_text js-message_reply_text\" dir=\"auto\">В продолжение темы с дизайном через агентов, намедни состоялся релиз проекта OpenDesign, это открытая альтернатива Claude Design без вендорлока на модели Antropic.   Заявлена поддержка многих кодовых агентов, включая опенкод, а это значит можно будет задействовать…</div>\n</small></blockquote></a><div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-1661-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Сижу пробую OpenDesign через qwen 3.6 35b, которая к слову доступна всем желающим на Hub NeuralDeep по подписке.Первый результат получил спустя пару минут, агент принял задачу, задал уточняющие вопросы, принял мои пожелания и инструкцию о том, что я хочу получить интерфейс чата похожий на ChatGPT и вот такой результат выдал.Тут конечно потребуются ещё доработки, но похоже концепция жизнеспособна, есть у меня в фигме один старенький макет чатика с моделями, попробую его скормить в качестве референса.\">\n        <img src=\"media/e0fc2514688a005b032bb19836652b5f.jpg\" alt=\"Сижу пробую OpenDesign через qwen 3.6 35b, которая к слову доступна всем желающим на Hub NeuralDeep по подписке.Первый результат получил спустя пару минут, агент принял задачу, задал уточняющие вопросы, принял мои пожелания и инструкцию о том, что я хочу получить интерфейс чата похожий на ChatGPT и вот такой результат выдал.Тут конечно потребуются ещё доработки, но похоже концепция жизнеспособна, есть у меня в фигме один старенький макет чатика с моделями, попробую его скормить в качестве референса.\" width=\"800\" height=\"411\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-1661-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-1661-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-1661-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/e0fc2514688a005b032bb19836652b5f.jpg\" alt=\"Сижу пробую OpenDesign через qwen 3.6 35b, которая к слову доступна всем желающим на Hub NeuralDeep по подписке.Первый результат получил спустя пару минут, агент принял задачу, задал уточняющие вопросы, принял мои пожелания и инструкцию о том, что я хочу получить интерфейс чата похожий на ChatGPT и вот такой результат выдал.Тут конечно потребуются ещё доработки, но похоже концепция жизнеспособна, есть у меня в фигме один старенький макет чатика с моделями, попробую его скормить в качестве референса.\" width=\"800\" height=\"411\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Сижу пробую <a href=\"https://github.com/nexu-io/open-design\" target=\"_blank\" rel=\"noopener\" title=\"OpenDesign\">OpenDesign</a> через qwen 3.6 35b, которая к слову доступна всем желающим на <a href=\"https://hub.neuraldeep.ru/\" target=\"_blank\" rel=\"noopener\" title=\"Hub NeuralDeep\">Hub NeuralDeep</a> по подписке.<br><br>Первый результат получил спустя пару минут, агент принял задачу, задал уточняющие вопросы, принял мои пожелания и инструкцию о том, что я хочу получить интерфейс чата похожий на ChatGPT и вот такой результат выдал.<br><br>Тут конечно потребуются ещё доработки, но похоже концепция жизнеспособна, есть у меня в фигме один старенький макет чатика с моделями, попробую его скормить в качестве референса.",
     "reactions": [
       {
         "emoji": "🔥",
-        "count": "10",
+        "count": "3",
         "isPaid": false
       },
       {
-        "emoji": "👍",
-        "count": "9",
+        "emoji": "🥰",
+        "count": "1",
+        "isPaid": false
+      }
+    ],
+    "channel": "evilfreelancer",
+    "channelTitle": "Pavel Zloi"
+  },
+  {
+    "id": "gleb_pro_ai/545",
+    "title": "Ну ладно, я сдаюсь",
+    "type": "text",
+    "datetime": "2026-05-01T17:12:14+00:00",
+    "tags": [],
+    "text": "Ну ладно, я сдаюсь",
+    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-545-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Ну ладно, я сдаюсь\">\n        <img src=\"media/f64c1713863613d5bf0fe6877a9c3fbc.jpg\" alt=\"Ну ладно, я сдаюсь\" width=\"800\" height=\"79\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-545-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-545-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-545-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/f64c1713863613d5bf0fe6877a9c3fbc.jpg\" alt=\"Ну ладно, я сдаюсь\" width=\"800\" height=\"79\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Ну ладно, я сдаюсь",
+    "reactions": [
+      {
+        "emoji": "😁",
+        "count": "21",
+        "isPaid": false
+      }
+    ],
+    "channel": "gleb_pro_ai",
+    "channelTitle": "Глеб Кудрявцев про AI кодинг"
+  },
+  {
+    "id": "gleb_pro_ai/544",
+    "title": "Я знаю, вам всегда хочется немного OCRЭто качество можно гонять полностью локально. Если нужно — обращайтесь, устроим 👌",
+    "type": "text",
+    "datetime": "2026-05-01T16:55:24+00:00",
+    "tags": [],
+    "text": "Я знаю, вам всегда хочется немного OCRЭто качество можно гонять полностью локально. Если нужно — обращайтесь, устроим 👌",
+    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-544-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Я знаю, вам всегда хочется немного OCRЭто качество можно гонять полностью локально. Если нужно — обращайтесь, устроим 👌\">\n        <img src=\"media/8b41ed1357502c93a795a016d90bbcb1.jpg\" alt=\"Я знаю, вам всегда хочется немного OCRЭто качество можно гонять полностью локально. Если нужно — обращайтесь, устроим 👌\" width=\"800\" height=\"374\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-544-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-544-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-544-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/8b41ed1357502c93a795a016d90bbcb1.jpg\" alt=\"Я знаю, вам всегда хочется немного OCRЭто качество можно гонять полностью локально. Если нужно — обращайтесь, устроим 👌\" width=\"800\" height=\"374\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Я знаю, вам всегда хочется немного OCR<br><br>Это качество можно гонять полностью локально. Если нужно — обращайтесь, устроим <i class=\"emoji\"><b>👌</b></i>",
+    "reactions": [
+      {
+        "emoji": "⭐",
+        "count": "2",
+        "isPaid": true
+      },
+      {
+        "emoji": "🔥",
+        "count": "17",
         "isPaid": false
       },
       {
@@ -26,52 +65,7 @@
         "isPaid": false
       }
     ],
-    "channel": "tips_ai",
-    "channelTitle": "Tips AI | IT & AI"
-  },
-  {
-    "id": "cgevent/15560",
-    "title": "#Нейропрожарка“Once upon a time”Автор Татьяна Михина. Всем добрый день! Я бы хотела представить вам на суд мой экспириенс в ии кино ( супер короткометражном:)) . У меня с раннего творчества остался незакрытый гештальт с русалочной темой, главная героиня была взята со старых архивных фотографий из моих фотосессий на эту тему. Главной задачей помимо истории , уложенной в 1минутный хронометраж, было сохранить консистенность героини ( взятой с реального человека) и локации. Похожесть вышла наверное 50 процентов. Может потому,  что не хватило ракурсов лица. Настроением вдохновлялась такими фильмами “Shape of Water” и «Sirene a Paris” . Русалочий хвост под платьем выглядит максимально топорно, понимаю. Но пока не было понимая, что я смогу,  и оставила концепт русалки максимально простым . Как и  тот факт, что она каким-то своим образом может принимать человеческий образ, и под воздействием сторонних факторов, например таких как алкоголь, переходить непроизвольно обратно . Пайплайн получился примерно такой: сначала генерация локаций в Midjourney, с использованием мудборда по цветопередаче и настроению;затем доработка и расстановка персонажей во Freepik (через Nanobanana);и финальное «оживление» в Kling с помощью Veo. Тут еще просят указывать бюджет , но мне сложно оценить , так как изначально не следила и делались параллельные генерации, не связанные с этим видео. Ну может евро 100-150. Проходов было много, так как  я еще новичок в этом и делала достаточно хаотично.Критика будет ценной! Спасибо 🫶🌞@cgevent",
-    "type": "text",
-    "datetime": "2026-05-01T16:01:57+00:00",
-    "tags": [
-      "Нейропрожарка"
-    ],
-    "text": "#Нейропрожарка“Once upon a time”Автор Татьяна Михина. Всем добрый день! Я бы хотела представить вам на суд мой экспириенс в ии кино ( супер короткометражном:)) . У меня с раннего творчества остался незакрытый гештальт с русалочной темой, главная героиня была взята со старых архивных фотографий из моих фотосессий на эту тему. Главной задачей помимо истории , уложенной в 1минутный хронометраж, было сохранить консистенность героини ( взятой с реального человека) и локации. Похожесть вышла наверное 50 процентов. Может потому,  что не хватило ракурсов лица. Настроением вдохновлялась такими фильмами “Shape of Water” и «Sirene a Paris” . Русалочий хвост под платьем выглядит максимально топорно, понимаю. Но пока не было понимая, что я смогу,  и оставила концепт русалки максимально простым . Как и  тот факт, что она каким-то своим образом может принимать человеческий образ, и под воздействием сторонних факторов, например таких как алкоголь, переходить непроизвольно обратно . Пайплайн получился примерно такой: сначала генерация локаций в Midjourney, с использованием мудборда по цветопередаче и настроению;затем доработка и расстановка персонажей во Freepik (через Nanobanana);и финальное «оживление» в Kling с помощью Veo. Тут еще просят указывать бюджет , но мне сложно оценить , так как изначально не следила и делались параллельные генерации, не связанные с этим видео. Ну может евро 100-150. Проходов было много, так как  я еще новичок в этом и делала достаточно хаотично.Критика будет ценной! Спасибо 🫶🌞@cgevent",
-    "content": "<a href=\"/search/%23%D0%9D%D0%B5%D0%B9%D1%80%D0%BE%D0%BF%D1%80%D0%BE%D0%B6%D0%B0%D1%80%D0%BA%D0%B0\" title=\"#Нейропрожарка\"><b>#Нейропрожарка</b></a><br><br><b>“Once upon a time”<br><br>Автор Татьяна Михина.</b> <br><br>Всем добрый день! Я бы хотела представить вам на суд мой экспириенс в ии кино ( супер короткометражном:)) . У меня с раннего творчества остался незакрытый гештальт с русалочной темой, главная героиня была взята со старых архивных фотографий из моих фотосессий на эту тему. Главной задачей помимо истории , уложенной в 1минутный хронометраж, было сохранить консистенность героини ( взятой с реального человека) и локации. Похожесть вышла наверное 50 процентов. Может потому,  что не хватило ракурсов лица. <br><br>Настроением вдохновлялась такими фильмами “Shape of Water” и «Sirene a Paris” . Русалочий хвост под платьем выглядит максимально топорно, понимаю. Но пока не было понимая, что я смогу,  и оставила концепт русалки максимально простым . Как и  тот факт, что она каким-то своим образом может принимать человеческий образ, и под воздействием сторонних факторов, например таких как алкоголь, переходить непроизвольно обратно . <br><br>Пайплайн получился примерно такой: сначала генерация локаций в Midjourney, с использованием мудборда по цветопередаче и настроению;<br>затем доработка и расстановка персонажей во Freepik (через Nanobanana);<br>и финальное «оживление» в Kling с помощью Veo. Тут еще просят указывать бюджет , но мне сложно оценить , так как изначально не следила и делались параллельные генерации, не связанные с этим видео. Ну может евро 100-150. Проходов было много, так как  я еще новичок в этом и делала достаточно хаотично.<br><br>Критика будет ценной! Спасибо <i class=\"emoji\"><b>🫶</b></i><i class=\"emoji\"><b>🌞</b></i><br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a><a class=\"tgme_widget_message_video_player not_supported js-message_video_player\" href=\"https://t.me/cgevent/15560\"><i class=\"tgme_widget_message_video_thumb\" style=\"background-image:url('https://cdn4.telesco.pe/file/uMDD2YNwrsNxOKA9YlVjiqjfmqQLZ0jbYVHDfjGVmChG_y47Eehf6Fr5p2nxdK4tKJWF6yOyTSdd1QY_YOZIeK_p755shAiZCCKiruOlp01bp0qqojPkO2ExfZCjo8T_ogc6M3PHPSGklFsZgesfM6yi6A8g49OrpGNookzHYwJvI8rIF2vr0XGI5A7xXz3GEvxBmiZL5jeH2975t_KYL3q6fhylk0rWCzfs8MVy_iBCDCkeTWjnZoUDxvEGceMNsloyaVr0BvV-6Ref8gLkhb5PDK9wOzKorP7zinU6awEEtw-Xzo3hdSCG9NOJmJ1xGe-CBRqJA2O7MnRayxuOkw')\"></i>\n\n<div class=\"tgme_widget_message_video_wrap\" style=\"width:848px;padding-top:54.716981132075%\">\n  \n</div>\n<div class=\"message_video_play js-message_video_play\"></div>\n<time class=\"message_video_duration js-message_video_duration\">1:06</time>\n<div class=\"message_media_not_supported_wrap\">\n  <div class=\"message_media_not_supported\">\n    <div class=\"message_media_not_supported_label\">Media is too big</div>\n    <span class=\"message_media_view_in_telegram\">VIEW IN TELEGRAM</span>\n  </div>\n</div></a>",
-    "reactions": [
-      {
-        "emoji": "👍",
-        "count": "18",
-        "isPaid": false
-      },
-      {
-        "emoji": "👎",
-        "count": "7",
-        "isPaid": false
-      },
-      {
-        "emoji": "❤️",
-        "count": "4",
-        "isPaid": false
-      },
-      {
-        "emoji": "🔥",
-        "count": "3",
-        "isPaid": false
-      },
-      {
-        "emoji": "😁",
-        "count": "1",
-        "isPaid": false
-      },
-      {
-        "emoji": "😱",
-        "count": "1",
-        "isPaid": false
-      }
-    ],
-    "channel": "cgevent",
-    "channelTitle": "Метаверсище и ИИще"
+    "channel": "gleb_pro_ai",
+    "channelTitle": "Глеб Кудрявцев про AI кодинг"
   }
 ]
