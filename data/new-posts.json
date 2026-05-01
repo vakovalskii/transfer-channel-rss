@@ -1,71 +1,25 @@
 [
   {
-    "id": "evilfreelancer/1661",
-    "title": "Сижу пробую OpenDesign через qwen 3.6 35b, которая к слову доступна всем желающим на Hub NeuralDeep по подписке.Первый результат получил спустя пару минут, агент принял задачу, задал уточняющие вопросы, принял мои пожелания и инструкцию о том, что я хочу получить интерфейс чата похожий на ChatGPT и вот такой результат выдал.Тут конечно потребуются ещё доработки, но похоже концепция жизнеспособна, есть у меня в фигме один старенький макет чатика с моделями, попробую его скормить в качестве референса.",
+    "id": "evilfreelancer/1662",
+    "title": "По просьбам трудящихся конвертировал в GGUF модельку bond005/whisper-podlodka-turbo, которая как я понял затачивалась под качественный ASR русской речи. Доступны квантизации до f16, q8 и q4, запустить модельку вы можете дома например через мой проект docker-whisper-server.Так как оригинальная моделька основана на whisper large v3 turbo много памяти она кушать не будет.",
     "type": "text",
-    "datetime": "2026-05-01T17:00:47+00:00",
+    "datetime": "2026-05-01T17:49:23+00:00",
     "tags": [],
-    "text": "Сижу пробую OpenDesign через qwen 3.6 35b, которая к слову доступна всем желающим на Hub NeuralDeep по подписке.Первый результат получил спустя пару минут, агент принял задачу, задал уточняющие вопросы, принял мои пожелания и инструкцию о том, что я хочу получить интерфейс чата похожий на ChatGPT и вот такой результат выдал.Тут конечно потребуются ещё доработки, но похоже концепция жизнеспособна, есть у меня в фигме один старенький макет чатика с моделями, попробую его скормить в качестве референса.",
-    "content": "<a class=\"tgme_widget_message_reply user-color-default\" href=\"/posts/1658\" \"=\"\"><blockquote><small>\n<div class=\"tgme_widget_message_author accent_color\">\n  <span class=\"tgme_widget_message_author_name\" dir=\"auto\">Pavel Zloi</span>\n</div>\n<div class=\"tgme_widget_message_text js-message_reply_text\" dir=\"auto\">В продолжение темы с дизайном через агентов, намедни состоялся релиз проекта OpenDesign, это открытая альтернатива Claude Design без вендорлока на модели Antropic.   Заявлена поддержка многих кодовых агентов, включая опенкод, а это значит можно будет задействовать…</div>\n</small></blockquote></a><div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-1661-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Сижу пробую OpenDesign через qwen 3.6 35b, которая к слову доступна всем желающим на Hub NeuralDeep по подписке.Первый результат получил спустя пару минут, агент принял задачу, задал уточняющие вопросы, принял мои пожелания и инструкцию о том, что я хочу получить интерфейс чата похожий на ChatGPT и вот такой результат выдал.Тут конечно потребуются ещё доработки, но похоже концепция жизнеспособна, есть у меня в фигме один старенький макет чатика с моделями, попробую его скормить в качестве референса.\">\n        <img src=\"media/e0fc2514688a005b032bb19836652b5f.jpg\" alt=\"Сижу пробую OpenDesign через qwen 3.6 35b, которая к слову доступна всем желающим на Hub NeuralDeep по подписке.Первый результат получил спустя пару минут, агент принял задачу, задал уточняющие вопросы, принял мои пожелания и инструкцию о том, что я хочу получить интерфейс чата похожий на ChatGPT и вот такой результат выдал.Тут конечно потребуются ещё доработки, но похоже концепция жизнеспособна, есть у меня в фигме один старенький макет чатика с моделями, попробую его скормить в качестве референса.\" width=\"800\" height=\"411\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-1661-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-1661-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-1661-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/e0fc2514688a005b032bb19836652b5f.jpg\" alt=\"Сижу пробую OpenDesign через qwen 3.6 35b, которая к слову доступна всем желающим на Hub NeuralDeep по подписке.Первый результат получил спустя пару минут, агент принял задачу, задал уточняющие вопросы, принял мои пожелания и инструкцию о том, что я хочу получить интерфейс чата похожий на ChatGPT и вот такой результат выдал.Тут конечно потребуются ещё доработки, но похоже концепция жизнеспособна, есть у меня в фигме один старенький макет чатика с моделями, попробую его скормить в качестве референса.\" width=\"800\" height=\"411\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Сижу пробую <a href=\"https://github.com/nexu-io/open-design\" target=\"_blank\" rel=\"noopener\" title=\"OpenDesign\">OpenDesign</a> через qwen 3.6 35b, которая к слову доступна всем желающим на <a href=\"https://hub.neuraldeep.ru/\" target=\"_blank\" rel=\"noopener\" title=\"Hub NeuralDeep\">Hub NeuralDeep</a> по подписке.<br><br>Первый результат получил спустя пару минут, агент принял задачу, задал уточняющие вопросы, принял мои пожелания и инструкцию о том, что я хочу получить интерфейс чата похожий на ChatGPT и вот такой результат выдал.<br><br>Тут конечно потребуются ещё доработки, но похоже концепция жизнеспособна, есть у меня в фигме один старенький макет чатика с моделями, попробую его скормить в качестве референса.",
+    "text": "По просьбам трудящихся конвертировал в GGUF модельку bond005/whisper-podlodka-turbo, которая как я понял затачивалась под качественный ASR русской речи. Доступны квантизации до f16, q8 и q4, запустить модельку вы можете дома например через мой проект docker-whisper-server.Так как оригинальная моделька основана на whisper large v3 turbo много памяти она кушать не будет.",
+    "content": "По просьбам трудящихся конвертировал в <a href=\"https://huggingface.co/evilfreelancer/whisper-podlodka-turbo-GGUF\" target=\"_blank\" rel=\"noopener\" title=\"GGUF\">GGUF</a> модельку <a href=\"https://huggingface.co/bond005/whisper-podlodka-turbo\" target=\"_blank\" rel=\"noopener\" title=\"bond005/whisper-podlodka-turbo\">bond005/whisper-podlodka-turbo</a>, которая как я понял затачивалась под качественный ASR русской речи. <br><br>Доступны квантизации до f16, q8 и q4, запустить модельку вы можете дома например через мой проект <a href=\"https://github.com/EvilFreelancer/docker-whisper-server\" target=\"_blank\" rel=\"noopener\" title=\"docker-whisper-server\">docker-whisper-server</a>.<br><br>Так как оригинальная моделька основана на whisper large v3 turbo много памяти она кушать не будет.",
     "reactions": [
       {
-        "emoji": "🔥",
-        "count": "3",
+        "emoji": "👏",
+        "count": "6",
         "isPaid": false
       },
       {
-        "emoji": "🥰",
-        "count": "1",
+        "emoji": "❤‍🔥",
+        "count": "3",
         "isPaid": false
       }
     ],
     "channel": "evilfreelancer",
     "channelTitle": "Pavel Zloi"
-  },
-  {
-    "id": "gleb_pro_ai/545",
-    "title": "Ну ладно, я сдаюсь",
-    "type": "text",
-    "datetime": "2026-05-01T17:12:14+00:00",
-    "tags": [],
-    "text": "Ну ладно, я сдаюсь",
-    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-545-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Ну ладно, я сдаюсь\">\n        <img src=\"media/f64c1713863613d5bf0fe6877a9c3fbc.jpg\" alt=\"Ну ладно, я сдаюсь\" width=\"800\" height=\"79\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-545-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-545-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-545-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/f64c1713863613d5bf0fe6877a9c3fbc.jpg\" alt=\"Ну ладно, я сдаюсь\" width=\"800\" height=\"79\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Ну ладно, я сдаюсь",
-    "reactions": [
-      {
-        "emoji": "😁",
-        "count": "21",
-        "isPaid": false
-      }
-    ],
-    "channel": "gleb_pro_ai",
-    "channelTitle": "Глеб Кудрявцев про AI кодинг"
-  },
-  {
-    "id": "gleb_pro_ai/544",
-    "title": "Я знаю, вам всегда хочется немного OCRЭто качество можно гонять полностью локально. Если нужно — обращайтесь, устроим 👌",
-    "type": "text",
-    "datetime": "2026-05-01T16:55:24+00:00",
-    "tags": [],
-    "text": "Я знаю, вам всегда хочется немного OCRЭто качество можно гонять полностью локально. Если нужно — обращайтесь, устроим 👌",
-    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-544-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Я знаю, вам всегда хочется немного OCRЭто качество можно гонять полностью локально. Если нужно — обращайтесь, устроим 👌\">\n        <img src=\"media/8b41ed1357502c93a795a016d90bbcb1.jpg\" alt=\"Я знаю, вам всегда хочется немного OCRЭто качество можно гонять полностью локально. Если нужно — обращайтесь, устроим 👌\" width=\"800\" height=\"374\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-544-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-544-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-544-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/8b41ed1357502c93a795a016d90bbcb1.jpg\" alt=\"Я знаю, вам всегда хочется немного OCRЭто качество можно гонять полностью локально. Если нужно — обращайтесь, устроим 👌\" width=\"800\" height=\"374\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Я знаю, вам всегда хочется немного OCR<br><br>Это качество можно гонять полностью локально. Если нужно — обращайтесь, устроим <i class=\"emoji\"><b>👌</b></i>",
-    "reactions": [
-      {
-        "emoji": "⭐",
-        "count": "2",
-        "isPaid": true
-      },
-      {
-        "emoji": "🔥",
-        "count": "17",
-        "isPaid": false
-      },
-      {
-        "emoji": "❤️",
-        "count": "5",
-        "isPaid": false
-      }
-    ],
-    "channel": "gleb_pro_ai",
-    "channelTitle": "Глеб Кудрявцев про AI кодинг"
   }
 ]
