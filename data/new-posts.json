@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "neuraldeep/2120",
+    "title": "Сброшены недельные лимиты для всех!Добавлены еще инстансы qwen3.6-35b-a3b (латенси должен упасть)Обновлены лимиты на free тире Пол ярда токенов на квен за 2 дня КАРЛ! 🦾Проработана дока для подключения моделей к агентам ",
+    "type": "text",
+    "datetime": "2026-05-06T04:45:28+00:00",
+    "tags": [],
+    "text": "Сброшены недельные лимиты для всех!Добавлены еще инстансы qwen3.6-35b-a3b (латенси должен упасть)Обновлены лимиты на free тире Пол ярда токенов на квен за 2 дня КАРЛ! 🦾Проработана дока для подключения моделей к агентам https://hub.neuraldeep.ru/docs#agents (теперь там есть огромная кнопка скопировать доку в md, сделаны базовые фиксы responses api",
+    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-2120-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Сброшены недельные лимиты для всех!Добавлены еще инстансы qwen3.6-35b-a3b (латенси должен упасть)Обновлены лимиты на free тире Пол ярда токенов на квен за 2 дня КАРЛ! 🦾Проработана дока для подключения моделей к агентам \">\n        <img src=\"media/15bcac7160863460a8f336a9e1def638.jpg\" alt=\"Сброшены недельные лимиты для всех!Добавлены еще инстансы qwen3.6-35b-a3b (латенси должен упасть)Обновлены лимиты на free тире Пол ярда токенов на квен за 2 дня КАРЛ! 🦾Проработана дока для подключения моделей к агентам \" width=\"800\" height=\"182\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-2120-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-2120-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-2120-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/15bcac7160863460a8f336a9e1def638.jpg\" alt=\"Сброшены недельные лимиты для всех!Добавлены еще инстансы qwen3.6-35b-a3b (латенси должен упасть)Обновлены лимиты на free тире Пол ярда токенов на квен за 2 дня КАРЛ! 🦾Проработана дока для подключения моделей к агентам \" width=\"800\" height=\"182\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Сброшены недельные лимиты для всех!<br><br>Добавлены еще инстансы qwen3.6-35b-a3b (латенси должен упасть)<br><br>Обновлены лимиты на free тире <br><br>Пол ярда токенов на квен за 2 дня КАРЛ! <i class=\"emoji\"><b>🦾</b></i><br><br>Проработана дока для подключения моделей к агентам <a href=\"https://hub.neuraldeep.ru/docs#agents\" target=\"_blank\" rel=\"noopener\" title=\"https://hub.neuraldeep.ru/docs#agents\">https://hub.neuraldeep.ru/docs#agents</a> (теперь там есть огромная кнопка скопировать доку в md, сделаны базовые фиксы responses api",
+    "reactions": [
+      {
+        "emoji": "🔥",
+        "count": "22",
+        "isPaid": false
+      },
+      {
+        "emoji": "",
+        "emojiId": "5217608395250485583",
+        "emojiImage": "https://t.me/i/emoji/5217608395250485583.webp",
+        "count": "5",
+        "isPaid": false
+      },
+      {
+        "emoji": "😁",
+        "count": "3",
+        "isPaid": false
+      }
+    ],
+    "channel": "neuraldeep",
+    "channelTitle": "Валера Ковальский"
+  }
+]
