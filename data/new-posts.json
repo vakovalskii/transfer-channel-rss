@@ -1,12 +1,14 @@
 [
   {
-    "id": "gleb_pro_ai/557",
-    "title": "Пятничное про стартапы Страшно не то, что практически любой AI стартап сейчас можно заменить скиллом в кодексе. А то, что скилл в кодексе будет работать лучше 😁Заметил эту тенденцию в последние пару месяцев. Огромное количество компаний такими темпами пойдет на выход.",
+    "id": "tips_ai/4683",
+    "title": "OpenAI хотят вот таким сообщением и своей новой функцией импорта настроек из других агентов, переманить к себе, то есть из Claude Code Само сканирует твои существующие настройки, чаты-сессии, скиллы, плагины и переносит всё в Codex.@tips_ai #news",
     "type": "text",
-    "datetime": "2026-05-08T16:39:59+00:00",
-    "tags": [],
-    "text": "Пятничное про стартапы Страшно не то, что практически любой AI стартап сейчас можно заменить скиллом в кодексе. А то, что скилл в кодексе будет работать лучше 😁Заметил эту тенденцию в последние пару месяцев. Огромное количество компаний такими темпами пойдет на выход.",
-    "content": "Пятничное про стартапы <br><br>Страшно не то, что практически любой AI стартап сейчас можно заменить скиллом в кодексе. А то, что скилл в кодексе будет работать <b>лучше</b> <i class=\"emoji\"><b>😁</b></i><br><br>Заметил эту тенденцию в последние пару месяцев. Огромное количество компаний такими темпами пойдет на выход.",
+    "datetime": "2026-05-08T17:56:58+00:00",
+    "tags": [
+      "news"
+    ],
+    "text": "OpenAI хотят вот таким сообщением и своей новой функцией импорта настроек из других агентов, переманить к себе, то есть из Claude Code Само сканирует твои существующие настройки, чаты-сессии, скиллы, плагины и переносит всё в Codex.@tips_ai #news",
+    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-4683-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: OpenAI хотят вот таким сообщением и своей новой функцией импорта настроек из других агентов, переманить к себе, то есть из Claude Code Само сканирует твои существующие настройки, чаты-сессии, скиллы, плагины и переносит всё в Codex.@tips_ai #news\">\n        <img src=\"media/ce96d02ffa6e784e30f51518112f4727.jpg\" alt=\"OpenAI хотят вот таким сообщением и своей новой функцией импорта настроек из других агентов, переманить к себе, то есть из Claude Code Само сканирует твои существующие настройки, чаты-сессии, скиллы, плагины и переносит всё в Codex.@tips_ai #news\" width=\"648\" height=\"600\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-4683-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-4683-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-4683-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/ce96d02ffa6e784e30f51518112f4727.jpg\" alt=\"OpenAI хотят вот таким сообщением и своей новой функцией импорта настроек из других агентов, переманить к себе, то есть из Claude Code Само сканирует твои существующие настройки, чаты-сессии, скиллы, плагины и переносит всё в Codex.@tips_ai #news\" width=\"648\" height=\"600\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>OpenAI хотят вот таким сообщением и своей новой <a href=\"https://chatgpt.com/codex/switch-to-codex/\" target=\"_blank\" rel=\"noopener\" title=\"функцией\">функцией</a> импорта настроек из других агентов, переманить к себе, то есть из Claude Code <img class=\"tg-emoji\" src=\"media/58f213e516289e660dcdba43ea49ff73.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"><br><br>Само сканирует твои существующие настройки, чаты-сессии, скиллы, плагины и переносит всё в Codex.<br><br><a href=\"https://t.me/tips_ai\" target=\"_blank\" title=\"@tips_ai\">@tips_ai</a> <a href=\"/search/%23news\" title=\"#news\">#news</a>",
     "reactions": [
       {
         "emoji": "👍",
@@ -14,48 +16,13 @@
         "isPaid": false
       },
       {
-        "emoji": "💯",
-        "count": "5",
-        "isPaid": false
-      },
-      {
-        "emoji": "❤️",
-        "count": "1",
-        "isPaid": false
-      }
-    ],
-    "channel": "gleb_pro_ai",
-    "channelTitle": "Глеб Кудрявцев про AI кодинг"
-  },
-  {
-    "id": "cgevent/15650",
-    "title": "#НейропрожаркаПроект - «Мысли» Автор: @aidirectedИдея: Делал для конкурса, пришла мысль о что если бы все мысли материализовывались сразу и решил это сгенерировать. Видео на конкурсе никто не отметил, видимо из за их условий, что должен был быть трейлер, но мне было уже всё равно, потому что видео немного залетело в соц. сетях, что не могло не радовать.Инструменты:  Стоп кадры в  Banana Pro, корректировка в Banana 2,  видео анимация в Kling 3.0, Grok и Seedance 2.0, музыка в Suno.@cgevent",
-    "type": "text",
-    "datetime": "2026-05-08T16:02:02+00:00",
-    "tags": [
-      "Нейропрожарка"
-    ],
-    "text": "#НейропрожаркаПроект - «Мысли» Автор: @aidirectedИдея: Делал для конкурса, пришла мысль о что если бы все мысли материализовывались сразу и решил это сгенерировать. Видео на конкурсе никто не отметил, видимо из за их условий, что должен был быть трейлер, но мне было уже всё равно, потому что видео немного залетело в соц. сетях, что не могло не радовать.Инструменты:  Стоп кадры в  Banana Pro, корректировка в Banana 2,  видео анимация в Kling 3.0, Grok и Seedance 2.0, музыка в Suno.@cgevent",
-    "content": "<a href=\"/search/%23%D0%9D%D0%B5%D0%B9%D1%80%D0%BE%D0%BF%D1%80%D0%BE%D0%B6%D0%B0%D1%80%D0%BA%D0%B0\" title=\"#Нейропрожарка\"><b>#Нейропрожарка</b></a><br><b><br>Проект</b> - «Мысли» <br><br><b>Автор:</b> <a href=\"https://t.me/aidirected\" target=\"_blank\" title=\"@aidirected\">@aidirected</a><br><br><b>Идея:</b> Делал для конкурса, пришла мысль о что если бы все мысли материализовывались сразу и решил это сгенерировать. Видео на конкурсе никто не отметил, видимо из за их условий, что должен был быть трейлер, но мне было уже всё равно, потому что видео немного <a href=\"https://www.instagram.com/reel/DWZVxkxiP2y/?igsh=MTh6a3RwZ3ZyNDdxcA==\" target=\"_blank\" rel=\"noopener\" title=\"залетело в соц. сетях\">залетело в соц. сетях</a>, что не могло не радовать.<br><br><b>Инструменты: </b> Стоп кадры в  Banana Pro, корректировка в Banana 2,  видео анимация в Kling 3.0, Grok и Seedance 2.0, музыка в Suno.<br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a><a class=\"tgme_widget_message_video_player not_supported js-message_video_player\" href=\"https://t.me/cgevent/15650\"><i class=\"tgme_widget_message_video_thumb\" style=\"background-image:url('https://cdn4.telesco.pe/file/KiTyfHR-075tQKzl6rd14qPJffVy4Ga2YJcuBOcHR807Hhewe-9iAXkwQ58rZueDqCzp0NB1nCcSmKYoJrzK5jog-PT9K38tE7TTP5ULl2FwzpoDggthSeLuoQIJRRYTpBjEEMlmN83ykIsr6IBpdXxprR9NxNX-JtbXTqFLgKfzQKjDoc-3_lHFmkrfEi-iAuXe41RzxEepFfZx2VavF_IYahkQNPpM9B6o4_CRTFQFqAYcJFjsJLefRU1Ti9CqlQAHEHcMIB6eCs--mP2TBU6R2bPpCUo1VoZ_A94jy636U4v3F79k7kJW1VCnuJ8bAxv0NNsPLOVDu7OFfD23Ew')\"></i>\n\n<div class=\"tgme_widget_message_video_wrap\" style=\"width:1920px;padding-top:56.25%\">\n  \n</div>\n<div class=\"message_video_play js-message_video_play\"></div>\n<time class=\"message_video_duration js-message_video_duration\">1:01</time>\n<div class=\"message_media_not_supported_wrap\">\n  <div class=\"message_media_not_supported\">\n    <div class=\"message_media_not_supported_label\">Media is too big</div>\n    <span class=\"message_media_view_in_telegram\">VIEW IN TELEGRAM</span>\n  </div>\n</div></a>",
-    "reactions": [
-      {
-        "emoji": "👍",
-        "count": "39",
+        "emoji": "😁",
+        "count": "11",
         "isPaid": false
       },
       {
         "emoji": "🔥",
-        "count": "16",
-        "isPaid": false
-      },
-      {
-        "emoji": "😁",
-        "count": "6",
-        "isPaid": false
-      },
-      {
-        "emoji": "👎",
-        "count": "4",
+        "count": "5",
         "isPaid": false
       },
       {
@@ -64,7 +31,7 @@
         "isPaid": false
       }
     ],
-    "channel": "cgevent",
-    "channelTitle": "Метаверсище и ИИще"
+    "channel": "tips_ai",
+    "channelTitle": "Tips AI | IT & AI"
   }
 ]
