@@ -1,23 +1,39 @@
 [
   {
-    "id": "tips_ai/4684",
-    "title": "В Claude Code появился agent view, где все твои сессии видно одним списком.Если раньше параллельная работа в СС была с жонглированием вкладками терминала, tmux-сеткой и попытки удержать в голове, к чему возвращаться. Теперь с одного экрана видно: какие сессии ждут ответа, какие ещё работают, какие закрыли задачу.Открывается стрелкой влево из любой сессии или командой claude agents. На каждой строке будет название, статус, последний ответ и время последнего взаимодействия.• Peek посмотреть последний ход и ответить прямо из списка, не входя в сессию• /bg отправить текущую сессию в фон• claude --bg [task] — сразу запустит новую фоновую задачуЕще завезли команду /goal — тоже самое как в Codex. Раньше в СС было плагином.Сейчас без него /goal <задача>, агент крутится в цикле пока цель не достигнута и видеть их статусы прямо в agent view, две фичи отлично связались.P.S. Я в небольшом отпуске в Китае, на местном вайфае Claude вообще не открывается. Через VPN работает, но скорость не радует. Думаю самое время влиться в местную культуру на китайских моделях @tips_ai #news",
+    "id": "cgevent/15662",
+    "title": "Это результат из СиданскогоВ математике и тексте Google Omni явно получше (наследие Flash и Nanobanana).В остальном нужны, конечно, более расширенные тесты.Промпт: A professor writes out a mathematical proof for trigonometric identities on a traditional chalkboard, explaining the step he is currently on in the equation.@cgevent",
     "type": "text",
-    "datetime": "2026-05-12T02:42:51+00:00",
-    "tags": [
-      "news"
-    ],
-    "text": "В Claude Code появился agent view, где все твои сессии видно одним списком.Если раньше параллельная работа в СС была с жонглированием вкладками терминала, tmux-сеткой и попытки удержать в голове, к чему возвращаться. Теперь с одного экрана видно: какие сессии ждут ответа, какие ещё работают, какие закрыли задачу.Открывается стрелкой влево из любой сессии или командой claude agents. На каждой строке будет название, статус, последний ответ и время последнего взаимодействия.• Peek посмотреть последний ход и ответить прямо из списка, не входя в сессию• /bg отправить текущую сессию в фон• claude --bg [task] — сразу запустит новую фоновую задачуЕще завезли команду /goal — тоже самое как в Codex. Раньше в СС было плагином.Сейчас без него /goal <задача>, агент крутится в цикле пока цель не достигнута и видеть их статусы прямо в agent view, две фичи отлично связались.P.S. Я в небольшом отпуске в Китае, на местном вайфае Claude вообще не открывается. Через VPN работает, но скорость не радует. Думаю самое время влиться в местную культуру на китайских моделях @tips_ai #news",
-    "content": "<video src=\"https://cdn4.telesco.pe/file/1dbabcbfed.mp4?token=sQYQuCF-BcFe6dObcoW6Oq8U6LI285waclggBb5jsW_1uHvj_3MmHkE-DeHNB8QR2AU2zC31gUCAlHSbeFJFBTMT-BusbePEEE2aNMSqlXXuSUfg-h2OHpkBwvJT_I8vvFKhmpFbflRSFuYnZTtUQac4PgCWerjMgk0cwaxDQmaotNXaGTXI09C2RWH9-zO_TMNE6qPieMmInbrSbnqZWwck1Jh-GRAXQWfUPVxka3tK0J-y-j_S9lU44FWPoDGzI8Svh1Sw5YvGoAQg7rQkWhU11t2Zr8uUTlD3KmlJSy5EZNgyUCyh6M-jWAxln6tJMthbFudyIxYipzRnS-nduxCUaDQ63B6Ka0ilRfXsPvtdc8wRtadnELEUpev0bW-JAQjTCLMNMbFxB8SlpEkc55MHt9C6CbN06D25bAVtajmam6dSoSXvk_KZTBHaLcogl43NrePUsjMoAUz_fPEJgH4KvOWc4_3Qcvc6IsYHB4lZSOglIdaQYQAbU4H9G6Ebcms3G2k2DIDH2LeRP0vux09TaTo28AfKpgyJZemOltGH05fbNlR9rq_-jVJtbLexSpscOCt5GavVuT7POJiC44mZTbBz2lWLiryZmpBUJfI3XKPPksYQeOsKDeoam1o92QQcGQ_Y781jSJn8cKk_y_kPq3r-cg7s551jPHkJpwI\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"metadata\" playsinline=\"\"></video>В Claude Code появился <a href=\"https://claude.com/blog/agent-view-in-claude-code\" target=\"_blank\" rel=\"noopener\" title=\"agent view\">agent view</a>, где все твои сессии видно одним списком.<br><br>Если раньше параллельная работа в СС была с жонглированием вкладками терминала, tmux-сеткой и попытки удержать в голове, к чему возвращаться. <br><br>Теперь с одного экрана видно: какие сессии ждут ответа, какие ещё работают, какие закрыли задачу.<br><br>Открывается стрелкой влево из любой сессии или командой claude agents. <br><br>На каждой строке будет название, статус, последний ответ и время последнего взаимодействия.<br><br>• Peek посмотреть последний ход и ответить прямо из списка, не входя в сессию<br>• /bg отправить текущую сессию в фон<br>• claude --bg [task] — сразу запустит новую фоновую задачу<br><br>Еще завезли команду /goal — тоже самое как <a href=\"https://t.me/tips_ai/4680\" target=\"_blank\" rel=\"noopener\" title=\"в Codex\">в Codex</a>. Раньше в СС было плагином.<br><br>Сейчас без него /goal &lt;задача&gt;, агент крутится в цикле пока цель не достигнута и видеть их статусы прямо в agent view, две фичи отлично связались.<br><br>P.S. Я в небольшом отпуске в Китае, на местном вайфае Claude вообще не открывается. Через VPN работает, но скорость не радует. Думаю самое время влиться в местную культуру на китайских моделях <img class=\"tg-emoji\" src=\"media/58f213e516289e660dcdba43ea49ff73.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"><br><br><a href=\"https://t.me/tips_ai\" target=\"_blank\" title=\"@tips_ai\">@tips_ai</a> <a href=\"/search/%23news\" title=\"#news\">#news</a>",
+    "datetime": "2026-05-12T05:11:10+00:00",
+    "tags": [],
+    "text": "Это результат из СиданскогоВ математике и тексте Google Omni явно получше (наследие Flash и Nanobanana).В остальном нужны, конечно, более расширенные тесты.Промпт: A professor writes out a mathematical proof for trigonometric identities on a traditional chalkboard, explaining the step he is currently on in the equation.@cgevent",
+    "content": "<video src=\"https://cdn4.telesco.pe/file/55c7fd1bb3.mp4?token=Z7D9guh1zqeUL1ecL0y4QQPply2HY5NR-pXcBBrS6iWXDAr-kGbFGqvqZ-lGO4YkcFbeamCkfqQAAwVDIK14kCJdWZRTnccfo1-EjcRQpZNL0OA9dZ2ys9dszOoN-wmejTnbXb0BefBA63hcv631N_nRBpR40y5hAd0Jys2_OzHffCcWbiJ0Omd1__rv3poZa0HTfF-HCe0hBMLQtYokWeG8YTJ9qXaZo1C6uNmulekcb5lGvgh4CtmHV-Or-zPzawTL05SVwaSRaUlwqcREHzluoWxEAc8obxeqoNa34AkI4WP4EAqMO2dF2nQXIysNUWcxelbOgeY2m1-RKG1viA\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"auto\" playsinline=\"\"></video><b>Это результат из Сиданского</b><br><br>В математике и тексте Google Omni явно получше (наследие Flash и Nanobanana).<br>В остальном нужны, конечно, более расширенные тесты.<br><br>Промпт: A professor writes out a mathematical proof for trigonometric identities on a traditional chalkboard, explaining the step he is currently on in the equation.<br><br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a>",
     "reactions": [
       {
-        "emoji": "❤️",
-        "count": "8",
+        "emoji": "👍",
+        "count": "9",
         "isPaid": false
       },
       {
-        "emoji": "👍",
-        "count": "5",
+        "emoji": "❤️",
+        "count": "7",
+        "isPaid": false
+      }
+    ],
+    "channel": "cgevent",
+    "channelTitle": "Метаверсище и ИИще"
+  },
+  {
+    "id": "cgevent/15661",
+    "title": "Еще одна утечка из новой Gemini Omni ModelВот пруф того, что это действительно сделано в Gemini:",
+    "type": "text",
+    "datetime": "2026-05-12T05:02:10+00:00",
+    "tags": [],
+    "text": "Еще одна утечка из новой Gemini Omni ModelВот пруф того, что это действительно сделано в Gemini:https://gemini.google.com/share/7d5dc678c80aПромпт: A professor writes out a mathematical proof for trigonometric identities on a traditional chalkboard, explaining the step he is currently on in the equation.Следующим постом скину тот же промпт из Сидэнского.@cgevent",
+    "content": "<video src=\"https://cdn4.telesco.pe/file/b25c8a0b1a.mp4?token=JrJyoNlrmFKjBYOcMMVmGbJtvH0OSjkd7st1jabnpGdbODwaErXSE51sK8rn2zNEt75aEJf3Grrg1VEjefiW2g4yzTMGWuYDe_lDXmicgBb4dilWDwni_Qe0PhFvkE3UU3vOz0dKPhMeprUQykrQBxuqfuAt3yOOLoUG1iJOKtVFLZEa9pIXefFUJ0Uquq9ZuIboMF4Up4i77fNigPRzZCydzNkpWCQbKr7E2bpwZPpJ68_o9DB1vbTw4BSjTtYGNAUgsYlc7OuG_ws6VnU0WrrfhIhZvLhkhecPetBkmgf7gCQM0QBATkyrcgF6v-u6A_7nnq9saoXQpZydla9VaQ\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"auto\" playsinline=\"\"></video><b>Еще одна утечка из новой Gemini Omni Model<br></b><br>Вот пруф того, что это действительно сделано в Gemini:<br><a href=\"https://gemini.google.com/share/7d5dc678c80a\" target=\"_blank\" rel=\"noopener\" title=\"https://gemini.google.com/share/7d5dc678c80a\">https://gemini.google.com/share/7d5dc678c80a</a><br><br>Промпт: A professor writes out a mathematical proof for trigonometric identities on a traditional chalkboard, explaining the step he is currently on in the equation.<br><br>Следующим постом скину тот же промпт из Сидэнского.<br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a>",
+    "reactions": [
+      {
+        "emoji": "❤️",
+        "count": "23",
         "isPaid": false
       },
       {
@@ -26,12 +42,12 @@
         "isPaid": false
       },
       {
-        "emoji": "😁",
-        "count": "2",
+        "emoji": "👍",
+        "count": "1",
         "isPaid": false
       }
     ],
-    "channel": "tips_ai",
-    "channelTitle": "Tips AI | IT & AI"
+    "channel": "cgevent",
+    "channelTitle": "Метаверсище и ИИще"
   }
 ]
