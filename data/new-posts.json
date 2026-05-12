@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "id": "tips_ai/4684",
+    "title": "В Claude Code появился agent view, где все твои сессии видно одним списком.Если раньше параллельная работа в СС была с жонглированием вкладками терминала, tmux-сеткой и попытки удержать в голове, к чему возвращаться. Теперь с одного экрана видно: какие сессии ждут ответа, какие ещё работают, какие закрыли задачу.Открывается стрелкой влево из любой сессии или командой claude agents. На каждой строке будет название, статус, последний ответ и время последнего взаимодействия.• Peek посмотреть последний ход и ответить прямо из списка, не входя в сессию• /bg отправить текущую сессию в фон• claude --bg [task] — сразу запустит новую фоновую задачуЕще завезли команду /goal — тоже самое как в Codex. Раньше в СС было плагином.Сейчас без него /goal <задача>, агент крутится в цикле пока цель не достигнута и видеть их статусы прямо в agent view, две фичи отлично связались.P.S. Я в небольшом отпуске в Китае, на местном вайфае Claude вообще не открывается. Через VPN работает, но скорость не радует. Думаю самое время влиться в местную культуру на китайских моделях @tips_ai #news",
+    "type": "text",
+    "datetime": "2026-05-12T02:42:51+00:00",
+    "tags": [
+      "news"
+    ],
+    "text": "В Claude Code появился agent view, где все твои сессии видно одним списком.Если раньше параллельная работа в СС была с жонглированием вкладками терминала, tmux-сеткой и попытки удержать в голове, к чему возвращаться. Теперь с одного экрана видно: какие сессии ждут ответа, какие ещё работают, какие закрыли задачу.Открывается стрелкой влево из любой сессии или командой claude agents. На каждой строке будет название, статус, последний ответ и время последнего взаимодействия.• Peek посмотреть последний ход и ответить прямо из списка, не входя в сессию• /bg отправить текущую сессию в фон• claude --bg [task] — сразу запустит новую фоновую задачуЕще завезли команду /goal — тоже самое как в Codex. Раньше в СС было плагином.Сейчас без него /goal <задача>, агент крутится в цикле пока цель не достигнута и видеть их статусы прямо в agent view, две фичи отлично связались.P.S. Я в небольшом отпуске в Китае, на местном вайфае Claude вообще не открывается. Через VPN работает, но скорость не радует. Думаю самое время влиться в местную культуру на китайских моделях @tips_ai #news",
+    "content": "<video src=\"https://cdn4.telesco.pe/file/1dbabcbfed.mp4?token=sQYQuCF-BcFe6dObcoW6Oq8U6LI285waclggBb5jsW_1uHvj_3MmHkE-DeHNB8QR2AU2zC31gUCAlHSbeFJFBTMT-BusbePEEE2aNMSqlXXuSUfg-h2OHpkBwvJT_I8vvFKhmpFbflRSFuYnZTtUQac4PgCWerjMgk0cwaxDQmaotNXaGTXI09C2RWH9-zO_TMNE6qPieMmInbrSbnqZWwck1Jh-GRAXQWfUPVxka3tK0J-y-j_S9lU44FWPoDGzI8Svh1Sw5YvGoAQg7rQkWhU11t2Zr8uUTlD3KmlJSy5EZNgyUCyh6M-jWAxln6tJMthbFudyIxYipzRnS-nduxCUaDQ63B6Ka0ilRfXsPvtdc8wRtadnELEUpev0bW-JAQjTCLMNMbFxB8SlpEkc55MHt9C6CbN06D25bAVtajmam6dSoSXvk_KZTBHaLcogl43NrePUsjMoAUz_fPEJgH4KvOWc4_3Qcvc6IsYHB4lZSOglIdaQYQAbU4H9G6Ebcms3G2k2DIDH2LeRP0vux09TaTo28AfKpgyJZemOltGH05fbNlR9rq_-jVJtbLexSpscOCt5GavVuT7POJiC44mZTbBz2lWLiryZmpBUJfI3XKPPksYQeOsKDeoam1o92QQcGQ_Y781jSJn8cKk_y_kPq3r-cg7s551jPHkJpwI\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"metadata\" playsinline=\"\"></video>В Claude Code появился <a href=\"https://claude.com/blog/agent-view-in-claude-code\" target=\"_blank\" rel=\"noopener\" title=\"agent view\">agent view</a>, где все твои сессии видно одним списком.<br><br>Если раньше параллельная работа в СС была с жонглированием вкладками терминала, tmux-сеткой и попытки удержать в голове, к чему возвращаться. <br><br>Теперь с одного экрана видно: какие сессии ждут ответа, какие ещё работают, какие закрыли задачу.<br><br>Открывается стрелкой влево из любой сессии или командой claude agents. <br><br>На каждой строке будет название, статус, последний ответ и время последнего взаимодействия.<br><br>• Peek посмотреть последний ход и ответить прямо из списка, не входя в сессию<br>• /bg отправить текущую сессию в фон<br>• claude --bg [task] — сразу запустит новую фоновую задачу<br><br>Еще завезли команду /goal — тоже самое как <a href=\"https://t.me/tips_ai/4680\" target=\"_blank\" rel=\"noopener\" title=\"в Codex\">в Codex</a>. Раньше в СС было плагином.<br><br>Сейчас без него /goal &lt;задача&gt;, агент крутится в цикле пока цель не достигнута и видеть их статусы прямо в agent view, две фичи отлично связались.<br><br>P.S. Я в небольшом отпуске в Китае, на местном вайфае Claude вообще не открывается. Через VPN работает, но скорость не радует. Думаю самое время влиться в местную культуру на китайских моделях <img class=\"tg-emoji\" src=\"media/58f213e516289e660dcdba43ea49ff73.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"><br><br><a href=\"https://t.me/tips_ai\" target=\"_blank\" title=\"@tips_ai\">@tips_ai</a> <a href=\"/search/%23news\" title=\"#news\">#news</a>",
+    "reactions": [
+      {
+        "emoji": "❤️",
+        "count": "8",
+        "isPaid": false
+      },
+      {
+        "emoji": "👍",
+        "count": "5",
+        "isPaid": false
+      },
+      {
+        "emoji": "🔥",
+        "count": "2",
+        "isPaid": false
+      },
+      {
+        "emoji": "😁",
+        "count": "2",
+        "isPaid": false
+      }
+    ],
+    "channel": "tips_ai",
+    "channelTitle": "Tips AI | IT & AI"
+  }
+]
