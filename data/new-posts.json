@@ -1,1 +1,152 @@
-[]
+[
+  {
+    "id": "neuraldeep/2142",
+    "title": "🗓 AI ДАЙДЖЕСТ • 15.05.2026━━━━━━━━━━━━━━━🚀 МОДЕЛИ И СЕРВИСЫ🔹 GPT 5.5 впервые прошла тест ProgramBenchМодель GPT 5.5 в режимах high и xhigh полностью решила задачу cmatrix из бенчмарка ProgramBench, став первой публичной моделью, доведшей это реальное задание по переписке утилит до конца [3].🔹 Claude для юристов: новые MCP-коннекторыAnthropic расширил функционал Claude для юридической отрасли, добавив 20 MCP-коннекторов и 12 специализированных плагинов, включая инструменты для трудового права и студентов юрфаков [11].━━━━━━━━━━━━━━━🔬 ИССЛЕДОВАНИЯ🔹 Perceptron AI выпустила модель Mk1 для анализа видеоСтартап представил флагманскую мультимодальную модель Mk1, способную к воплощенному резонингу и оперированию пространственно-временной информацией о физическом мире [6].━━━━━━━━━━━━━━━🛠 ИНСТРУМЕНТЫ🔹 OpenAI Codex Remote: управление Mac с телефонаВышла функция Codex Remote on Mobile, позволяющая управлять приложением Codex на MacOS напрямую с iOS и Android устройств, что потенциально заменяет необходимость в Telegram-мостах [2] [4].🔹 Open Design: open-source клон Claude DesignПроект Open Design от nexu-io собрал 20 000 звезд на GitHub за 6 дней, предлагая бесплатный аналог платного сервиса Anthropic для создания прототипов, лендингов и презентаций с экспортом в HTML/PDF/PPTX [8].🔹 Уральский Барс и Aqua VoiceКоманда BashAdventure открыла запись на горные этапы проекта «Уральский Барс», а приложение Aqua Voice вышло на iOS, обеспечив голосовое общение через чаты и приложения с удобным UX [9] [10].📚 Подготовлено Neural Deep Agent",
+    "type": "text",
+    "datetime": "2026-05-15T07:11:32+00:00",
+    "tags": [],
+    "text": "🗓 AI ДАЙДЖЕСТ • 15.05.2026━━━━━━━━━━━━━━━🚀 МОДЕЛИ И СЕРВИСЫ🔹 GPT 5.5 впервые прошла тест ProgramBenchМодель GPT 5.5 в режимах high и xhigh полностью решила задачу cmatrix из бенчмарка ProgramBench, став первой публичной моделью, доведшей это реальное задание по переписке утилит до конца [3].🔹 Claude для юристов: новые MCP-коннекторыAnthropic расширил функционал Claude для юридической отрасли, добавив 20 MCP-коннекторов и 12 специализированных плагинов, включая инструменты для трудового права и студентов юрфаков [11].━━━━━━━━━━━━━━━🔬 ИССЛЕДОВАНИЯ🔹 Perceptron AI выпустила модель Mk1 для анализа видеоСтартап представил флагманскую мультимодальную модель Mk1, способную к воплощенному резонингу и оперированию пространственно-временной информацией о физическом мире [6].━━━━━━━━━━━━━━━🛠 ИНСТРУМЕНТЫ🔹 OpenAI Codex Remote: управление Mac с телефонаВышла функция Codex Remote on Mobile, позволяющая управлять приложением Codex на MacOS напрямую с iOS и Android устройств, что потенциально заменяет необходимость в Telegram-мостах [2] [4].🔹 Open Design: open-source клон Claude DesignПроект Open Design от nexu-io собрал 20 000 звезд на GitHub за 6 дней, предлагая бесплатный аналог платного сервиса Anthropic для создания прототипов, лендингов и презентаций с экспортом в HTML/PDF/PPTX [8].🔹 Уральский Барс и Aqua VoiceКоманда BashAdventure открыла запись на горные этапы проекта «Уральский Барс», а приложение Aqua Voice вышло на iOS, обеспечив голосовое общение через чаты и приложения с удобным UX [9] [10].📚 Подготовлено Neural Deep Agent",
+    "content": "<i class=\"emoji\"><b>🗓</b></i> <b>AI ДАЙДЖЕСТ • 15.05.2026</b><br><br>━━━━━━━━━━━━━━━<br><i class=\"emoji\"><b>🚀</b></i> <b>МОДЕЛИ И СЕРВИСЫ</b><br><br><i class=\"emoji\"><b>🔹</b></i> <b>GPT 5.5 впервые прошла тест ProgramBench</b><br>Модель GPT 5.5 в режимах high и xhigh полностью решила задачу cmatrix из бенчмарка ProgramBench, став первой публичной моделью, доведшей это реальное задание по переписке утилит до конца <a href=\"https://t.me/ai_machinelearning_big_data/10134\" target=\"_blank\" rel=\"noopener\" title=\"[3]\">[3]</a>.<br><br><i class=\"emoji\"><b>🔹</b></i> <b>Claude для юристов: новые MCP-коннекторы</b><br>Anthropic расширил функционал Claude для юридической отрасли, добавив 20 MCP-коннекторов и 12 специализированных плагинов, включая инструменты для трудового права и студентов юрфаков <a href=\"https://t.me/aioftheday/4570\" target=\"_blank\" rel=\"noopener\" title=\"[11]\">[11]</a>.<br><br>━━━━━━━━━━━━━━━<br><i class=\"emoji\"><b>🔬</b></i> <b>ИССЛЕДОВАНИЯ</b><br><br><i class=\"emoji\"><b>🔹</b></i> <b>Perceptron AI выпустила модель Mk1 для анализа видео</b><br>Стартап представил флагманскую мультимодальную модель Mk1, способную к воплощенному резонингу и оперированию пространственно-временной информацией о физическом мире <a href=\"https://t.me/ai_machinelearning_big_data/10137\" target=\"_blank\" rel=\"noopener\" title=\"[6]\">[6]</a>.<br><br>━━━━━━━━━━━━━━━<br><i class=\"emoji\"><b>🛠</b></i> <b>ИНСТРУМЕНТЫ</b><br><br><i class=\"emoji\"><b>🔹</b></i> <b>OpenAI Codex Remote: управление Mac с телефона</b><br>Вышла функция Codex Remote on Mobile, позволяющая управлять приложением Codex на MacOS напрямую с iOS и Android устройств, что потенциально заменяет необходимость в Telegram-мостах <a href=\"https://t.me/the_ai_architect/304\" target=\"_blank\" rel=\"noopener\" title=\"[2]\">[2]</a> <a href=\"https://t.me/llm_under_hood/835\" target=\"_blank\" rel=\"noopener\" title=\"[4]\">[4]</a>.<br><br><i class=\"emoji\"><b>🔹</b></i> <b>Open Design: open-source клон Claude Design</b><br>Проект Open Design от nexu-io собрал 20 000 звезд на GitHub за 6 дней, предлагая бесплатный аналог платного сервиса Anthropic для создания прототипов, лендингов и презентаций с экспортом в HTML/PDF/PPTX <a href=\"https://t.me/startup_14day/794\" target=\"_blank\" rel=\"noopener\" title=\"[8]\">[8]</a>.<br><br><i class=\"emoji\"><b>🔹</b></i> <b>Уральский Барс и Aqua Voice</b><br>Команда BashAdventure открыла запись на горные этапы проекта «Уральский Барс», а приложение Aqua Voice вышло на iOS, обеспечив голосовое общение через чаты и приложения с удобным UX <a href=\"https://t.me/bashadventure/10168\" target=\"_blank\" rel=\"noopener\" title=\"[9]\">[9]</a> <a href=\"https://t.me/aostrikov_ai_agents/115\" target=\"_blank\" rel=\"noopener\" title=\"[10]\">[10]</a>.<br><br><i class=\"emoji\"><b>📚</b></i> <i>Подготовлено Neural Deep Agent</i>",
+    "reactions": [
+      {
+        "emoji": "👍",
+        "count": "6",
+        "isPaid": false
+      },
+      {
+        "emoji": "🔥",
+        "count": "4",
+        "isPaid": false
+      },
+      {
+        "emoji": "🤮",
+        "count": "2",
+        "isPaid": false
+      },
+      {
+        "emoji": "❤️",
+        "count": "1",
+        "isPaid": false
+      }
+    ],
+    "channel": "neuraldeep",
+    "channelTitle": "Валера Ковальский"
+  },
+  {
+    "id": "neuraldeep/2141",
+    "title": "Ежедневный дайджестПроект который я начал полгода назад и продолжаю поддерживать!На сегодня @neuraldeepbot сканирует более 60 каналов, на него подписано 1300+ человекНа сегодня он подготовил уже более 100 дайджестов, проводя около 20 минут в цикле поиска и метчинга каждое утро, чтобы предоставить вам интересные новости и готовить дайджест каждое утро в 10 часовДайджест абсолютно бесплатный. Чтобы запустить подписку на дайджест, достаточно нажать «Старт» в боте.Из полезных фишек: по всем 60 каналам можно задавать вопросы под капотом OpenAI Agent SDK и gpt-oss 120b с нашего хаба ",
+    "type": "text",
+    "datetime": "2026-05-15T07:11:04+00:00",
+    "tags": [],
+    "text": "Ежедневный дайджестПроект который я начал полгода назад и продолжаю поддерживать!На сегодня @neuraldeepbot сканирует более 60 каналов, на него подписано 1300+ человекНа сегодня он подготовил уже более 100 дайджестов, проводя около 20 минут в цикле поиска и метчинга каждое утро, чтобы предоставить вам интересные новости и готовить дайджест каждое утро в 10 часовДайджест абсолютно бесплатный. Чтобы запустить подписку на дайджест, достаточно нажать «Старт» в боте.Из полезных фишек: по всем 60 каналам можно задавать вопросы под капотом OpenAI Agent SDK и gpt-oss 120b с нашего хаба https://hub.neuraldeep.ru/",
+    "content": "<b>Ежедневный дайджест</b><br><br>Проект который я начал полгода назад и продолжаю поддерживать!<br><br>На сегодня <a href=\"https://t.me/neuraldeepbot\" target=\"_blank\" rel=\"noopener\" title=\"@neuraldeepbot\">@neuraldeepbot</a> сканирует более 60 каналов, на него подписано 1300+ человек<br>На сегодня он подготовил уже более 100 дайджестов, проводя около 20 минут в цикле поиска и метчинга каждое утро, чтобы предоставить вам интересные новости и готовить дайджест каждое утро в 10 часов<br><br>Дайджест абсолютно бесплатный. Чтобы запустить подписку на дайджест, достаточно нажать «Старт» в боте.<br><br>Из полезных фишек: по всем 60 каналам можно задавать вопросы под капотом OpenAI Agent SDK и gpt-oss 120b с нашего хаба <a href=\"https://hub.neuraldeep.ru/\" target=\"_blank\" rel=\"noopener\" title=\"https://hub.neuraldeep.ru/\">https://hub.neuraldeep.ru/</a><a class=\"tgme_widget_message_link_preview\" href=\"https://t.me/neuraldeepbot\" target=\"_blank\" rel=\"noopener\" title=\"Agentic telegram RAG Question? »»» @neuraldeepSearch API https://vamplabai.com/\">\n  <i class=\"link_preview_right_image\" style=\"background-image:url('media/2789fddd8b24c20ce793acad8feccd29.jpg')\"></i>\n  <div class=\"link_preview_site_name accent_color\" dir=\"auto\">Telegram</div>\n  \n  <div class=\"link_preview_title\" dir=\"auto\">Neural Deep Agent</div>\n  <div class=\"link_preview_description\" dir=\"auto\">Agentic telegram RAG <br>Question? »»» @neuraldeep<br><br>Search API https://vamplabai.com/</div>\n</a>",
+    "reactions": [
+      {
+        "emoji": "👍",
+        "count": "6",
+        "isPaid": false
+      },
+      {
+        "emoji": "🔥",
+        "count": "5",
+        "isPaid": false
+      },
+      {
+        "emoji": "❤️",
+        "count": "3",
+        "isPaid": false
+      },
+      {
+        "emoji": "🤮",
+        "count": "1",
+        "isPaid": false
+      }
+    ],
+    "channel": "neuraldeep",
+    "channelTitle": "Валера Ковальский"
+  },
+  {
+    "id": "data_secrets/9217",
+    "title": "Claude помог пользователю восстановить доступ к кошельку с 5 биткоинами, который был недоступен 3 года Сумма на счете оценивается примерно в 400 тысяч долларов. Когда-то давно владелец потерял к нему доступ из-за ошибки в хранении файла с паролем. Агент нашел в недрах старого компьютера юзера нужный файл, обнаружил ошибку в btcrecover, исправил ее и расшифровал пароль.История разлетелась на миллионы просмотров, а парень теперь обещает назвать своих детей в честь Дарио Амодеи",
+    "type": "text",
+    "datetime": "2026-05-15T06:59:19+00:00",
+    "tags": [],
+    "text": "Claude помог пользователю восстановить доступ к кошельку с 5 биткоинами, который был недоступен 3 года Сумма на счете оценивается примерно в 400 тысяч долларов. Когда-то давно владелец потерял к нему доступ из-за ошибки в хранении файла с паролем. Агент нашел в недрах старого компьютера юзера нужный файл, обнаружил ошибку в btcrecover, исправил ее и расшифровал пароль.История разлетелась на миллионы просмотров, а парень теперь обещает назвать своих детей в честь Дарио Амодеи",
+    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-9217-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Claude помог пользователю восстановить доступ к кошельку с 5 биткоинами, который был недоступен 3 года Сумма на счете оценивается примерно в 400 тысяч долларов. Когда-то давно владелец потерял к нему доступ из-за ошибки в хранении файла с паролем. Агент нашел в недрах старого компьютера юзера нужный файл, обнаружил ошибку в btcrecover, исправил ее и расшифровал пароль.История разлетелась на миллионы просмотров, а парень теперь обещает назвать своих детей в честь Дарио Амодеи\">\n        <img src=\"media/7707895007c3ea4eed95127600647b7f.jpg\" alt=\"Claude помог пользователю восстановить доступ к кошельку с 5 биткоинами, который был недоступен 3 года Сумма на счете оценивается примерно в 400 тысяч долларов. Когда-то давно владелец потерял к нему доступ из-за ошибки в хранении файла с паролем. Агент нашел в недрах старого компьютера юзера нужный файл, обнаружил ошибку в btcrecover, исправил ее и расшифровал пароль.История разлетелась на миллионы просмотров, а парень теперь обещает назвать своих детей в честь Дарио Амодеи\" width=\"667\" height=\"800\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-9217-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-9217-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-9217-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/7707895007c3ea4eed95127600647b7f.jpg\" alt=\"Claude помог пользователю восстановить доступ к кошельку с 5 биткоинами, который был недоступен 3 года Сумма на счете оценивается примерно в 400 тысяч долларов. Когда-то давно владелец потерял к нему доступ из-за ошибки в хранении файла с паролем. Агент нашел в недрах старого компьютера юзера нужный файл, обнаружил ошибку в btcrecover, исправил ее и расшифровал пароль.История разлетелась на миллионы просмотров, а парень теперь обещает назвать своих детей в честь Дарио Амодеи\" width=\"667\" height=\"800\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><b>Claude помог пользователю восстановить доступ к кошельку с 5 биткоинами, который был недоступен 3 года </b><br><br>Сумма на счете оценивается примерно в 400 тысяч долларов. Когда-то давно владелец потерял к нему доступ из-за ошибки в хранении файла с паролем. <br><br>Агент нашел в недрах старого компьютера юзера нужный файл, обнаружил ошибку в btcrecover, исправил ее и расшифровал пароль.<br><br><a href=\"https://x.com/cprkrn/status/2054586810475364536?s=46&amp;amp;t=pKf_FxsPGBd_YMIWTA8xgg\" target=\"_blank\" rel=\"noopener\" title=\"История\">История</a> разлетелась на миллионы просмотров, а парень теперь обещает назвать своих детей в честь Дарио Амодеи",
+    "reactions": [
+      {
+        "emoji": "🔥",
+        "count": "123",
+        "isPaid": false
+      },
+      {
+        "emoji": "😁",
+        "count": "45",
+        "isPaid": false
+      },
+      {
+        "emoji": "👍",
+        "count": "10",
+        "isPaid": false
+      },
+      {
+        "emoji": "❤️",
+        "count": "5",
+        "isPaid": false
+      }
+    ],
+    "channel": "data_secrets",
+    "channelTitle": "Data Secrets"
+  },
+  {
+    "id": "cgevent/15679",
+    "title": "Загнал Белку в AsymFLUX.2 KleinЗадорно. И быстро.Действительно меньше мыла.Но понимание промпта выдает типичный Flux. Тут чуда нет.Убрал слово poster из промпта, иначе Флюкс рисует буквы.",
+    "type": "text",
+    "datetime": "2026-05-15T06:12:28+00:00",
+    "tags": [],
+    "text": "Загнал Белку в AsymFLUX.2 KleinЗадорно. И быстро.Действительно меньше мыла.Но понимание промпта выдает типичный Flux. Тут чуда нет.Убрал слово poster из промпта, иначе Флюкс рисует буквы.https://hanshengchen.com/asymflow/\n      \n      A breath-taking extreme close-up cinematic image of an action-hero squirrel with (reddish-colored fur:1.25) riding on the back of a fast-moving massive shark. The shark is half submerged into the water and has (cybernetic augmentations:1.2) to its body. Two rockets are strapped either side of the shark's body. The squirrel is laying low and clinging onto the big shark. The squirrel is wearing straps around its chest and (swimming goggles over its head:1.1) and has a wide open mouth and scared expression on its face. The water is deep blue and splashes around the shark. There's an impressive explosion with black plumes in the background. In the background is the blue sky with a gradient going from light blue to deep blue. The lighting is sunny. Motion blur and sense of speed. Cinematic movie poster shot. Extremely realistic and detailed textures. extremely artistic, high contrast with (deep blacks:0.2), perfectly framed composition, rule of thirds, golden ratio, perfectly balanced composition, eye-candy, highly detailed, best quality, award winning, featured\n      Expand hidden content\n    @cgeventЗагнал Белку в AsymFLUX.2 KleinЗадорно. И быстро.Действительно меньше мыла.Но понимание промпта выдает типичный Flux. Тут чуда нет.Убрал слово poster из промпта, иначе Флюкс рисует буквы.https://hanshengchen.com/asymflow/\n      \n      A breath-taking extreme close-up cinematic image of an action-hero squirrel with (reddish-colored fur:1.25) riding on the back of a fast-moving massive shark. The shark is half submerged into the water and has (cybernetic augmentations:1.2) to its body. Two rockets are strapped either side of the shark's body. The squirrel is laying low and clinging onto the big shark. The squirrel is wearing straps around its chest and (swimming goggles over its head:1.1) and has a wide open mouth and scared expression on its face. The water is deep blue and splashes around the shark. There's an impressive explosion with black plumes in the background. In the background is the blue sky with a gradient going from light blue to deep blue. The lighting is sunny. Motion blur and sense of speed. Cinematic movie poster shot. Extremely realistic and detailed textures. extremely artistic, high contrast with (deep blacks:0.2), perfectly framed composition, rule of thirds, golden ratio, perfectly balanced composition, eye-candy, highly detailed, best quality, award winning, featured\n      Expand hidden content\n    @cgevent",
+    "content": "<div class=\"image-list-container image-list-even\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-15679-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Загнал Белку в AsymFLUX.2 KleinЗадорно. И быстро.Действительно меньше мыла.Но понимание промпта выдает типичный Flux. Тут чуда нет.Убрал слово poster из промпта, иначе Флюкс рисует буквы.\">\n        <img src=\"media/5bc87e693d56188d1e52324b2fe2cac5.jpg\" alt=\"Загнал Белку в AsymFLUX.2 KleinЗадорно. И быстро.Действительно меньше мыла.Но понимание промпта выдает типичный Flux. Тут чуда нет.Убрал слово poster из промпта, иначе Флюкс рисует буквы.\" width=\"225\" height=\"225\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-15679-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-15679-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-15679-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/5bc87e693d56188d1e52324b2fe2cac5.jpg\" alt=\"Загнал Белку в AsymFLUX.2 KleinЗадорно. И быстро.Действительно меньше мыла.Но понимание промпта выдает типичный Flux. Тут чуда нет.Убрал слово poster из промпта, иначе Флюкс рисует буквы.\" width=\"225\" height=\"225\" loading=\"lazy\" />\n        </div>\n      </div>\n    \n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-15679-1\" popovertargetaction=\"show\" aria-label=\"Open image preview: Загнал Белку в AsymFLUX.2 KleinЗадорно. И быстро.Действительно меньше мыла.Но понимание промпта выдает типичный Flux. Тут чуда нет.Убрал слово poster из промпта, иначе Флюкс рисует буквы.\">\n        <img src=\"media/414e32340d09e33381a84ac786e11992.jpg\" alt=\"Загнал Белку в AsymFLUX.2 KleinЗадорно. И быстро.Действительно меньше мыла.Но понимание промпта выдает типичный Flux. Тут чуда нет.Убрал слово poster из промпта, иначе Флюкс рисует буквы.\" width=\"226\" height=\"225\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-15679-1\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-15679-1\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-15679-1\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/414e32340d09e33381a84ac786e11992.jpg\" alt=\"Загнал Белку в AsymFLUX.2 KleinЗадорно. И быстро.Действительно меньше мыла.Но понимание промпта выдает типичный Flux. Тут чуда нет.Убрал слово poster из промпта, иначе Флюкс рисует буквы.\" width=\"226\" height=\"225\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\"><b>Загнал Белку в AsymFLUX.2 Klein</b><br><br>Задорно. И быстро.<br><br>Действительно меньше мыла.<br><br>Но понимание промпта выдает типичный Flux. Тут чуда нет.<br><br>Убрал слово poster из промпта, иначе Флюкс рисует буквы.<br><br><a href=\"https://hanshengchen.com/asymflow/\" target=\"_blank\" rel=\"noopener\" title=\"https://hanshengchen.com/asymflow/\">https://hanshengchen.com/asymflow/</a><br><br><div class=\"tg-expandable\">\n      <input type=\"checkbox\" id=\"expand-18-0\" class=\"tg-expandable__checkbox\" aria-label=\"Expand hidden content\" aria-controls=\"expand-18-0-content\">\n      <div id=\"expand-18-0-content\" class=\"tg-expandable__content\">A breath-taking extreme close-up cinematic image of an action-hero squirrel with (reddish-colored fur:1.25) riding on the back of a fast-moving massive shark. The shark is half submerged into the water and has (cybernetic augmentations:1.2) to its body. Two rockets are strapped either side of the shark's body. The squirrel is laying low and clinging onto the big shark. The squirrel is wearing straps around its chest and (swimming goggles over its head:1.1) and has a wide open mouth and scared expression on its face. The water is deep blue and splashes around the shark. There's an impressive explosion with black plumes in the background. In the background is the blue sky with a gradient going from light blue to deep blue. The lighting is sunny. Motion blur and sense of speed. Cinematic movie poster shot. Extremely realistic and detailed textures. extremely artistic, high contrast with (deep blacks:0.2), perfectly framed composition, rule of thirds, golden ratio, perfectly balanced composition, eye-candy, highly detailed, best quality, award winning, featured</div>\n      <label for=\"expand-18-0\" class=\"tg-expandable__toggle\"><span class=\"sr-only\">Expand hidden content</span></label>\n    </div><br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a></div>",
+    "reactions": [
+      {
+        "emoji": "😱",
+        "count": "5",
+        "isPaid": false
+      },
+      {
+        "emoji": "👍",
+        "count": "2",
+        "isPaid": false
+      }
+    ],
+    "channel": "cgevent",
+    "channelTitle": "Метаверсище и ИИще"
+  },
+  {
+    "id": "cgevent/15678",
+    "title": "AsymFLUX.2 Klein, который работает напрямую в пиксельном пространстве. No VAE. Главная фишка - на 40 процентов быстрее.Меньше мыла.Есть код и даже демо (быстрое), поддержка комфи на днях.Все ссылки и подробности тут:",
+    "type": "text",
+    "datetime": "2026-05-15T06:02:28+00:00",
+    "tags": [],
+    "text": "AsymFLUX.2 Klein, который работает напрямую в пиксельном пространстве. No VAE. Главная фишка - на 40 процентов быстрее.Меньше мыла.Есть код и даже демо (быстрое), поддержка комфи на днях.Все ссылки и подробности тут:https://hanshengchen.com/asymflow/@cgevent",
+    "content": "<video src=\"https://cdn4.telesco.pe/file/8bd5215172.mp4?token=YNrDl4urCzXPC6QTQiejs4AOqWttSHOciGczizjkKPZK8NtJ91FtTytl8oAjvANkB4HFuj-a-GWnDR2yJG5I5mMhH4c0T-oK6GmBqOgqoEoI2CyY52VPQArPr6h_NEdqATL5F0x-rVLFlAqF0Az9HYnSAlITMaHhFfY6D4DJjlfB0Zupn8_AdUnKsrJXBWk51DNfWRLXI5WKAJJ9P9oFEozb5qU8Mwet16rOcbLvGVMdqYdiMP9fkHXtCNNz4giNJOzebreV3lvhQ91wdM4FR2G_IL0OtENrTCsa_qssoUdIWIkHWMZwYkZHbiQfk5_T9SAETcty_5igIZ0oXV4Y8w\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" preload=\"metadata\" muted=\"\" autoplay=\"\" loop=\"\" playsinline=\"\" controls=\"\"></video><b>AsymFLUX.2 Klein, который работает напрямую в пиксельном пространстве. <br><br>No VAE. </b><br><br>Главная фишка - на 40 процентов быстрее.<br>Меньше мыла.<br><br>Есть код и даже демо (быстрое), поддержка комфи на днях.<br><br>Все ссылки и подробности тут:<br><br><a href=\"https://hanshengchen.com/asymflow/\" target=\"_blank\" rel=\"noopener\" title=\"https://hanshengchen.com/asymflow/\">https://hanshengchen.com/asymflow/</a><br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a>",
+    "reactions": [
+      {
+        "emoji": "👍",
+        "count": "5",
+        "isPaid": false
+      },
+      {
+        "emoji": "🔥",
+        "count": "4",
+        "isPaid": false
+      },
+      {
+        "emoji": "😱",
+        "count": "3",
+        "isPaid": false
+      }
+    ],
+    "channel": "cgevent",
+    "channelTitle": "Метаверсище и ИИще"
+  }
+]
