@@ -1,94 +1,203 @@
 [
   {
-    "id": "neuraldeep/2148",
-    "title": "Ну наконец то я теперь вижу прогресс бар процесса /compact в CCТеперь могу смотреть на него и ждать когда зависнет на 99% =)Кстати статус лайн от сюда",
+    "id": "gleb_pro_ai/567",
+    "title": "Просрали вайб, кстати, в итоге победили чуваки, умеющие считать аэродинамику.",
     "type": "text",
-    "datetime": "2026-05-20T10:30:37+00:00",
+    "datetime": "2026-05-20T12:56:20+00:00",
     "tags": [],
-    "text": "Ну наконец то я теперь вижу прогресс бар процесса /compact в CCТеперь могу смотреть на него и ждать когда зависнет на 99% =)Кстати статус лайн от сюда",
-    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-2148-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Ну наконец то я теперь вижу прогресс бар процесса /compact в CCТеперь могу смотреть на него и ждать когда зависнет на 99% =)Кстати статус лайн от сюда\">\n        <img src=\"media/755af87b1a2040055bf7b0cedab1f50c.jpg\" alt=\"Ну наконец то я теперь вижу прогресс бар процесса /compact в CCТеперь могу смотреть на него и ждать когда зависнет на 99% =)Кстати статус лайн от сюда\" width=\"800\" height=\"194\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-2148-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-2148-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-2148-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/755af87b1a2040055bf7b0cedab1f50c.jpg\" alt=\"Ну наконец то я теперь вижу прогресс бар процесса /compact в CCТеперь могу смотреть на него и ждать когда зависнет на 99% =)Кстати статус лайн от сюда\" width=\"800\" height=\"194\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Ну наконец то я теперь вижу прогресс бар процесса <code>/compact</code> в CC<br><br>Теперь могу смотреть на него и ждать когда зависнет на 99% =)<br><br>Кстати статус лайн от <a href=\"https://github.com/RaiconY/claude-code-statusline\" target=\"_blank\" rel=\"noopener\" title=\"сюда\">сюда</a>",
+    "text": "Просрали вайб, кстати, в итоге победили чуваки, умеющие считать аэродинамику.",
+    "content": "Просрали вайб, кстати, в итоге победили чуваки, умеющие считать аэродинамику.",
     "reactions": [
       {
         "emoji": "😁",
-        "count": "13",
+        "count": "21",
         "isPaid": false
       },
       {
-        "emoji": "",
-        "emojiId": "5217608395250485583",
-        "emojiImage": "https://t.me/i/emoji/5217608395250485583.webp",
-        "count": "7",
-        "isPaid": false
-      },
-      {
-        "emoji": "🔥",
-        "count": "2",
+        "emoji": "😱",
+        "count": "5",
         "isPaid": false
       }
     ],
-    "channel": "neuraldeep",
-    "channelTitle": "Валера Ковальский"
+    "channel": "gleb_pro_ai",
+    "channelTitle": "Глеб Кудрявцев про AI"
   },
   {
-    "id": "data_secrets/9260",
-    "title": "Внезапно выяснилось, что основатель DeepMind Демис Хассабис имеет долю в Anthropic Financial Times провели расследование, и оказалось, что он был одним из первых так называемых «ангельских» инвесторов стартапа и вкладывался в компанию тайно. Теперь же Демис и Амодеи – чуть не главные конкуренты друг друга. Несмотря на это, напоминаем, что недавно Google подписали соглашение об инвестициях в Anthropic на $10 млрд. Возможно, как раз под влиянием Хассабиса?",
+    "id": "gleb_pro_ai/566",
+    "title": "Первые самолетыНичего не напоминает? 🙂",
     "type": "text",
-    "datetime": "2026-05-20T09:06:01+00:00",
+    "datetime": "2026-05-20T12:52:11+00:00",
     "tags": [],
-    "text": "Внезапно выяснилось, что основатель DeepMind Демис Хассабис имеет долю в Anthropic Financial Times провели расследование, и оказалось, что он был одним из первых так называемых «ангельских» инвесторов стартапа и вкладывался в компанию тайно. Теперь же Демис и Амодеи – чуть не главные конкуренты друг друга. Несмотря на это, напоминаем, что недавно Google подписали соглашение об инвестициях в Anthropic на $10 млрд. Возможно, как раз под влиянием Хассабиса?",
-    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-9260-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Внезапно выяснилось, что основатель DeepMind Демис Хассабис имеет долю в Anthropic Financial Times провели расследование, и оказалось, что он был одним из первых так называемых «ангельских» инвесторов стартапа и вкладывался в компанию тайно. Теперь же Демис и Амодеи – чуть не главные конкуренты друг друга. Несмотря на это, напоминаем, что недавно Google подписали соглашение об инвестициях в Anthropic на $10 млрд. Возможно, как раз под влиянием Хассабиса?\">\n        <img src=\"media/ba5180fdba0548bada72755087ad1cbd.jpg\" alt=\"Внезапно выяснилось, что основатель DeepMind Демис Хассабис имеет долю в Anthropic Financial Times провели расследование, и оказалось, что он был одним из первых так называемых «ангельских» инвесторов стартапа и вкладывался в компанию тайно. Теперь же Демис и Амодеи – чуть не главные конкуренты друг друга. Несмотря на это, напоминаем, что недавно Google подписали соглашение об инвестициях в Anthropic на $10 млрд. Возможно, как раз под влиянием Хассабиса?\" width=\"800\" height=\"440\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-9260-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-9260-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-9260-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/ba5180fdba0548bada72755087ad1cbd.jpg\" alt=\"Внезапно выяснилось, что основатель DeepMind Демис Хассабис имеет долю в Anthropic Financial Times провели расследование, и оказалось, что он был одним из первых так называемых «ангельских» инвесторов стартапа и вкладывался в компанию тайно. Теперь же Демис и Амодеи – чуть не главные конкуренты друг друга. Несмотря на это, напоминаем, что недавно Google подписали соглашение об инвестициях в Anthropic на $10 млрд. Возможно, как раз под влиянием Хассабиса?\" width=\"800\" height=\"440\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Внезапно <a href=\"https://www.ft.com/content/8f2a529e-7a1b-4d8e-95be-338d0c4c98f5\" target=\"_blank\" rel=\"noopener\" title=\"выяснилось\">выяснилось</a>, что основатель DeepMind Демис Хассабис имеет долю в Anthropic <br><br>Financial Times провели расследование, и оказалось, что он был одним из первых так называемых «ангельских» инвесторов стартапа и вкладывался в компанию тайно. <br><br>Теперь же Демис и Амодеи – чуть не главные конкуренты друг друга. <br><br>Несмотря на это, напоминаем, что недавно Google подписали соглашение об инвестициях в Anthropic на $10 млрд. Возможно, как раз под влиянием Хассабиса?",
+    "text": "Первые самолетыНичего не напоминает? 🙂",
+    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-566-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Первые самолетыНичего не напоминает? 🙂\">\n        <img src=\"media/e2979f35374b70d6ad3b1defddbc216b.jpg\" alt=\"Первые самолетыНичего не напоминает? 🙂\" width=\"800\" height=\"600\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-566-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-566-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-566-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/e2979f35374b70d6ad3b1defddbc216b.jpg\" alt=\"Первые самолетыНичего не напоминает? 🙂\" width=\"800\" height=\"600\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Первые самолеты<br><br>Ничего не напоминает? <i class=\"emoji\"><b>🙂</b></i>",
     "reactions": [
       {
-        "emoji": "😁",
-        "count": "95",
-        "isPaid": false
-      },
-      {
-        "emoji": "👍",
+        "emoji": "💯",
         "count": "14",
         "isPaid": false
       },
       {
+        "emoji": "😁",
+        "count": "10",
+        "isPaid": false
+      },
+      {
         "emoji": "❤️",
-        "count": "5",
+        "count": "1",
+        "isPaid": false
+      },
+      {
+        "emoji": "👍",
+        "count": "1",
+        "isPaid": false
+      }
+    ],
+    "channel": "gleb_pro_ai",
+    "channelTitle": "Глеб Кудрявцев про AI"
+  },
+  {
+    "id": "seeallochnaya/3646",
+    "title": "Sama пришёл в свою альма-матер YC и предложил всем стартапам по $2M в токенах (то есть можно и на Codex и на API тратить) за какой-то процент от компании.К сожалению, не могу найти, какой % от компании, но очень интересно, сколько фаундеров примут предложение — токены они получают сейчас, а акции ещё когда что-то стоить начнут? Не скоро.Интересно, как изменится относительная популярность Claude Code в ближайшее время ",
+    "type": "text",
+    "datetime": "2026-05-20T11:40:55+00:00",
+    "tags": [],
+    "text": "Sama пришёл в свою альма-матер YC и предложил всем стартапам по $2M в токенах (то есть можно и на Codex и на API тратить) за какой-то процент от компании.К сожалению, не могу найти, какой % от компании, но очень интересно, сколько фаундеров примут предложение — токены они получают сейчас, а акции ещё когда что-то стоить начнут? Не скоро.Интересно, как изменится относительная популярность Claude Code в ближайшее время ",
+    "content": "<a class=\"tgme_widget_message_reply user-color-default\" href=\"/posts/3628\" \"=\"\"><blockquote><small><i class=\"tgme_widget_message_reply_thumb\" style=\"background-image:url('media/ab29dc63a4975e8d93a5082124ddb889.jpg')\"></i>\n<div class=\"tgme_widget_message_author accent_color\">\n  <span class=\"tgme_widget_message_author_name\" dir=\"auto\">Сиолошная</span>\n</div>\n<div class=\"tgme_widget_message_text js-message_reply_text\" dir=\"auto\">Ещё сегодня вышла свежая статистика от Ramp, компании для менеджмента корпоративных трат и выпуска карт и  (например, для сотрудников в командировке).  По их данным, 50% компаний в США платят за AI подписки, и впервые доля Anthropic превысила долю OpenAI (которые…</div>\n</small></blockquote></a><div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-3646-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Sama пришёл в свою альма-матер YC и предложил всем стартапам по $2M в токенах (то есть можно и на Codex и на API тратить) за какой-то процент от компании.К сожалению, не могу найти, какой % от компании, но очень интересно, сколько фаундеров примут предложение — токены они получают сейчас, а акции ещё когда что-то стоить начнут? Не скоро.Интересно, как изменится относительная популярность Claude Code в ближайшее время \">\n        <img src=\"media/49cedb2a93f22f35634a797f909f5dff.jpg\" alt=\"Sama пришёл в свою альма-матер YC и предложил всем стартапам по $2M в токенах (то есть можно и на Codex и на API тратить) за какой-то процент от компании.К сожалению, не могу найти, какой % от компании, но очень интересно, сколько фаундеров примут предложение — токены они получают сейчас, а акции ещё когда что-то стоить начнут? Не скоро.Интересно, как изменится относительная популярность Claude Code в ближайшее время \" width=\"578\" height=\"771\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-3646-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-3646-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-3646-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/49cedb2a93f22f35634a797f909f5dff.jpg\" alt=\"Sama пришёл в свою альма-матер YC и предложил всем стартапам по $2M в токенах (то есть можно и на Codex и на API тратить) за какой-то процент от компании.К сожалению, не могу найти, какой % от компании, но очень интересно, сколько фаундеров примут предложение — токены они получают сейчас, а акции ещё когда что-то стоить начнут? Не скоро.Интересно, как изменится относительная популярность Claude Code в ближайшее время \" width=\"578\" height=\"771\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Sama пришёл в свою альма-матер YC и предложил всем стартапам по $2M в токенах (то есть можно и на Codex и на API тратить) за какой-то процент от компании.<br><br>К сожалению, не могу найти, какой % от компании, но очень интересно, сколько фаундеров примут предложение —&nbsp;токены они получают сейчас, а акции ещё когда что-то стоить начнут? Не скоро.<br><br>Интересно, как изменится относительная популярность Claude Code в ближайшее время <img class=\"tg-emoji\" src=\"media/2cba1090b3e992b096b78eedb03ac2f6.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\">",
+    "reactions": [
+      {
+        "emoji": "🤣",
+        "count": "823",
         "isPaid": false
       },
       {
         "emoji": "🤯",
-        "count": "5",
+        "count": "42",
         "isPaid": false
       },
       {
-        "emoji": "😎",
-        "count": "3",
+        "emoji": "❤‍🔥",
+        "count": "18",
+        "isPaid": false
+      },
+      {
+        "emoji": "",
+        "emojiId": "5248951709367017473",
+        "emojiImage": "https://t.me/i/emoji/5248951709367017473.webp",
+        "count": "16",
+        "isPaid": false
+      },
+      {
+        "emoji": "🤔",
+        "count": "7",
+        "isPaid": false
+      },
+      {
+        "emoji": "👍",
+        "count": "6",
         "isPaid": false
       },
       {
         "emoji": "🔥",
+        "count": "4",
+        "isPaid": false
+      },
+      {
+        "emoji": "🎉",
+        "count": "4",
+        "isPaid": false
+      },
+      {
+        "emoji": "🤡",
         "count": "2",
         "isPaid": false
       }
     ],
-    "channel": "data_secrets",
-    "channelTitle": "Data Secrets"
+    "channel": "seeallochnaya",
+    "channelTitle": "Сиолошная"
   },
   {
-    "id": "cgevent/15713",
-    "title": "Gemini Omni. World KnowledgeТакже надо понимать, что Omni реально мультимодальная и у нее под капотом вся мощь Gemini. Ну то есть она понимает про окружающий мир и его устройство все, что есть в мозгах у LLM. Также как и Нанобанана.Ей, по идее, не нужны дико детальные промпты, она способна создавать детали на основе понимания мира.Есть масса применений за пределами драк и бешеной динамики (образование, иллюстрация, презентации), где такое понимание будет сильно полезным.@cgevent",
+    "id": "cgevent/15717",
+    "title": "Gemini Omni. Avatar\\CameoКушает фото в лучшем видео.Правда детали на терминаторе скачут: очки пропадают, борода тоже.Но возможно не стоит увлекаться жидкими формами.Промпт в предыдущем посте.@cgeventGemini Omni. Avatar\\CameoКушает фото в лучшем видео.Правда детали на терминаторе скачут: очки пропадают, борода тоже.Но возможно не стоит увлекаться жидкими формами.Промпт в предыдущем посте.@cgevent",
     "type": "text",
-    "datetime": "2026-05-20T10:43:37+00:00",
+    "datetime": "2026-05-20T12:42:38+00:00",
     "tags": [],
-    "text": "Gemini Omni. World KnowledgeТакже надо понимать, что Omni реально мультимодальная и у нее под капотом вся мощь Gemini. Ну то есть она понимает про окружающий мир и его устройство все, что есть в мозгах у LLM. Также как и Нанобанана.Ей, по идее, не нужны дико детальные промпты, она способна создавать детали на основе понимания мира.Есть масса применений за пределами драк и бешеной динамики (образование, иллюстрация, презентации), где такое понимание будет сильно полезным.@cgevent",
-    "content": "<video src=\"https://cdn4.telesco.pe/file/1c1726e8c2.mp4?token=QdvU6BgnalalHCCMA5Hi9khVMjIPJb8r37GKt0nlzofibpoFhuSLrX1BUAyn0TIC3bW5vbkVFn8AwL5uIhGKgSaAW96rMGDZXwNkuVZkzPf5ufcfOFBJTobPYNnBJwBshlos8__uWxH6vyG8zTf8lwxHa6SUjDZrLaLpj4jXpGnEliq7qKIWUiSGJSCTYADJtUPKKXQX77DOf8JqE7fuZo6wuX0Cn0UOwadeHVgq1CTbPwr_rrfpxjbDv8lxFXEN3qmBUm1JKqY8vmR1mdv-yIB-R9QeixSdkyWFGVnQFtqfftimtkEMi3Or09UX3niVXoEw4CzLwY-Qr9m8Z4CuSg\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"metadata\" playsinline=\"\"></video><b>Gemini Omni. World Knowledge</b><br><br>Также надо понимать, что Omni реально мультимодальная и у нее под капотом вся мощь Gemini. Ну то есть она понимает про окружающий мир и его устройство все, что есть в мозгах у LLM. Также как и Нанобанана.<br><br>Ей, по идее, не нужны дико детальные промпты, она способна создавать детали на основе понимания мира.<br>Есть масса применений за пределами драк и бешеной динамики (образование, иллюстрация, презентации), где такое понимание будет сильно полезным.<br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a>",
+    "text": "Gemini Omni. Avatar\\CameoКушает фото в лучшем видео.Правда детали на терминаторе скачут: очки пропадают, борода тоже.Но возможно не стоит увлекаться жидкими формами.Промпт в предыдущем посте.@cgeventGemini Omni. Avatar\\CameoКушает фото в лучшем видео.Правда детали на терминаторе скачут: очки пропадают, борода тоже.Но возможно не стоит увлекаться жидкими формами.Промпт в предыдущем посте.@cgevent",
+    "content": "<video src=\"https://cdn4.telesco.pe/file/a75cc86eb2.mp4?token=ZUeauV582--Jaeq5l7wtzTqAVfZ2GrhnO4mtKqrfYfMAcQ4Nw4ynkxG1kNT9o0dRsdZ6nmM7HBKMuL78NeeGVXmb-qcZi_cCOJtC97Jb-JcSGwUZobOp5Au__2EJhjGcl5aCMIH0TieQu4feMyrBHP-M3casNPVNK88jExEmitiUsYeSLypmPc3x3hoHkUaEWjkwx267XOXUD18YDY9_Yatauo-p7VVzNqvN_awkxI3jjuz67t1Ew7IH08j5JhvMI4DU6wmWFphlgXIsFHhaJ_6hEvF4Tcrf96TcFIK0oHxhYEpTy_plgX1fN88PkvzxIoSPGPyIPQz6uVCA_0eMMg\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"metadata\" playsinline=\"\"></video><video src=\"https://cdn4.telesco.pe/file/a75cc86eb2.mp4?token=ZUeauV582--Jaeq5l7wtzTqAVfZ2GrhnO4mtKqrfYfMAcQ4Nw4ynkxG1kNT9o0dRsdZ6nmM7HBKMuL78NeeGVXmb-qcZi_cCOJtC97Jb-JcSGwUZobOp5Au__2EJhjGcl5aCMIH0TieQu4feMyrBHP-M3casNPVNK88jExEmitiUsYeSLypmPc3x3hoHkUaEWjkwx267XOXUD18YDY9_Yatauo-p7VVzNqvN_awkxI3jjuz67t1Ew7IH08j5JhvMI4DU6wmWFphlgXIsFHhaJ_6hEvF4Tcrf96TcFIK0oHxhYEpTy_plgX1fN88PkvzxIoSPGPyIPQz6uVCA_0eMMg\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"metadata\" playsinline=\"\"></video><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\"><b>Gemini Omni. Avatar\\Cameo</b><br><br>Кушает фото в лучшем видео.<br><br>Правда детали на терминаторе скачут: очки пропадают, борода тоже.<br><br>Но возможно не стоит увлекаться жидкими формами.<br><br>Промпт в предыдущем посте.<br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a></div>",
     "reactions": [
       {
         "emoji": "🔥",
-        "count": "19",
+        "count": "17",
         "isPaid": false
       },
       {
         "emoji": "❤️",
+        "count": "7",
+        "isPaid": false
+      },
+      {
+        "emoji": "👎",
+        "count": "3",
+        "isPaid": false
+      },
+      {
+        "emoji": "😁",
+        "count": "3",
+        "isPaid": false
+      }
+    ],
+    "channel": "cgevent",
+    "channelTitle": "Метаверсище и ИИще"
+  },
+  {
+    "id": "cgevent/15716",
+    "title": "Gemini Omni. Avatar\\CameoВзял свою старую фотку с CG EVENT 2015 (примечательно, что в тех самых очках Google Glass) и попросил превратить меня в жидкого терминатора.Скушал и не поперхнулся.Конечно сохранить identity с ракурса под 45 градусов нереально, но он, как смог, справился.\"Transform foto of me to the video of liquid terminator looking at camera and saying \"Metaverse is coming!\". Make transition into terminator smooth\"Он воспринял transition слишком буквально и поменял задник. В следующем посте попросил его не менять фон.@cgevent",
+    "type": "text",
+    "datetime": "2026-05-20T12:31:32+00:00",
+    "tags": [],
+    "text": "Gemini Omni. Avatar\\CameoВзял свою старую фотку с CG EVENT 2015 (примечательно, что в тех самых очках Google Glass) и попросил превратить меня в жидкого терминатора.Скушал и не поперхнулся.Конечно сохранить identity с ракурса под 45 градусов нереально, но он, как смог, справился.\"Transform foto of me to the video of liquid terminator looking at camera and saying \"Metaverse is coming!\". Make transition into terminator smooth\"Он воспринял transition слишком буквально и поменял задник. В следующем посте попросил его не менять фон.@cgevent",
+    "content": "<video src=\"https://cdn4.telesco.pe/file/1830868ce2.mp4?token=bgqPGKQcUKP3NZbSF0rp68rAf1FMgKEUUHUa9F7qSGX625mdWwBDJrfQE07B4Zf0RkQdIybN8kNKhw9vOJeZCGLrGHTWcGPf_2w-mCHGtcMqhTLw8qcYaELzivUwpk8lyPmQ-tDUrbaCyaSmZ14r3h5m2NvgwECckLh3NpEdTaBZkhoZ4d8ii_eAm5EvE498BUbDK30Jg0r8oYteWZWCcZoKLuWCTX8DxYIF3q45OGmaTJXvagseEtrqtzWaMIJ3ea3WEJr2ahz1BIkLWt5C-1PXAtAHu-s6SSH6DwEJAOXi5g_zQB67TjS2XEanneSUVs_4kZSuFUmeF34sm3d_Kw\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"metadata\" playsinline=\"\"></video><b>Gemini Omni. Avatar\\Cameo</b><br><br>Взял свою старую фотку с CG EVENT 2015 (примечательно, что в тех самых очках Google Glass) и попросил превратить меня в жидкого терминатора.<br><br>Скушал и не поперхнулся.<br><br>Конечно сохранить identity с ракурса под 45 градусов нереально, но он, как смог, справился.<br><br>\"Transform foto of me to the video of liquid terminator looking at camera and saying \"Metaverse is coming!\". Make transition into terminator smooth\"<br><br>Он воспринял transition слишком буквально и поменял задник. В следующем посте попросил его не менять фон.<br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a>",
+    "reactions": [
+      {
+        "emoji": "👍",
+        "count": "12",
+        "isPaid": false
+      },
+      {
+        "emoji": "😁",
         "count": "2",
+        "isPaid": false
+      }
+    ],
+    "channel": "cgevent",
+    "channelTitle": "Метаверсище и ИИще"
+  },
+  {
+    "id": "cgevent/15715",
+    "title": "Sama пришёл в свою альма-матер YC и предложил всем стартапам по $2M в токенах (то есть можно и на Codex и на API тратить) за какой-то процент от компании.К сожалению, не могу найти, какой % от компании, но очень интересно, сколько фаундеров примут предложение — токены они получают сейчас, а акции ещё когда что-то стоить начнут? Не скоро.Интересно, как изменится относительная популярность Claude Code в ближайшее время ",
+    "type": "text",
+    "datetime": "2026-05-20T11:57:39+00:00",
+    "tags": [],
+    "text": "Sama пришёл в свою альма-матер YC и предложил всем стартапам по $2M в токенах (то есть можно и на Codex и на API тратить) за какой-то процент от компании.К сожалению, не могу найти, какой % от компании, но очень интересно, сколько фаундеров примут предложение — токены они получают сейчас, а акции ещё когда что-то стоить начнут? Не скоро.Интересно, как изменится относительная популярность Claude Code в ближайшее время ",
+    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-15715-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Sama пришёл в свою альма-матер YC и предложил всем стартапам по $2M в токенах (то есть можно и на Codex и на API тратить) за какой-то процент от компании.К сожалению, не могу найти, какой % от компании, но очень интересно, сколько фаундеров примут предложение — токены они получают сейчас, а акции ещё когда что-то стоить начнут? Не скоро.Интересно, как изменится относительная популярность Claude Code в ближайшее время \">\n        <img src=\"media/6111a4b656587131bd02d961df6a6ae3.jpg\" alt=\"Sama пришёл в свою альма-матер YC и предложил всем стартапам по $2M в токенах (то есть можно и на Codex и на API тратить) за какой-то процент от компании.К сожалению, не могу найти, какой % от компании, но очень интересно, сколько фаундеров примут предложение — токены они получают сейчас, а акции ещё когда что-то стоить начнут? Не скоро.Интересно, как изменится относительная популярность Claude Code в ближайшее время \" width=\"578\" height=\"771\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-15715-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-15715-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-15715-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/6111a4b656587131bd02d961df6a6ae3.jpg\" alt=\"Sama пришёл в свою альма-матер YC и предложил всем стартапам по $2M в токенах (то есть можно и на Codex и на API тратить) за какой-то процент от компании.К сожалению, не могу найти, какой % от компании, но очень интересно, сколько фаундеров примут предложение — токены они получают сейчас, а акции ещё когда что-то стоить начнут? Не скоро.Интересно, как изменится относительная популярность Claude Code в ближайшее время \" width=\"578\" height=\"771\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Sama пришёл в свою альма-матер YC и предложил всем стартапам по $2M в токенах (то есть можно и на Codex и на API тратить) за какой-то процент от компании.<br><br>К сожалению, не могу найти, какой % от компании, но очень интересно, сколько фаундеров примут предложение —&nbsp;токены они получают сейчас, а акции ещё когда что-то стоить начнут? Не скоро.<br><br>Интересно, как изменится относительная популярность Claude Code в ближайшее время <img class=\"tg-emoji\" src=\"media/2cba1090b3e992b096b78eedb03ac2f6.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\">",
+    "reactions": [
+      {
+        "emoji": "⭐",
+        "count": "1",
+        "isPaid": true
+      },
+      {
+        "emoji": "👎",
+        "count": "9",
+        "isPaid": false
+      },
+      {
+        "emoji": "😁",
+        "count": "5",
+        "isPaid": false
+      },
+      {
+        "emoji": "🔥",
+        "count": "3",
         "isPaid": false
       },
       {
@@ -101,57 +210,36 @@
     "channelTitle": "Метаверсище и ИИще"
   },
   {
-    "id": "cgevent/15712",
-    "title": "Gemini Omni. РедактированиеЕще три примера редактирования от fofr.1. исходник2. сделай её невидимой, надень на неё перчатки3. пока она говорит, подходят двое мужчин и уносят фотографию в рамке4. поменяй ее одеждуНу то есть можно рассматривать Gemini Omni как Нанобанану только для видео. Понимание происходящего в кадре потрясающее, возможности редактирования тоже.За сим вырисовывается такой пайплайн: генерация в Сиденс, редактирование в Омни.Да, дороговато получается.@cgevent",
+    "id": "cgevent/15714",
+    "title": "Gemini Omni. Редактирование реальных видеоЭто, конечно, совершенно убойный пример.Я тут собрался накатить за композ, но понял, что это это уже какой-то мета-композ, который обычными средствами просто не сделать.Исходник - реальное youtube-видео с Gemini Omni Release Notes:",
     "type": "text",
-    "datetime": "2026-05-20T10:31:05+00:00",
+    "datetime": "2026-05-20T11:46:03+00:00",
     "tags": [],
-    "text": "Gemini Omni. РедактированиеЕще три примера редактирования от fofr.1. исходник2. сделай её невидимой, надень на неё перчатки3. пока она говорит, подходят двое мужчин и уносят фотографию в рамке4. поменяй ее одеждуНу то есть можно рассматривать Gemini Omni как Нанобанану только для видео. Понимание происходящего в кадре потрясающее, возможности редактирования тоже.За сим вырисовывается такой пайплайн: генерация в Сиденс, редактирование в Омни.Да, дороговато получается.@cgevent",
-    "content": "<video src=\"https://cdn4.telesco.pe/file/4e56f2efbd.mp4?token=kFSrzl7ZWct37m_zclX4ijgayl5IAYlJr_xK-0s8lq-5Den2-zPUxGCu6MQEOWj_k6EPmuH3wIOTeVf3yT5IiBcm07ovClz0JFgombqd9IrWs1Qhmnz0TP2L3jTsHiiYSv5zUvqT2-Ew8PkMs0Si1f_ZqzfNfO2e3JUSDHkH3fLGTH5MFKqR4TCuzD6yBbyTL_oZXv9kGYU2KA9PIxeoqCqmY0nMITFSLqR7Is5Tedk-whn1bjXhVMawGlSiubB0UTYaRFdvhchD6fvPoAD70L5Ga8Y5aAPBOA5CIw3fVqcZgATRFUgO6xh6FyzHVIzy_VXXuYOVvUf1lnsxpABreQ\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"metadata\" playsinline=\"\"></video><b>Gemini Omni. Редактирование</b><br><br>Еще три примера редактирования от <a href=\"https://x.com/fofrAI/status/2056819544275218617?s=20\" target=\"_blank\" rel=\"noopener\" title=\"fofr\">fofr</a>.<br><br>1. исходник<br>2. сделай её невидимой, надень на неё перчатки<br>3. пока она говорит, подходят двое мужчин и уносят фотографию в рамке<br>4. поменяй ее одежду<br><br>Ну то есть можно рассматривать Gemini Omni как Нанобанану только для видео. Понимание происходящего в кадре потрясающее, возможности редактирования тоже.<br><br>За сим вырисовывается такой пайплайн: генерация в Сиденс, редактирование в Омни.<br><br>Да, дороговато получается.<br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a>",
+    "text": "Gemini Omni. Редактирование реальных видеоЭто, конечно, совершенно убойный пример.Я тут собрался накатить за композ, но понял, что это это уже какой-то мета-композ, который обычными средствами просто не сделать.Исходник - реальное youtube-видео с Gemini Omni Release Notes:https://youtu.be/5T0yRNmNRi4(всем рекомендую)Результат - в посте.Кстати, со всеми этими генерациями, я понял, что постоянно оцениваю липсинк - даже на реальных видео!@cgevent",
+    "content": "<video src=\"https://cdn4.telesco.pe/file/562096f186.mp4?token=NL9djZfp78z-MlUd1VoDccVI79hLzr7NRnUhLMqawsavrES38wMRiZdPA3e0NAPC78C0TBkqOzWpBJY-GyNJ491BkFrdk30vKkVjYfDXEvf8wdJT_7-76VfdqoUWfNHLa5xYtG8dv2YU0VQ9zh2z_X5tOPIqV7b11HraJEEJ66EkJ8jdrxrWtNM641J0GseaDUjL2LXwwBEWBActipYWWsgekDXOz7d2uK_vOo5rrmLXR2be5dE_GgsWyTnfURXOXZx1ESh9PjtzpYCRA0gk8ry8yVrwqHvNAeHCfmcrOdQxOknOdO1crWvce_dicOrsloNrWr6ZIIM9jvetjJH98A\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"auto\" playsinline=\"\"></video><b>Gemini Omni. Редактирование реальных видео<br></b><br>Это, конечно, совершенно убойный пример.<br>Я тут собрался накатить за композ, но понял, что это это уже какой-то мета-композ, который обычными средствами просто не сделать.<br><br>Исходник - реальное youtube-видео с Gemini Omni Release Notes:<br><a href=\"https://youtu.be/5T0yRNmNRi4\" target=\"_blank\" rel=\"noopener\" title=\"https://youtu.be/5T0yRNmNRi4\">https://youtu.be/5T0yRNmNRi4</a><br>(всем рекомендую)<br><br>Результат - в посте.<br><br>Кстати, со всеми этими генерациями, я понял, что постоянно оцениваю липсинк - даже на реальных видео!<br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a>",
     "reactions": [
       {
         "emoji": "🔥",
         "count": "35",
         "isPaid": false
-      }
-    ],
-    "channel": "cgevent",
-    "channelTitle": "Метаверсище и ИИще"
-  },
-  {
-    "id": "cgevent/15711",
-    "title": "Gemini Omni. РедактированиеА вот редактирование видео совершенно огненное. Причем вы можете загружать свое видео, а не обязательно генерацию.\"Make everyone in this shot flamingos. Wearing the same outfit.\"@cgevent",
-    "type": "text",
-    "datetime": "2026-05-20T10:24:01+00:00",
-    "tags": [],
-    "text": "Gemini Omni. РедактированиеА вот редактирование видео совершенно огненное. Причем вы можете загружать свое видео, а не обязательно генерацию.\"Make everyone in this shot flamingos. Wearing the same outfit.\"@cgevent",
-    "content": "<video src=\"https://cdn4.telesco.pe/file/293a1ab53d.mp4?token=MsLeEC3U8MjYHf-YmXWSyPbscktwmO7x5nfhh_hfrliwptDeF4iWS9_uWhPWdeYaZ5vxCfkJWtLT0E8O1pUzVZTMJMbGWUQZbKHZw-LCZ9OHvudgJxk-pCzVdI_db8EoHAHceeBSK2Dz_fWdW007HqQQ7gRbk9Z_mbYz0_tylmFE9OHanuzlG7EnWI4REId4jzHH5Oj0BU2kx39rCQ_bkZBuzaxuTMBxn46fwY53yqsaB5suvtjEKFCfjLCqYaeMEczb20qlF6zMhqSzd6lszJqrWGvuHCqWV7rlZQXhaS97XFEEyaYfJdRUfNHUlanm5QZhDXSE3gMtjkRjo8uIKw\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"metadata\" playsinline=\"\"></video><b>Gemini Omni. Редактирование</b><br><br>А вот редактирование видео совершенно огненное. Причем вы можете загружать свое видео, а не обязательно генерацию.<br><br>\"Make everyone in this shot flamingos. Wearing the same outfit.\"<br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a>",
-    "reactions": [
+      },
       {
-        "emoji": "🔥",
-        "count": "35",
-        "isPaid": false
-      }
-    ],
-    "channel": "cgevent",
-    "channelTitle": "Метаверсище и ИИще"
-  },
-  {
-    "id": "cgevent/15710",
-    "title": "Штош, поразбираемся с Gemini Omni. ГенерацияПо сравнению с Seedance первое, что бросается в глаза это вялая динамика и физика.Качество картинки в принципе ок, нет особого мыла. Но по сравнению с Сиданским все выглядит заторможенно и как-то искусственно. Переключения камеры, скажем так, своеобразны.10 секунд также не радуют.Но перейдем к редактированию.@cgevent",
-    "type": "text",
-    "datetime": "2026-05-20T10:20:30+00:00",
-    "tags": [],
-    "text": "Штош, поразбираемся с Gemini Omni. ГенерацияПо сравнению с Seedance первое, что бросается в глаза это вялая динамика и физика.Качество картинки в принципе ок, нет особого мыла. Но по сравнению с Сиданским все выглядит заторможенно и как-то искусственно. Переключения камеры, скажем так, своеобразны.10 секунд также не радуют.Но перейдем к редактированию.@cgevent",
-    "content": "<video src=\"https://cdn4.telesco.pe/file/552ff7169f.mp4?token=DCT2BnVV0vsBLTs60QX-wSwVKutCDVozoEf3vWaPgQKPL64E3hscr9tWtoB59K7ez2RL_6pVGzsuMGiPiGSP-LFwNOqv3qbuO5TCNItulz03xPInuhPfQsrPbnlqG-erpAwv6hpKucbwyC57oCZyGkS5mTpcsP0bgdRm4LKF9k_lJbqw_26W0JnDP9sl0uy3cJgjkMrQ3F5EKVIwQynEilTzrExYLvhNDAtoTqMkmHdHnGSLnKYcnwAD7t8YQGVLlytFilGFRctXNGwLTeTlobZwLEDIVTtoorM-XqdqGNPVoVPbDeS-lFsh85WzFx3ho6S13_vh9DrDWOw7K25kQG0pY9ELzccAD5fUalROXUnZaVOyKji086OnOdp_cTOmYol1d5hgqlXb3CzS5O1tGvBL1RCOUxs78oaB4vcmQpu1K7xyrSFuU6JWxcMfk9SwhdHOow1RLEiJWU3SjNPFmEwwCI7ay6HI3baovFMVuAyOu5zUU_QgLJdGzlNr35G6arX105MnYPIHqQ-LPBs7VSMvhX0OPVqXB9-cbFCnQN2gXaKEP_wZixKneFhC2evSmHS3AEOWBBT1X5RuRKP1AbgETrzq8IpaDksQaL0bD_FN0QuYNPF3MAkOYfiflJPsV1RtT7j3jUeFmFUQ7gp8wzGsVXStCj_8W4vx3hGKhCA\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"auto\" playsinline=\"\"></video><b>Штош, поразбираемся с Gemini Omni. Генерация</b><br><br>По сравнению с Seedance первое, что бросается в глаза это вялая динамика и физика.<br>Качество картинки в принципе ок, нет особого мыла. Но по сравнению с Сиданским все выглядит заторможенно и как-то искусственно. Переключения камеры, скажем так, своеобразны.<br>10 секунд также не радуют.<br>Но перейдем к редактированию.<br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a>",
-    "reactions": [
-      {
-        "emoji": "😁",
-        "count": "38",
+        "emoji": "😱",
+        "count": "6",
         "isPaid": false
       },
       {
         "emoji": "❤️",
+        "count": "1",
+        "isPaid": false
+      },
+      {
+        "emoji": "👍",
+        "count": "1",
+        "isPaid": false
+      },
+      {
+        "emoji": "😁",
         "count": "1",
         "isPaid": false
       }
