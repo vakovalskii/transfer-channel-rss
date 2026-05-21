@@ -1,20 +1,45 @@
 [
   {
-    "id": "neuraldeep/2150",
+    "id": "gleb_pro_ai/570",
     "title": "",
     "type": "text",
-    "datetime": "2026-05-21T12:08:52+00:00",
+    "datetime": "2026-05-21T14:56:43+00:00",
     "tags": [],
-    "text": "https://hub.neuraldeep.ru/Вот и случилось 1000 регистраций на хабеСделано 700 коммитов5000+ рестартов гейтаВы сгенерировали 6 млрд токеновВызвали Дрифт более 100 000 раз!Спасибо, что продолжаете тестировать то, что я делаю, и спасибо Паше за помощь в разработке хаба с инфраструктурной стороны!И на канале уже 15 000 человек! Тоже приятная новость!А я тем временем всё глубже погружаюсь в автоматизацию разработки хаба с помощью claude code cli и codex cli (напомню, я делаю это в одиночку, и всё это — очень большой эксперимент).https://hub.neuraldeep.ru/Вот и случилось 1000 регистраций на хабеСделано 700 коммитов5000+ рестартов гейтаВы сгенерировали 6 млрд токеновВызвали Дрифт более 100 000 раз!Спасибо, что продолжаете тестировать то, что я делаю, и спасибо Паше за помощь в разработке хаба с инфраструктурной стороны!И на канале уже 15 000 человек! Тоже приятная новость!А я тем временем всё глубже погружаюсь в автоматизацию разработки хаба с помощью claude code cli и codex cli (напомню, я делаю это в одиночку, и всё это — очень большой эксперимент).",
-    "content": "<a class=\"tgme_widget_message_reply user-color-default\" href=\"/posts/2112\" \"=\"\"><blockquote><small><i class=\"tgme_widget_message_reply_thumb\" style=\"background-image:url('media/10d265c7f244f9a020ade2009e4f6eb3.jpg')\"></i>\n<div class=\"tgme_widget_message_author accent_color\">\n  <span class=\"tgme_widget_message_author_name\" dir=\"auto\">Валера Ковальский</span>\n</div>\n<div class=\"tgme_widget_message_text js-message_reply_text\" dir=\"auto\">NeuralDeep LLM Hub  Добавлено:  qwen3.6-35b-a3b Второй инстанс под gpt oss 120b whisper large-v3-turbo Возможность в ЛК отключить логирование (тут конечно надо поверить мне на слово)  Обе LLM протестированы с codex/opencode/hermes-agent/kiro/cursor  Осталось…</div>\n</small></blockquote></a><div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-2150-0\" popovertargetaction=\"show\" aria-label=\"Open image preview\">\n        <img src=\"media/608d5f7e7854e84490062493015303ce.jpg\" alt=\"Image from post\" width=\"453\" height=\"230\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-2150-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-2150-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-2150-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/608d5f7e7854e84490062493015303ce.jpg\" alt=\"Image from post\" width=\"453\" height=\"230\" loading=\"lazy\" />\n        </div>\n      </div>\n    \n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-2150-1\" popovertargetaction=\"show\" aria-label=\"Open image preview\">\n        <img src=\"media/e399682ee6469c769e092507d64d2f4e.jpg\" alt=\"Image from post\" width=\"225\" height=\"73\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-2150-1\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-2150-1\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-2150-1\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/e399682ee6469c769e092507d64d2f4e.jpg\" alt=\"Image from post\" width=\"225\" height=\"73\" loading=\"lazy\" />\n        </div>\n      </div>\n    \n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-2150-2\" popovertargetaction=\"show\" aria-label=\"Open image preview\">\n        <img src=\"https://cdn4.telesco.pe/file/i5_X8OnfikcT9TUMtsImyJuoCvf53OJ-4uXlqUP88E4YjDkUHom-R_CV19_fHGk6ddlC77aE577ZbDkpKKASoGrzAbx2TmR6SO-LhECYjjlHQxUDzRoGfUvb4RCajbizR_yHIkyLEpiP-wO3Q1MQYWn26-entDeHOWQkAnzBPs71ivkZyBNswojhzlloV6u7wAaMQNNTAnNzPLgC3_M7v4MLE4hu3_nwCd_LdWyIGjw77ffa7WXRLKyrOaBVjElLF5daxO4uqUuOZcTtpU1sjvDAlpuTtGe5nARC_g5AC1vp1CBhwiPS7euwdbh_IApZV0BGEWIEdKamSp57o9hoIg.jpg\" alt=\"Image from post\" width=\"226\" height=\"73\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-2150-2\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-2150-2\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-2150-2\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"https://cdn4.telesco.pe/file/i5_X8OnfikcT9TUMtsImyJuoCvf53OJ-4uXlqUP88E4YjDkUHom-R_CV19_fHGk6ddlC77aE577ZbDkpKKASoGrzAbx2TmR6SO-LhECYjjlHQxUDzRoGfUvb4RCajbizR_yHIkyLEpiP-wO3Q1MQYWn26-entDeHOWQkAnzBPs71ivkZyBNswojhzlloV6u7wAaMQNNTAnNzPLgC3_M7v4MLE4hu3_nwCd_LdWyIGjw77ffa7WXRLKyrOaBVjElLF5daxO4uqUuOZcTtpU1sjvDAlpuTtGe5nARC_g5AC1vp1CBhwiPS7euwdbh_IApZV0BGEWIEdKamSp57o9hoIg.jpg\" alt=\"Image from post\" width=\"226\" height=\"73\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\"><a href=\"https://hub.neuraldeep.ru/\" target=\"_blank\" rel=\"noopener\" title=\"https://hub.neuraldeep.ru/\">https://hub.neuraldeep.ru/</a><br><br>Вот и случилось 1000 регистраций на хабе<br>Сделано 700 коммитов<br>5000+ рестартов гейта<br>Вы сгенерировали 6 млрд токенов<br>Вызвали <a href=\"https://drift.neuraldeep.ru/\" target=\"_blank\" rel=\"noopener\" title=\"Дрифт\">Дрифт</a> более 100 000 раз!<br><br>Спасибо, что продолжаете тестировать то, что я делаю, и спасибо <a href=\"https://t.me/evilfreelancer\" target=\"_blank\" rel=\"noopener\" title=\"Паше\">Паше</a> за помощь в разработке хаба с инфраструктурной стороны!<br><br>И на канале уже 15 000 человек! Тоже приятная новость!<br><br>А я тем временем всё глубже погружаюсь в автоматизацию разработки хаба с помощью claude code cli и codex cli (напомню, я делаю это в одиночку, и всё это — очень большой эксперимент).</div>",
+    "text": "",
+    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-570-0\" popovertargetaction=\"show\" aria-label=\"Open image preview\">\n        <img src=\"media/af4543373ed0d3bc5153c457960bb016.jpg\" alt=\"Image from post\" width=\"800\" height=\"303\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-570-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-570-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-570-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/af4543373ed0d3bc5153c457960bb016.jpg\" alt=\"Image from post\" width=\"800\" height=\"303\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>",
     "reactions": [
       {
-        "emoji": "🔥",
-        "count": "36",
+        "emoji": "😁",
+        "count": "52",
         "isPaid": false
       },
       {
-        "emoji": "👍",
+        "emoji": "💯",
+        "count": "14",
+        "isPaid": false
+      }
+    ],
+    "channel": "gleb_pro_ai",
+    "channelTitle": "Глеб Кудрявцев про AI"
+  },
+  {
+    "id": "data_secrets/9272",
+    "title": "Anthropic будет платить SpaceXAI 1.25 миллиарда долларов в месяц за компьют Как вы уже знаете, недавно Anthropic подписали с SpaceX большой контракт на использование мощностей датацентров Colossus. Теперь появились некоторые детали этой сделки. Оказывается, за доступ к железу Маска антропики будут платить 15 миллиардов долларов в год до мая 2029 года. Для SpaceX это почти что удвоение годовой выручки (в 2025 году они заработали около 16 млрд). А для Anthropic это просто львиная часть, около 80% от выручки. Действительно big deal.",
+    "type": "text",
+    "datetime": "2026-05-21T16:36:59+00:00",
+    "tags": [],
+    "text": "Anthropic будет платить SpaceXAI 1.25 миллиарда долларов в месяц за компьют Как вы уже знаете, недавно Anthropic подписали с SpaceX большой контракт на использование мощностей датацентров Colossus. Теперь появились некоторые детали этой сделки. Оказывается, за доступ к железу Маска антропики будут платить 15 миллиардов долларов в год до мая 2029 года. Для SpaceX это почти что удвоение годовой выручки (в 2025 году они заработали около 16 млрд). А для Anthropic это просто львиная часть, около 80% от выручки. Действительно big deal.",
+    "content": "<a class=\"tgme_widget_message_reply user-color-12 js-message_emoji_bg\" href=\"/posts/9182\" data-bg-emoji=\"5424846043365784811\" \"=\"\"><blockquote><small><i class=\"tgme_widget_message_reply_thumb\" style=\"background-image:url('media/4faedef302a438dcd5fe02137cdfe1b8.jpg')\"></i>\n<div class=\"tgme_widget_message_author accent_color\">\n  <span class=\"tgme_widget_message_author_name\" dir=\"auto\">Data Secrets</span>\n</div>\n<div class=\"tgme_widget_message_text js-message_reply_text\" dir=\"auto\">Агенты Anthropic теперь будут самостоятельно улучшаться в свободное время   Компания запустила в рисерч превью функцию dreaming. Она активируется в простое между сессиями и позволяет агенту «самообучаться».   claude.com/blog/new-in-claude-managed-agents  Модель…</div>\n</small></blockquote></a><div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-9272-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Anthropic будет платить SpaceXAI 1.25 миллиарда долларов в месяц за компьют Как вы уже знаете, недавно Anthropic подписали с SpaceX большой контракт на использование мощностей датацентров Colossus. Теперь появились некоторые детали этой сделки. Оказывается, за доступ к железу Маска антропики будут платить 15 миллиардов долларов в год до мая 2029 года. Для SpaceX это почти что удвоение годовой выручки (в 2025 году они заработали около 16 млрд). А для Anthropic это просто львиная часть, около 80% от выручки. Действительно big deal.\">\n        <img src=\"media/6c3b674538b415af80eadf4d46910465.jpg\" alt=\"Anthropic будет платить SpaceXAI 1.25 миллиарда долларов в месяц за компьют Как вы уже знаете, недавно Anthropic подписали с SpaceX большой контракт на использование мощностей датацентров Colossus. Теперь появились некоторые детали этой сделки. Оказывается, за доступ к железу Маска антропики будут платить 15 миллиардов долларов в год до мая 2029 года. Для SpaceX это почти что удвоение годовой выручки (в 2025 году они заработали около 16 млрд). А для Anthropic это просто львиная часть, около 80% от выручки. Действительно big deal.\" width=\"507\" height=\"676\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-9272-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-9272-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-9272-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/6c3b674538b415af80eadf4d46910465.jpg\" alt=\"Anthropic будет платить SpaceXAI 1.25 миллиарда долларов в месяц за компьют Как вы уже знаете, недавно Anthropic подписали с SpaceX большой контракт на использование мощностей датацентров Colossus. Теперь появились некоторые детали этой сделки. Оказывается, за доступ к железу Маска антропики будут платить 15 миллиардов долларов в год до мая 2029 года. Для SpaceX это почти что удвоение годовой выручки (в 2025 году они заработали около 16 млрд). А для Anthropic это просто львиная часть, около 80% от выручки. Действительно big deal.\" width=\"507\" height=\"676\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><b>Anthropic будет платить SpaceXAI 1.25 миллиарда долларов в месяц за компьют <br></b><br>Как вы уже знаете, недавно Anthropic подписали с SpaceX большой контракт на использование мощностей датацентров Colossus. <br><br>Теперь появились некоторые детали этой сделки. Оказывается, за доступ к железу Маска антропики будут платить 15 миллиардов долларов в год до мая 2029 года. <br><br>Для SpaceX это почти что удвоение годовой выручки (в 2025 году они заработали около 16 млрд). А для Anthropic это просто львиная часть, около 80% от выручки. Действительно big deal.",
+    "reactions": [
+      {
+        "emoji": "",
+        "emojiId": "5850279489090627237",
+        "emojiImage": "https://t.me/i/emoji/5850279489090627237.webp",
+        "count": "65",
+        "isPaid": false
+      },
+      {
+        "emoji": "👌",
         "count": "7",
         "isPaid": false
       },
@@ -24,59 +49,43 @@
         "isPaid": false
       },
       {
-        "emoji": "🙉",
+        "emoji": "🗿",
+        "count": "4",
+        "isPaid": false
+      },
+      {
+        "emoji": "",
+        "emojiId": "5773848767941842357",
+        "emojiImage": "https://t.me/i/emoji/5773848767941842357.webp",
         "count": "1",
         "isPaid": false
       }
     ],
-    "channel": "neuraldeep",
-    "channelTitle": "Валера Ковальский"
+    "channel": "data_secrets",
+    "channelTitle": "Data Secrets"
   },
   {
-    "id": "evilfreelancer/1698",
-    "title": "",
+    "id": "data_secrets/9271",
+    "title": "И снова об особенностях профессии ML-инженера: почему сильная база помогает работать в разных индустрияхЗа 6 лет выпускница ШАДа Дарима Мылзенова успела поработать ML-инженером в медицине, нефтянке, TTS-стартапе и финтехе. Она дала интервью, где объяснила, что для специалиста ключевым оказывается способ мышления, который закладывается фундаментальным обучением. Дарима вспоминает курс по байесовским методам и идею о том, что любое новое наблюдение помогает постепенно обновлять представление о мире. Этот же принцип работает и в ML-проектах: инженер постоянно адаптируется к данным, гипотезам и ограничениям.При работе с моделями также нужно оперативно осваивать новые подходы и архитектуры. В такие моменты выручает установка, вынесенная Даримой из обучения, — все можно понять, если просто сесть и разобраться. Прочная база позволяет инженеру быстро декомпозировать незнакомую задачу, убирает страх перед неопределенностью и помогает собирать работающие решения в сжатые сроки. В интервью вообще очень много интересных наблюдений из закулисья профессии. Советуем почитать полностью.",
     "type": "text",
-    "datetime": "2026-05-21T12:14:06+00:00",
+    "datetime": "2026-05-21T15:02:00+00:00",
     "tags": [],
-    "text": "https://hub.neuraldeep.ru/Вот и случилось 1000 регистраций на хабеСделано 700 коммитов5000+ рестартов гейтаВы сгенерировали 6 млрд токеновВызвали Дрифт более 100 000 раз!Спасибо, что продолжаете тестировать то, что я делаю, и спасибо Паше за помощь в разработке хаба с инфраструктурной стороны!И на канале уже 15 000 человек! Тоже приятная новость!А я тем временем всё глубже погружаюсь в автоматизацию разработки хаба с помощью claude code cli и codex cli (напомню, я делаю это в одиночку, и всё это — очень большой эксперимент).https://hub.neuraldeep.ru/Вот и случилось 1000 регистраций на хабеСделано 700 коммитов5000+ рестартов гейтаВы сгенерировали 6 млрд токеновВызвали Дрифт более 100 000 раз!Спасибо, что продолжаете тестировать то, что я делаю, и спасибо Паше за помощь в разработке хаба с инфраструктурной стороны!И на канале уже 15 000 человек! Тоже приятная новость!А я тем временем всё глубже погружаюсь в автоматизацию разработки хаба с помощью claude code cli и codex cli (напомню, я делаю это в одиночку, и всё это — очень большой эксперимент).",
-    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-1698-0\" popovertargetaction=\"show\" aria-label=\"Open image preview\">\n        <img src=\"media/640cc4861b7c044f7fc78eec8f3caa04.jpg\" alt=\"Image from post\" width=\"453\" height=\"230\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-1698-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-1698-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-1698-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/640cc4861b7c044f7fc78eec8f3caa04.jpg\" alt=\"Image from post\" width=\"453\" height=\"230\" loading=\"lazy\" />\n        </div>\n      </div>\n    \n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-1698-1\" popovertargetaction=\"show\" aria-label=\"Open image preview\">\n        <img src=\"media/1eda1cb527bacec82649f6734a74dcf7.jpg\" alt=\"Image from post\" width=\"225\" height=\"73\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-1698-1\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-1698-1\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-1698-1\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/1eda1cb527bacec82649f6734a74dcf7.jpg\" alt=\"Image from post\" width=\"225\" height=\"73\" loading=\"lazy\" />\n        </div>\n      </div>\n    \n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-1698-2\" popovertargetaction=\"show\" aria-label=\"Open image preview\">\n        <img src=\"media/0d28cd5941b4300430ae0b64521eaafe.jpg\" alt=\"Image from post\" width=\"226\" height=\"73\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-1698-2\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-1698-2\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-1698-2\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/0d28cd5941b4300430ae0b64521eaafe.jpg\" alt=\"Image from post\" width=\"226\" height=\"73\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\"><a href=\"https://hub.neuraldeep.ru/\" target=\"_blank\" rel=\"noopener\" title=\"https://hub.neuraldeep.ru/\">https://hub.neuraldeep.ru/</a><br><br>Вот и случилось 1000 регистраций на хабе<br>Сделано 700 коммитов<br>5000+ рестартов гейта<br>Вы сгенерировали 6 млрд токенов<br>Вызвали <a href=\"https://drift.neuraldeep.ru/\" target=\"_blank\" rel=\"noopener\" title=\"Дрифт\">Дрифт</a> более 100 000 раз!<br><br>Спасибо, что продолжаете тестировать то, что я делаю, и спасибо <a href=\"https://t.me/evilfreelancer\" target=\"_blank\" rel=\"noopener\" title=\"Паше\">Паше</a> за помощь в разработке хаба с инфраструктурной стороны!<br><br>И на канале уже 15 000 человек! Тоже приятная новость!<br><br>А я тем временем всё глубже погружаюсь в автоматизацию разработки хаба с помощью claude code cli и codex cli (напомню, я делаю это в одиночку, и всё это — очень большой эксперимент).</div>",
+    "text": "И снова об особенностях профессии ML-инженера: почему сильная база помогает работать в разных индустрияхЗа 6 лет выпускница ШАДа Дарима Мылзенова успела поработать ML-инженером в медицине, нефтянке, TTS-стартапе и финтехе. Она дала интервью, где объяснила, что для специалиста ключевым оказывается способ мышления, который закладывается фундаментальным обучением. Дарима вспоминает курс по байесовским методам и идею о том, что любое новое наблюдение помогает постепенно обновлять представление о мире. Этот же принцип работает и в ML-проектах: инженер постоянно адаптируется к данным, гипотезам и ограничениям.При работе с моделями также нужно оперативно осваивать новые подходы и архитектуры. В такие моменты выручает установка, вынесенная Даримой из обучения, — все можно понять, если просто сесть и разобраться. Прочная база позволяет инженеру быстро декомпозировать незнакомую задачу, убирает страх перед неопределенностью и помогает собирать работающие решения в сжатые сроки. В интервью вообще очень много интересных наблюдений из закулисья профессии. Советуем почитать полностью.",
+    "content": "<b>И снова об особенностях профессии ML-инженера: почему сильная база помогает работать в разных индустриях</b><br><br>За 6 лет выпускница ШАДа Дарима Мылзенова успела поработать ML-инженером в медицине, нефтянке, TTS-стартапе и финтехе. Она дала интервью, где объяснила, что для специалиста ключевым оказывается способ мышления, который закладывается фундаментальным обучением. <br><br>Дарима вспоминает курс по байесовским методам и идею о том, что любое новое наблюдение помогает постепенно обновлять представление о мире. Этот же принцип работает и в ML-проектах: инженер постоянно адаптируется к данным, гипотезам и ограничениям.<br><br>При работе с моделями также нужно оперативно осваивать новые подходы и архитектуры. В такие моменты выручает установка, вынесенная Даримой из обучения, — <b>все можно понять, если просто сесть и разобраться</b>. Прочная база позволяет инженеру быстро декомпозировать незнакомую задачу, убирает страх перед неопределенностью и помогает собирать работающие решения в сжатые сроки. <br><br>В <a href=\"https://education.yandex.ru/journal/shad-and-neiro\" target=\"_blank\" rel=\"noopener\" title=\"интервью\">интервью</a> вообще очень много интересных наблюдений из закулисья профессии. Советуем почитать полностью.",
     "reactions": [
       {
-        "emoji": "👍",
-        "count": "6",
-        "isPaid": false
-      },
-      {
         "emoji": "❤️",
-        "count": "1",
-        "isPaid": false
-      }
-    ],
-    "channel": "evilfreelancer",
-    "channelTitle": "Pavel Zloi"
-  },
-  {
-    "id": "data_secrets/9270",
-    "title": "Как ощущается работа, когда потратил все дневные лимиты Claude Code P.S. Аккуратно, спойлер к сериалу The Boys (Пацаны)",
-    "type": "text",
-    "datetime": "2026-05-21T13:55:52+00:00",
-    "tags": [],
-    "text": "Как ощущается работа, когда потратил все дневные лимиты Claude Code P.S. Аккуратно, спойлер к сериалу The Boys (Пацаны)",
-    "content": "<video src=\"https://cdn4.telesco.pe/file/692237d78d.mp4?token=XhUpN1LEKGKeuex7s_6c55WIrF43j5iQHon_A4ER5X1mk2Kkj_c-8ZpR-cVWmrnDI7d57kQ0lAEyET-zjNIZDnswLJn1nwsdmzRDI3UBhW35lvwxYmEjB3t-rHgbTp9sAd3MqTWHO7dndM6PuK9hpe6iWOfhawZdRrTNgXdKtEjldeIMPCN9481bAoUQgHE_y8Va-Z1G1RWtGLrVemZ1y-b5bfZTPc5HpZVVgHG7pdKevk3GXJfUZWS3DhdrkKe5WOiEz1hKaHotXf5qH_XmcM_-n6bl5oKc6EDtFfHOHwB6LI3ILAP9zyM5jvN4GbON6GBljhO9HqkpUFKnMzv67A\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"metadata\" playsinline=\"\"></video>Как ощущается работа, когда потратил все дневные лимиты Claude Code <br><br>P.S. Аккуратно, спойлер к сериалу The Boys (Пацаны)",
-    "reactions": [
-      {
-        "emoji": "😁",
-        "count": "108",
-        "isPaid": false
-      },
-      {
-        "emoji": "❤️",
-        "count": "13",
+        "count": "32",
         "isPaid": false
       },
       {
         "emoji": "👍",
-        "count": "11",
+        "count": "16",
+        "isPaid": false
+      },
+      {
+        "emoji": "🔥",
+        "count": "7",
         "isPaid": false
       },
       {
@@ -85,76 +94,41 @@
         "isPaid": false
       },
       {
-        "emoji": "🤨",
+        "emoji": "😁",
+        "count": "3",
+        "isPaid": false
+      },
+      {
+        "emoji": "🤔",
         "count": "2",
         "isPaid": false
       },
       {
-        "emoji": "💯",
-        "count": "1",
+        "emoji": "🫡",
+        "count": "2",
         "isPaid": false
-      }
-    ],
-    "channel": "data_secrets",
-    "channelTitle": "Data Secrets"
-  },
-  {
-    "id": "data_secrets/9268",
-    "title": "В Meta* обучают агентов прямо на действиях сотрудников и массово сокращают штат В сети вирусится слитое аудиосообщение от Цукерберга: 30 апреля он якобы заявил менеджерам, что обучение на действиях сотрудников поможет резко улучшить способности моделей. Модели ИИ учатся, наблюдая за тем, как очень умные люди выполняют задачи. Средний уровень интеллекта людей в этой компании значительно выше, чем средний уровень людей, которых можно привлечь извне для разметки данных для ИИ. Короче, Цукерберг считает, что надо обучать агентов прямо на компьютерных сессиях и коде сотрудников, и что это будет существенным преимуществом перед конкурентами. На самом деле, слухи о том, что подобную систему трекинга внедряют в Meta, ходили и реньше.  Reuters еще 21 апреля сообщали, что есть некий инструмент Model Capability Initiative, который собирает движения мыши, клики, нажатия клавиш и иногда скриншоты – для обучения AI-агентов. Самое интересное, что практически одновременно компания стала массово увольнять людей. На днях они объявили, что сокращают 8 тысяч сотрудников, а еще 7 тысяч переводят на новые AI-направления.",
-    "type": "text",
-    "datetime": "2026-05-21T11:55:23+00:00",
-    "tags": [],
-    "text": "В Meta* обучают агентов прямо на действиях сотрудников и массово сокращают штат В сети вирусится слитое аудиосообщение от Цукерберга: 30 апреля он якобы заявил менеджерам, что обучение на действиях сотрудников поможет резко улучшить способности моделей. Модели ИИ учатся, наблюдая за тем, как очень умные люди выполняют задачи. Средний уровень интеллекта людей в этой компании значительно выше, чем средний уровень людей, которых можно привлечь извне для разметки данных для ИИ. Короче, Цукерберг считает, что надо обучать агентов прямо на компьютерных сессиях и коде сотрудников, и что это будет существенным преимуществом перед конкурентами. На самом деле, слухи о том, что подобную систему трекинга внедряют в Meta, ходили и реньше.  Reuters еще 21 апреля сообщали, что есть некий инструмент Model Capability Initiative, который собирает движения мыши, клики, нажатия клавиш и иногда скриншоты – для обучения AI-агентов. Самое интересное, что практически одновременно компания стала массово увольнять людей. На днях они объявили, что сокращают 8 тысяч сотрудников, а еще 7 тысяч переводят на новые AI-направления.",
-    "content": "<b>В </b><a href=\"https://telegra.ph/Prinadlezhit-Meta-09-18\" target=\"_blank\" rel=\"noopener\" title=\"Meta\"><b>Meta</b></a><b>* обучают агентов прямо на действиях сотрудников и массово сокращают штат </b><br><br>В сети вирусится слитое аудиосообщение от Цукерберга: 30 апреля он якобы заявил менеджерам, что обучение на действиях сотрудников поможет резко улучшить способности моделей. <br><br><blockquote>Модели ИИ учатся, наблюдая за тем, как очень умные люди выполняют задачи. Средний уровень интеллекта людей в этой компании значительно выше, чем средний уровень людей, которых можно привлечь извне для разметки данных для ИИ. </blockquote><br><br>Короче, Цукерберг считает, что надо обучать агентов прямо на компьютерных сессиях и коде сотрудников, и что это будет существенным преимуществом перед конкурентами. <br><br>На самом деле, слухи о том, что подобную систему трекинга внедряют в Meta, ходили и реньше.  Reuters еще 21 апреля сообщали, что есть некий инструмент Model Capability Initiative, который собирает движения мыши, клики, нажатия клавиш и иногда скриншоты – для обучения AI-агентов. <br><br>Самое интересное, что практически одновременно компания стала массово увольнять людей. На днях они объявили, что сокращают 8 тысяч сотрудников, а еще 7 тысяч переводят на новые AI-направления.<a class=\"tgme_widget_message_video_player not_supported js-message_video_player\" href=\"https://t.me/data_secrets/9268\"><i class=\"tgme_widget_message_video_thumb\" style=\"background-image:url('https://cdn4.telesco.pe/file/HRwmrwvf9j_DxWVJGYpPGe7TWXaJVX9NFsx49eSYV0AJpzFXwrMlBS99X7zIvSfOJl-wiX7bIkeQX6jxiWwKI52-ivV96AkbZto-sucm6OPOCVXpxHssUbXmBYaN6V8DiljTjCtgB3IfGJUvJEjqLioe5RBcjzJdMpm1AwJN4YvwvMSntMj6WSgU5prEVxW5T5-LPP2hgrTyA3C1E2LUIWzET1OEsDPVBGeL9Q_8KOdJ5cdtHMQk6V5aCP0Ox3FUd1eBLZSNlkFnwZCR3jQUbHILchRsvqnJ12TXsaBq7Qd1ShYgpeLo9NUXu1LRaZ-BDguXcm4vNCob8wxQwzp9sA')\"></i>\n\n<div class=\"tgme_widget_message_video_wrap\" style=\"width:464px;padding-top:133.33333333333%\">\n  \n</div>\n<div class=\"message_video_play js-message_video_play\"></div>\n<time class=\"message_video_duration js-message_video_duration\">6:13</time>\n<div class=\"message_media_not_supported_wrap\">\n  <div class=\"message_media_not_supported\">\n    <div class=\"message_media_not_supported_label\">Media is too big</div>\n    <span class=\"message_media_view_in_telegram\">VIEW IN TELEGRAM</span>\n  </div>\n</div></a>",
-    "reactions": [
+      },
       {
         "emoji": "",
         "emojiId": "5773848767941842357",
         "emojiImage": "https://t.me/i/emoji/5773848767941842357.webp",
-        "count": "113",
+        "count": "2",
         "isPaid": false
       },
       {
-        "emoji": "👍",
-        "count": "11",
+        "emoji": "🕊",
+        "count": "1",
         "isPaid": false
       },
       {
-        "emoji": "😁",
-        "count": "10",
-        "isPaid": false
-      },
-      {
-        "emoji": "",
-        "emojiId": "5850279489090627237",
-        "emojiImage": "https://t.me/i/emoji/5850279489090627237.webp",
-        "count": "10",
-        "isPaid": false
-      },
-      {
-        "emoji": "❤️",
-        "count": "9",
-        "isPaid": false
-      },
-      {
-        "emoji": "🤯",
-        "count": "6",
+        "emoji": "👾",
+        "count": "1",
         "isPaid": false
       },
       {
         "emoji": "",
         "emojiId": "5222292529533167322",
         "emojiImage": "https://t.me/i/emoji/5222292529533167322.webp",
-        "count": "3",
-        "isPaid": false
-      },
-      {
-        "emoji": "👏",
-        "count": "1",
-        "isPaid": false
-      },
-      {
-        "emoji": "🗿",
         "count": "1",
         "isPaid": false
       }
@@ -163,50 +137,39 @@
     "channelTitle": "Data Secrets"
   },
   {
-    "id": "cgevent/15725",
-    "title": "3Д-генератор от AppleНе уверен, что после Хуньяня, кто-то захочет им пользоваться, но оставлю тут для истории.Они прям с нуля сделали свой 3Д-генератор по одной картинке с упором на то, что освещение с разных ракурсов помогает им восстанавливать более точную форму объекта.Сравнивают результата с первым TRILLIS (что странно).Пространственного разрешения, как по мне, им явно не хватает.Зато есть код и веса:",
+    "id": "cgevent/15729",
+    "title": "#Нейропрожарка Конкурсная работа для СоюзмультфильмаАвтор: Голубь МихаилТелеграм: @Mikhail_GolubСрок: 2 недели, ~50 часов работыСоюзмультфильм запустил конкурс «Ну ИИ погоди», приуроченный к 90-летию студии, — с целью популяризации анимации, интеграции передовых технологий и привлечения свежих творческих сил.Условия конкурса:⭐️Ролик от 30 до 60 секунд⭐️Формат 9:16 или 16:9, качество минимум Full HD⭐️В ролике должны быть цифры 9 и 0⭐️Можно использовать персонажей студии, представленных в конкурсеПервым делом полез смотреть, каких персонажей предложили организаторы — и там они, Винни-Пух с Пятачком. Те самые, хитруковские. Всё, решено. Дальше Пух сам подсказал сценарий. Спойлер: он связан с горшочком мёда. Кто бы мог подумать.😁✅Этап 1: Модельные листы персонажейДля консистентности и понятной анимации нужны были модельные листы Пуха и Пятачка. Собрал лучшие отрывки из старого мультика, закинул в NanoBanana Pro с целью получить профессиональные 3D-рендеры с текстурами на основе референсов. Получив подходящие изображения персонажей, снова закинул в Banana и попросил подготовить моедльный лист для каждого персонажа — виды спереди, сзади, сбоку и 3/4. Персонажи простые — нейросеть справилась с первого раза.✅Этап 2: Интерьер и экстерьерДействие крутится вокруг домика Пуха. Не стал изобретать велосипед — вырезал кадры из оригинала, скормил Claude вместе с модельными листами персонажей для понимания стиля рендера и попросил написать промпт для NanoBanana Pro. Получилось 10 вариантов интерьера/экстерьера, топ-5 стали референсами для всех сцен.✅Этап 3: ШотыПеред анимацией собрал шоты по раскадровке. Схема одна на все сцены: кидаю референсы в Claude → получаю промпт → отдаю промпт и те же референсы в том же порядке в NanoBanana Pro. Годные генерации выходили с 5–10 попытки, что-то допиливал в Photoshop.✅Этап 4: АнимацияSeedance тогда ещё не было. В арсенале — только Kling 3.0 и o3. Промпты для анимации писал через Claude: кидал шоты в качестве референсов и описывал задачу — действия, эмоции персонажа. Полученный промпт отправлял в Kling + те же шоты. Анимация сначала выходила топорная, будто роботизированная. Помогла одна добавка в промпт: «движения должны быть естественными, выразительными как в профессиональной анимации». Сразу другое дело😁✅Этап 5: Цветокоррекция и монтажСобрал всё вместе — кадры по цвету как сборная солянка. Подравнял в Premiere Pro.Потом заметил: 24 fps от Kling стробят, а хотелось плавности. Программно перегнал в 30 fps — полезли артефакты. Тогда артефактные куски вернул в 24 fps и прогнал через Topaz Video в Krea — получил честные 30 fps без мусора. Красота.✅Этап 6: ЗвукВсе звуковые эффекты были взяты из видеогенераций. С музыкой было проще всего. За основу взял Elephant Walk Генри Манчини — уж очень по характеру подходила Пуху. Закинул идею в Claude, тот накидал промпт для Suno с разными акцентами и настроением — чтобы потом было что замиксовать. Сгенерил 10 треков по одному промпту, выбрал один. Композиция встала в мультик с единственной склейкой в финале.💰Бюджет:Видеогенерация — Kling: 115 генераций в Full HD по 5–6 сек с озвучкой. Каждая — 60–70 токенов. Итого сожрало ~8000 токенов. Пакет 7500 токенов = 100$. Ну чуть-чуть не вписался.Картинки — NanoBanana Pro (через Higgsfield): подписка 49$/мес — хватило выше крыши, ещё и осталось.Видеоулучшайзер — Topaz через Krea: некоторые генерации выходили с багами, как будто ИИ рисовал после вечеринки 😆🥴 Pro-план 35$/мес — зато видео стало плавным ✨Музыка — Suno 5.5: 8$/мес, 2500 токенов. Одна генерация = 2 трека за 10 токенов. Самый скромный чек в этой тусовке.Промпты — Claude Pro: 17$/мес.Итого бюджет: ~210$@cgevent",
     "type": "text",
-    "datetime": "2026-05-21T12:47:00+00:00",
-    "tags": [],
-    "text": "3Д-генератор от AppleНе уверен, что после Хуньяня, кто-то захочет им пользоваться, но оставлю тут для истории.Они прям с нуля сделали свой 3Д-генератор по одной картинке с упором на то, что освещение с разных ракурсов помогает им восстанавливать более точную форму объекта.Сравнивают результата с первым TRILLIS (что странно).Пространственного разрешения, как по мне, им явно не хватает.Зато есть код и веса:https://github.com/apple/ml-litohttps://apple.github.io/ml-lito/@cgevent3Д-генератор от AppleНе уверен, что после Хуньяня, кто-то захочет им пользоваться, но оставлю тут для истории.Они прям с нуля сделали свой 3Д-генератор по одной картинке с упором на то, что освещение с разных ракурсов помогает им восстанавливать более точную форму объекта.Сравнивают результата с первым TRILLIS (что странно).Пространственного разрешения, как по мне, им явно не хватает.Зато есть код и веса:https://github.com/apple/ml-litohttps://apple.github.io/ml-lito/@cgevent",
-    "content": "<video src=\"https://cdn4.telesco.pe/file/738d77e7be.mp4?token=cqfk-fM3nIh1g7Q11Abg0KeNBpYoY2LELK9StJWwpDgAenuTikoibR3Kdh-dtp_lsWDqJVh7WeTWVxBs9LaC-zH8wT2Jc5U-noK2FnPYFsOJx48R0AZKdXOvMi_ZD2M9nNpeXZur3e7nAOjcPSWLY97HnsBCbkjND-OvpN9mtkWGtIK6aGyM41qqk1em8k_KPJVdazSQn3P69OSm0tNHe-CSjpIEqSFVIik5gFA_B4DOEcFgpdhgvn1B2zcQghy86jVQs9_MURON52y1cNYFn90l3aRwFPWPZqrD6RUC7rhKxl1qCpL2FjusCqh3Xuq0iSszwBlgwibDQPh5OUwRpA\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"auto\" playsinline=\"\"></video><video src=\"https://cdn4.telesco.pe/file/738d77e7be.mp4?token=cqfk-fM3nIh1g7Q11Abg0KeNBpYoY2LELK9StJWwpDgAenuTikoibR3Kdh-dtp_lsWDqJVh7WeTWVxBs9LaC-zH8wT2Jc5U-noK2FnPYFsOJx48R0AZKdXOvMi_ZD2M9nNpeXZur3e7nAOjcPSWLY97HnsBCbkjND-OvpN9mtkWGtIK6aGyM41qqk1em8k_KPJVdazSQn3P69OSm0tNHe-CSjpIEqSFVIik5gFA_B4DOEcFgpdhgvn1B2zcQghy86jVQs9_MURON52y1cNYFn90l3aRwFPWPZqrD6RUC7rhKxl1qCpL2FjusCqh3Xuq0iSszwBlgwibDQPh5OUwRpA\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"auto\" playsinline=\"\"></video><video src=\"https://cdn4.telesco.pe/file/738d77e7be.mp4?token=cqfk-fM3nIh1g7Q11Abg0KeNBpYoY2LELK9StJWwpDgAenuTikoibR3Kdh-dtp_lsWDqJVh7WeTWVxBs9LaC-zH8wT2Jc5U-noK2FnPYFsOJx48R0AZKdXOvMi_ZD2M9nNpeXZur3e7nAOjcPSWLY97HnsBCbkjND-OvpN9mtkWGtIK6aGyM41qqk1em8k_KPJVdazSQn3P69OSm0tNHe-CSjpIEqSFVIik5gFA_B4DOEcFgpdhgvn1B2zcQghy86jVQs9_MURON52y1cNYFn90l3aRwFPWPZqrD6RUC7rhKxl1qCpL2FjusCqh3Xuq0iSszwBlgwibDQPh5OUwRpA\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"auto\" playsinline=\"\"></video><video src=\"https://cdn4.telesco.pe/file/738d77e7be.mp4?token=cqfk-fM3nIh1g7Q11Abg0KeNBpYoY2LELK9StJWwpDgAenuTikoibR3Kdh-dtp_lsWDqJVh7WeTWVxBs9LaC-zH8wT2Jc5U-noK2FnPYFsOJx48R0AZKdXOvMi_ZD2M9nNpeXZur3e7nAOjcPSWLY97HnsBCbkjND-OvpN9mtkWGtIK6aGyM41qqk1em8k_KPJVdazSQn3P69OSm0tNHe-CSjpIEqSFVIik5gFA_B4DOEcFgpdhgvn1B2zcQghy86jVQs9_MURON52y1cNYFn90l3aRwFPWPZqrD6RUC7rhKxl1qCpL2FjusCqh3Xuq0iSszwBlgwibDQPh5OUwRpA\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"auto\" playsinline=\"\"></video><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\"><b>3Д-генератор от Apple<br></b><br>Не уверен, что после Хуньяня, кто-то захочет им пользоваться, но оставлю тут для истории.<br>Они прям с нуля сделали свой 3Д-генератор по одной картинке с упором на то, что освещение с разных ракурсов помогает им восстанавливать более точную форму объекта.<br>Сравнивают результата с первым TRILLIS (что странно).<br>Пространственного разрешения, как по мне, им явно не хватает.<br><br>Зато есть код и веса:<br><a href=\"https://github.com/apple/ml-lito\" target=\"_blank\" rel=\"noopener\" title=\"https://github.com/apple/ml-lito\">https://github.com/apple/ml-lito</a><br><a href=\"https://apple.github.io/ml-lito/\" target=\"_blank\" rel=\"noopener\" title=\"https://apple.github.io/ml-lito/\">https://apple.github.io/ml-lito/</a><br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a></div>",
+    "datetime": "2026-05-21T16:33:00+00:00",
+    "tags": [
+      "Нейропрожарка"
+    ],
+    "text": "#Нейропрожарка Конкурсная работа для СоюзмультфильмаАвтор: Голубь МихаилТелеграм: @Mikhail_GolubСрок: 2 недели, ~50 часов работыСоюзмультфильм запустил конкурс «Ну ИИ погоди», приуроченный к 90-летию студии, — с целью популяризации анимации, интеграции передовых технологий и привлечения свежих творческих сил.Условия конкурса:⭐️Ролик от 30 до 60 секунд⭐️Формат 9:16 или 16:9, качество минимум Full HD⭐️В ролике должны быть цифры 9 и 0⭐️Можно использовать персонажей студии, представленных в конкурсеПервым делом полез смотреть, каких персонажей предложили организаторы — и там они, Винни-Пух с Пятачком. Те самые, хитруковские. Всё, решено. Дальше Пух сам подсказал сценарий. Спойлер: он связан с горшочком мёда. Кто бы мог подумать.😁✅Этап 1: Модельные листы персонажейДля консистентности и понятной анимации нужны были модельные листы Пуха и Пятачка. Собрал лучшие отрывки из старого мультика, закинул в NanoBanana Pro с целью получить профессиональные 3D-рендеры с текстурами на основе референсов. Получив подходящие изображения персонажей, снова закинул в Banana и попросил подготовить моедльный лист для каждого персонажа — виды спереди, сзади, сбоку и 3/4. Персонажи простые — нейросеть справилась с первого раза.✅Этап 2: Интерьер и экстерьерДействие крутится вокруг домика Пуха. Не стал изобретать велосипед — вырезал кадры из оригинала, скормил Claude вместе с модельными листами персонажей для понимания стиля рендера и попросил написать промпт для NanoBanana Pro. Получилось 10 вариантов интерьера/экстерьера, топ-5 стали референсами для всех сцен.✅Этап 3: ШотыПеред анимацией собрал шоты по раскадровке. Схема одна на все сцены: кидаю референсы в Claude → получаю промпт → отдаю промпт и те же референсы в том же порядке в NanoBanana Pro. Годные генерации выходили с 5–10 попытки, что-то допиливал в Photoshop.✅Этап 4: АнимацияSeedance тогда ещё не было. В арсенале — только Kling 3.0 и o3. Промпты для анимации писал через Claude: кидал шоты в качестве референсов и описывал задачу — действия, эмоции персонажа. Полученный промпт отправлял в Kling + те же шоты. Анимация сначала выходила топорная, будто роботизированная. Помогла одна добавка в промпт: «движения должны быть естественными, выразительными как в профессиональной анимации». Сразу другое дело😁✅Этап 5: Цветокоррекция и монтажСобрал всё вместе — кадры по цвету как сборная солянка. Подравнял в Premiere Pro.Потом заметил: 24 fps от Kling стробят, а хотелось плавности. Программно перегнал в 30 fps — полезли артефакты. Тогда артефактные куски вернул в 24 fps и прогнал через Topaz Video в Krea — получил честные 30 fps без мусора. Красота.✅Этап 6: ЗвукВсе звуковые эффекты были взяты из видеогенераций. С музыкой было проще всего. За основу взял Elephant Walk Генри Манчини — уж очень по характеру подходила Пуху. Закинул идею в Claude, тот накидал промпт для Suno с разными акцентами и настроением — чтобы потом было что замиксовать. Сгенерил 10 треков по одному промпту, выбрал один. Композиция встала в мультик с единственной склейкой в финале.💰Бюджет:Видеогенерация — Kling: 115 генераций в Full HD по 5–6 сек с озвучкой. Каждая — 60–70 токенов. Итого сожрало ~8000 токенов. Пакет 7500 токенов = 100$. Ну чуть-чуть не вписался.Картинки — NanoBanana Pro (через Higgsfield): подписка 49$/мес — хватило выше крыши, ещё и осталось.Видеоулучшайзер — Topaz через Krea: некоторые генерации выходили с багами, как будто ИИ рисовал после вечеринки 😆🥴 Pro-план 35$/мес — зато видео стало плавным ✨Музыка — Suno 5.5: 8$/мес, 2500 токенов. Одна генерация = 2 трека за 10 токенов. Самый скромный чек в этой тусовке.Промпты — Claude Pro: 17$/мес.Итого бюджет: ~210$@cgevent",
+    "content": "<a href=\"/search/%23%D0%9D%D0%B5%D0%B9%D1%80%D0%BE%D0%BF%D1%80%D0%BE%D0%B6%D0%B0%D1%80%D0%BA%D0%B0\" title=\"#Нейропрожарка\"><b>#Нейропрожарка</b></a> <br><br><b>Конкурсная работа для Союзмультфильма<br></b><br>Автор: Голубь Михаил<br>Телеграм: <a href=\"https://t.me/Mikhail_Golub\" target=\"_blank\" title=\"@Mikhail_Golub\">@Mikhail_Golub</a><br><br>Срок: 2 недели, ~50 часов работы<br><br>Союзмультфильм запустил конкурс «Ну ИИ погоди», приуроченный к 90-летию студии, — с целью популяризации анимации, интеграции передовых технологий и привлечения свежих творческих сил.<br><br><b>Условия конкурса:</b><br><i class=\"emoji\"><b>⭐️</b></i>Ролик от 30 до 60 секунд<br><i class=\"emoji\"><b>⭐️</b></i>Формат 9:16 или 16:9, качество минимум Full HD<br><i class=\"emoji\"><b>⭐️</b></i>В ролике должны быть цифры 9 и 0<br><i class=\"emoji\"><b>⭐️</b></i>Можно использовать персонажей студии, представленных в конкурсе<br><br>Первым делом полез смотреть, каких персонажей предложили организаторы — и там они, Винни-Пух с Пятачком. Те самые, хитруковские. Всё, решено. Дальше Пух сам подсказал сценарий. Спойлер: он связан с горшочком мёда. Кто бы мог подумать.<i class=\"emoji\"><b>😁</b></i><br><br><i class=\"emoji\"><b>✅</b></i><b>Этап 1: Модельные листы персонажей</b><br>Для консистентности и понятной анимации нужны были модельные листы Пуха и Пятачка. Собрал лучшие отрывки из старого мультика, закинул в <b>NanoBanana Pro</b> с целью получить профессиональные 3D-рендеры с текстурами на основе референсов. Получив подходящие изображения персонажей, снова закинул в Banana и попросил подготовить моедльный лист для каждого персонажа — виды спереди, сзади, сбоку и 3/4. Персонажи простые — нейросеть справилась с первого раза.<br><br><i class=\"emoji\"><b>✅</b></i><b>Этап 2: Интерьер и экстерьер</b><br>Действие крутится вокруг домика Пуха. Не стал изобретать велосипед — вырезал кадры из оригинала, скормил <b>Claude </b>вместе с модельными листами персонажей для понимания стиля рендера и попросил написать промпт для <b>NanoBanana Pro</b>. Получилось 10 вариантов интерьера/экстерьера, топ-5 стали референсами для всех сцен.<br><br><i class=\"emoji\"><b>✅</b></i><b>Этап 3: Шоты</b><br>Перед анимацией собрал шоты по раскадровке. Схема одна на все сцены: кидаю референсы в <b>Claude</b> → получаю промпт → отдаю промпт и те же референсы в том же порядке в <b>NanoBanana Pro</b>. Годные генерации выходили с 5–10 попытки, что-то допиливал в Photoshop.<br><br><i class=\"emoji\"><b>✅</b></i><b>Этап 4: Анимация</b><br><b>Seedance</b> тогда ещё не было. В арсенале — только <b>Kling 3.0</b> и <b>o3</b>. Промпты для анимации писал через <b>Claude</b>: кидал шоты в качестве референсов и описывал задачу — действия, эмоции персонажа. Полученный промпт отправлял в <b>Kling</b> + те же шоты. Анимация сначала выходила топорная, будто роботизированная. Помогла одна добавка в промпт: «движения должны быть естественными, выразительными как в профессиональной анимации». Сразу другое дело<i class=\"emoji\"><b>😁</b></i><br><br><i class=\"emoji\"><b>✅</b></i><b>Этап 5: Цветокоррекция и монтаж</b><br>Собрал всё вместе — кадры по цвету как сборная солянка. Подравнял в Premiere Pro.Потом заметил: 24 fps от <b>Kling</b> стробят, а хотелось плавности. Программно перегнал в 30 fps — полезли артефакты. Тогда артефактные куски вернул в 24 fps и прогнал через <b>Topaz Video </b>в<b> Krea</b> — получил честные 30 fps без мусора. Красота.<br><br><i class=\"emoji\"><b>✅</b></i><b>Этап 6: Звук</b><br>Все звуковые эффекты были взяты из видеогенераций. С музыкой было проще всего. За основу взял Elephant Walk Генри Манчини — уж очень по характеру подходила Пуху. Закинул идею в <b>Claude</b>, тот накидал промпт для <b>Suno</b> с разными акцентами и настроением — чтобы потом было что замиксовать. Сгенерил 10 треков по одному промпту, выбрал один. Композиция встала в мультик с единственной склейкой в финале.<br><br><i class=\"emoji\"><b>💰</b></i>Бюджет:<br><b>Видеогенерация — Kling</b>: 115 генераций в Full HD по 5–6 сек с озвучкой. Каждая — 60–70 токенов. Итого сожрало ~8000 токенов. Пакет 7500 токенов = 100$. Ну чуть-чуть не вписался.<br><br><b>Картинки — NanoBanana Pro</b> (через Higgsfield): подписка 49$/мес — хватило выше крыши, ещё и осталось.<br><br><b>Видеоулучшайзер — Topaz через Krea</b>: некоторые генерации выходили с багами, как будто ИИ рисовал после вечеринки <i class=\"emoji\"><b>😆</b></i><i class=\"emoji\"><b>🥴</b></i> Pro-план 35$/мес — зато видео стало плавным <i class=\"emoji\"><b>✨</b></i><br><br><b>Музыка — Suno 5.5</b>: 8$/мес, 2500 токенов. Одна генерация = 2 трека за 10 токенов. Самый скромный чек в этой тусовке.<br><br><b>Промпты — Claude Pro</b>: 17$/мес.<br><br><b>Итого бюджет</b>: ~210$<br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a><a class=\"tgme_widget_message_video_player not_supported js-message_video_player\" href=\"https://t.me/cgevent/15729\"><i class=\"tgme_widget_message_video_thumb\" style=\"background-image:url('https://cdn4.telesco.pe/file/aLf3twSC90_Es-DLakUODoUjtkx35rTUYDJsslN3RwHw8NLkT7Ei4ElHBqntRTO1_n0vIzWrDgBKfBOJWJpTtI2zYozUs57og4QJlOpVfIE6XAt6UT8iDgpJsiJw0xltJEmNsLMuNIbClbaveH56IBMlIdFfLy9EWVWtvNPfK05McS3vTESO9T_Taj-0hMDRB0l3qd7bJA8swBMhhFdDn0fv0c_yZ3U0Pb6MR__Nyv-MukYfRxlLcZBw88-ARzIOG_9lYpQi-jFzW_BZhWUtNGrrJUO94uCzg2f_VFHagH2XoujujKEUdhDTZW75THpApleSVp5hfb2ad4cNUtUHRA')\"></i>\n\n<div class=\"tgme_widget_message_video_wrap\" style=\"width:1080px;padding-top:133.33333333333%\">\n  \n</div>\n<div class=\"message_video_play js-message_video_play\"></div>\n<time class=\"message_video_duration js-message_video_duration\">0:43</time>\n<div class=\"message_media_not_supported_wrap\">\n  <div class=\"message_media_not_supported\">\n    <div class=\"message_media_not_supported_label\">Media is too big</div>\n    <span class=\"message_media_view_in_telegram\">VIEW IN TELEGRAM</span>\n  </div>\n</div></a>",
     "reactions": [
       {
         "emoji": "👍",
-        "count": "4",
+        "count": "32",
         "isPaid": false
       },
       {
-        "emoji": "😁",
-        "count": "3",
-        "isPaid": false
-      },
-      {
-        "emoji": "😱",
-        "count": "1",
-        "isPaid": false
-      }
-    ],
-    "channel": "cgevent",
-    "channelTitle": "Метаверсище и ИИще"
-  },
-  {
-    "id": "cgevent/15724",
-    "title": "3Д-генераторы замахиваются на волосы, вены и бороды.В режиме Extreme High генератор Rodin 2.5 генерит довольно реалистичные анатомические подробности. Брови и волосы уже не выглядят кашей. Напомню, что Rodin умеет генерить 10 миллионов полигонов.Ну и они не боятся генерить органику теперь.Правда что делать с такой оравой фейсов непонятно - разве что в 3Д-печать.",
-    "type": "text",
-    "datetime": "2026-05-21T12:00:00+00:00",
-    "tags": [],
-    "text": "3Д-генераторы замахиваются на волосы, вены и бороды.В режиме Extreme High генератор Rodin 2.5 генерит довольно реалистичные анатомические подробности. Брови и волосы уже не выглядят кашей. Напомню, что Rodin умеет генерить 10 миллионов полигонов.Ну и они не боятся генерить органику теперь.Правда что делать с такой оравой фейсов непонятно - разве что в 3Д-печать.https://hyper3d.ai/@cgevent",
-    "content": "<b>3Д-генераторы замахиваются на волосы, вены и бороды.<br></b><br>В режиме Extreme High генератор Rodin 2.5 генерит довольно реалистичные анатомические подробности. Брови и волосы уже не выглядят кашей. <br>Напомню, что Rodin умеет генерить 10 миллионов полигонов.<br><br>Ну и они не боятся генерить органику теперь.<br><br>Правда что делать с такой оравой фейсов непонятно - разве что в 3Д-печать.<br><br><a href=\"https://hyper3d.ai/\" target=\"_blank\" rel=\"noopener\" title=\"https://hyper3d.ai/\">https://hyper3d.ai/</a><br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a><a class=\"tgme_widget_message_video_player not_supported js-message_video_player\" href=\"https://t.me/cgevent/15724\"><i class=\"tgme_widget_message_video_thumb\" style=\"background-image:url('https://cdn4.telesco.pe/file/Wi6kprDDDAOxcvG-51Ze5JWc5YQ9A6LV9V3F8obB2izdtmB66ib91ZP0bjYW1ORhVZ7GZiUlJCyICcGHaKV2dbBtGKuMAAVaotTXY9fvW-Ju-hKiix9G9P79Ig8HP4PF8QV53MlnkYUOkw_B0151ZWoh5bwkn0GfMorZHG0EU201fCiD_gx1csXH7we2AK65_ygCj4nR2Ct1F45NpSU2HrxGJ6YVAQ0Loc3FHHwWO4lTqgxqn92EXHDIbbZ1T4u4M3wodGlvwYmQVaFnpFggwiDPGDSWt4RRys6gxe1YNKWFCwY7QN9ZYGTZQAHWLe-8RSYcH_bXr5Jfj0LATe8Vtg')\"></i>\n\n<div class=\"tgme_widget_message_video_wrap\" style=\"width:1920px;padding-top:56.25%\">\n  \n</div>\n<div class=\"message_video_play js-message_video_play\"></div>\n<time class=\"message_video_duration js-message_video_duration\">0:54</time>\n<div class=\"message_media_not_supported_wrap\">\n  <div class=\"message_media_not_supported\">\n    <div class=\"message_media_not_supported_label\">Media is too big</div>\n    <span class=\"message_media_view_in_telegram\">VIEW IN TELEGRAM</span>\n  </div>\n</div></a>",
-    "reactions": [
-      {
-        "emoji": "❤️",
+        "emoji": "👎",
         "count": "14",
         "isPaid": false
       },
       {
-        "emoji": "👍",
+        "emoji": "❤️",
         "count": "8",
+        "isPaid": false
+      },
+      {
+        "emoji": "🔥",
+        "count": "6",
+        "isPaid": false
+      },
+      {
+        "emoji": "😁",
+        "count": "5",
         "isPaid": false
       }
     ],
