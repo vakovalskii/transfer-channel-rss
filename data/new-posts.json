@@ -1,180 +1,96 @@
 [
   {
-    "id": "evilfreelancer/1702",
-    "title": "В очередной работая с on-prem инстансом GitLab пришла в голову идея, а есть какой кодовый агент, который бы позволил работать с проектами сразу через браузер на сайтик гитлаб, оказалось что есть, штука называется GitLab Duo Agentic Chat.На эту тему есть несколько постов в блоге:- Introduction to GitLab Duo Agent Platform- Get started with GitLab Duo Agent Platform: The complete guide- Getting started with GitLab Duo Agentic ChatПошерстил по блогам коллег-блогеров по ML цеху и нашёл только одно упоминание этой штуки у Валентина @valuableai, в контексте поста от руководителя GitLab, но вот кейсов о практическом применении и разёртывании увы не смог найти.Пришлось разобраться, прежде сказу скажу, Duo это обычный чатик с нейросетями, ценность же представляет режим работы агента в контексте проекта, через чатик с агентом можно рулить кодом, работать с задачами и реквестами, генерировать документацию, гонять тесты, запускать ci/cd пайплайны и так далее.Недостатком Duo является необходимость оформлять платную подписку, нужна лицензия Premium или Ultimate и дистрибутив GitLab EE, так как из GitLab CE фича Duo вырезана под корень, что мне кажется очень странным ведь воссоздать их решение не так уж и сложно учитывая современные кодовые агенты. Ещё как я понял Duo это и есть кодовый агент, а подключить что-то типа ClaudeCode или Cursor или Codex по ACP не получится, что значит на него придётся переделывать процессы разработки, правила и спецификации.PS. Вот тут можно посмотреть интерактивную демку, а если зарегистрироваться на сайте GitLab то можно получить 30-дневный Trial для тестов.",
+    "id": "gleb_pro_ai/574",
+    "title": "Это вам за то, что не молитесь",
     "type": "text",
-    "datetime": "2026-05-22T15:53:43+00:00",
+    "datetime": "2026-05-22T18:09:35+00:00",
     "tags": [],
-    "text": "В очередной работая с on-prem инстансом GitLab пришла в голову идея, а есть какой кодовый агент, который бы позволил работать с проектами сразу через браузер на сайтик гитлаб, оказалось что есть, штука называется GitLab Duo Agentic Chat.На эту тему есть несколько постов в блоге:- Introduction to GitLab Duo Agent Platform- Get started with GitLab Duo Agent Platform: The complete guide- Getting started with GitLab Duo Agentic ChatПошерстил по блогам коллег-блогеров по ML цеху и нашёл только одно упоминание этой штуки у Валентина @valuableai, в контексте поста от руководителя GitLab, но вот кейсов о практическом применении и разёртывании увы не смог найти.Пришлось разобраться, прежде сказу скажу, Duo это обычный чатик с нейросетями, ценность же представляет режим работы агента в контексте проекта, через чатик с агентом можно рулить кодом, работать с задачами и реквестами, генерировать документацию, гонять тесты, запускать ci/cd пайплайны и так далее.Недостатком Duo является необходимость оформлять платную подписку, нужна лицензия Premium или Ultimate и дистрибутив GitLab EE, так как из GitLab CE фича Duo вырезана под корень, что мне кажется очень странным ведь воссоздать их решение не так уж и сложно учитывая современные кодовые агенты. Ещё как я понял Duo это и есть кодовый агент, а подключить что-то типа ClaudeCode или Cursor или Codex по ACP не получится, что значит на него придётся переделывать процессы разработки, правила и спецификации.PS. Вот тут можно посмотреть интерактивную демку, а если зарегистрироваться на сайте GitLab то можно получить 30-дневный Trial для тестов.",
-    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-1702-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: В очередной работая с on-prem инстансом GitLab пришла в голову идея, а есть какой кодовый агент, который бы позволил работать с проектами сразу через браузер на сайтик гитлаб, оказалось что есть, штука называется GitLab Duo Agentic Chat.На эту тему есть несколько постов в блоге:- Introduction to GitLab Duo Agent Platform- Get started with GitLab Duo Agent Platform: The complete guide- Getting started with GitLab Duo Agentic ChatПошерстил по блогам коллег-блогеров по ML цеху и нашёл только одно упоминание этой штуки у Валентина @valuableai, в контексте поста от руководителя GitLab, но вот кейсов о практическом применении и разёртывании увы не смог найти.Пришлось разобраться, прежде сказу скажу, Duo это обычный чатик с нейросетями, ценность же представляет режим работы агента в контексте проекта, через чатик с агентом можно рулить кодом, работать с задачами и реквестами, генерировать документацию, гонять тесты, запускать ci/cd пайплайны и так далее.Недостатком Duo является необходимость оформлять платную подписку, нужна лицензия Premium или Ultimate и дистрибутив GitLab EE, так как из GitLab CE фича Duo вырезана под корень, что мне кажется очень странным ведь воссоздать их решение не так уж и сложно учитывая современные кодовые агенты. Ещё как я понял Duo это и есть кодовый агент, а подключить что-то типа ClaudeCode или Cursor или Codex по ACP не получится, что значит на него придётся переделывать процессы разработки, правила и спецификации.PS. Вот тут можно посмотреть интерактивную демку, а если зарегистрироваться на сайте GitLab то можно получить 30-дневный Trial для тестов.\">\n        <img src=\"media/3d44e6b57041449015ca8bd7e83e6255.jpg\" alt=\"В очередной работая с on-prem инстансом GitLab пришла в голову идея, а есть какой кодовый агент, который бы позволил работать с проектами сразу через браузер на сайтик гитлаб, оказалось что есть, штука называется GitLab Duo Agentic Chat.На эту тему есть несколько постов в блоге:- Introduction to GitLab Duo Agent Platform- Get started with GitLab Duo Agent Platform: The complete guide- Getting started with GitLab Duo Agentic ChatПошерстил по блогам коллег-блогеров по ML цеху и нашёл только одно упоминание этой штуки у Валентина @valuableai, в контексте поста от руководителя GitLab, но вот кейсов о практическом применении и разёртывании увы не смог найти.Пришлось разобраться, прежде сказу скажу, Duo это обычный чатик с нейросетями, ценность же представляет режим работы агента в контексте проекта, через чатик с агентом можно рулить кодом, работать с задачами и реквестами, генерировать документацию, гонять тесты, запускать ci/cd пайплайны и так далее.Недостатком Duo является необходимость оформлять платную подписку, нужна лицензия Premium или Ultimate и дистрибутив GitLab EE, так как из GitLab CE фича Duo вырезана под корень, что мне кажется очень странным ведь воссоздать их решение не так уж и сложно учитывая современные кодовые агенты. Ещё как я понял Duo это и есть кодовый агент, а подключить что-то типа ClaudeCode или Cursor или Codex по ACP не получится, что значит на него придётся переделывать процессы разработки, правила и спецификации.PS. Вот тут можно посмотреть интерактивную демку, а если зарегистрироваться на сайте GitLab то можно получить 30-дневный Trial для тестов.\" width=\"800\" height=\"400\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-1702-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-1702-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-1702-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/3d44e6b57041449015ca8bd7e83e6255.jpg\" alt=\"В очередной работая с on-prem инстансом GitLab пришла в голову идея, а есть какой кодовый агент, который бы позволил работать с проектами сразу через браузер на сайтик гитлаб, оказалось что есть, штука называется GitLab Duo Agentic Chat.На эту тему есть несколько постов в блоге:- Introduction to GitLab Duo Agent Platform- Get started with GitLab Duo Agent Platform: The complete guide- Getting started with GitLab Duo Agentic ChatПошерстил по блогам коллег-блогеров по ML цеху и нашёл только одно упоминание этой штуки у Валентина @valuableai, в контексте поста от руководителя GitLab, но вот кейсов о практическом применении и разёртывании увы не смог найти.Пришлось разобраться, прежде сказу скажу, Duo это обычный чатик с нейросетями, ценность же представляет режим работы агента в контексте проекта, через чатик с агентом можно рулить кодом, работать с задачами и реквестами, генерировать документацию, гонять тесты, запускать ci/cd пайплайны и так далее.Недостатком Duo является необходимость оформлять платную подписку, нужна лицензия Premium или Ultimate и дистрибутив GitLab EE, так как из GitLab CE фича Duo вырезана под корень, что мне кажется очень странным ведь воссоздать их решение не так уж и сложно учитывая современные кодовые агенты. Ещё как я понял Duo это и есть кодовый агент, а подключить что-то типа ClaudeCode или Cursor или Codex по ACP не получится, что значит на него придётся переделывать процессы разработки, правила и спецификации.PS. Вот тут можно посмотреть интерактивную демку, а если зарегистрироваться на сайте GitLab то можно получить 30-дневный Trial для тестов.\" width=\"800\" height=\"400\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>В очередной работая с on-prem инстансом GitLab пришла в голову идея, а есть какой кодовый агент, который бы позволил работать с проектами сразу через браузер на сайтик гитлаб, оказалось что есть, штука называется <a href=\"https://about.gitlab.com/blog/getting-started-with-gitlab-duo-agentic-chat/\" target=\"_blank\" rel=\"noopener\" title=\"GitLab Duo Agentic Chat\">GitLab Duo Agentic Chat</a>.<br><br>На эту тему есть несколько постов в блоге:<br>- <a href=\"https://about.gitlab.com/blog/introduction-to-gitlab-duo-agent-platform/\" target=\"_blank\" rel=\"noopener\" title=\"Introduction to GitLab Duo Agent Platform\">Introduction to GitLab Duo Agent Platform</a><br>- <a href=\"https://about.gitlab.com/blog/gitlab-duo-agent-platform-complete-getting-started-guide/\" target=\"_blank\" rel=\"noopener\" title=\"Get started with GitLab Duo Agent Platform: The complete guide\">Get started with GitLab Duo Agent Platform: The complete guide</a><br>- <a href=\"https://about.gitlab.com/blog/getting-started-with-gitlab-duo-agentic-chat/\" target=\"_blank\" rel=\"noopener\" title=\"Getting started with GitLab Duo Agentic Chat\">Getting started with GitLab Duo Agentic Chat</a><br><br>Пошерстил по блогам коллег-блогеров по ML цеху и нашёл только одно <a href=\"https://t.me/valuableai/305\" target=\"_blank\" rel=\"noopener\" title=\"упоминание\">упоминание</a> этой штуки у Валентина <a href=\"https://t.me/valuableai\" target=\"_blank\" title=\"@valuableai\">@valuableai</a>, в контексте поста от руководителя GitLab, но вот кейсов о практическом применении и разёртывании увы не смог найти.<br><br>Пришлось разобраться, прежде сказу скажу, Duo это обычный чатик с нейросетями, ценность же представляет режим работы агента в контексте проекта, через чатик с агентом можно рулить кодом, работать с задачами и реквестами, генерировать документацию, гонять тесты, запускать ci/cd пайплайны и так далее.<br><br>Недостатком Duo является необходимость оформлять платную подписку, нужна лицензия Premium или Ultimate и дистрибутив GitLab EE, так как из GitLab CE фича Duo вырезана под корень, что мне кажется очень странным ведь воссоздать их решение не так уж и сложно учитывая современные кодовые агенты. Ещё как я понял Duo это и есть кодовый агент, а подключить что-то типа ClaudeCode или Cursor или Codex по ACP не получится, что значит на него придётся переделывать процессы разработки, правила и спецификации.<br><br>PS. Вот <a href=\"https://gitlab.navattic.com/duo-agentic-chat\" target=\"_blank\" rel=\"noopener\" title=\"тут\">тут</a> можно посмотреть интерактивную демку, а если зарегистрироваться на сайте GitLab то можно получить 30-дневный Trial для тестов.",
+    "text": "Это вам за то, что не молитесь",
+    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-574-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Это вам за то, что не молитесь\">\n        <img src=\"media/9a5ddf24d4507e6e0ce3957409fab0f3.jpg\" alt=\"Это вам за то, что не молитесь\" width=\"800\" height=\"727\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-574-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-574-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-574-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/9a5ddf24d4507e6e0ce3957409fab0f3.jpg\" alt=\"Это вам за то, что не молитесь\" width=\"800\" height=\"727\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Это вам за то, что не молитесь",
     "reactions": [
       {
-        "emoji": "👍",
-        "count": "2",
-        "isPaid": false
-      },
-      {
-        "emoji": "🥱",
-        "count": "1",
-        "isPaid": false
-      }
-    ],
-    "channel": "evilfreelancer",
-    "channelTitle": "Pavel Zloi"
-  },
-  {
-    "id": "tips_ai/4694",
-    "title": "Мне вчера понравилась обнова в Codex, а именно:• Appshots для macos — жмёшь хоткей и Codex получает скриншот и расшифровку активного окна, удобно чтобы передать ошибку или фрагмент документа без копирования• Locked Computer Use — будет работать даже на залоченном Mac, как раз для тех самых с приоткрытыми ноутами• Browser annotations — режим когда во встроенном браузере отмечаешь что поменять: шрифт, цвет, отступы и тдПо мелочи еще улучшили расширение для Chrome, добавили /goal в десктопное приложение, и дали возможность делиться плагинами с командой внутри workspaceОчень крутой и удобный Codex именно в десктопе. В отличии от клодовского приложения. Настолько, что даже Antigravity превратился в Codex @tips_ai #news",
-    "type": "text",
-    "datetime": "2026-05-22T15:20:50+00:00",
-    "tags": [
-      "news"
-    ],
-    "text": "Мне вчера понравилась обнова в Codex, а именно:• Appshots для macos — жмёшь хоткей и Codex получает скриншот и расшифровку активного окна, удобно чтобы передать ошибку или фрагмент документа без копирования• Locked Computer Use — будет работать даже на залоченном Mac, как раз для тех самых с приоткрытыми ноутами• Browser annotations — режим когда во встроенном браузере отмечаешь что поменять: шрифт, цвет, отступы и тдПо мелочи еще улучшили расширение для Chrome, добавили /goal в десктопное приложение, и дали возможность делиться плагинами с командой внутри workspaceОчень крутой и удобный Codex именно в десктопе. В отличии от клодовского приложения. Настолько, что даже Antigravity превратился в Codex @tips_ai #news",
-    "content": "<video src=\"https://cdn4.telesco.pe/file/6ce1ef2f34.mp4?token=ST3oySQosQ8FZ9kHmNdJPqo3jlV1WPPATGWqgkPc5F_zSfuhbo1-veirZD0O66vBsWants6KL1eFykNwI1Lq18SRfFjwkw-kIi4Mf-ldtPeyNsKqUyg5Hbwg2MNUeuorj6xNsvalCtkxiEePVjicBraY9Oq7-nmmvi8Q3Kt4gehy9wsPxhMUVdogXqPlYv93yZQal5yNmHB-vHwo-6cv9qr2p7m6Wl6AbTsty4He2S93pq4Cskrgi23A_WAiGorNP2u_IYGQxo5ilduluHu1nPi-eSKq0UzEyJgghTTcfUbWrFztpxPj3RnhIQ6LABUr4hva-LC1q4f-WKWbPBkFqZIEaoe7isVOO8TMZSssxsGihcJfTBoQB_TF69IZjILk2jPRZFvPoDoQYjUC_jiKo7rcmFUK3BAdXxAfQ1cbPF-k8sxTB-JPxdsrd-lE7T5Y8xEYp_rC1F8BmQaEhNhT5uUvDrFg9P42JmNcKcmo4-_uR5-v3P_giXnVj7q9COs2BJU8FZXH2u36BdxxPIwM6b1QEexSUcjm5hm7WA8lV2YcXyYEVUoEe2LeL7CSb3o3VTLAju9bJz1_ekHGD0TgWyr8CZCs2ea17L14o0EOZeuIWpq8a2n0iRBHO_gcc5yLXmS-bmKhnJSj7VSw7qZiLHxPErtEJNVXRVWmK7Vm4io\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"metadata\" playsinline=\"\"></video>Мне вчера понравилась <a href=\"https://developers.openai.com/codex/changelog#codex-2026-05-21\" target=\"_blank\" rel=\"noopener\" title=\"обнова в Codex\">обнова в Codex</a>, а именно:<br><br>• <a href=\"https://developers.openai.com/codex/appshots\" target=\"_blank\" rel=\"noopener\" title=\"Appshots для macos\">Appshots для macos</a> — жмёшь хоткей и Codex получает скриншот и расшифровку активного окна, удобно чтобы передать ошибку или фрагмент документа без копирования<br>• <a href=\"https://developers.openai.com/codex/app/computer-use#locked-use\" target=\"_blank\" rel=\"noopener\" title=\"Locked Computer Use\">Locked Computer Use</a> — будет работать даже на залоченном Mac, как раз для <a href=\"https://t.me/tips_ai/4686\" target=\"_blank\" rel=\"noopener\" title=\"тех самых\">тех самых</a> с приоткрытыми ноутами<br>• <a href=\"https://developers.openai.com/codex/app/browser#styling-feedback\" target=\"_blank\" rel=\"noopener\" title=\"Browser annotations\">Browser annotations</a> — режим когда во встроенном браузере отмечаешь что поменять: шрифт, цвет, отступы и тд<br><br>По мелочи еще улучшили <a href=\"https://chromewebstore.google.com/detail/codex/hehggadaopoacecdllhhajmbjkdcmajg\" target=\"_blank\" rel=\"noopener\" title=\"расширение\">расширение</a> для Chrome, добавили /<a href=\"https://t.me/tips_ai/4680\" target=\"_blank\" rel=\"noopener\" title=\"goal\">goal</a> в десктопное приложение, и дали возможность делиться плагинами с командой внутри workspace<br><br>Очень крутой и удобный Codex именно в десктопе. В отличии от клодовского приложения. <br><br>Настолько, что даже Antigravity превратился в Codex <img class=\"tg-emoji\" src=\"media/6b91b89cfe229d51dea56b110798434d.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"><br><br><a href=\"https://t.me/tips_ai\" target=\"_blank\" title=\"@tips_ai\">@tips_ai</a> <a href=\"/search/%23news\" title=\"#news\">#news</a>",
-    "reactions": [
-      {
-        "emoji": "⭐",
-        "count": "1",
-        "isPaid": true
-      },
-      {
-        "emoji": "👍",
-        "count": "9",
+        "emoji": "😁",
+        "count": "15",
         "isPaid": false
       },
       {
         "emoji": "❤️",
-        "count": "1",
+        "count": "7",
         "isPaid": false
       },
       {
-        "emoji": "🔥",
-        "count": "1",
+        "emoji": "👌",
+        "count": "2",
         "isPaid": false
       }
     ],
-    "channel": "tips_ai",
-    "channelTitle": "Tips AI | IT & AI"
+    "channel": "gleb_pro_ai",
+    "channelTitle": "Глеб Кудрявцев про AI"
   },
   {
-    "id": "data_secrets/9278",
-    "title": "Стартап Higgsfield за две недели сгенерировал фильм, который показали на Каннском кинофестивале Это фантастическая полнометражка под названием «Hell Grind». Длится она 95 минут и была заявлена как полностью сгенерированная ИИ. На создание фильма потратили всего 500 тысяч долларов, из которых 80% ушли на аренду мощностей. Нашли вот трейлер: youtu.be/CVzfQuC0aMU",
+    "id": "gleb_pro_ai/573",
+    "title": "Докладываюсь — гугл адс просто напрочь проклятое место, я с кодексом на пару заводил кампанию несколько часов. Без кодекса наверное бы не завел никогда. Дизайнеров тамошних нужно вообще в Тамбов ссылать без права переписки, настолько это все плохо. Нормальный скилл для агента там необходим, просто чтобы спасти человечества от этого кошмара.",
     "type": "text",
-    "datetime": "2026-05-22T15:10:24+00:00",
+    "datetime": "2026-05-22T17:36:26+00:00",
     "tags": [],
-    "text": "Стартап Higgsfield за две недели сгенерировал фильм, который показали на Каннском кинофестивале Это фантастическая полнометражка под названием «Hell Grind». Длится она 95 минут и была заявлена как полностью сгенерированная ИИ. На создание фильма потратили всего 500 тысяч долларов, из которых 80% ушли на аренду мощностей. Нашли вот трейлер: youtu.be/CVzfQuC0aMU",
-    "content": "Стартап Higgsfield за две недели сгенерировал фильм, который показали на Каннском кинофестивале <br><br>Это фантастическая полнометражка под названием «Hell Grind». Длится она 95 минут и была заявлена как полностью сгенерированная ИИ. <br><br>На создание фильма потратили всего 500 тысяч долларов, из которых 80% ушли на аренду мощностей. <br><br>Нашли вот трейлер: <a href=\"http://youtu.be/CVzfQuC0aMU\" target=\"_blank\" rel=\"noopener\" title=\"youtu.be/CVzfQuC0aMU\">youtu.be/CVzfQuC0aMU</a><a class=\"tgme_widget_message_video_player not_supported js-message_video_player\" href=\"https://t.me/data_secrets/9278\"><i class=\"tgme_widget_message_video_thumb\" style=\"background-image:url('https://cdn4.telesco.pe/file/ut6YpN3YSnrYRSbHGLFk11cSEC39778HOp4klYmo3QuNGcSkqaK_OUX9sBHW-Bsvi_BF8YvKmuHjlpe3cGBWIRB_-bvDgpryre52npNIqLXLW60QBOtVJChZSlUP_9GlTm6Ck0JzE0sYNc4S912s471dFFQLt7MgIAchFjbAiL59jsku-LSW6fgeKExHE0yduy6TuU7NSHIfRT1tgfzs_pL_dMIy25tmko2j8BD-Kft8UGLL7HIporzF6e4o7AOTzipUUCe8ZDAAYWq_PiO0pV1O9LFh--1rOXzIEYDmCkjpsQnx_2vK2KTdrg8IzpmZc-ZAIJEtionrjbkFCwLbuQ')\"></i>\n\n<div class=\"tgme_widget_message_video_wrap\" style=\"width:848px;padding-top:41.509433962264%\">\n  \n</div>\n<div class=\"message_video_play js-message_video_play\"></div>\n<time class=\"message_video_duration js-message_video_duration\">3:07</time>\n<div class=\"message_media_not_supported_wrap\">\n  <div class=\"message_media_not_supported\">\n    <div class=\"message_media_not_supported_label\">Media is too big</div>\n    <span class=\"message_media_view_in_telegram\">VIEW IN TELEGRAM</span>\n  </div>\n</div></a>",
+    "text": "Докладываюсь — гугл адс просто напрочь проклятое место, я с кодексом на пару заводил кампанию несколько часов. Без кодекса наверное бы не завел никогда. Дизайнеров тамошних нужно вообще в Тамбов ссылать без права переписки, настолько это все плохо. Нормальный скилл для агента там необходим, просто чтобы спасти человечества от этого кошмара.",
+    "content": "Докладываюсь — гугл адс просто напрочь проклятое место, я с кодексом на пару заводил кампанию несколько часов. Без кодекса наверное бы не завел никогда. Дизайнеров тамошних нужно вообще в Тамбов ссылать без права переписки, настолько это все плохо. <br><br>Нормальный скилл для агента там необходим, просто чтобы спасти человечества от этого кошмара.",
     "reactions": [
       {
-        "emoji": "",
-        "emojiId": "5773848767941842357",
-        "emojiImage": "https://t.me/i/emoji/5773848767941842357.webp",
-        "count": "75",
-        "isPaid": false
-      },
-      {
-        "emoji": "🤨",
-        "count": "17",
-        "isPaid": false
-      },
-      {
-        "emoji": "",
-        "emojiId": "5850279489090627237",
-        "emojiImage": "https://t.me/i/emoji/5850279489090627237.webp",
-        "count": "16",
-        "isPaid": false
-      },
-      {
-        "emoji": "❤️",
-        "count": "13",
-        "isPaid": false
-      },
-      {
-        "emoji": "🔥",
-        "count": "10",
-        "isPaid": false
-      },
-      {
-        "emoji": "👍",
-        "count": "2",
+        "emoji": "💯",
+        "count": "25",
         "isPaid": false
       },
       {
         "emoji": "😁",
+        "count": "5",
+        "isPaid": false
+      }
+    ],
+    "channel": "gleb_pro_ai",
+    "channelTitle": "Глеб Кудрявцев про AI"
+  },
+  {
+    "id": "data_secrets/9279",
+    "title": "Сбер и СберМаркетинг показали «Маркуса» – AI-агента для маркетинговой командыСегодня прошла официальная презентация «мультиагентной AI-системы». AI-маркетолог Маркус стал первым подобным сотрудником Сбера. По словам разработчиков, у него есть память, KPI, доступ к внутреннему контексту и собственные функции внутри команды.Маркус анализирует СМИ и соцсети, выявляет репутационные риски, готовит пресс-релизы, посты, презентации и аналитические отчеты. Также система оценивает маркетинговые кампании по внутренним бренд-метрикам.По словам Сбера, агент уже встроен в операционные процессы департамента. Например, рассылает ежедневные сводки в рабочие группы, помогает распределять задачи и адаптируется под направления внутри команды: PR, мониторинг, внутренние коммуникации и другие.Кажется, крупные компании продолжают постепенно переходить от модели «AI как помощник» к модели, где AI получает отдельную роль внутри организации и становится частью рабочих процессов.Если видите рекламу Сбера, знайте: возможно, к ней приложил руку этот самый Маркус.",
+    "type": "text",
+    "datetime": "2026-05-22T18:45:36+00:00",
+    "tags": [],
+    "text": "Сбер и СберМаркетинг показали «Маркуса» – AI-агента для маркетинговой командыСегодня прошла официальная презентация «мультиагентной AI-системы». AI-маркетолог Маркус стал первым подобным сотрудником Сбера. По словам разработчиков, у него есть память, KPI, доступ к внутреннему контексту и собственные функции внутри команды.Маркус анализирует СМИ и соцсети, выявляет репутационные риски, готовит пресс-релизы, посты, презентации и аналитические отчеты. Также система оценивает маркетинговые кампании по внутренним бренд-метрикам.По словам Сбера, агент уже встроен в операционные процессы департамента. Например, рассылает ежедневные сводки в рабочие группы, помогает распределять задачи и адаптируется под направления внутри команды: PR, мониторинг, внутренние коммуникации и другие.Кажется, крупные компании продолжают постепенно переходить от модели «AI как помощник» к модели, где AI получает отдельную роль внутри организации и становится частью рабочих процессов.Если видите рекламу Сбера, знайте: возможно, к ней приложил руку этот самый Маркус.",
+    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-9279-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Сбер и СберМаркетинг показали «Маркуса» – AI-агента для маркетинговой командыСегодня прошла официальная презентация «мультиагентной AI-системы». AI-маркетолог Маркус стал первым подобным сотрудником Сбера. По словам разработчиков, у него есть память, KPI, доступ к внутреннему контексту и собственные функции внутри команды.Маркус анализирует СМИ и соцсети, выявляет репутационные риски, готовит пресс-релизы, посты, презентации и аналитические отчеты. Также система оценивает маркетинговые кампании по внутренним бренд-метрикам.По словам Сбера, агент уже встроен в операционные процессы департамента. Например, рассылает ежедневные сводки в рабочие группы, помогает распределять задачи и адаптируется под направления внутри команды: PR, мониторинг, внутренние коммуникации и другие.Кажется, крупные компании продолжают постепенно переходить от модели «AI как помощник» к модели, где AI получает отдельную роль внутри организации и становится частью рабочих процессов.Если видите рекламу Сбера, знайте: возможно, к ней приложил руку этот самый Маркус.\">\n        <img src=\"media/76c788d8777e44fd21f6128ec914ef8f.jpg\" alt=\"Сбер и СберМаркетинг показали «Маркуса» – AI-агента для маркетинговой командыСегодня прошла официальная презентация «мультиагентной AI-системы». AI-маркетолог Маркус стал первым подобным сотрудником Сбера. По словам разработчиков, у него есть память, KPI, доступ к внутреннему контексту и собственные функции внутри команды.Маркус анализирует СМИ и соцсети, выявляет репутационные риски, готовит пресс-релизы, посты, презентации и аналитические отчеты. Также система оценивает маркетинговые кампании по внутренним бренд-метрикам.По словам Сбера, агент уже встроен в операционные процессы департамента. Например, рассылает ежедневные сводки в рабочие группы, помогает распределять задачи и адаптируется под направления внутри команды: PR, мониторинг, внутренние коммуникации и другие.Кажется, крупные компании продолжают постепенно переходить от модели «AI как помощник» к модели, где AI получает отдельную роль внутри организации и становится частью рабочих процессов.Если видите рекламу Сбера, знайте: возможно, к ней приложил руку этот самый Маркус.\" width=\"506\" height=\"675\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-9279-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-9279-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-9279-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/76c788d8777e44fd21f6128ec914ef8f.jpg\" alt=\"Сбер и СберМаркетинг показали «Маркуса» – AI-агента для маркетинговой командыСегодня прошла официальная презентация «мультиагентной AI-системы». AI-маркетолог Маркус стал первым подобным сотрудником Сбера. По словам разработчиков, у него есть память, KPI, доступ к внутреннему контексту и собственные функции внутри команды.Маркус анализирует СМИ и соцсети, выявляет репутационные риски, готовит пресс-релизы, посты, презентации и аналитические отчеты. Также система оценивает маркетинговые кампании по внутренним бренд-метрикам.По словам Сбера, агент уже встроен в операционные процессы департамента. Например, рассылает ежедневные сводки в рабочие группы, помогает распределять задачи и адаптируется под направления внутри команды: PR, мониторинг, внутренние коммуникации и другие.Кажется, крупные компании продолжают постепенно переходить от модели «AI как помощник» к модели, где AI получает отдельную роль внутри организации и становится частью рабочих процессов.Если видите рекламу Сбера, знайте: возможно, к ней приложил руку этот самый Маркус.\" width=\"506\" height=\"675\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><b>Сбер и СберМаркетинг показали «Маркуса» – AI-агента для маркетинговой команды</b><br><br>Сегодня прошла официальная презентация «мультиагентной AI-системы». AI-маркетолог Маркус стал первым подобным сотрудником Сбера. По словам разработчиков, у него есть память, KPI, доступ к внутреннему контексту и собственные функции внутри команды.<br><br>Маркус анализирует СМИ и соцсети, выявляет репутационные риски, готовит пресс-релизы, посты, презентации и аналитические отчеты. Также система оценивает маркетинговые кампании по внутренним бренд-метрикам.<br><br>По словам Сбера, агент уже встроен в операционные процессы департамента. Например, рассылает ежедневные сводки в рабочие группы, помогает распределять задачи и адаптируется под направления внутри команды: PR, мониторинг, внутренние коммуникации и другие.<br><br>Кажется, крупные компании продолжают постепенно переходить от модели «AI как помощник» к модели, где AI получает отдельную роль внутри организации и становится частью рабочих процессов.<br><br>Если видите рекламу Сбера, знайте: возможно, к ней приложил руку этот самый Маркус.",
+    "reactions": [
+      {
+        "emoji": "😁",
+        "count": "13",
+        "isPaid": false
+      },
+      {
+        "emoji": "👍",
+        "count": "6",
+        "isPaid": false
+      },
+      {
+        "emoji": "❤️",
+        "count": "4",
+        "isPaid": false
+      },
+      {
+        "emoji": "🗿",
         "count": "2",
         "isPaid": false
       },
       {
-        "emoji": "🤯",
-        "count": "2",
+        "emoji": "✍",
+        "count": "1",
+        "isPaid": false
+      },
+      {
+        "emoji": "🔥",
+        "count": "1",
         "isPaid": false
       }
     ],
     "channel": "data_secrets",
     "channelTitle": "Data Secrets"
-  },
-  {
-    "id": "cgevent/15745",
-    "title": "#НейропрожаркаРекламный роликАвтор: Stasy SmithЗабрел в Беханс клиент с заказом: серия забавных рекламных роликов для компании-производителя ЖБИ. Собственно, на этом ТЗ закончилось... :) Заказ мечты, очевидно.Из предложенных идей утвердили историю с маскотом: железобетонный блок Олег, который спасает ситуации на стройках. Во второй серии к нему присоединились в качестве постоянных участников Прораб и двое рабочих - Геннадий и Константин, очень уж они клиентам понравились. На каждый ролик - примерно неделя работы (вместе с прокрастинацией, другими проектами и правками). Сценарий - из головы (кроме второй серии, та - чистый плагиат), ключи - НаноБанана и ГПТ-имедж, анимация - Клинг, Грок, Сора. Начиная с третьего ролика, Сиданс. Звук - Илеванлабз, Суно и бесплатные коллекции. Всё клепалось в одно жало, так как проект скорее не коммерческий, а ламповый - повеселить партнеров, разбавить рассылку прайс-листов. Сейчас есть четыре серии примерно по минуте каждая, можно посмотреть тут ",
-    "type": "text",
-    "datetime": "2026-05-22T16:01:04+00:00",
-    "tags": [
-      "Нейропрожарка"
-    ],
-    "text": "#НейропрожаркаРекламный роликАвтор: Stasy SmithЗабрел в Беханс клиент с заказом: серия забавных рекламных роликов для компании-производителя ЖБИ. Собственно, на этом ТЗ закончилось... :) Заказ мечты, очевидно.Из предложенных идей утвердили историю с маскотом: железобетонный блок Олег, который спасает ситуации на стройках. Во второй серии к нему присоединились в качестве постоянных участников Прораб и двое рабочих - Геннадий и Константин, очень уж они клиентам понравились. На каждый ролик - примерно неделя работы (вместе с прокрастинацией, другими проектами и правками). Сценарий - из головы (кроме второй серии, та - чистый плагиат), ключи - НаноБанана и ГПТ-имедж, анимация - Клинг, Грок, Сора. Начиная с третьего ролика, Сиданс. Звук - Илеванлабз, Суно и бесплатные коллекции. Всё клепалось в одно жало, так как проект скорее не коммерческий, а ламповый - повеселить партнеров, разбавить рассылку прайс-листов. Сейчас есть четыре серии примерно по минуте каждая, можно посмотреть тут https://www.youtube.com/@neuralSmith/shorts@cgevent",
-    "content": "<a href=\"/search/%23%D0%9D%D0%B5%D0%B9%D1%80%D0%BE%D0%BF%D1%80%D0%BE%D0%B6%D0%B0%D1%80%D0%BA%D0%B0\" title=\"#Нейропрожарка\"><b>#Нейропрожарка</b></a><br><br>Рекламный ролик<br><br>Автор: Stasy Smith<br><br>Забрел в Беханс клиент с заказом: серия забавных рекламных роликов для компании-производителя ЖБИ. Собственно, на этом ТЗ закончилось... :) Заказ мечты, очевидно.<br><br>Из предложенных идей утвердили историю с маскотом: железобетонный блок Олег, который спасает ситуации на стройках. Во второй серии к нему присоединились в качестве постоянных участников Прораб и двое рабочих - Геннадий и Константин, очень уж они клиентам понравились. На каждый ролик - примерно неделя работы (вместе с прокрастинацией, другими проектами и правками). <br><br>Сценарий - из головы (кроме второй серии, та - чистый плагиат), ключи - НаноБанана и ГПТ-имедж, анимация - Клинг, Грок, Сора. Начиная с третьего ролика, Сиданс. Звук - Илеванлабз, Суно и бесплатные коллекции. Всё клепалось в одно жало, так как проект скорее не коммерческий, а ламповый - повеселить партнеров, разбавить рассылку прайс-листов. <br><br>Сейчас есть четыре серии примерно по минуте каждая, можно посмотреть тут <a href=\"https://www.youtube.com/@neuralSmith/shorts\" target=\"_blank\" rel=\"noopener\" title=\"https://www.youtube.com/@neuralSmith/shorts\">https://www.youtube.com/@neuralSmith/shorts</a><br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a><a class=\"tgme_widget_message_video_player not_supported js-message_video_player\" href=\"https://t.me/cgevent/15745\"><i class=\"tgme_widget_message_video_thumb\" style=\"background-image:url('https://cdn4.telesco.pe/file/ZvrFLwdnu7LfJaHtOs5HW4iRrJRLuD_WZ583tO5c811-3fCzTq0fMdDdbBRXTWTTz1XLh5REwgVk432x5jW9GZnw3aBT90XvnP6v2yTTfU6QVn42hFOUX9o7ZHrrXrIi1zooeX1o0OG80fBu7a4dAOv9zTw9sqar20XxOffcXK4A39NpIus0O2QNSoYmaZu_iVzGyRFdESRMshwN8ZtE7XOmSgHYUr93SDd2_6Iw9md2monpQ5NrkbZHCPUM8g8a6M6qpWMnVr8yvGfbg5AeHdRM92S359K43Mqh09VnyGs3dQC72tKNas4KBa2cBPNkTdLOUK7SqErExIB8ZVmw9A')\"></i>\n\n<div class=\"tgme_widget_message_video_wrap\" style=\"width:1080px;padding-top:133.33333333333%\">\n  \n</div>\n<div class=\"message_video_play js-message_video_play\"></div>\n<time class=\"message_video_duration js-message_video_duration\">1:20</time>\n<div class=\"message_media_not_supported_wrap\">\n  <div class=\"message_media_not_supported\">\n    <div class=\"message_media_not_supported_label\">Media is too big</div>\n    <span class=\"message_media_view_in_telegram\">VIEW IN TELEGRAM</span>\n  </div>\n</div></a>",
-    "reactions": [
-      {
-        "emoji": "👎",
-        "count": "19",
-        "isPaid": false
-      },
-      {
-        "emoji": "😁",
-        "count": "8",
-        "isPaid": false
-      },
-      {
-        "emoji": "👍",
-        "count": "7",
-        "isPaid": false
-      }
-    ],
-    "channel": "cgevent",
-    "channelTitle": "Метаверсище и ИИще"
-  },
-  {
-    "id": "cgevent/15744",
-    "title": "Как тебе такое, Илон Маск?",
-    "type": "text",
-    "datetime": "2026-05-22T15:01:04+00:00",
-    "tags": [],
-    "text": "Как тебе такое, Илон Маск?",
-    "content": "<video src=\"https://cdn4.telesco.pe/file/27832217c5.mp4?token=SsVHIR-M_VwpRFb-1SsxCZyz4XcHeA6ZJrzok3wLo2s_6Mnm7WZyvru3kDuQVh0j3Lmd7KzfY5MCr6y3zjvsMGaB7aRmR8ZUoTaSoIB26JPKqeiQPoyy3mQ9MbpQiVjh3ZA0NYhgf91x0c8rxIrc5Qu57bQxWhLyLXHidl56qmQleb_t9OsTqyNZObmbjRneSNOtY-VBMXCC6_OT2N1xoCu0OD78owDTUG4yzJV_9olvY6IxP5sqslJBS2BHt62dBel9dC6HVJ_PGyXHXnxZke55_4vKslTX_DMD02PNGWu-MBqzfEHnXMG7DTPiDZ0-piPxIowl7APecuoRM45PUg\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"auto\" playsinline=\"\"></video>Как тебе такое, Илон Маск?",
-    "reactions": [
-      {
-        "emoji": "😁",
-        "count": "57",
-        "isPaid": false
-      },
-      {
-        "emoji": "🔥",
-        "count": "12",
-        "isPaid": false
-      },
-      {
-        "emoji": "❤️",
-        "count": "2",
-        "isPaid": false
-      },
-      {
-        "emoji": "👎",
-        "count": "1",
-        "isPaid": false
-      }
-    ],
-    "channel": "cgevent",
-    "channelTitle": "Метаверсище и ИИще"
   }
 ]
