@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "id": "evilfreelancer/1704",
+    "title": "Пилякаю для Coddy Agent поддержку Rules из Cursor/Claude/Codex, при этом основной синтаксис будет как у Cursor, ну и так вот, обратил внимание на очень большое сходство между Rules и Skills, такое ощущение сложилось, что скилы придумали насмотревшись на то как работают правила и просто собрали их формате эдаких redistributable packages.",
+    "type": "text",
+    "datetime": "2026-05-24T09:11:28+00:00",
+    "tags": [],
+    "text": "Пилякаю для Coddy Agent поддержку Rules из Cursor/Claude/Codex, при этом основной синтаксис будет как у Cursor, ну и так вот, обратил внимание на очень большое сходство между Rules и Skills, такое ощущение сложилось, что скилы придумали насмотревшись на то как работают правила и просто собрали их формате эдаких redistributable packages.",
+    "content": "Пилякаю для <a href=\"https://github.com/coddy-project/coddy-agent\" target=\"_blank\" rel=\"noopener\" title=\"Coddy Agent\">Coddy Agent</a> поддержку Rules из Cursor/Claude/Codex, при этом основной синтаксис будет как у Cursor, ну и так вот, обратил внимание на очень большое сходство между Rules и Skills, такое ощущение сложилось, что скилы придумали насмотревшись на то как работают правила и просто собрали их формате эдаких redistributable packages.<a class=\"tgme_widget_message_link_preview\" href=\"https://github.com/coddy-project/coddy-agent\" target=\"_blank\" rel=\"noopener\" title=\"Open-source distroless harness coding agent in Go. Works with any IDE via ACP. Supports any OpenAI-compatible providers. Can use SKILLS and MCP servers. - coddy-project/coddy-agent\">\n  \n  <div class=\"link_preview_site_name accent_color\" dir=\"auto\">GitHub</div>\n  <img class=\"link_preview_image\" alt=\"GitHub - coddy-project/coddy-agent: Open-source distroless harness coding agent in Go. Works with any IDE via ACP. Supports any…\" src=\"media/39201b19912768fae950ec2bca677c9b.jpg\" width=\"1200\" height=\"630\" loading=\"eager\">\n  <div class=\"link_preview_title\" dir=\"auto\">GitHub - coddy-project/coddy-agent: Open-source distroless harness coding agent in Go. Works with any IDE via ACP. Supports any…</div>\n  <div class=\"link_preview_description\" dir=\"auto\">Open-source distroless harness coding agent in Go. Works with any IDE via ACP. Supports any OpenAI-compatible providers. Can use SKILLS and MCP servers. - coddy-project/coddy-agent</div>\n</a>",
+    "reactions": [
+      {
+        "emoji": "🔥",
+        "count": "4",
+        "isPaid": false
+      },
+      {
+        "emoji": "💯",
+        "count": "1",
+        "isPaid": false
+      }
+    ],
+    "channel": "evilfreelancer",
+    "channelTitle": "Pavel Zloi"
+  }
+]
