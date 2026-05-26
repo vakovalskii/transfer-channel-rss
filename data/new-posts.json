@@ -1,1 +1,48 @@
-[]
+[
+  {
+    "id": "neuraldeep/2155",
+    "title": "Походу я слишком часто общаюсь с клодом матом….",
+    "type": "text",
+    "datetime": "2026-05-26T04:54:14+00:00",
+    "tags": [],
+    "text": "Походу я слишком часто общаюсь с клодом матом….",
+    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-2155-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Походу я слишком часто общаюсь с клодом матом….\">\n        <img src=\"media/5a2338512511fa42f4ff8d505120ec6f.jpg\" alt=\"Походу я слишком часто общаюсь с клодом матом….\" width=\"800\" height=\"100\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-2155-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-2155-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-2155-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/5a2338512511fa42f4ff8d505120ec6f.jpg\" alt=\"Походу я слишком часто общаюсь с клодом матом….\" width=\"800\" height=\"100\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Походу я слишком часто общаюсь с клодом матом….",
+    "reactions": [
+      {
+        "emoji": "😁",
+        "count": "52",
+        "isPaid": false
+      },
+      {
+        "emoji": "❤️",
+        "count": "4",
+        "isPaid": false
+      },
+      {
+        "emoji": "🤝",
+        "count": "2",
+        "isPaid": false
+      }
+    ],
+    "channel": "neuraldeep",
+    "channelTitle": "Валера Ковальский"
+  },
+  {
+    "id": "cryptoEssay/3007",
+    "title": "Можно много слушать классных кейсов и теории о том как стать ИИ-нейтив, но самое лучшее — это увидеть примеры того как работают фаундеры:Как у них выстроена система хранения данных и контекста? Как управляются сессии? Какие фичи они делают для своих харенсов? Какие процессы автоматизируют?Как строят скилы и агентов? Как структурируют семантическую и процедурную память? В следующий понедельник проведу виртуальный воркшоп, где 4 фаундера (я буду только модерировать) покажут свои сетапы и воркфлоу. Правила: запрещены слайды и теория, только шаринг экрана и живые демо по 15 минут + ответы на вопросы. Регистрация тут, не нужно подписываться на каналы, бесплатно, никакой рекламы. Но на Английском.",
+    "type": "text",
+    "datetime": "2026-05-26T06:25:12+00:00",
+    "tags": [],
+    "text": "Можно много слушать классных кейсов и теории о том как стать ИИ-нейтив, но самое лучшее — это увидеть примеры того как работают фаундеры:Как у них выстроена система хранения данных и контекста? Как управляются сессии? Какие фичи они делают для своих харенсов? Какие процессы автоматизируют?Как строят скилы и агентов? Как структурируют семантическую и процедурную память? В следующий понедельник проведу виртуальный воркшоп, где 4 фаундера (я буду только модерировать) покажут свои сетапы и воркфлоу. Правила: запрещены слайды и теория, только шаринг экрана и живые демо по 15 минут + ответы на вопросы. Регистрация тут, не нужно подписываться на каналы, бесплатно, никакой рекламы. Но на Английском.",
+    "content": "Можно много слушать классных кейсов и теории о том как стать ИИ-нейтив, но самое лучшее — это увидеть примеры того как работают фаундеры:<br><br>Как у них выстроена система хранения данных и контекста? <br>Как управляются сессии? <br>Какие фичи они делают для своих харенсов? <br>Какие процессы автоматизируют?<br>Как строят скилы и агентов? <br>Как структурируют семантическую и процедурную память? <br><br>В следующий понедельник проведу виртуальный воркшоп, где 4 фаундера (я буду только модерировать) покажут свои сетапы и воркфлоу. <br><br>Правила: запрещены слайды и теория, только шаринг экрана и живые демо по 15 минут + ответы на вопросы. <br><br><a href=\"https://luma.com/8pocehw5\" target=\"_blank\" rel=\"noopener\" title=\"Регистрация тут\">Регистрация тут</a>, не нужно подписываться на каналы, бесплатно, никакой рекламы. Но на Английском.<a class=\"tgme_widget_message_link_preview\" href=\"https://luma.com/8pocehw5\" target=\"_blank\" rel=\"noopener\" title=\"An online workshop for AI-native builders: no slides, no theory, only live demos.Founders and operators will share the actual workflows running their…\">\n  \n  <div class=\"link_preview_site_name accent_color\" dir=\"auto\">Luma</div>\n  <img class=\"link_preview_image\" alt=\"Building AI-Native Startups · Luma\" src=\"media/5c1de9258101fa00fa04126f7fef6ec5.jpg\" width=\"1200\" height=\"630\" loading=\"lazy\">\n  <div class=\"link_preview_title\" dir=\"auto\">Building AI-Native Startups · Luma</div>\n  <div class=\"link_preview_description\" dir=\"auto\">An online workshop for AI-native builders: no slides, no theory, only live demos.<br>Founders and operators will share the actual workflows running their…</div>\n</a>",
+    "reactions": [
+      {
+        "emoji": "❤️",
+        "count": "19",
+        "isPaid": false
+      }
+    ],
+    "channel": "cryptoEssay",
+    "channelTitle": "e/acc"
+  }
+]
