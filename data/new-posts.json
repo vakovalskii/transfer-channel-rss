@@ -1,48 +1,221 @@
 [
   {
-    "id": "neuraldeep/2155",
-    "title": "Походу я слишком часто общаюсь с клодом матом….",
+    "id": "dealerAI/1815",
+    "title": "Экономика потребления AI или \"Токеномика\" как новая дисциплина для CFO  В начале опишу как обстоят дела сейчас, а в конце - три ключевых тренда на ближайшие год-два  👾Даже такие богатые компании, как Microsoft и Amazon, заметили проблемы с потреблением и стоимостью облачного ИИ. Особенно, когда оно начинает конкурировать с ФОТПричин несколько:1. нелинейный рост расходов при использовании внешних API. Резкий скачок затрат связан с агентным ИИ Реальный кейс: проект OpenClaw зафиксировал расходы в размере 1,3 млн долларов всего за 30 дней работы в облаке OpenAI2. «токенмаксинг» - нецелевое использование ресурсов сотрудниками: когда из пушки стреляют по воробьямжелая продемонстрировать высокую активность перед менеджментом, персонал начал применять нейросети для задач, которые проще и дешевле решать традиционными методами.🧮 Токеномика новый термин для учета затрат связанных с потреблением токеновКомпания Deloitte в отчете «AI Tokenomics» указывает, что ИИ стал одной из самых быстрорастущих статей расходов в корпоративном секторе. Где-то уже составляет до 50% всего ИТ-бюджета🔋ТРЕНД: Протоколы «умной усеченности»Разработчики начинают внедрять жесткие лимиты на длину контекста и количество итераций для агентов. Вводится понятие «бюджета на задачу»: если агент не решил проблему за условные 50 000 токенов, процесс останавливается для вмешательства человека🔋ТРЕНД: Мониторинг в реальном времени + SLMпотому что один сложный агентный процесс может «сжечь» месячный бюджет за часы. Выбирать локальную или гибридную инфраструктуру, для 80% офисных задач подойдет и Small Language Models. Дорогие облачные API только для критически важных задач🔋ТРЕНД: CapEx вместо OpExлучше один раз основательно потратиться на оборудование, чем ежемесячно нести неконтролируемые операционные расходы. Вкладывать в собственную инфраструктуру выгоднее и с точки зрения налогообложения и - долгосрочного планирования_____Настал период прагматизма:Растет значение навыков настройки процессов, работы со скиллами, memory, агентными сценариями и другими инструментами оптимизации",
     "type": "text",
-    "datetime": "2026-05-26T04:54:14+00:00",
+    "datetime": "2026-05-26T07:51:35+00:00",
     "tags": [],
-    "text": "Походу я слишком часто общаюсь с клодом матом….",
-    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-2155-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Походу я слишком часто общаюсь с клодом матом….\">\n        <img src=\"media/5a2338512511fa42f4ff8d505120ec6f.jpg\" alt=\"Походу я слишком часто общаюсь с клодом матом….\" width=\"800\" height=\"100\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-2155-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-2155-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-2155-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/5a2338512511fa42f4ff8d505120ec6f.jpg\" alt=\"Походу я слишком часто общаюсь с клодом матом….\" width=\"800\" height=\"100\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Походу я слишком часто общаюсь с клодом матом….",
+    "text": "Экономика потребления AI или \"Токеномика\" как новая дисциплина для CFO  В начале опишу как обстоят дела сейчас, а в конце - три ключевых тренда на ближайшие год-два  👾Даже такие богатые компании, как Microsoft и Amazon, заметили проблемы с потреблением и стоимостью облачного ИИ. Особенно, когда оно начинает конкурировать с ФОТПричин несколько:1. нелинейный рост расходов при использовании внешних API. Резкий скачок затрат связан с агентным ИИ Реальный кейс: проект OpenClaw зафиксировал расходы в размере 1,3 млн долларов всего за 30 дней работы в облаке OpenAI2. «токенмаксинг» - нецелевое использование ресурсов сотрудниками: когда из пушки стреляют по воробьямжелая продемонстрировать высокую активность перед менеджментом, персонал начал применять нейросети для задач, которые проще и дешевле решать традиционными методами.🧮 Токеномика новый термин для учета затрат связанных с потреблением токеновКомпания Deloitte в отчете «AI Tokenomics» указывает, что ИИ стал одной из самых быстрорастущих статей расходов в корпоративном секторе. Где-то уже составляет до 50% всего ИТ-бюджета🔋ТРЕНД: Протоколы «умной усеченности»Разработчики начинают внедрять жесткие лимиты на длину контекста и количество итераций для агентов. Вводится понятие «бюджета на задачу»: если агент не решил проблему за условные 50 000 токенов, процесс останавливается для вмешательства человека🔋ТРЕНД: Мониторинг в реальном времени + SLMпотому что один сложный агентный процесс может «сжечь» месячный бюджет за часы. Выбирать локальную или гибридную инфраструктуру, для 80% офисных задач подойдет и Small Language Models. Дорогие облачные API только для критически важных задач🔋ТРЕНД: CapEx вместо OpExлучше один раз основательно потратиться на оборудование, чем ежемесячно нести неконтролируемые операционные расходы. Вкладывать в собственную инфраструктуру выгоднее и с точки зрения налогообложения и - долгосрочного планирования_____Настал период прагматизма:Растет значение навыков настройки процессов, работы со скиллами, memory, агентными сценариями и другими инструментами оптимизации",
+    "content": "<b>Экономика потребления AI или \"Токеномика\"</b> <b>как новая дисциплина для CFO  </b><br><br>В начале опишу как обстоят дела сейчас, а в конце - три ключевых тренда на ближайшие год-два  <br><br><i class=\"emoji\"><b>👾</b></i>Даже такие богатые компании, как <b>Microsoft и Amazon, заметили проблемы с потреблением и стоимостью облачного ИИ</b>. Особенно, когда оно начинает конкурировать с ФОТ<br><br>Причин несколько:<br><br>1. нелинейный рост расходов при использовании внешних API. <b>Резкий скачок затрат связан с агентным ИИ </b><br><br><i><u>Реальный кейс:</u> проект OpenClaw зафиксировал расходы в размере 1,3 млн долларов всего за 30 дней работы в облаке OpenAI</i><br><br>2. <b>«токенмаксинг» - нецелевое использование ресурсов сотрудниками</b>: когда из пушки стреляют по воробьям<br><br>желая продемонстрировать высокую активность перед менеджментом, персонал начал применять нейросети для задач, которые проще и дешевле решать традиционными методами.<br><br><i class=\"emoji\"><b>🧮</b></i><b> Токеномика </b>новый термин для учета затрат связанных с потреблением токенов<br><br>Компания Deloitte в отчете «AI Tokenomics» указывает, что <b>ИИ стал одной из самых быстрорастущих статей расходов в корпоративном секторе. Где-то уже составляет до 50% всего ИТ-бюджета<br><br></b><br><i class=\"emoji\"><b>🔋</b></i>ТРЕНД: <b>Протоколы «умной усеченности»<br></b><br>Разработчики начинают внедрять жесткие лимиты на длину контекста и количество итераций для агентов. Вводится понятие <b>«бюджета на задачу»:</b> если агент не решил проблему за условные 50 000 токенов, процесс останавливается для вмешательства человека<br><br><i class=\"emoji\"><b>🔋</b></i>ТРЕНД: <b>Мониторинг в реальном времени + SLM<br></b><br>потому что один сложный агентный процесс может «сжечь» месячный бюджет за часы. Выбирать <b>локальную или гибридную</b> инфраструктуру, для 80% офисных задач подойдет и <b>Small Language Models. </b>Дорогие облачные API только для критически важных задач<br><br><i class=\"emoji\"><b>🔋</b></i>ТРЕНД: <b>CapEx </b>вместо <b>OpEx<br></b><br>лучше один раз основательно потратиться на оборудование, чем ежемесячно нести неконтролируемые операционные расходы. Вкладывать в собственную инфраструктуру <b>выгоднее и с точки зрения налогообложения </b>и - долгосрочного планирования<br><br>_____<br><b>Настал период прагматизма:</b><br>Растет значение навыков настройки процессов, работы со скиллами, memory, агентными сценариями и другими инструментами оптимизации",
+    "reactions": [
+      {
+        "emoji": "✍",
+        "count": "5",
+        "isPaid": false
+      },
+      {
+        "emoji": "🔥",
+        "count": "5",
+        "isPaid": false
+      },
+      {
+        "emoji": "❤️",
+        "count": "1",
+        "isPaid": false
+      },
+      {
+        "emoji": "👍",
+        "count": "1",
+        "isPaid": false
+      }
+    ],
+    "channel": "dealerAI",
+    "channelTitle": "Dealer.AI"
+  },
+  {
+    "id": "tips_ai/4696",
+    "title": "Увидел что команда ресерчеров Microsoft в своем GitHub выложила экспериментальный проект WebwrightЭто браузерный агент построенный поверх playwright, который меняет подход взаимодействия агентов с браузеромТут идея в том, что агент не кликает кнопки через MCP как playwright, а пишет и запускает python скрипты, смотрит скриншоты и управляет сессиями.Есть два интересных режима:• /webwright:run — просто выполняет задачу в браузере, сохраняет результат и логи• /webwright:craft — превращает задачу в переиспользуемый сценарий, где потом можно менять параметрыЭто можно использовать как self-validation loop, когда агент вместо того чтобы слепо верить что фикс сработал, имеет свой браузер, dev-сервер, проверяет UI, находит и чинит ошибки, снова прогоняет сценарий.Думаю тут полезно будет для админок, корпоративных дашбордов и всего где нету нормального API.Можно поставить как отдельный Webwright CLI (но тогда нужен API-ключ для ллм) или через плагины для Claude Code, Codex, OpenClaw и Hermes: /plugin marketplace add microsoft/Webwright/plugin install webwright@webwright@tips_ai #tools",
+    "type": "text",
+    "datetime": "2026-05-26T09:09:58+00:00",
+    "tags": [
+      "tools"
+    ],
+    "text": "Увидел что команда ресерчеров Microsoft в своем GitHub выложила экспериментальный проект WebwrightЭто браузерный агент построенный поверх playwright, который меняет подход взаимодействия агентов с браузеромТут идея в том, что агент не кликает кнопки через MCP как playwright, а пишет и запускает python скрипты, смотрит скриншоты и управляет сессиями.Есть два интересных режима:• /webwright:run — просто выполняет задачу в браузере, сохраняет результат и логи• /webwright:craft — превращает задачу в переиспользуемый сценарий, где потом можно менять параметрыЭто можно использовать как self-validation loop, когда агент вместо того чтобы слепо верить что фикс сработал, имеет свой браузер, dev-сервер, проверяет UI, находит и чинит ошибки, снова прогоняет сценарий.Думаю тут полезно будет для админок, корпоративных дашбордов и всего где нету нормального API.Можно поставить как отдельный Webwright CLI (но тогда нужен API-ключ для ллм) или через плагины для Claude Code, Codex, OpenClaw и Hermes: /plugin marketplace add microsoft/Webwright/plugin install webwright@webwright@tips_ai #tools",
+    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-4696-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Увидел что команда ресерчеров Microsoft в своем GitHub выложила экспериментальный проект WebwrightЭто браузерный агент построенный поверх playwright, который меняет подход взаимодействия агентов с браузеромТут идея в том, что агент не кликает кнопки через MCP как playwright, а пишет и запускает python скрипты, смотрит скриншоты и управляет сессиями.Есть два интересных режима:• /webwright:run — просто выполняет задачу в браузере, сохраняет результат и логи• /webwright:craft — превращает задачу в переиспользуемый сценарий, где потом можно менять параметрыЭто можно использовать как self-validation loop, когда агент вместо того чтобы слепо верить что фикс сработал, имеет свой браузер, dev-сервер, проверяет UI, находит и чинит ошибки, снова прогоняет сценарий.Думаю тут полезно будет для админок, корпоративных дашбордов и всего где нету нормального API.Можно поставить как отдельный Webwright CLI (но тогда нужен API-ключ для ллм) или через плагины для Claude Code, Codex, OpenClaw и Hermes: /plugin marketplace add microsoft/Webwright/plugin install webwright@webwright@tips_ai #tools\">\n        <img src=\"media/5fabf09fc554aee5c974bc6d3181638c.jpg\" alt=\"Увидел что команда ресерчеров Microsoft в своем GitHub выложила экспериментальный проект WebwrightЭто браузерный агент построенный поверх playwright, который меняет подход взаимодействия агентов с браузеромТут идея в том, что агент не кликает кнопки через MCP как playwright, а пишет и запускает python скрипты, смотрит скриншоты и управляет сессиями.Есть два интересных режима:• /webwright:run — просто выполняет задачу в браузере, сохраняет результат и логи• /webwright:craft — превращает задачу в переиспользуемый сценарий, где потом можно менять параметрыЭто можно использовать как self-validation loop, когда агент вместо того чтобы слепо верить что фикс сработал, имеет свой браузер, dev-сервер, проверяет UI, находит и чинит ошибки, снова прогоняет сценарий.Думаю тут полезно будет для админок, корпоративных дашбордов и всего где нету нормального API.Можно поставить как отдельный Webwright CLI (но тогда нужен API-ключ для ллм) или через плагины для Claude Code, Codex, OpenClaw и Hermes: /plugin marketplace add microsoft/Webwright/plugin install webwright@webwright@tips_ai #tools\" width=\"800\" height=\"600\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-4696-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-4696-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-4696-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/5fabf09fc554aee5c974bc6d3181638c.jpg\" alt=\"Увидел что команда ресерчеров Microsoft в своем GitHub выложила экспериментальный проект WebwrightЭто браузерный агент построенный поверх playwright, который меняет подход взаимодействия агентов с браузеромТут идея в том, что агент не кликает кнопки через MCP как playwright, а пишет и запускает python скрипты, смотрит скриншоты и управляет сессиями.Есть два интересных режима:• /webwright:run — просто выполняет задачу в браузере, сохраняет результат и логи• /webwright:craft — превращает задачу в переиспользуемый сценарий, где потом можно менять параметрыЭто можно использовать как self-validation loop, когда агент вместо того чтобы слепо верить что фикс сработал, имеет свой браузер, dev-сервер, проверяет UI, находит и чинит ошибки, снова прогоняет сценарий.Думаю тут полезно будет для админок, корпоративных дашбордов и всего где нету нормального API.Можно поставить как отдельный Webwright CLI (но тогда нужен API-ключ для ллм) или через плагины для Claude Code, Codex, OpenClaw и Hermes: /plugin marketplace add microsoft/Webwright/plugin install webwright@webwright@tips_ai #tools\" width=\"800\" height=\"600\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Увидел что команда ресерчеров Microsoft в своем GitHub выложила экспериментальный проект <a href=\"https://github.com/microsoft/Webwright\" target=\"_blank\" rel=\"noopener\" title=\"Webwright\">Webwright</a><br><br>Это браузерный агент построенный поверх <a href=\"https://github.com/microsoft/playwright\" target=\"_blank\" rel=\"noopener\" title=\"playwright\">playwright</a>, который меняет подход взаимодействия агентов с браузером<br><br>Тут <a href=\"https://microsoft.github.io/Webwright/\" target=\"_blank\" rel=\"noopener\" title=\"идея\">идея</a> в том, что агент не кликает кнопки через MCP как playwright, а пишет и запускает python скрипты, смотрит скриншоты и управляет сессиями.<br><br>Есть два интересных режима:<br><b>• </b><code>/webwright:run </code>— просто выполняет задачу в браузере, сохраняет результат и логи<br><b>• /</b><code>webwright:craft</code><b> </b>— превращает задачу в переиспользуемый сценарий, где потом можно менять параметры<br><br>Это можно использовать как self-validation loop, когда агент вместо того чтобы слепо верить что фикс сработал, имеет свой браузер, dev-сервер, проверяет UI, находит и чинит ошибки, снова прогоняет сценарий.<br><br>Думаю тут полезно будет для админок, корпоративных дашбордов и всего где нету нормального API.<br><br>Можно поставить как отдельный Webwright CLI (но тогда нужен API-ключ для ллм) или через плагины для Claude Code, Codex, OpenClaw и Hermes: <br><br><blockquote>/plugin marketplace add microsoft/Webwright<br><br>/plugin install webwright@webwright</blockquote><br><br><a href=\"https://t.me/tips_ai\" target=\"_blank\" title=\"@tips_ai\">@tips_ai</a> <a href=\"/search/%23tools\" title=\"#tools\">#tools</a>",
+    "reactions": [
+      {
+        "emoji": "👍",
+        "count": "15",
+        "isPaid": false
+      },
+      {
+        "emoji": "❤️",
+        "count": "5",
+        "isPaid": false
+      },
+      {
+        "emoji": "🔥",
+        "count": "4",
+        "isPaid": false
+      }
+    ],
+    "channel": "tips_ai",
+    "channelTitle": "Tips AI | IT & AI"
+  },
+  {
+    "id": "seeallochnaya/3653",
+    "title": "В параллельном мире у всех сегодня отпуск, все сидят играют в GTA VIА нам ждать до 19-го ноября.",
+    "type": "text",
+    "datetime": "2026-05-26T10:17:33+00:00",
+    "tags": [],
+    "text": "В параллельном мире у всех сегодня отпуск, все сидят играют в GTA VIА нам ждать до 19-го ноября.",
+    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-3653-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: В параллельном мире у всех сегодня отпуск, все сидят играют в GTA VIА нам ждать до 19-го ноября.\">\n        <img src=\"media/d3c0bc957f13cc1aaeb3494ce7f7ab12.jpg\" alt=\"В параллельном мире у всех сегодня отпуск, все сидят играют в GTA VIА нам ждать до 19-го ноября.\" width=\"800\" height=\"606\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-3653-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-3653-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-3653-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/d3c0bc957f13cc1aaeb3494ce7f7ab12.jpg\" alt=\"В параллельном мире у всех сегодня отпуск, все сидят играют в GTA VIА нам ждать до 19-го ноября.\" width=\"800\" height=\"606\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>В параллельном мире у всех сегодня отпуск, все сидят играют в GTA VI<br><br>А нам ждать до 19-го ноября.",
+    "reactions": [
+      {
+        "emoji": "😭",
+        "count": "69",
+        "isPaid": false
+      },
+      {
+        "emoji": "❤‍🔥",
+        "count": "9",
+        "isPaid": false
+      },
+      {
+        "emoji": "💔",
+        "count": "5",
+        "isPaid": false
+      },
+      {
+        "emoji": "",
+        "emojiId": "5355083340548419513",
+        "emojiImage": "https://t.me/i/emoji/5355083340548419513.webp",
+        "count": "5",
+        "isPaid": false
+      },
+      {
+        "emoji": "🤣",
+        "count": "4",
+        "isPaid": false
+      }
+    ],
+    "channel": "seeallochnaya",
+    "channelTitle": "Сиолошная"
+  },
+  {
+    "id": "data_secrets/9293",
+    "title": "Microsoft запретят сотрудникам использовать Claude Code, потому что не тянут косты В декабре компания заключила сделку с Anthropic и активно призывала своих инженеров использовать Claude Code. Долго уговаривать сотрудников, видимо, не пришлось, и инструмент быстро стал популярным. Возможно, даже слишком популярным. Потому что теперь Microsoft объявили, что планируют аннулировать свою лицензию и перейти на Copilot CLI, чтобы сократить расходы. В частности, разработчиков всех основных продуктов компании (включая Windows, Microsoft 365, Outlook и тд) попросили перенести все данные из Claude до конца июня. А вы думали, ИИ будет удешевлять процессы? Ну-ну ",
+    "type": "text",
+    "datetime": "2026-05-26T09:06:40+00:00",
+    "tags": [],
+    "text": "Microsoft запретят сотрудникам использовать Claude Code, потому что не тянут косты В декабре компания заключила сделку с Anthropic и активно призывала своих инженеров использовать Claude Code. Долго уговаривать сотрудников, видимо, не пришлось, и инструмент быстро стал популярным. Возможно, даже слишком популярным. Потому что теперь Microsoft объявили, что планируют аннулировать свою лицензию и перейти на Copilot CLI, чтобы сократить расходы. В частности, разработчиков всех основных продуктов компании (включая Windows, Microsoft 365, Outlook и тд) попросили перенести все данные из Claude до конца июня. А вы думали, ИИ будет удешевлять процессы? Ну-ну ",
+    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-9293-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Microsoft запретят сотрудникам использовать Claude Code, потому что не тянут косты В декабре компания заключила сделку с Anthropic и активно призывала своих инженеров использовать Claude Code. Долго уговаривать сотрудников, видимо, не пришлось, и инструмент быстро стал популярным. Возможно, даже слишком популярным. Потому что теперь Microsoft объявили, что планируют аннулировать свою лицензию и перейти на Copilot CLI, чтобы сократить расходы. В частности, разработчиков всех основных продуктов компании (включая Windows, Microsoft 365, Outlook и тд) попросили перенести все данные из Claude до конца июня. А вы думали, ИИ будет удешевлять процессы? Ну-ну \">\n        <img src=\"media/865afd45539a7f64d5dbc200524ba1e8.jpg\" alt=\"Microsoft запретят сотрудникам использовать Claude Code, потому что не тянут косты В декабре компания заключила сделку с Anthropic и активно призывала своих инженеров использовать Claude Code. Долго уговаривать сотрудников, видимо, не пришлось, и инструмент быстро стал популярным. Возможно, даже слишком популярным. Потому что теперь Microsoft объявили, что планируют аннулировать свою лицензию и перейти на Copilot CLI, чтобы сократить расходы. В частности, разработчиков всех основных продуктов компании (включая Windows, Microsoft 365, Outlook и тд) попросили перенести все данные из Claude до конца июня. А вы думали, ИИ будет удешевлять процессы? Ну-ну \" width=\"800\" height=\"587\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-9293-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-9293-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-9293-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/865afd45539a7f64d5dbc200524ba1e8.jpg\" alt=\"Microsoft запретят сотрудникам использовать Claude Code, потому что не тянут косты В декабре компания заключила сделку с Anthropic и активно призывала своих инженеров использовать Claude Code. Долго уговаривать сотрудников, видимо, не пришлось, и инструмент быстро стал популярным. Возможно, даже слишком популярным. Потому что теперь Microsoft объявили, что планируют аннулировать свою лицензию и перейти на Copilot CLI, чтобы сократить расходы. В частности, разработчиков всех основных продуктов компании (включая Windows, Microsoft 365, Outlook и тд) попросили перенести все данные из Claude до конца июня. А вы думали, ИИ будет удешевлять процессы? Ну-ну \" width=\"800\" height=\"587\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><b>Microsoft запретят сотрудникам использовать Claude Code, потому что не тянут косты <br></b><br>В декабре компания заключила сделку с Anthropic и активно призывала своих инженеров использовать Claude Code. Долго уговаривать сотрудников, видимо, не пришлось, и инструмент быстро стал популярным. <br><br>Возможно, даже слишком популярным. Потому что теперь Microsoft <a href=\"https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad\" target=\"_blank\" rel=\"noopener\" title=\"объявили\">объявили</a>, что планируют аннулировать свою лицензию и перейти на Copilot CLI, чтобы сократить расходы. В частности, разработчиков всех основных продуктов компании (включая Windows, Microsoft 365, Outlook и тд) попросили перенести все данные из Claude до конца июня. <br><br>А вы думали, ИИ будет удешевлять процессы? Ну-ну <img class=\"tg-emoji\" src=\"media/51e2491319abafb812b846475c9b19ea.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\">",
     "reactions": [
       {
         "emoji": "😁",
-        "count": "52",
+        "count": "172",
+        "isPaid": false
+      },
+      {
+        "emoji": "☃",
+        "count": "21",
         "isPaid": false
       },
       {
         "emoji": "❤️",
-        "count": "4",
+        "count": "9",
         "isPaid": false
       },
       {
-        "emoji": "🤝",
+        "emoji": "🦄",
+        "count": "3",
+        "isPaid": false
+      },
+      {
+        "emoji": "🗿",
         "count": "2",
         "isPaid": false
-      }
-    ],
-    "channel": "neuraldeep",
-    "channelTitle": "Валера Ковальский"
-  },
-  {
-    "id": "cryptoEssay/3007",
-    "title": "Можно много слушать классных кейсов и теории о том как стать ИИ-нейтив, но самое лучшее — это увидеть примеры того как работают фаундеры:Как у них выстроена система хранения данных и контекста? Как управляются сессии? Какие фичи они делают для своих харенсов? Какие процессы автоматизируют?Как строят скилы и агентов? Как структурируют семантическую и процедурную память? В следующий понедельник проведу виртуальный воркшоп, где 4 фаундера (я буду только модерировать) покажут свои сетапы и воркфлоу. Правила: запрещены слайды и теория, только шаринг экрана и живые демо по 15 минут + ответы на вопросы. Регистрация тут, не нужно подписываться на каналы, бесплатно, никакой рекламы. Но на Английском.",
-    "type": "text",
-    "datetime": "2026-05-26T06:25:12+00:00",
-    "tags": [],
-    "text": "Можно много слушать классных кейсов и теории о том как стать ИИ-нейтив, но самое лучшее — это увидеть примеры того как работают фаундеры:Как у них выстроена система хранения данных и контекста? Как управляются сессии? Какие фичи они делают для своих харенсов? Какие процессы автоматизируют?Как строят скилы и агентов? Как структурируют семантическую и процедурную память? В следующий понедельник проведу виртуальный воркшоп, где 4 фаундера (я буду только модерировать) покажут свои сетапы и воркфлоу. Правила: запрещены слайды и теория, только шаринг экрана и живые демо по 15 минут + ответы на вопросы. Регистрация тут, не нужно подписываться на каналы, бесплатно, никакой рекламы. Но на Английском.",
-    "content": "Можно много слушать классных кейсов и теории о том как стать ИИ-нейтив, но самое лучшее — это увидеть примеры того как работают фаундеры:<br><br>Как у них выстроена система хранения данных и контекста? <br>Как управляются сессии? <br>Какие фичи они делают для своих харенсов? <br>Какие процессы автоматизируют?<br>Как строят скилы и агентов? <br>Как структурируют семантическую и процедурную память? <br><br>В следующий понедельник проведу виртуальный воркшоп, где 4 фаундера (я буду только модерировать) покажут свои сетапы и воркфлоу. <br><br>Правила: запрещены слайды и теория, только шаринг экрана и живые демо по 15 минут + ответы на вопросы. <br><br><a href=\"https://luma.com/8pocehw5\" target=\"_blank\" rel=\"noopener\" title=\"Регистрация тут\">Регистрация тут</a>, не нужно подписываться на каналы, бесплатно, никакой рекламы. Но на Английском.<a class=\"tgme_widget_message_link_preview\" href=\"https://luma.com/8pocehw5\" target=\"_blank\" rel=\"noopener\" title=\"An online workshop for AI-native builders: no slides, no theory, only live demos.Founders and operators will share the actual workflows running their…\">\n  \n  <div class=\"link_preview_site_name accent_color\" dir=\"auto\">Luma</div>\n  <img class=\"link_preview_image\" alt=\"Building AI-Native Startups · Luma\" src=\"media/5c1de9258101fa00fa04126f7fef6ec5.jpg\" width=\"1200\" height=\"630\" loading=\"lazy\">\n  <div class=\"link_preview_title\" dir=\"auto\">Building AI-Native Startups · Luma</div>\n  <div class=\"link_preview_description\" dir=\"auto\">An online workshop for AI-native builders: no slides, no theory, only live demos.<br>Founders and operators will share the actual workflows running their…</div>\n</a>",
-    "reactions": [
+      },
       {
-        "emoji": "❤️",
-        "count": "19",
+        "emoji": "",
+        "emojiId": "5773848767941842357",
+        "emojiImage": "https://t.me/i/emoji/5773848767941842357.webp",
+        "count": "2",
+        "isPaid": false
+      },
+      {
+        "emoji": "🤯",
+        "count": "1",
         "isPaid": false
       }
     ],
-    "channel": "cryptoEssay",
-    "channelTitle": "e/acc"
+    "channel": "data_secrets",
+    "channelTitle": "Data Secrets"
+  },
+  {
+    "id": "cgevent/15761",
+    "title": "Gemini Omni: перевод, липсинк и дубляж с попаданием в губы.Тут некоторые стартапы нервно закурили на лестнице, ведущей вниз.Омни может переводить аудио, даже если в промпте не указано ни исходного, ни переведенного текста:- попадает в губы для нового языка- фоновая музыка остается без изменений- при необходимости корректирует длину ролика(!).Например, японская и испанская фразы во время крупного плана с кремом длиннее, поэтому Омни просто домонтирует пару секунд сама.@cgevent",
+    "type": "text",
+    "datetime": "2026-05-26T09:17:04+00:00",
+    "tags": [],
+    "text": "Gemini Omni: перевод, липсинк и дубляж с попаданием в губы.Тут некоторые стартапы нервно закурили на лестнице, ведущей вниз.Омни может переводить аудио, даже если в промпте не указано ни исходного, ни переведенного текста:- попадает в губы для нового языка- фоновая музыка остается без изменений- при необходимости корректирует длину ролика(!).Например, японская и испанская фразы во время крупного плана с кремом длиннее, поэтому Омни просто домонтирует пару секунд сама.@cgevent",
+    "content": "<video src=\"https://cdn4.telesco.pe/file/4a7d41c7e8.mp4?token=PZGjoeDxqEHuJkmDFlkRWS1dddsQ6Ulz01u8CJeW_SsUTmX_Mqd4nzyUaI-FFynqh6xYiKvxCuz7msfDDz5FcT2RGrG55nSC4sSsZFpcZvZOWB0orBu6JAmegUg1pG_fiL20z7iwlu4TFnDOlNI4uBBnNlTJah6ZzZz5vLHY8zbYinp7zvQUGKlKtv5_FCs5vh0zKSRAc4uqJrKyYQLIO2R4aYI-5kNXtmnG4YBlusI3snVPPReKb2JXhxz6vLsF3egyuz-7wANUyzwqzKNqZcfw5u9ol28-6iDsxHMnT69pUtu8J1701noQXnJ3TMBC5Kdgykby02Z8LZdJIjwAsw\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" controls=\"\" preload=\"auto\" playsinline=\"\"></video><b>Gemini Omni: перевод, липсинк и дубляж с попаданием в губы.</b><br><br>Тут некоторые стартапы нервно закурили на лестнице, ведущей вниз.<br><br>Омни может переводить аудио, даже если в промпте не указано ни исходного, ни переведенного текста:<br>- попадает в губы для нового языка<br>- фоновая музыка остается без изменений<br>- при необходимости корректирует длину ролика(!).<br>Например, японская и испанская фразы во время крупного плана с кремом длиннее, поэтому Омни просто домонтирует пару секунд сама.<br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a>",
+    "reactions": [
+      {
+        "emoji": "🔥",
+        "count": "56",
+        "isPaid": false
+      },
+      {
+        "emoji": "👍",
+        "count": "11",
+        "isPaid": false
+      },
+      {
+        "emoji": "❤️",
+        "count": "1",
+        "isPaid": false
+      }
+    ],
+    "channel": "cgevent",
+    "channelTitle": "Метаверсище и ИИще"
+  },
+  {
+    "id": "cgevent/15757",
+    "title": "Новый генератор картинок от Микрософта. С кодомMicrosoft Lens: Base datasets Lens-800M3.8B DIT with 48-block MMDiTFLUX.2 VAETE ~GPT-OSS 20BBase resolution 1440×14404step Lens-turbo without and 50 steps Lens-Base with CFGГлавный плюс - она очень быстрая. Ну и опенсорсная.На этом плюсы как-то приподзаканчиваются.Она еще как-то затаскивает абстрактные картинки, концепты, узоры. Но сыпится на людях.Но самое удивительное, что у нее практически нет цензуры. Даже на уровне демо.Правда ее видение анатомии вселяет священный ужас (не открывайте картинку  ни в коем случае).Демо тут:",
+    "type": "text",
+    "datetime": "2026-05-26T08:42:47+00:00",
+    "tags": [],
+    "text": "Новый генератор картинок от Микрософта. С кодомMicrosoft Lens: Base datasets Lens-800M3.8B DIT with 48-block MMDiTFLUX.2 VAETE ~GPT-OSS 20BBase resolution 1440×14404step Lens-turbo without and 50 steps Lens-Base with CFGГлавный плюс - она очень быстрая. Ну и опенсорсная.На этом плюсы как-то приподзаканчиваются.Она еще как-то затаскивает абстрактные картинки, концепты, узоры. Но сыпится на людях.Но самое удивительное, что у нее практически нет цензуры. Даже на уровне демо.Правда ее видение анатомии вселяет священный ужас (не открывайте картинку  ни в коем случае).Демо тут:https://huggingface.co/spaces/multimodalart/lensМодели:https://huggingface.co/microsoft/Lenshttps://huggingface.co/microsoft/Lens-Turbohttps://huggingface.co/microsoft/Lens-BaseКод:https://github.com/microsoft/LensКомфи:https://huggingface.co/Comfy-Org/Lens@cgeventНовый генератор картинок от Микрософта. С кодомMicrosoft Lens: Base datasets Lens-800M3.8B DIT with 48-block MMDiTFLUX.2 VAETE ~GPT-OSS 20BBase resolution 1440×14404step Lens-turbo without and 50 steps Lens-Base with CFGГлавный плюс - она очень быстрая. Ну и опенсорсная.На этом плюсы как-то приподзаканчиваются.Она еще как-то затаскивает абстрактные картинки, концепты, узоры. Но сыпится на людях.Но самое удивительное, что у нее практически нет цензуры. Даже на уровне демо.Правда ее видение анатомии вселяет священный ужас (не открывайте картинку  ни в коем случае).Демо тут:https://huggingface.co/spaces/multimodalart/lensМодели:https://huggingface.co/microsoft/Lenshttps://huggingface.co/microsoft/Lens-Turbohttps://huggingface.co/microsoft/Lens-BaseКод:https://github.com/microsoft/LensКомфи:https://huggingface.co/Comfy-Org/Lens@cgevent",
+    "content": "<div class=\"image-list-container image-list-even\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-15757-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Новый генератор картинок от Микрософта. С кодомMicrosoft Lens: Base datasets Lens-800M3.8B DIT with 48-block MMDiTFLUX.2 VAETE ~GPT-OSS 20BBase resolution 1440×14404step Lens-turbo without and 50 steps Lens-Base with CFGГлавный плюс - она очень быстрая. Ну и опенсорсная.На этом плюсы как-то приподзаканчиваются.Она еще как-то затаскивает абстрактные картинки, концепты, узоры. Но сыпится на людях.Но самое удивительное, что у нее практически нет цензуры. Даже на уровне демо.Правда ее видение анатомии вселяет священный ужас (не открывайте картинку  ни в коем случае).Демо тут:\">\n        <img src=\"media/2f04ad42a21c6ffcfd7efb2e96283b4f.jpg\" alt=\"Новый генератор картинок от Микрософта. С кодомMicrosoft Lens: Base datasets Lens-800M3.8B DIT with 48-block MMDiTFLUX.2 VAETE ~GPT-OSS 20BBase resolution 1440×14404step Lens-turbo without and 50 steps Lens-Base with CFGГлавный плюс - она очень быстрая. Ну и опенсорсная.На этом плюсы как-то приподзаканчиваются.Она еще как-то затаскивает абстрактные картинки, концепты, узоры. Но сыпится на людях.Но самое удивительное, что у нее практически нет цензуры. Даже на уровне демо.Правда ее видение анатомии вселяет священный ужас (не открывайте картинку  ни в коем случае).Демо тут:\" width=\"297\" height=\"604\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-15757-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-15757-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-15757-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/2f04ad42a21c6ffcfd7efb2e96283b4f.jpg\" alt=\"Новый генератор картинок от Микрософта. С кодомMicrosoft Lens: Base datasets Lens-800M3.8B DIT with 48-block MMDiTFLUX.2 VAETE ~GPT-OSS 20BBase resolution 1440×14404step Lens-turbo without and 50 steps Lens-Base with CFGГлавный плюс - она очень быстрая. Ну и опенсорсная.На этом плюсы как-то приподзаканчиваются.Она еще как-то затаскивает абстрактные картинки, концепты, узоры. Но сыпится на людях.Но самое удивительное, что у нее практически нет цензуры. Даже на уровне демо.Правда ее видение анатомии вселяет священный ужас (не открывайте картинку  ни в коем случае).Демо тут:\" width=\"297\" height=\"604\" loading=\"lazy\" />\n        </div>\n      </div>\n    \n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-15757-1\" popovertargetaction=\"show\" aria-label=\"Open image preview: Новый генератор картинок от Микрософта. С кодомMicrosoft Lens: Base datasets Lens-800M3.8B DIT with 48-block MMDiTFLUX.2 VAETE ~GPT-OSS 20BBase resolution 1440×14404step Lens-turbo without and 50 steps Lens-Base with CFGГлавный плюс - она очень быстрая. Ну и опенсорсная.На этом плюсы как-то приподзаканчиваются.Она еще как-то затаскивает абстрактные картинки, концепты, узоры. Но сыпится на людях.Но самое удивительное, что у нее практически нет цензуры. Даже на уровне демо.Правда ее видение анатомии вселяет священный ужас (не открывайте картинку  ни в коем случае).Демо тут:\">\n        <img src=\"media/c2645ec5f04c681f44c4df60de84c091.jpg\" alt=\"Новый генератор картинок от Микрософта. С кодомMicrosoft Lens: Base datasets Lens-800M3.8B DIT with 48-block MMDiTFLUX.2 VAETE ~GPT-OSS 20BBase resolution 1440×14404step Lens-turbo without and 50 steps Lens-Base with CFGГлавный плюс - она очень быстрая. Ну и опенсорсная.На этом плюсы как-то приподзаканчиваются.Она еще как-то затаскивает абстрактные картинки, концепты, узоры. Но сыпится на людях.Но самое удивительное, что у нее практически нет цензуры. Даже на уровне демо.Правда ее видение анатомии вселяет священный ужас (не открывайте картинку  ни в коем случае).Демо тут:\" width=\"154\" height=\"257\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-15757-1\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-15757-1\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-15757-1\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/c2645ec5f04c681f44c4df60de84c091.jpg\" alt=\"Новый генератор картинок от Микрософта. С кодомMicrosoft Lens: Base datasets Lens-800M3.8B DIT with 48-block MMDiTFLUX.2 VAETE ~GPT-OSS 20BBase resolution 1440×14404step Lens-turbo without and 50 steps Lens-Base with CFGГлавный плюс - она очень быстрая. Ну и опенсорсная.На этом плюсы как-то приподзаканчиваются.Она еще как-то затаскивает абстрактные картинки, концепты, узоры. Но сыпится на людях.Но самое удивительное, что у нее практически нет цензуры. Даже на уровне демо.Правда ее видение анатомии вселяет священный ужас (не открывайте картинку  ни в коем случае).Демо тут:\" width=\"154\" height=\"257\" loading=\"lazy\" />\n        </div>\n      </div>\n    \n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-15757-2\" popovertargetaction=\"show\" aria-label=\"Open image preview: Новый генератор картинок от Микрософта. С кодомMicrosoft Lens: Base datasets Lens-800M3.8B DIT with 48-block MMDiTFLUX.2 VAETE ~GPT-OSS 20BBase resolution 1440×14404step Lens-turbo without and 50 steps Lens-Base with CFGГлавный плюс - она очень быстрая. Ну и опенсорсная.На этом плюсы как-то приподзаканчиваются.Она еще как-то затаскивает абстрактные картинки, концепты, узоры. Но сыпится на людях.Но самое удивительное, что у нее практически нет цензуры. Даже на уровне демо.Правда ее видение анатомии вселяет священный ужас (не открывайте картинку  ни в коем случае).Демо тут:\">\n        <img src=\"media/923820988b2ef2787570619b91161f3b.jpg\" alt=\"Новый генератор картинок от Микрософта. С кодомMicrosoft Lens: Base datasets Lens-800M3.8B DIT with 48-block MMDiTFLUX.2 VAETE ~GPT-OSS 20BBase resolution 1440×14404step Lens-turbo without and 50 steps Lens-Base with CFGГлавный плюс - она очень быстрая. Ну и опенсорсная.На этом плюсы как-то приподзаканчиваются.Она еще как-то затаскивает абстрактные картинки, концепты, узоры. Но сыпится на людях.Но самое удивительное, что у нее практически нет цензуры. Даже на уровне демо.Правда ее видение анатомии вселяет священный ужас (не открывайте картинку  ни в коем случае).Демо тут:\" width=\"154\" height=\"172\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-15757-2\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-15757-2\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-15757-2\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/923820988b2ef2787570619b91161f3b.jpg\" alt=\"Новый генератор картинок от Микрософта. С кодомMicrosoft Lens: Base datasets Lens-800M3.8B DIT with 48-block MMDiTFLUX.2 VAETE ~GPT-OSS 20BBase resolution 1440×14404step Lens-turbo without and 50 steps Lens-Base with CFGГлавный плюс - она очень быстрая. Ну и опенсорсная.На этом плюсы как-то приподзаканчиваются.Она еще как-то затаскивает абстрактные картинки, концепты, узоры. Но сыпится на людях.Но самое удивительное, что у нее практически нет цензуры. Даже на уровне демо.Правда ее видение анатомии вселяет священный ужас (не открывайте картинку  ни в коем случае).Демо тут:\" width=\"154\" height=\"172\" loading=\"lazy\" />\n        </div>\n      </div>\n    \n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-15757-3\" popovertargetaction=\"show\" aria-label=\"Open image preview: Новый генератор картинок от Микрософта. С кодомMicrosoft Lens: Base datasets Lens-800M3.8B DIT with 48-block MMDiTFLUX.2 VAETE ~GPT-OSS 20BBase resolution 1440×14404step Lens-turbo without and 50 steps Lens-Base with CFGГлавный плюс - она очень быстрая. Ну и опенсорсная.На этом плюсы как-то приподзаканчиваются.Она еще как-то затаскивает абстрактные картинки, концепты, узоры. Но сыпится на людях.Но самое удивительное, что у нее практически нет цензуры. Даже на уровне демо.Правда ее видение анатомии вселяет священный ужас (не открывайте картинку  ни в коем случае).Демо тут:\">\n        <img src=\"https://cdn4.telesco.pe/file/V9BYw72X0az3rzZZVY3DFqT4oMSyjix4XfCY2GtSV2oNzMf9aPAGvMHS3l_RY-u1F8_--C0JU9CG4ezu5CJrKbRaH8vo78ess8B_4zhz3CxX_XJGbXdADh6OeASd9b8WT3fbyr7OKpDlWOb_WcZ6jQux0_PuFDhYLsd1FeQkYGIkQnFWUcL-ZUMK3XPVRWwltABylYs49iZWJ-7VnADUlmNV4NvFqaV94O0gAFfh2EnLVID9WOEbYWKTX9CcUIaR8wNUBX1nI1CIxVqpDIO6uP8zcMUAudffR-IO6DvrN0W-m0NSjHS1tsRfUEdng2SyBYc0ck22LPtyIR1uZ8p_Fw.jpg\" alt=\"Новый генератор картинок от Микрософта. С кодомMicrosoft Lens: Base datasets Lens-800M3.8B DIT with 48-block MMDiTFLUX.2 VAETE ~GPT-OSS 20BBase resolution 1440×14404step Lens-turbo without and 50 steps Lens-Base with CFGГлавный плюс - она очень быстрая. Ну и опенсорсная.На этом плюсы как-то приподзаканчиваются.Она еще как-то затаскивает абстрактные картинки, концепты, узоры. Но сыпится на людях.Но самое удивительное, что у нее практически нет цензуры. Даже на уровне демо.Правда ее видение анатомии вселяет священный ужас (не открывайте картинку  ни в коем случае).Демо тут:\" width=\"154\" height=\"171\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-15757-3\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-15757-3\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-15757-3\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"https://cdn4.telesco.pe/file/V9BYw72X0az3rzZZVY3DFqT4oMSyjix4XfCY2GtSV2oNzMf9aPAGvMHS3l_RY-u1F8_--C0JU9CG4ezu5CJrKbRaH8vo78ess8B_4zhz3CxX_XJGbXdADh6OeASd9b8WT3fbyr7OKpDlWOb_WcZ6jQux0_PuFDhYLsd1FeQkYGIkQnFWUcL-ZUMK3XPVRWwltABylYs49iZWJ-7VnADUlmNV4NvFqaV94O0gAFfh2EnLVID9WOEbYWKTX9CcUIaR8wNUBX1nI1CIxVqpDIO6uP8zcMUAudffR-IO6DvrN0W-m0NSjHS1tsRfUEdng2SyBYc0ck22LPtyIR1uZ8p_Fw.jpg\" alt=\"Новый генератор картинок от Микрософта. С кодомMicrosoft Lens: Base datasets Lens-800M3.8B DIT with 48-block MMDiTFLUX.2 VAETE ~GPT-OSS 20BBase resolution 1440×14404step Lens-turbo without and 50 steps Lens-Base with CFGГлавный плюс - она очень быстрая. Ну и опенсорсная.На этом плюсы как-то приподзаканчиваются.Она еще как-то затаскивает абстрактные картинки, концепты, узоры. Но сыпится на людях.Но самое удивительное, что у нее практически нет цензуры. Даже на уровне демо.Правда ее видение анатомии вселяет священный ужас (не открывайте картинку  ни в коем случае).Демо тут:\" width=\"154\" height=\"171\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\"><b>Новый генератор картинок от Микрософта.</b> <b>С кодом</b><br><br><b>Microsoft Lens: </b><br>Base datasets Lens-800M<br><b>3.8B DIT</b> with 48-block MMDiT<br>FLUX.2 VAE<br>TE ~GPT-OSS 20B<br>Base resolution 1440×1440<br>4step Lens-turbo without and 50 steps Lens-Base with CFG<br><br>Главный плюс - она очень быстрая. Ну и опенсорсная.<br><br>На этом плюсы как-то приподзаканчиваются.<br><br>Она еще как-то затаскивает абстрактные картинки, концепты, узоры. Но сыпится на людях.<br>Но самое удивительное, что у нее практически нет цензуры. Даже на уровне демо.<br>Правда ее видение анатомии вселяет священный ужас (не открывайте картинку  ни в коем случае).<br><br>Демо тут:<br><a href=\"https://huggingface.co/spaces/multimodalart/lens\" target=\"_blank\" rel=\"noopener\" title=\"https://huggingface.co/spaces/multimodalart/lens\">https://huggingface.co/spaces/multimodalart/lens</a><br><br>Модели:<br><a href=\"https://huggingface.co/microsoft/Lens\" target=\"_blank\" rel=\"noopener\" title=\"https://huggingface.co/microsoft/Lens\">https://huggingface.co/microsoft/Lens</a><br><a href=\"https://huggingface.co/microsoft/Lens-Turbo\" target=\"_blank\" rel=\"noopener\" title=\"https://huggingface.co/microsoft/Lens-Turbo\">https://huggingface.co/microsoft/Lens-Turbo</a><br><a href=\"https://huggingface.co/microsoft/Lens-Base\" target=\"_blank\" rel=\"noopener\" title=\"https://huggingface.co/microsoft/Lens-Base\">https://huggingface.co/microsoft/Lens-Base</a><br><br>Код:<br><a href=\"https://github.com/microsoft/Lens\" target=\"_blank\" rel=\"noopener\" title=\"https://github.com/microsoft/Lens\">https://github.com/microsoft/Lens</a><br><br>Комфи:<br><a href=\"https://huggingface.co/Comfy-Org/Lens\" target=\"_blank\" rel=\"noopener\" title=\"https://huggingface.co/Comfy-Org/Lens\">https://huggingface.co/Comfy-Org/Lens</a><br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a></div>",
+    "reactions": [
+      {
+        "emoji": "😱",
+        "count": "17",
+        "isPaid": false
+      },
+      {
+        "emoji": "😁",
+        "count": "10",
+        "isPaid": false
+      },
+      {
+        "emoji": "👍",
+        "count": "3",
+        "isPaid": false
+      },
+      {
+        "emoji": "👎",
+        "count": "2",
+        "isPaid": false
+      },
+      {
+        "emoji": "❤️",
+        "count": "1",
+        "isPaid": false
+      }
+    ],
+    "channel": "cgevent",
+    "channelTitle": "Метаверсище и ИИще"
   }
 ]
