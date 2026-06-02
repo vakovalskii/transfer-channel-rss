@@ -1,43 +1,134 @@
 [
   {
-    "id": "data_secrets/9327",
-    "title": "Google будет привлекать инвестиции на ИИ Да, даже Google не хватает денег на ИИ. Alphabet официально заявила, что спрос на ее ИИ-решения «превышает доступные поставки». Дефицит мощностей наблюдается даже внутри компании. Недавно внутри Google сформировали специальный комитет по распределению компьюта по департаментам, и получить GPU/TPU для своего проекта теперь не так уж и просто. Мы писали об этом тут. Короче, им нужно прямо сейчас быстро строить инфраструктуру. Но Пичаи признал, что на собственные средства такой темп Google не осилит. Так что они вынужденно привлекают срочные инвестиции путем продажи акций. Пока звучит сумма в 80 миллиардов долларов. А всего на инфраструктуру в 2026 они планируют потратить в районе $175–185 млрд.",
+    "id": "evilfreelancer/1727",
+    "title": "Партизанский рефакторинг - методология улучшения качества кода с устранением техдолга без ведома и санкции руководства.",
     "type": "text",
-    "datetime": "2026-06-02T07:48:43+00:00",
+    "datetime": "2026-06-02T12:33:16+00:00",
     "tags": [],
-    "text": "Google будет привлекать инвестиции на ИИ Да, даже Google не хватает денег на ИИ. Alphabet официально заявила, что спрос на ее ИИ-решения «превышает доступные поставки». Дефицит мощностей наблюдается даже внутри компании. Недавно внутри Google сформировали специальный комитет по распределению компьюта по департаментам, и получить GPU/TPU для своего проекта теперь не так уж и просто. Мы писали об этом тут. Короче, им нужно прямо сейчас быстро строить инфраструктуру. Но Пичаи признал, что на собственные средства такой темп Google не осилит. Так что они вынужденно привлекают срочные инвестиции путем продажи акций. Пока звучит сумма в 80 миллиардов долларов. А всего на инфраструктуру в 2026 они планируют потратить в районе $175–185 млрд.",
-    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-9327-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Google будет привлекать инвестиции на ИИ Да, даже Google не хватает денег на ИИ. Alphabet официально заявила, что спрос на ее ИИ-решения «превышает доступные поставки». Дефицит мощностей наблюдается даже внутри компании. Недавно внутри Google сформировали специальный комитет по распределению компьюта по департаментам, и получить GPU/TPU для своего проекта теперь не так уж и просто. Мы писали об этом тут. Короче, им нужно прямо сейчас быстро строить инфраструктуру. Но Пичаи признал, что на собственные средства такой темп Google не осилит. Так что они вынужденно привлекают срочные инвестиции путем продажи акций. Пока звучит сумма в 80 миллиардов долларов. А всего на инфраструктуру в 2026 они планируют потратить в районе $175–185 млрд.\">\n        <img src=\"media/65f23b48659ee620c21e27df425d8a2f.jpg\" alt=\"Google будет привлекать инвестиции на ИИ Да, даже Google не хватает денег на ИИ. Alphabet официально заявила, что спрос на ее ИИ-решения «превышает доступные поставки». Дефицит мощностей наблюдается даже внутри компании. Недавно внутри Google сформировали специальный комитет по распределению компьюта по департаментам, и получить GPU/TPU для своего проекта теперь не так уж и просто. Мы писали об этом тут. Короче, им нужно прямо сейчас быстро строить инфраструктуру. Но Пичаи признал, что на собственные средства такой темп Google не осилит. Так что они вынужденно привлекают срочные инвестиции путем продажи акций. Пока звучит сумма в 80 миллиардов долларов. А всего на инфраструктуру в 2026 они планируют потратить в районе $175–185 млрд.\" width=\"800\" height=\"513\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-9327-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-9327-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-9327-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/65f23b48659ee620c21e27df425d8a2f.jpg\" alt=\"Google будет привлекать инвестиции на ИИ Да, даже Google не хватает денег на ИИ. Alphabet официально заявила, что спрос на ее ИИ-решения «превышает доступные поставки». Дефицит мощностей наблюдается даже внутри компании. Недавно внутри Google сформировали специальный комитет по распределению компьюта по департаментам, и получить GPU/TPU для своего проекта теперь не так уж и просто. Мы писали об этом тут. Короче, им нужно прямо сейчас быстро строить инфраструктуру. Но Пичаи признал, что на собственные средства такой темп Google не осилит. Так что они вынужденно привлекают срочные инвестиции путем продажи акций. Пока звучит сумма в 80 миллиардов долларов. А всего на инфраструктуру в 2026 они планируют потратить в районе $175–185 млрд.\" width=\"800\" height=\"513\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><b>Google будет привлекать инвестиции на ИИ </b><br><br>Да, даже Google не хватает денег на ИИ. Alphabet <a href=\"https://s206.q4cdn.com/479360582/files/doc_news/2026/Jun/01/attachments/2026-June-Alphabet-Equity-Capital-Raise-Press-Release-PDF.pdf\" target=\"_blank\" rel=\"noopener\" title=\"официально заявила\">официально заявила</a>, что спрос на ее ИИ-решения «превышает доступные поставки». <br><br>Дефицит мощностей наблюдается даже внутри компании. Недавно внутри Google сформировали специальный комитет по распределению компьюта по департаментам, и получить GPU/TPU для своего проекта теперь не так уж и просто. Мы писали об этом <a href=\"https://t.me/data_secrets/9247\" target=\"_blank\" rel=\"noopener\" title=\"тут\">тут</a>. <br><br>Короче, им нужно прямо сейчас быстро строить инфраструктуру. <br><br>Но Пичаи признал, что на собственные средства такой темп Google не осилит. Так что они вынужденно привлекают срочные инвестиции путем продажи акций. <br><br>Пока звучит сумма в 80 миллиардов долларов. А всего на инфраструктуру в 2026 они планируют потратить в районе $175–185 млрд.",
+    "text": "Партизанский рефакторинг - методология улучшения качества кода с устранением техдолга без ведома и санкции руководства.",
+    "content": "<blockquote>Партизанский рефакторинг - методология улучшения качества кода с устранением техдолга без ведома и санкции руководства.</blockquote>",
+    "reactions": [
+      {
+        "emoji": "😁",
+        "count": "17",
+        "isPaid": false
+      },
+      {
+        "emoji": "🏆",
+        "count": "3",
+        "isPaid": false
+      },
+      {
+        "emoji": "🔥",
+        "count": "1",
+        "isPaid": false
+      }
+    ],
+    "channel": "evilfreelancer",
+    "channelTitle": "Pavel Zloi"
+  },
+  {
+    "id": "gleb_pro_ai/601",
+    "title": "Когда я написал про то, что делаю креативы для sotaocr со скиллом, ко мне пришел товарищ, который сказал, что написал целый контент-завод внутри кодекса/клода. И более того — все доступно оупенсорс, заходишь и скачиваешь. Креативы получаются очень хорошие, так что с удовольствием пиарю. Фейк отзывы и стата мне особенно понравились, так и просятся в твиттер 😁качать и пробовать вот тут:",
+    "type": "text",
+    "datetime": "2026-06-02T09:55:07+00:00",
+    "tags": [],
+    "text": "Когда я написал про то, что делаю креативы для sotaocr со скиллом, ко мне пришел товарищ, который сказал, что написал целый контент-завод внутри кодекса/клода. И более того — все доступно оупенсорс, заходишь и скачиваешь. Креативы получаются очень хорошие, так что с удовольствием пиарю. Фейк отзывы и стата мне особенно понравились, так и просятся в твиттер 😁качать и пробовать вот тут:https://github.com/alecs5am/ralphyhttps://www.alecs5am.com/libraryНаписать автору: @ornikiКогда я написал про то, что делаю креативы для sotaocr со скиллом, ко мне пришел товарищ, который сказал, что написал целый контент-завод внутри кодекса/клода. И более того — все доступно оупенсорс, заходишь и скачиваешь. Креативы получаются очень хорошие, так что с удовольствием пиарю. Фейк отзывы и стата мне особенно понравились, так и просятся в твиттер 😁качать и пробовать вот тут:https://github.com/alecs5am/ralphyhttps://www.alecs5am.com/libraryНаписать автору: @orniki",
+    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-601-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Когда я написал про то, что делаю креативы для sotaocr со скиллом, ко мне пришел товарищ, который сказал, что написал целый контент-завод внутри кодекса/клода. И более того — все доступно оупенсорс, заходишь и скачиваешь. Креативы получаются очень хорошие, так что с удовольствием пиарю. Фейк отзывы и стата мне особенно понравились, так и просятся в твиттер 😁качать и пробовать вот тут:\">\n        <img src=\"media/c554451c501d46e287a241f13ae6b959.jpg\" alt=\"Когда я написал про то, что делаю креативы для sotaocr со скиллом, ко мне пришел товарищ, который сказал, что написал целый контент-завод внутри кодекса/клода. И более того — все доступно оупенсорс, заходишь и скачиваешь. Креативы получаются очень хорошие, так что с удовольствием пиарю. Фейк отзывы и стата мне особенно понравились, так и просятся в твиттер 😁качать и пробовать вот тут:\" width=\"224\" height=\"281\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-601-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-601-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-601-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/c554451c501d46e287a241f13ae6b959.jpg\" alt=\"Когда я написал про то, что делаю креативы для sotaocr со скиллом, ко мне пришел товарищ, который сказал, что написал целый контент-завод внутри кодекса/клода. И более того — все доступно оупенсорс, заходишь и скачиваешь. Креативы получаются очень хорошие, так что с удовольствием пиарю. Фейк отзывы и стата мне особенно понравились, так и просятся в твиттер 😁качать и пробовать вот тут:\" width=\"224\" height=\"281\" loading=\"lazy\" />\n        </div>\n      </div>\n    \n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-601-1\" popovertargetaction=\"show\" aria-label=\"Open image preview: Когда я написал про то, что делаю креативы для sotaocr со скиллом, ко мне пришел товарищ, который сказал, что написал целый контент-завод внутри кодекса/клода. И более того — все доступно оупенсорс, заходишь и скачиваешь. Креативы получаются очень хорошие, так что с удовольствием пиарю. Фейк отзывы и стата мне особенно понравились, так и просятся в твиттер 😁качать и пробовать вот тут:\">\n        <img src=\"media/a0a4a184f7c9ae9741c1e73a50cda126.jpg\" alt=\"Когда я написал про то, что делаю креативы для sotaocr со скиллом, ко мне пришел товарищ, который сказал, что написал целый контент-завод внутри кодекса/клода. И более того — все доступно оупенсорс, заходишь и скачиваешь. Креативы получаются очень хорошие, так что с удовольствием пиарю. Фейк отзывы и стата мне особенно понравились, так и просятся в твиттер 😁качать и пробовать вот тут:\" width=\"227\" height=\"281\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-601-1\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-601-1\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-601-1\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/a0a4a184f7c9ae9741c1e73a50cda126.jpg\" alt=\"Когда я написал про то, что делаю креативы для sotaocr со скиллом, ко мне пришел товарищ, который сказал, что написал целый контент-завод внутри кодекса/клода. И более того — все доступно оупенсорс, заходишь и скачиваешь. Креативы получаются очень хорошие, так что с удовольствием пиарю. Фейк отзывы и стата мне особенно понравились, так и просятся в твиттер 😁качать и пробовать вот тут:\" width=\"227\" height=\"281\" loading=\"lazy\" />\n        </div>\n      </div>\n    \n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-601-2\" popovertargetaction=\"show\" aria-label=\"Open image preview: Когда я написал про то, что делаю креативы для sotaocr со скиллом, ко мне пришел товарищ, который сказал, что написал целый контент-завод внутри кодекса/клода. И более того — все доступно оупенсорс, заходишь и скачиваешь. Креативы получаются очень хорошие, так что с удовольствием пиарю. Фейк отзывы и стата мне особенно понравились, так и просятся в твиттер 😁качать и пробовать вот тут:\">\n        <img src=\"media/5a3e6a6eb7fb0a4420182a687e0156de.jpg\" alt=\"Когда я написал про то, что делаю креативы для sotaocr со скиллом, ко мне пришел товарищ, который сказал, что написал целый контент-завод внутри кодекса/клода. И более того — все доступно оупенсорс, заходишь и скачиваешь. Креативы получаются очень хорошие, так что с удовольствием пиарю. Фейк отзывы и стата мне особенно понравились, так и просятся в твиттер 😁качать и пробовать вот тут:\" width=\"149\" height=\"187\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-601-2\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-601-2\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-601-2\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/5a3e6a6eb7fb0a4420182a687e0156de.jpg\" alt=\"Когда я написал про то, что делаю креативы для sotaocr со скиллом, ко мне пришел товарищ, который сказал, что написал целый контент-завод внутри кодекса/клода. И более того — все доступно оупенсорс, заходишь и скачиваешь. Креативы получаются очень хорошие, так что с удовольствием пиарю. Фейк отзывы и стата мне особенно понравились, так и просятся в твиттер 😁качать и пробовать вот тут:\" width=\"149\" height=\"187\" loading=\"lazy\" />\n        </div>\n      </div>\n    \n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-601-3\" popovertargetaction=\"show\" aria-label=\"Open image preview: Когда я написал про то, что делаю креативы для sotaocr со скиллом, ко мне пришел товарищ, который сказал, что написал целый контент-завод внутри кодекса/клода. И более того — все доступно оупенсорс, заходишь и скачиваешь. Креативы получаются очень хорошие, так что с удовольствием пиарю. Фейк отзывы и стата мне особенно понравились, так и просятся в твиттер 😁качать и пробовать вот тут:\">\n        <img src=\"https://cdn4.telesco.pe/file/t_5ea58exVOdH4OelZCfTOyrGq0V6M8GgyAWauI02mcj8TA5EXE_RCpLFy5NoNjLEb8bfteK80_Fd-OQhACFOk9wvCH3ew4vHBC04WATqwedy4wWeHVsVpLDZKx62NuMVApIq5USaIW7PwENnkO089d_05agje9vGxwXPt6xhK6BvD0FRnG-AZctrgBcURGX7nppd_zV0M-z0b2ybmz0YCUIuF4VZU3Zy88c4wlqYqkNHIUYvu5iOinK7c7sOeCM9kqEajpz4lhZwV41U2Lg0OeCwzRaiCdRhdIANOMFGve3K2PhERyn6YFpp1cLcseRdwl2uKN8Svw4iVWCB31jkw.jpg\" alt=\"Когда я написал про то, что делаю креативы для sotaocr со скиллом, ко мне пришел товарищ, который сказал, что написал целый контент-завод внутри кодекса/клода. И более того — все доступно оупенсорс, заходишь и скачиваешь. Креативы получаются очень хорошие, так что с удовольствием пиарю. Фейк отзывы и стата мне особенно понравились, так и просятся в твиттер 😁качать и пробовать вот тут:\" width=\"149\" height=\"187\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-601-3\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-601-3\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-601-3\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"https://cdn4.telesco.pe/file/t_5ea58exVOdH4OelZCfTOyrGq0V6M8GgyAWauI02mcj8TA5EXE_RCpLFy5NoNjLEb8bfteK80_Fd-OQhACFOk9wvCH3ew4vHBC04WATqwedy4wWeHVsVpLDZKx62NuMVApIq5USaIW7PwENnkO089d_05agje9vGxwXPt6xhK6BvD0FRnG-AZctrgBcURGX7nppd_zV0M-z0b2ybmz0YCUIuF4VZU3Zy88c4wlqYqkNHIUYvu5iOinK7c7sOeCM9kqEajpz4lhZwV41U2Lg0OeCwzRaiCdRhdIANOMFGve3K2PhERyn6YFpp1cLcseRdwl2uKN8Svw4iVWCB31jkw.jpg\" alt=\"Когда я написал про то, что делаю креативы для sotaocr со скиллом, ко мне пришел товарищ, который сказал, что написал целый контент-завод внутри кодекса/клода. И более того — все доступно оупенсорс, заходишь и скачиваешь. Креативы получаются очень хорошие, так что с удовольствием пиарю. Фейк отзывы и стата мне особенно понравились, так и просятся в твиттер 😁качать и пробовать вот тут:\" width=\"149\" height=\"187\" loading=\"lazy\" />\n        </div>\n      </div>\n    \n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-601-4\" popovertargetaction=\"show\" aria-label=\"Open image preview: Когда я написал про то, что делаю креативы для sotaocr со скиллом, ко мне пришел товарищ, который сказал, что написал целый контент-завод внутри кодекса/клода. И более того — все доступно оупенсорс, заходишь и скачиваешь. Креативы получаются очень хорошие, так что с удовольствием пиарю. Фейк отзывы и стата мне особенно понравились, так и просятся в твиттер 😁качать и пробовать вот тут:\">\n        <img src=\"https://cdn4.telesco.pe/file/oIn4WcFOJbVieu3MMvxtyRQZNVO_4aAYpzkmS3OP93R4bGbFbd55ZdtJhmIlij_buNF6alBrt0qmUfJ01i_H8_FCRwFTCYuGfTQi-PhmlwfAlTtbXU-GGMDhcqJm4pIjFijah6qiAdsZWGmCqelZSitwKQn4OMhPS_ya-XM1EP3ChxAgRvsMUx8oXHYNFEtQW8CACMmXPirjJjfrQYYfN5cr-tlWIF6eDiZCsAag-2k8lr5NQ3qVk3kfGlHVjYXgm2K4wJOnNY1Hnl_yNq3CzBpvG5eL_VsBC4k0_5rlFdwYKIHad8KzPVqBVdEW0etbKZJGqGMIDQcEr7rAc-S1AQ.jpg\" alt=\"Когда я написал про то, что делаю креативы для sotaocr со скиллом, ко мне пришел товарищ, который сказал, что написал целый контент-завод внутри кодекса/клода. И более того — все доступно оупенсорс, заходишь и скачиваешь. Креативы получаются очень хорошие, так что с удовольствием пиарю. Фейк отзывы и стата мне особенно понравились, так и просятся в твиттер 😁качать и пробовать вот тут:\" width=\"151\" height=\"187\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-601-4\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-601-4\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-601-4\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"https://cdn4.telesco.pe/file/oIn4WcFOJbVieu3MMvxtyRQZNVO_4aAYpzkmS3OP93R4bGbFbd55ZdtJhmIlij_buNF6alBrt0qmUfJ01i_H8_FCRwFTCYuGfTQi-PhmlwfAlTtbXU-GGMDhcqJm4pIjFijah6qiAdsZWGmCqelZSitwKQn4OMhPS_ya-XM1EP3ChxAgRvsMUx8oXHYNFEtQW8CACMmXPirjJjfrQYYfN5cr-tlWIF6eDiZCsAag-2k8lr5NQ3qVk3kfGlHVjYXgm2K4wJOnNY1Hnl_yNq3CzBpvG5eL_VsBC4k0_5rlFdwYKIHad8KzPVqBVdEW0etbKZJGqGMIDQcEr7rAc-S1AQ.jpg\" alt=\"Когда я написал про то, что делаю креативы для sotaocr со скиллом, ко мне пришел товарищ, который сказал, что написал целый контент-завод внутри кодекса/клода. И более того — все доступно оупенсорс, заходишь и скачиваешь. Креативы получаются очень хорошие, так что с удовольствием пиарю. Фейк отзывы и стата мне особенно понравились, так и просятся в твиттер 😁качать и пробовать вот тут:\" width=\"151\" height=\"187\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">Когда я написал про то, что делаю креативы для sotaocr со скиллом, ко мне пришел товарищ, который сказал, что написал целый контент-завод внутри кодекса/клода. <br><br>И более того — все доступно оупенсорс, заходишь и скачиваешь. <br><br>Креативы получаются очень хорошие, так что с удовольствием пиарю. Фейк отзывы и стата мне особенно понравились, так и просятся в твиттер <i class=\"emoji\"><b>😁</b></i><br><br>качать и пробовать вот тут:<br><br><a href=\"https://github.com/alecs5am/ralphy\" target=\"_blank\" rel=\"noopener\" title=\"https://github.com/alecs5am/ralphy\">https://github.com/alecs5am/ralphy</a><br><a href=\"https://www.alecs5am.com/library\" target=\"_blank\" rel=\"noopener\" title=\"https://www.alecs5am.com/library\">https://www.alecs5am.com/library</a><br><br>Написать автору: <a href=\"https://t.me/orniki\" target=\"_blank\" title=\"@orniki\">@orniki</a></div>",
     "reactions": [
       {
         "emoji": "🔥",
-        "count": "50",
+        "count": "28",
         "isPaid": false
       },
       {
-        "emoji": "😁",
-        "count": "31",
+        "emoji": "❤️",
+        "count": "6",
         "isPaid": false
       },
       {
-        "emoji": "",
-        "emojiId": "5850279489090627237",
-        "emojiImage": "https://t.me/i/emoji/5850279489090627237.webp",
-        "count": "13",
+        "emoji": "🥰",
+        "count": "2",
         "isPaid": false
-      },
+      }
+    ],
+    "channel": "gleb_pro_ai",
+    "channelTitle": "Глеб Кудрявцев про AI"
+  },
+  {
+    "id": "tips_ai/4712",
+    "title": "Многие знакомые, которые делают пет-проекты под мобилки, сталкиваются с одной и той же болью — это скрины AppStore. Им хочется поскорее выложить, а не тратить вечера на дизайн карточек.Для этого можно использовать скилл app-store-screenshots — он анализирует ваш продукт, определяет самые интересные фишки и сам собирает это в готовый дизайн.- Придумывает креативное наполнение из заголовков, элементов и экранов.- Адаптирует весь layout сразу под AppStore/Google Play и разные устройства.- Делает локализацию текста на несколько языков.После этого запускается локальный UI-редактор с превью карусели. Там можно двигать экраны, менять текст и цветовую тему.Самое главное что skill объясняет агенту политику Apple, чтобы созданные скрины точно прошли проверку.@tips_ai #tools",
+    "type": "text",
+    "datetime": "2026-06-02T10:25:07+00:00",
+    "tags": [
+      "tools"
+    ],
+    "text": "Многие знакомые, которые делают пет-проекты под мобилки, сталкиваются с одной и той же болью — это скрины AppStore. Им хочется поскорее выложить, а не тратить вечера на дизайн карточек.Для этого можно использовать скилл app-store-screenshots — он анализирует ваш продукт, определяет самые интересные фишки и сам собирает это в готовый дизайн.- Придумывает креативное наполнение из заголовков, элементов и экранов.- Адаптирует весь layout сразу под AppStore/Google Play и разные устройства.- Делает локализацию текста на несколько языков.После этого запускается локальный UI-редактор с превью карусели. Там можно двигать экраны, менять текст и цветовую тему.Самое главное что skill объясняет агенту политику Apple, чтобы созданные скрины точно прошли проверку.@tips_ai #tools",
+    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-4712-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Многие знакомые, которые делают пет-проекты под мобилки, сталкиваются с одной и той же болью — это скрины AppStore. Им хочется поскорее выложить, а не тратить вечера на дизайн карточек.Для этого можно использовать скилл app-store-screenshots — он анализирует ваш продукт, определяет самые интересные фишки и сам собирает это в готовый дизайн.- Придумывает креативное наполнение из заголовков, элементов и экранов.- Адаптирует весь layout сразу под AppStore/Google Play и разные устройства.- Делает локализацию текста на несколько языков.После этого запускается локальный UI-редактор с превью карусели. Там можно двигать экраны, менять текст и цветовую тему.Самое главное что skill объясняет агенту политику Apple, чтобы созданные скрины точно прошли проверку.@tips_ai #tools\">\n        <img src=\"media/ec633f5db908c6f7c12997c0e2424ad1.jpg\" alt=\"Многие знакомые, которые делают пет-проекты под мобилки, сталкиваются с одной и той же болью — это скрины AppStore. Им хочется поскорее выложить, а не тратить вечера на дизайн карточек.Для этого можно использовать скилл app-store-screenshots — он анализирует ваш продукт, определяет самые интересные фишки и сам собирает это в готовый дизайн.- Придумывает креативное наполнение из заголовков, элементов и экранов.- Адаптирует весь layout сразу под AppStore/Google Play и разные устройства.- Делает локализацию текста на несколько языков.После этого запускается локальный UI-редактор с превью карусели. Там можно двигать экраны, менять текст и цветовую тему.Самое главное что skill объясняет агенту политику Apple, чтобы созданные скрины точно прошли проверку.@tips_ai #tools\" width=\"800\" height=\"436\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-4712-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-4712-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-4712-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/ec633f5db908c6f7c12997c0e2424ad1.jpg\" alt=\"Многие знакомые, которые делают пет-проекты под мобилки, сталкиваются с одной и той же болью — это скрины AppStore. Им хочется поскорее выложить, а не тратить вечера на дизайн карточек.Для этого можно использовать скилл app-store-screenshots — он анализирует ваш продукт, определяет самые интересные фишки и сам собирает это в готовый дизайн.- Придумывает креативное наполнение из заголовков, элементов и экранов.- Адаптирует весь layout сразу под AppStore/Google Play и разные устройства.- Делает локализацию текста на несколько языков.После этого запускается локальный UI-редактор с превью карусели. Там можно двигать экраны, менять текст и цветовую тему.Самое главное что skill объясняет агенту политику Apple, чтобы созданные скрины точно прошли проверку.@tips_ai #tools\" width=\"800\" height=\"436\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Многие знакомые, которые делают пет-проекты под мобилки, сталкиваются с одной и той же болью — это скрины AppStore. <br><br>Им хочется поскорее выложить, а не тратить вечера на дизайн карточек.<br><br>Для этого можно использовать скилл <a href=\"https://github.com/ParthJadhav/app-store-screenshots\" target=\"_blank\" rel=\"noopener\" title=\"app-store-screenshots\">app-store-screenshots</a> — он анализирует ваш продукт, определяет самые интересные фишки и сам собирает это в готовый дизайн.<br><br>- Придумывает креативное наполнение из заголовков, элементов и экранов.<br>- Адаптирует весь layout сразу под AppStore/Google Play и разные устройства.<br>- Делает локализацию текста на несколько языков.<br><br>После этого запускается локальный UI-редактор с превью карусели. Там можно двигать экраны, менять текст и цветовую тему.<br><br>Самое главное что skill объясняет агенту политику Apple, чтобы созданные скрины точно прошли проверку.<br><br><a href=\"https://t.me/tips_ai\" target=\"_blank\" title=\"@tips_ai\">@tips_ai</a> <a href=\"/search/%23tools\" title=\"#tools\">#tools</a>",
+    "reactions": [
       {
         "emoji": "❤️",
         "count": "10",
         "isPaid": false
       },
       {
-        "emoji": "👍",
-        "count": "2",
+        "emoji": "🔥",
+        "count": "6",
         "isPaid": false
       },
       {
-        "emoji": "🤯",
-        "count": "2",
+        "emoji": "👍",
+        "count": "3",
+        "isPaid": false
+      }
+    ],
+    "channel": "tips_ai",
+    "channelTitle": "Tips AI | IT & AI"
+  },
+  {
+    "id": "data_secrets/9328",
+    "title": "Вам доставка мемов из пузыря",
+    "type": "text",
+    "datetime": "2026-06-02T10:38:08+00:00",
+    "tags": [],
+    "text": "Вам доставка мемов из пузыря",
+    "content": "<a class=\"tgme_widget_message_reply user-color-12 js-message_emoji_bg\" href=\"/posts/9327\" data-bg-emoji=\"5424846043365784811\" \"=\"\"><blockquote><small><i class=\"tgme_widget_message_reply_thumb\" style=\"background-image:url('media/1887ac867ef0083a18cbdd84b1410ae0.jpg')\"></i>\n<div class=\"tgme_widget_message_author accent_color\">\n  <span class=\"tgme_widget_message_author_name\" dir=\"auto\">Data Secrets</span>\n</div>\n<div class=\"tgme_widget_message_text js-message_reply_text\" dir=\"auto\">Google будет привлекать инвестиции на ИИ   Да, даже Google не хватает денег на ИИ. Alphabet официально заявила, что спрос на ее ИИ-решения «превышает доступные поставки».   Дефицит мощностей наблюдается даже внутри компании. Недавно внутри Google сформировали…</div>\n</small></blockquote></a><div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-9328-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Вам доставка мемов из пузыря\">\n        <img src=\"media/176aea5c65ee89dffb2c25996cf4a13e.jpg\" alt=\"Вам доставка мемов из пузыря\" width=\"518\" height=\"691\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-9328-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-9328-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-9328-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/176aea5c65ee89dffb2c25996cf4a13e.jpg\" alt=\"Вам доставка мемов из пузыря\" width=\"518\" height=\"691\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Вам доставка мемов из пузыря",
+    "reactions": [
+      {
+        "emoji": "⭐",
+        "count": "13",
+        "isPaid": true
+      },
+      {
+        "emoji": "😁",
+        "count": "274",
+        "isPaid": false
+      },
+      {
+        "emoji": "👍",
+        "count": "18",
+        "isPaid": false
+      },
+      {
+        "emoji": "🔥",
+        "count": "15",
+        "isPaid": false
+      },
+      {
+        "emoji": "",
+        "emojiId": "5773848767941842357",
+        "emojiImage": "https://t.me/i/emoji/5773848767941842357.webp",
+        "count": "8",
+        "isPaid": false
+      },
+      {
+        "emoji": "⚡",
+        "count": "1",
+        "isPaid": false
+      },
+      {
+        "emoji": "🍓",
+        "count": "1",
         "isPaid": false
       }
     ],
@@ -45,48 +136,75 @@
     "channelTitle": "Data Secrets"
   },
   {
-    "id": "data_secrets/9326",
-    "title": "Вслед за OpenAI Anthropic тоже подали заявку на IPO Они объявили об этом сами, вот проект регистрационного заявления. Теперь обе компании находятся на стадии одобрения заявок регулятором (Securities and Exchange Commission, в данном случае). Так как заявки конфиденциальны, финансовых деталей пока нет. Формы были поданы стартапами с разницей в неделю, так что гонка за первенство по IPO продолжается",
+    "id": "cgevent/15816",
+    "title": "ИИ, который мы заслужили.Компания Joy AI нанимает тестировщиков старше 18 лет на 4 недели. Им предстоит тестировать новую функцию «Daily Guided Masturbation» (ежедневные сессии под руководством ИИ с адаптивным под настроение голосом).За рукоблудие обещают платить, внимание, 2000$ в месяц.Компания делает (в том числе) \"ИИ коуча по мастурбации\" и нуждается в \"специалистах\".Ежедневные голосовые ИИ-сессии, недельные отчеты о том, как это влияет на сон, стресс и общее самочувствие - все по науке. В объявлении так и написано masturbation for science.Не шутка, вот объява:Сорс@cgevent",
     "type": "text",
-    "datetime": "2026-06-02T05:18:24+00:00",
+    "datetime": "2026-06-02T12:37:20+00:00",
     "tags": [],
-    "text": "Вслед за OpenAI Anthropic тоже подали заявку на IPO Они объявили об этом сами, вот проект регистрационного заявления. Теперь обе компании находятся на стадии одобрения заявок регулятором (Securities and Exchange Commission, в данном случае). Так как заявки конфиденциальны, финансовых деталей пока нет. Формы были поданы стартапами с разницей в неделю, так что гонка за первенство по IPO продолжается",
-    "content": "<a class=\"tgme_widget_message_reply user-color-12 js-message_emoji_bg\" href=\"/posts/9267\" data-bg-emoji=\"5424846043365784811\" \"=\"\"><blockquote><small><i class=\"tgme_widget_message_reply_thumb\" style=\"background-image:url('media/b7980a4d45ad15c4dbc7c3ff5d40a3c3.jpg')\"></i>\n<div class=\"tgme_widget_message_author accent_color\">\n  <span class=\"tgme_widget_message_author_name\" dir=\"auto\">Data Secrets</span>\n</div>\n<div class=\"tgme_widget_message_text js-message_reply_text\" dir=\"auto\">OpenAI начинает официальный процесс выхода в IPO  WSJ пишут, что они планируют подать заявку регулятору буквально сегодня или завтра. Видимо, у них уже все было готово, и они дожидались только окончания суда с Маском.   После подачи заявки она будет рассматривать…</div>\n</small></blockquote></a><div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-9326-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Вслед за OpenAI Anthropic тоже подали заявку на IPO Они объявили об этом сами, вот проект регистрационного заявления. Теперь обе компании находятся на стадии одобрения заявок регулятором (Securities and Exchange Commission, в данном случае). Так как заявки конфиденциальны, финансовых деталей пока нет. Формы были поданы стартапами с разницей в неделю, так что гонка за первенство по IPO продолжается\">\n        <img src=\"media/9ca0db6656af440aa107e7fd5be3315e.jpg\" alt=\"Вслед за OpenAI Anthropic тоже подали заявку на IPO Они объявили об этом сами, вот проект регистрационного заявления. Теперь обе компании находятся на стадии одобрения заявок регулятором (Securities and Exchange Commission, в данном случае). Так как заявки конфиденциальны, финансовых деталей пока нет. Формы были поданы стартапами с разницей в неделю, так что гонка за первенство по IPO продолжается\" width=\"730\" height=\"800\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-9326-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-9326-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-9326-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/9ca0db6656af440aa107e7fd5be3315e.jpg\" alt=\"Вслед за OpenAI Anthropic тоже подали заявку на IPO Они объявили об этом сами, вот проект регистрационного заявления. Теперь обе компании находятся на стадии одобрения заявок регулятором (Securities and Exchange Commission, в данном случае). Так как заявки конфиденциальны, финансовых деталей пока нет. Формы были поданы стартапами с разницей в неделю, так что гонка за первенство по IPO продолжается\" width=\"730\" height=\"800\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><b>Вслед за OpenAI Anthropic тоже подали заявку на IPO </b><br><br>Они объявили об этом сами, вот <a href=\"https://www.anthropic.com/news/confidential-draft-s1-sec\" target=\"_blank\" rel=\"noopener\" title=\"проект\">проект</a> регистрационного заявления. <br><br>Теперь обе компании находятся на стадии одобрения заявок регулятором (Securities and Exchange Commission, в данном случае). Так как заявки конфиденциальны, финансовых деталей пока нет. <br><br>Формы были поданы стартапами с разницей в неделю, так что гонка за первенство по IPO продолжается",
+    "text": "ИИ, который мы заслужили.Компания Joy AI нанимает тестировщиков старше 18 лет на 4 недели. Им предстоит тестировать новую функцию «Daily Guided Masturbation» (ежедневные сессии под руководством ИИ с адаптивным под настроение голосом).За рукоблудие обещают платить, внимание, 2000$ в месяц.Компания делает (в том числе) \"ИИ коуча по мастурбации\" и нуждается в \"специалистах\".Ежедневные голосовые ИИ-сессии, недельные отчеты о том, как это влияет на сон, стресс и общее самочувствие - все по науке. В объявлении так и написано masturbation for science.Не шутка, вот объява:Сорс@cgevent",
+    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-15816-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: ИИ, который мы заслужили.Компания Joy AI нанимает тестировщиков старше 18 лет на 4 недели. Им предстоит тестировать новую функцию «Daily Guided Masturbation» (ежедневные сессии под руководством ИИ с адаптивным под настроение голосом).За рукоблудие обещают платить, внимание, 2000$ в месяц.Компания делает (в том числе) &quot;ИИ коуча по мастурбации&quot; и нуждается в &quot;специалистах&quot;.Ежедневные голосовые ИИ-сессии, недельные отчеты о том, как это влияет на сон, стресс и общее самочувствие - все по науке. В объявлении так и написано masturbation for science.Не шутка, вот объява:Сорс@cgevent\">\n        <img src=\"media/1ba48156aeff4c85138216db7a8282c0.jpg\" alt=\"ИИ, который мы заслужили.Компания Joy AI нанимает тестировщиков старше 18 лет на 4 недели. Им предстоит тестировать новую функцию «Daily Guided Masturbation» (ежедневные сессии под руководством ИИ с адаптивным под настроение голосом).За рукоблудие обещают платить, внимание, 2000$ в месяц.Компания делает (в том числе) &quot;ИИ коуча по мастурбации&quot; и нуждается в &quot;специалистах&quot;.Ежедневные голосовые ИИ-сессии, недельные отчеты о том, как это влияет на сон, стресс и общее самочувствие - все по науке. В объявлении так и написано masturbation for science.Не шутка, вот объява:Сорс@cgevent\" width=\"800\" height=\"713\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-15816-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-15816-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-15816-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/1ba48156aeff4c85138216db7a8282c0.jpg\" alt=\"ИИ, который мы заслужили.Компания Joy AI нанимает тестировщиков старше 18 лет на 4 недели. Им предстоит тестировать новую функцию «Daily Guided Masturbation» (ежедневные сессии под руководством ИИ с адаптивным под настроение голосом).За рукоблудие обещают платить, внимание, 2000$ в месяц.Компания делает (в том числе) &quot;ИИ коуча по мастурбации&quot; и нуждается в &quot;специалистах&quot;.Ежедневные голосовые ИИ-сессии, недельные отчеты о том, как это влияет на сон, стресс и общее самочувствие - все по науке. В объявлении так и написано masturbation for science.Не шутка, вот объява:Сорс@cgevent\" width=\"800\" height=\"713\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><b>ИИ, который мы заслужили.</b><br><br>Компания Joy AI нанимает тестировщиков старше 18 лет на 4 недели. Им предстоит тестировать новую функцию «Daily Guided Masturbation» (ежедневные сессии под руководством ИИ с адаптивным под <b>настроение</b> голосом).<br><br>За рукоблудие обещают платить, внимание, 2000$ в месяц.<br><br>Компания делает (в том числе) \"ИИ коуча по мастурбации\" и нуждается в \"специалистах\".<br><br>Ежедневные голосовые ИИ-сессии, недельные отчеты о том, как это влияет на сон, стресс и общее самочувствие - все по науке. В объявлении так и написано masturbation for science.<br><br>Не шутка, вот <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfJf4ZQxcn2M3tCreI3AD5tHiEJGsgI5keix_D0Je_6V2KZmw/viewform?pli=1\" target=\"_blank\" rel=\"noopener\" title=\"объява\">объява</a>:<br><br><a href=\"https://x.com/joi___ai/status/2056518876243149258\" target=\"_blank\" rel=\"noopener\" title=\"Сорс\">Сорс</a><br><br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a>",
     "reactions": [
       {
-        "emoji": "",
-        "emojiId": "5850279489090627237",
-        "emojiImage": "https://t.me/i/emoji/5850279489090627237.webp",
-        "count": "68",
+        "emoji": "😁",
+        "count": "16",
         "isPaid": false
       },
       {
         "emoji": "❤️",
-        "count": "19",
+        "count": "6",
         "isPaid": false
       },
       {
-        "emoji": "⚡",
-        "count": "8",
-        "isPaid": false
-      },
-      {
-        "emoji": "😁",
+        "emoji": "😱",
         "count": "3",
         "isPaid": false
       },
       {
-        "emoji": "🗿",
-        "count": "2",
+        "emoji": "🙏",
+        "count": "3",
         "isPaid": false
       },
       {
-        "emoji": "😎",
-        "count": "1",
+        "emoji": "🔥",
+        "count": "2",
         "isPaid": false
       }
     ],
-    "channel": "data_secrets",
-    "channelTitle": "Data Secrets"
+    "channel": "cgevent",
+    "channelTitle": "Метаверсище и ИИще"
+  },
+  {
+    "id": "cgevent/15815",
+    "title": "ByteDance выкатила Bernini — новую систему для генерации и редактирования видео, где MLLM-модель сначала «планирует» сцену на семантическом уровне, а уже потом диффузионная модель рендерит итоговый ролик. По сути, ИИ сначала думает, потом рисует. 🤯Проект построен на базе WAN 2.2 и дополнительных чекпоинтах от команды ByteDance, а также моделей, указанных авторами в репозитории. Поддерживаются генерация видео, редактирование, работа с референсами и вставка объектов в готовые ролики.Потестить можно тут:bernini-ai.github.io#AI #VideoGeneration #ByteDance #WAN22 #pepewtfa",
+    "type": "text",
+    "datetime": "2026-06-02T12:00:04+00:00",
+    "tags": [
+      "AI",
+      "VideoGeneration",
+      "ByteDance",
+      "WAN22",
+      "pepewtfa"
+    ],
+    "text": "ByteDance выкатила Bernini — новую систему для генерации и редактирования видео, где MLLM-модель сначала «планирует» сцену на семантическом уровне, а уже потом диффузионная модель рендерит итоговый ролик. По сути, ИИ сначала думает, потом рисует. 🤯Проект построен на базе WAN 2.2 и дополнительных чекпоинтах от команды ByteDance, а также моделей, указанных авторами в репозитории. Поддерживаются генерация видео, редактирование, работа с референсами и вставка объектов в готовые ролики.Потестить можно тут:bernini-ai.github.io#AI #VideoGeneration #ByteDance #WAN22 #pepewtfa",
+    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-15815-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: ByteDance выкатила Bernini — новую систему для генерации и редактирования видео, где MLLM-модель сначала «планирует» сцену на семантическом уровне, а уже потом диффузионная модель рендерит итоговый ролик. По сути, ИИ сначала думает, потом рисует. 🤯Проект построен на базе WAN 2.2 и дополнительных чекпоинтах от команды ByteDance, а также моделей, указанных авторами в репозитории. Поддерживаются генерация видео, редактирование, работа с референсами и вставка объектов в готовые ролики.Потестить можно тут:bernini-ai.github.io#AI #VideoGeneration #ByteDance #WAN22 #pepewtfa\">\n        <img src=\"media/8c0adaec027093978865132e7c907397.jpg\" alt=\"ByteDance выкатила Bernini — новую систему для генерации и редактирования видео, где MLLM-модель сначала «планирует» сцену на семантическом уровне, а уже потом диффузионная модель рендерит итоговый ролик. По сути, ИИ сначала думает, потом рисует. 🤯Проект построен на базе WAN 2.2 и дополнительных чекпоинтах от команды ByteDance, а также моделей, указанных авторами в репозитории. Поддерживаются генерация видео, редактирование, работа с референсами и вставка объектов в готовые ролики.Потестить можно тут:bernini-ai.github.io#AI #VideoGeneration #ByteDance #WAN22 #pepewtfa\" width=\"605\" height=\"800\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-15815-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-15815-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-15815-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/8c0adaec027093978865132e7c907397.jpg\" alt=\"ByteDance выкатила Bernini — новую систему для генерации и редактирования видео, где MLLM-модель сначала «планирует» сцену на семантическом уровне, а уже потом диффузионная модель рендерит итоговый ролик. По сути, ИИ сначала думает, потом рисует. 🤯Проект построен на базе WAN 2.2 и дополнительных чекпоинтах от команды ByteDance, а также моделей, указанных авторами в репозитории. Поддерживаются генерация видео, редактирование, работа с референсами и вставка объектов в готовые ролики.Потестить можно тут:bernini-ai.github.io#AI #VideoGeneration #ByteDance #WAN22 #pepewtfa\" width=\"605\" height=\"800\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>ByteDance выкатила Bernini — новую систему для генерации и редактирования видео, где MLLM-модель сначала «планирует» сцену на семантическом уровне, а уже потом диффузионная модель рендерит итоговый ролик. По сути, ИИ сначала думает, потом рисует. <i class=\"emoji\"><b>🤯</b></i><br><br>Проект построен на базе WAN 2.2 и дополнительных чекпоинтах от команды ByteDance, а также моделей, указанных авторами в репозитории. Поддерживаются генерация видео, редактирование, работа с референсами и вставка объектов в готовые ролики.<br><br>Потестить можно тут:<br><a href=\"http://bernini-ai.github.io/\" target=\"_blank\" rel=\"noopener\" title=\"bernini-ai.github.io\">bernini-ai.github.io</a><br><br><a href=\"/search/%23AI\" title=\"#AI\">#AI</a> <a href=\"/search/%23VideoGeneration\" title=\"#VideoGeneration\">#VideoGeneration</a> <a href=\"/search/%23ByteDance\" title=\"#ByteDance\">#ByteDance</a> <a href=\"/search/%23WAN22\" title=\"#WAN22\">#WAN22</a> <a href=\"/search/%23pepewtfa\" title=\"#pepewtfa\">#pepewtfa</a>",
+    "reactions": [
+      {
+        "emoji": "👍",
+        "count": "20",
+        "isPaid": false
+      },
+      {
+        "emoji": "🔥",
+        "count": "6",
+        "isPaid": false
+      },
+      {
+        "emoji": "❤️",
+        "count": "4",
+        "isPaid": false
+      }
+    ],
+    "channel": "cgevent",
+    "channelTitle": "Метаверсище и ИИще"
   }
 ]
