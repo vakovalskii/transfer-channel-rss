@@ -1,56 +1,16 @@
 [
   {
-    "id": "neuraldeep/2169",
-    "title": "Как накачать агентов к лету:",
+    "id": "evilfreelancer/1731",
+    "title": "В рамках развития вчерашней истории про мой дзен построения минималистичных агентных решений подготовил репозиторий agent-template с двумя описанными в посте подходами, через coddy и через opencode в формате docker compose и простенького харнес.Указанный шаблон интересен тем, что в нём ничего лишнего, только базовый функционал который по желанию допиливается в любом направлении.PS. Там я кстати сразу подготовил интеграцию с Hub Neuraldeep, так что вам надо будет только ключик подкинуть и можно пользоваться.",
     "type": "text",
-    "datetime": "2026-06-05T10:40:25+00:00",
+    "datetime": "2026-06-05T11:55:05+00:00",
     "tags": [],
-    "text": "Как накачать агентов к лету:",
-    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-2169-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Как накачать агентов к лету:\">\n        <img src=\"media/57a25a4e12138ce690f0221868aee7b8.jpg\" alt=\"Как накачать агентов к лету:\" width=\"800\" height=\"780\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-2169-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-2169-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-2169-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/57a25a4e12138ce690f0221868aee7b8.jpg\" alt=\"Как накачать агентов к лету:\" width=\"800\" height=\"780\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Как накачать агентов к лету:",
-    "reactions": [
-      {
-        "emoji": "😁",
-        "count": "16",
-        "isPaid": false
-      },
-      {
-        "emoji": "❤️",
-        "count": "11",
-        "isPaid": false
-      },
-      {
-        "emoji": "🔥",
-        "count": "7",
-        "isPaid": false
-      },
-      {
-        "emoji": "💯",
-        "count": "3",
-        "isPaid": false
-      },
-      {
-        "emoji": "",
-        "emojiId": "5217608395250485583",
-        "emojiImage": "https://t.me/i/emoji/5217608395250485583.webp",
-        "count": "3",
-        "isPaid": false
-      }
-    ],
-    "channel": "neuraldeep",
-    "channelTitle": "Валера Ковальский"
-  },
-  {
-    "id": "evilfreelancer/1730",
-    "title": "Как накачать агентов к лету:",
-    "type": "text",
-    "datetime": "2026-06-05T10:09:45+00:00",
-    "tags": [],
-    "text": "Как накачать агентов к лету:",
-    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-1730-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Как накачать агентов к лету:\">\n        <img src=\"media/82ab3cfdafdb215c58819a7b0c8b47f8.jpg\" alt=\"Как накачать агентов к лету:\" width=\"800\" height=\"780\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-1730-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-1730-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-1730-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/82ab3cfdafdb215c58819a7b0c8b47f8.jpg\" alt=\"Как накачать агентов к лету:\" width=\"800\" height=\"780\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Как накачать агентов к лету:",
+    "text": "В рамках развития вчерашней истории про мой дзен построения минималистичных агентных решений подготовил репозиторий agent-template с двумя описанными в посте подходами, через coddy и через opencode в формате docker compose и простенького харнес.Указанный шаблон интересен тем, что в нём ничего лишнего, только базовый функционал который по желанию допиливается в любом направлении.PS. Там я кстати сразу подготовил интеграцию с Hub Neuraldeep, так что вам надо будет только ключик подкинуть и можно пользоваться.",
+    "content": "<a class=\"tgme_widget_message_reply user-color-default\" href=\"/posts/1729\" \"=\"\"><blockquote><small><i class=\"tgme_widget_message_reply_thumb\" style=\"background-image:url('media/a7e13741a7a0ef585e43db421dba2b41.jpg')\"></i>\n<div class=\"tgme_widget_message_author accent_color\">\n  <span class=\"tgme_widget_message_author_name\" dir=\"auto\">Pavel Zloi</span>\n</div>\n<div class=\"tgme_widget_message_text js-message_reply_text\" dir=\"auto\">Дзен построения агентных систем  Ну чтож, месяц агентности предлагаю начать с базированного поста про то как я собираю агентные системы.  Большинство моих решений выглядят просто и лаконично, словно конструктор лего, обычно это связка из небольших кубиков…</div>\n</small></blockquote></a>В рамках развития вчерашней истории про мой дзен построения минималистичных агентных решений подготовил репозиторий <a href=\"https://github.com/EvilFreelancer/agent-template\" target=\"_blank\" rel=\"noopener\" title=\"agent-template\">agent-template</a> с двумя описанными в посте подходами, через coddy и через opencode в формате docker compose и простенького харнес.<br><br>Указанный шаблон интересен тем, что в нём ничего лишнего, только базовый функционал который по желанию допиливается в любом направлении.<br><br>PS. Там я кстати сразу подготовил интеграцию с <a href=\"https://hub.neuraldeep.ru/\" target=\"_blank\" rel=\"noopener\" title=\"Hub Neuraldeep\">Hub Neuraldeep</a>, так что вам надо будет только ключик подкинуть и можно пользоваться.<a class=\"tgme_widget_message_link_preview\" href=\"https://github.com/EvilFreelancer/agent-template\" target=\"_blank\" rel=\"noopener\" title=\"A Lego-style agent system template built from agent, MCP, CLI, and skills. - EvilFreelancer/agent-template\">\n  \n  <div class=\"link_preview_site_name accent_color\" dir=\"auto\">GitHub</div>\n  \n  <div class=\"link_preview_title\" dir=\"auto\">GitHub - EvilFreelancer/agent-template: A Lego-style agent system template built from agent, MCP, CLI, and skills.</div>\n  <div class=\"link_preview_description\" dir=\"auto\">A Lego-style agent system template built from agent, MCP, CLI, and skills. - EvilFreelancer/agent-template</div>\n</a>",
     "reactions": [
       {
         "emoji": "🔥",
-        "count": "4",
+        "count": "5",
         "isPaid": false
       }
     ],
@@ -58,59 +18,69 @@
     "channelTitle": "Pavel Zloi"
   },
   {
-    "id": "kdoronin_blog/1293",
-    "title": "Как накачать агентов к лету:",
+    "id": "gleb_pro_ai/611",
+    "title": "Может для кого открою Америку, но если у вас список проектов перестает помещаться на экране, но нагрузки на каждый из них три копейки, то используйте для выкладки CoolifyЭто бесплатная оупенсорсная софтина, которая позволяет вам без танцев с бубном завести на одном сервере не один, а десяток проектов, плюс удобно ими управлять в будущем.Я сначала извращался, писал какие-то деплой скрипты, настраивал реверс-прокси, а потом просто пересел на кулифай где все это есть из коробки, чего и вам желаю.PS сделал картинку-пояснение в нейронке. Напишите как вы к ним относитесь, мне вроде как с ними понятнее, хотя и видно что сгенеренные. Короче думаю делать такие картинки дальше или нет.",
     "type": "text",
-    "datetime": "2026-06-05T10:08:07+00:00",
+    "datetime": "2026-06-05T12:09:49+00:00",
     "tags": [],
-    "text": "Как накачать агентов к лету:",
-    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-1293-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Как накачать агентов к лету:\">\n        <img src=\"media/bf7e8281a01f4aa1ba19c27f827b4102.jpg\" alt=\"Как накачать агентов к лету:\" width=\"800\" height=\"780\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-1293-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-1293-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-1293-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/bf7e8281a01f4aa1ba19c27f827b4102.jpg\" alt=\"Как накачать агентов к лету:\" width=\"800\" height=\"780\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Как накачать агентов к лету:",
+    "text": "Может для кого открою Америку, но если у вас список проектов перестает помещаться на экране, но нагрузки на каждый из них три копейки, то используйте для выкладки CoolifyЭто бесплатная оупенсорсная софтина, которая позволяет вам без танцев с бубном завести на одном сервере не один, а десяток проектов, плюс удобно ими управлять в будущем.Я сначала извращался, писал какие-то деплой скрипты, настраивал реверс-прокси, а потом просто пересел на кулифай где все это есть из коробки, чего и вам желаю.PS сделал картинку-пояснение в нейронке. Напишите как вы к ним относитесь, мне вроде как с ними понятнее, хотя и видно что сгенеренные. Короче думаю делать такие картинки дальше или нет.",
+    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-611-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Может для кого открою Америку, но если у вас список проектов перестает помещаться на экране, но нагрузки на каждый из них три копейки, то используйте для выкладки CoolifyЭто бесплатная оупенсорсная софтина, которая позволяет вам без танцев с бубном завести на одном сервере не один, а десяток проектов, плюс удобно ими управлять в будущем.Я сначала извращался, писал какие-то деплой скрипты, настраивал реверс-прокси, а потом просто пересел на кулифай где все это есть из коробки, чего и вам желаю.PS сделал картинку-пояснение в нейронке. Напишите как вы к ним относитесь, мне вроде как с ними понятнее, хотя и видно что сгенеренные. Короче думаю делать такие картинки дальше или нет.\">\n        <img src=\"media/ad2bb0f11909fc0a2e3e6e59cf3d9e72.jpg\" alt=\"Может для кого открою Америку, но если у вас список проектов перестает помещаться на экране, но нагрузки на каждый из них три копейки, то используйте для выкладки CoolifyЭто бесплатная оупенсорсная софтина, которая позволяет вам без танцев с бубном завести на одном сервере не один, а десяток проектов, плюс удобно ими управлять в будущем.Я сначала извращался, писал какие-то деплой скрипты, настраивал реверс-прокси, а потом просто пересел на кулифай где все это есть из коробки, чего и вам желаю.PS сделал картинку-пояснение в нейронке. Напишите как вы к ним относитесь, мне вроде как с ними понятнее, хотя и видно что сгенеренные. Короче думаю делать такие картинки дальше или нет.\" width=\"800\" height=\"675\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-611-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-611-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-611-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/ad2bb0f11909fc0a2e3e6e59cf3d9e72.jpg\" alt=\"Может для кого открою Америку, но если у вас список проектов перестает помещаться на экране, но нагрузки на каждый из них три копейки, то используйте для выкладки CoolifyЭто бесплатная оупенсорсная софтина, которая позволяет вам без танцев с бубном завести на одном сервере не один, а десяток проектов, плюс удобно ими управлять в будущем.Я сначала извращался, писал какие-то деплой скрипты, настраивал реверс-прокси, а потом просто пересел на кулифай где все это есть из коробки, чего и вам желаю.PS сделал картинку-пояснение в нейронке. Напишите как вы к ним относитесь, мне вроде как с ними понятнее, хотя и видно что сгенеренные. Короче думаю делать такие картинки дальше или нет.\" width=\"800\" height=\"675\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Может для кого открою Америку, но если у вас список проектов перестает помещаться на экране, но нагрузки на каждый из них три копейки, то используйте для выкладки <b>Coolify<br><br></b>Это бесплатная оупенсорсная софтина, которая позволяет вам без танцев с бубном завести на одном сервере не один, а десяток проектов, плюс удобно ими управлять в будущем.<br><br>Я сначала извращался, писал какие-то деплой скрипты, настраивал реверс-прокси, а потом просто пересел на кулифай где все это есть из коробки, чего и вам желаю.<br><br>PS сделал картинку-пояснение в нейронке. Напишите как вы к ним относитесь, мне вроде как с ними понятнее, хотя и видно что сгенеренные. Короче думаю делать такие картинки дальше или нет.",
     "reactions": [
       {
-        "emoji": "😁",
-        "count": "25",
+        "emoji": "👍",
+        "count": "21",
         "isPaid": false
       },
       {
         "emoji": "🔥",
-        "count": "7",
+        "count": "13",
         "isPaid": false
       },
       {
         "emoji": "❤️",
-        "count": "1",
+        "count": "7",
+        "isPaid": false
+      },
+      {
+        "emoji": "💯",
+        "count": "6",
         "isPaid": false
       }
     ],
-    "channel": "kdoronin_blog",
-    "channelTitle": "Константин Доронин"
+    "channel": "gleb_pro_ai",
+    "channelTitle": "Глеб Кудрявцев про AI"
   },
   {
-    "id": "tips_ai/4727",
-    "title": "Тут трафик ботов в интернете превысил трафик людей.57% ботов против 43% людейЕсли что, в эту долю входят не только AI-агенты, а еще всякие краулеры, скрейперы, сервисные боты и тд.Теория мертвого интернета больше не теория @tips_ai",
+    "id": "tips_ai/4729",
+    "title": "в честь открытия канала!Хватит, чтобы сделать несколько сайтов и парочку приложений на poehali.dev. Разделим приз между 18 участниками.Призы по местам:🥇 1 место: 50 000 ₽🥈 2 место: 25 000 ₽🥉 3 место: 10 000 ₽🏅 +15 победителей по 1 000 ₽Как участвовать:1. Подпишись на @poehali_news2. Жми «Участвовать» под постом3. Ответь боту на один вопросПоставь реакцию на пост. Так розыгрышей станет больше.Победителей выберем 20 июня и назовём здесь же. Заходи и забери свой приз!",
     "type": "text",
-    "datetime": "2026-06-05T09:25:53+00:00",
+    "datetime": "2026-06-05T12:21:18+00:00",
     "tags": [],
-    "text": "Тут трафик ботов в интернете превысил трафик людей.57% ботов против 43% людейЕсли что, в эту долю входят не только AI-агенты, а еще всякие краулеры, скрейперы, сервисные боты и тд.Теория мертвого интернета больше не теория @tips_ai",
-    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-4727-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Тут трафик ботов в интернете превысил трафик людей.57% ботов против 43% людейЕсли что, в эту долю входят не только AI-агенты, а еще всякие краулеры, скрейперы, сервисные боты и тд.Теория мертвого интернета больше не теория @tips_ai\">\n        <img src=\"media/2d38cfcebf04c3ef4f96049f3c0bd0c2.jpg\" alt=\"Тут трафик ботов в интернете превысил трафик людей.57% ботов против 43% людейЕсли что, в эту долю входят не только AI-агенты, а еще всякие краулеры, скрейперы, сервисные боты и тд.Теория мертвого интернета больше не теория @tips_ai\" width=\"800\" height=\"466\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-4727-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-4727-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-4727-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/2d38cfcebf04c3ef4f96049f3c0bd0c2.jpg\" alt=\"Тут трафик ботов в интернете превысил трафик людей.57% ботов против 43% людейЕсли что, в эту долю входят не только AI-агенты, а еще всякие краулеры, скрейперы, сервисные боты и тд.Теория мертвого интернета больше не теория @tips_ai\" width=\"800\" height=\"466\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Тут трафик ботов в интернете <a href=\"https://radar.cloudflare.com/traffic\" target=\"_blank\" rel=\"noopener\" title=\"превысил\">превысил</a> трафик людей.<br><br>57% ботов против 43% людей<br><br>Если что, в эту долю входят не только AI-агенты, а еще всякие краулеры, скрейперы, сервисные боты и тд.<br><br>Теория мертвого интернета больше не теория <img class=\"tg-emoji\" src=\"media/58f213e516289e660dcdba43ea49ff73.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"><br><br><a href=\"https://t.me/tips_ai\" target=\"_blank\" title=\"@tips_ai\">@tips_ai</a>",
+    "text": "в честь открытия канала!Хватит, чтобы сделать несколько сайтов и парочку приложений на poehali.dev. Разделим приз между 18 участниками.Призы по местам:🥇 1 место: 50 000 ₽🥈 2 место: 25 000 ₽🥉 3 место: 10 000 ₽🏅 +15 победителей по 1 000 ₽Как участвовать:1. Подпишись на @poehali_news2. Жми «Участвовать» под постом3. Ответь боту на один вопросПоставь реакцию на пост. Так розыгрышей станет больше.Победителей выберем 20 июня и назовём здесь же. Заходи и забери свой приз!",
+    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-4729-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: в честь открытия канала!Хватит, чтобы сделать несколько сайтов и парочку приложений на poehali.dev. Разделим приз между 18 участниками.Призы по местам:🥇 1 место: 50 000 ₽🥈 2 место: 25 000 ₽🥉 3 место: 10 000 ₽🏅 +15 победителей по 1 000 ₽Как участвовать:1. Подпишись на @poehali_news2. Жми «Участвовать» под постом3. Ответь боту на один вопросПоставь реакцию на пост. Так розыгрышей станет больше.Победителей выберем 20 июня и назовём здесь же. Заходи и забери свой приз!\">\n        <img src=\"media/35864a634a1ded08ccfe59b0bf72c68b.jpg\" alt=\"в честь открытия канала!Хватит, чтобы сделать несколько сайтов и парочку приложений на poehali.dev. Разделим приз между 18 участниками.Призы по местам:🥇 1 место: 50 000 ₽🥈 2 место: 25 000 ₽🥉 3 место: 10 000 ₽🏅 +15 победителей по 1 000 ₽Как участвовать:1. Подпишись на @poehali_news2. Жми «Участвовать» под постом3. Ответь боту на один вопросПоставь реакцию на пост. Так розыгрышей станет больше.Победителей выберем 20 июня и назовём здесь же. Заходи и забери свой приз!\" width=\"800\" height=\"800\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-4729-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-4729-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-4729-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/35864a634a1ded08ccfe59b0bf72c68b.jpg\" alt=\"в честь открытия канала!Хватит, чтобы сделать несколько сайтов и парочку приложений на poehali.dev. Разделим приз между 18 участниками.Призы по местам:🥇 1 место: 50 000 ₽🥈 2 место: 25 000 ₽🥉 3 место: 10 000 ₽🏅 +15 победителей по 1 000 ₽Как участвовать:1. Подпишись на @poehali_news2. Жми «Участвовать» под постом3. Ответь боту на один вопросПоставь реакцию на пост. Так розыгрышей станет больше.Победителей выберем 20 июня и назовём здесь же. Заходи и забери свой приз!\" width=\"800\" height=\"800\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><b><img class=\"tg-emoji\" src=\"media/989a9db283adb885a2f119d5b24aabba.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"></b><b><img class=\"tg-emoji\" src=\"media/67b494caaf72b1d299dc07695b14a6a4.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"></b><b><img class=\"tg-emoji\" src=\"media/1a84c7397a80e2d22fac9fade66cf25f.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"></b><b><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5267435290103945016.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"></b><b><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5267060713121159652.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"></b><b><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5265258909915977738.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"></b><b><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5267066446902499025.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"></b><b><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5267518350476481992.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"></b><b>в честь открытия канала!</b><br><br>Хватит, чтобы сделать несколько сайтов и парочку приложений на <a href=\"http://poehali.dev/\" target=\"_blank\" rel=\"noopener\" title=\"poehali.dev\">poehali.dev</a>. Разделим приз между 18 участниками.<br><br><blockquote>Призы по местам:<br><i class=\"emoji\"><b>🥇</b></i> 1 место: 50 000 ₽<br><i class=\"emoji\"><b>🥈</b></i> 2 место: 25 000 ₽<br><i class=\"emoji\"><b>🥉</b></i> 3 место: 10 000 ₽<br><i class=\"emoji\"><b>🏅</b></i> +15 победителей по 1 000 ₽<br></blockquote><br><br>Как участвовать:<br>1. Подпишись на <a href=\"https://t.me/poehali_news\" target=\"_blank\" title=\"@poehali_news\">@poehali_news</a><br>2. Жми «<a href=\"http://t.me/poehlBot?start=giveaway__channellaunch\" target=\"_blank\" rel=\"noopener\" title=\"Участвовать\">Участвовать</a>» под постом<br>3. Ответь боту на один вопрос<br><br>Поставь реакцию на пост. Так розыгрышей станет больше.<br><br>Победителей выберем 20 июня и назовём здесь же. Заходи и забери свой приз!",
     "reactions": [
       {
-        "emoji": "⭐",
-        "count": "1",
-        "isPaid": true
+        "emoji": "🔥",
+        "count": "6",
+        "isPaid": false
+      },
+      {
+        "emoji": "🤣",
+        "count": "5",
+        "isPaid": false
+      },
+      {
+        "emoji": "❤️",
+        "count": "2",
+        "isPaid": false
       },
       {
         "emoji": "😁",
-        "count": "17",
+        "count": "2",
         "isPaid": false
       },
       {
-        "emoji": "🫡",
-        "count": "4",
-        "isPaid": false
-      },
-      {
-        "emoji": "👍",
+        "emoji": "🤡",
         "count": "2",
         "isPaid": false
       }
@@ -119,243 +89,185 @@
     "channelTitle": "Tips AI | IT & AI"
   },
   {
-    "id": "seeallochnaya/3675",
-    "title": "Что объединяет компании на картинке? Они получат гарантированный импакт от AI — или им вернут деньги 😎Наверняка многие из вас слышали или читали новости про то, что какие-то компании отключают Claude Code или тем более Github Copilot из-за огромных трат разработчиков на модели. CTO Uber сказал, что они за квартал сожгли весь годовой бюджет, заложенный на ИИ-агентов (что, конечно, глупо — в таких компаниях бюджеты согласовывают долго, поэтому они пытались делать оценки по условному Claude Sonnet 4.5, и понятно что Opus 4.8 может делать больше, и тратить можно (нужно) больше).Разные компании уже говорили про то, что нужна некоторая гарантия результата за потраченные токены. Cognition, авторы бота Devin, на моей памяти тут первые: для энтерпрайз-клиентов с картинки они подключают «Productivity Guarantee». Для этого они собрали выборку и обучили/откалибровали модель, которая предсказывает, а) сделал ли агент что-то ценное б) если да, то сколько часов это заняло бы у человека?Дальше часы умножаются на какую-то среднюю ставку разработчика, и всё суммируется за какой-то длинный период. В конце периода Cognition смотрит, больше ли эта оценка чем то, что им заплатил клиент. Если нет, то есть ценной работы мало, то они готовы вернуть разницу кредитами — до 10 миллионов долларов на будущие запросы.Модель оценки ошибается, но компания уверяет, что ошибки несмещены, поэтому при агрегации на длином периоде оценка получится относительно точной.Идея интересная, будем следить, что придумают OpenAI и Anthropic — у последних вопрос отбивания трат клиентов стоит, кажется, очень остро.Прочитать побольше про механизм: 1 общий и 2 техническое описание",
+    "id": "tips_ai/4728",
+    "title": "Мой друг Даниил, который построил poehali.dev для создания приложений, запустил конкурс в честь открытия канала. Если интересно, можете поучаствовать ",
     "type": "text",
-    "datetime": "2026-06-05T10:30:07+00:00",
+    "datetime": "2026-06-05T12:21:16+00:00",
     "tags": [],
-    "text": "Что объединяет компании на картинке? Они получат гарантированный импакт от AI — или им вернут деньги 😎Наверняка многие из вас слышали или читали новости про то, что какие-то компании отключают Claude Code или тем более Github Copilot из-за огромных трат разработчиков на модели. CTO Uber сказал, что они за квартал сожгли весь годовой бюджет, заложенный на ИИ-агентов (что, конечно, глупо — в таких компаниях бюджеты согласовывают долго, поэтому они пытались делать оценки по условному Claude Sonnet 4.5, и понятно что Opus 4.8 может делать больше, и тратить можно (нужно) больше).Разные компании уже говорили про то, что нужна некоторая гарантия результата за потраченные токены. Cognition, авторы бота Devin, на моей памяти тут первые: для энтерпрайз-клиентов с картинки они подключают «Productivity Guarantee». Для этого они собрали выборку и обучили/откалибровали модель, которая предсказывает, а) сделал ли агент что-то ценное б) если да, то сколько часов это заняло бы у человека?Дальше часы умножаются на какую-то среднюю ставку разработчика, и всё суммируется за какой-то длинный период. В конце периода Cognition смотрит, больше ли эта оценка чем то, что им заплатил клиент. Если нет, то есть ценной работы мало, то они готовы вернуть разницу кредитами — до 10 миллионов долларов на будущие запросы.Модель оценки ошибается, но компания уверяет, что ошибки несмещены, поэтому при агрегации на длином периоде оценка получится относительно точной.Идея интересная, будем следить, что придумают OpenAI и Anthropic — у последних вопрос отбивания трат клиентов стоит, кажется, очень остро.Прочитать побольше про механизм: 1 общий и 2 техническое описание",
-    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-3675-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Что объединяет компании на картинке? Они получат гарантированный импакт от AI — или им вернут деньги 😎Наверняка многие из вас слышали или читали новости про то, что какие-то компании отключают Claude Code или тем более Github Copilot из-за огромных трат разработчиков на модели. CTO Uber сказал, что они за квартал сожгли весь годовой бюджет, заложенный на ИИ-агентов (что, конечно, глупо — в таких компаниях бюджеты согласовывают долго, поэтому они пытались делать оценки по условному Claude Sonnet 4.5, и понятно что Opus 4.8 может делать больше, и тратить можно (нужно) больше).Разные компании уже говорили про то, что нужна некоторая гарантия результата за потраченные токены. Cognition, авторы бота Devin, на моей памяти тут первые: для энтерпрайз-клиентов с картинки они подключают «Productivity Guarantee». Для этого они собрали выборку и обучили/откалибровали модель, которая предсказывает, а) сделал ли агент что-то ценное б) если да, то сколько часов это заняло бы у человека?Дальше часы умножаются на какую-то среднюю ставку разработчика, и всё суммируется за какой-то длинный период. В конце периода Cognition смотрит, больше ли эта оценка чем то, что им заплатил клиент. Если нет, то есть ценной работы мало, то они готовы вернуть разницу кредитами — до 10 миллионов долларов на будущие запросы.Модель оценки ошибается, но компания уверяет, что ошибки несмещены, поэтому при агрегации на длином периоде оценка получится относительно точной.Идея интересная, будем следить, что придумают OpenAI и Anthropic — у последних вопрос отбивания трат клиентов стоит, кажется, очень остро.Прочитать побольше про механизм: 1 общий и 2 техническое описание\">\n        <img src=\"media/fa39f052f93704169356425dbbd70563.jpg\" alt=\"Что объединяет компании на картинке? Они получат гарантированный импакт от AI — или им вернут деньги 😎Наверняка многие из вас слышали или читали новости про то, что какие-то компании отключают Claude Code или тем более Github Copilot из-за огромных трат разработчиков на модели. CTO Uber сказал, что они за квартал сожгли весь годовой бюджет, заложенный на ИИ-агентов (что, конечно, глупо — в таких компаниях бюджеты согласовывают долго, поэтому они пытались делать оценки по условному Claude Sonnet 4.5, и понятно что Opus 4.8 может делать больше, и тратить можно (нужно) больше).Разные компании уже говорили про то, что нужна некоторая гарантия результата за потраченные токены. Cognition, авторы бота Devin, на моей памяти тут первые: для энтерпрайз-клиентов с картинки они подключают «Productivity Guarantee». Для этого они собрали выборку и обучили/откалибровали модель, которая предсказывает, а) сделал ли агент что-то ценное б) если да, то сколько часов это заняло бы у человека?Дальше часы умножаются на какую-то среднюю ставку разработчика, и всё суммируется за какой-то длинный период. В конце периода Cognition смотрит, больше ли эта оценка чем то, что им заплатил клиент. Если нет, то есть ценной работы мало, то они готовы вернуть разницу кредитами — до 10 миллионов долларов на будущие запросы.Модель оценки ошибается, но компания уверяет, что ошибки несмещены, поэтому при агрегации на длином периоде оценка получится относительно точной.Идея интересная, будем следить, что придумают OpenAI и Anthropic — у последних вопрос отбивания трат клиентов стоит, кажется, очень остро.Прочитать побольше про механизм: 1 общий и 2 техническое описание\" width=\"800\" height=\"625\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-3675-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-3675-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-3675-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/fa39f052f93704169356425dbbd70563.jpg\" alt=\"Что объединяет компании на картинке? Они получат гарантированный импакт от AI — или им вернут деньги 😎Наверняка многие из вас слышали или читали новости про то, что какие-то компании отключают Claude Code или тем более Github Copilot из-за огромных трат разработчиков на модели. CTO Uber сказал, что они за квартал сожгли весь годовой бюджет, заложенный на ИИ-агентов (что, конечно, глупо — в таких компаниях бюджеты согласовывают долго, поэтому они пытались делать оценки по условному Claude Sonnet 4.5, и понятно что Opus 4.8 может делать больше, и тратить можно (нужно) больше).Разные компании уже говорили про то, что нужна некоторая гарантия результата за потраченные токены. Cognition, авторы бота Devin, на моей памяти тут первые: для энтерпрайз-клиентов с картинки они подключают «Productivity Guarantee». Для этого они собрали выборку и обучили/откалибровали модель, которая предсказывает, а) сделал ли агент что-то ценное б) если да, то сколько часов это заняло бы у человека?Дальше часы умножаются на какую-то среднюю ставку разработчика, и всё суммируется за какой-то длинный период. В конце периода Cognition смотрит, больше ли эта оценка чем то, что им заплатил клиент. Если нет, то есть ценной работы мало, то они готовы вернуть разницу кредитами — до 10 миллионов долларов на будущие запросы.Модель оценки ошибается, но компания уверяет, что ошибки несмещены, поэтому при агрегации на длином периоде оценка получится относительно точной.Идея интересная, будем следить, что придумают OpenAI и Anthropic — у последних вопрос отбивания трат клиентов стоит, кажется, очень остро.Прочитать побольше про механизм: 1 общий и 2 техническое описание\" width=\"800\" height=\"625\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>Что объединяет компании на картинке? Они получат гарантированный импакт от AI —&nbsp;или им вернут деньги <i class=\"emoji\"><b>😎</b></i><br><br>Наверняка многие из вас слышали или читали новости про то, что какие-то компании отключают Claude Code или тем более Github Copilot из-за огромных трат разработчиков на модели. CTO Uber сказал, что они за квартал сожгли весь годовой бюджет, заложенный на ИИ-агентов (что, конечно, глупо — в таких компаниях бюджеты согласовывают долго, поэтому они пытались делать оценки по условному Claude Sonnet 4.5, и понятно что Opus 4.8 может делать больше, и тратить можно (нужно) больше).<br><br>Разные компании уже говорили про то, что нужна некоторая гарантия результата за потраченные токены. Cognition, авторы бота Devin, на моей памяти тут первые: для энтерпрайз-клиентов с картинки они подключают «Productivity Guarantee». Для этого они собрали выборку и обучили/откалибровали модель, которая предсказывает, а) сделал ли агент что-то ценное б) если да, то сколько часов это заняло бы у человека?<br><br>Дальше часы умножаются на какую-то среднюю ставку разработчика, и всё суммируется за какой-то длинный период. В конце периода Cognition смотрит, больше ли эта оценка чем то, что им заплатил клиент. Если нет, то есть ценной работы мало, то они готовы вернуть разницу кредитами —&nbsp;до 10 миллионов долларов на будущие запросы.<br><br>Модель оценки ошибается, но компания уверяет, что ошибки несмещены, поэтому при агрегации на длином периоде оценка получится относительно точной.<br><br>Идея интересная, будем следить, что придумают OpenAI и Anthropic — у последних вопрос отбивания трат клиентов стоит, кажется, очень остро.<br><br>Прочитать побольше про механизм: <a href=\"https://cognition.ai/blog/ai-guarantee\" target=\"_blank\" rel=\"noopener\" title=\"1\">1</a> общий и <a href=\"https://cognition.ai/blog/ai-productivity\" target=\"_blank\" rel=\"noopener\" title=\"2\">2</a> техническое описание",
-    "reactions": [
-      {
-        "emoji": "🤣",
-        "count": "119",
-        "isPaid": false
-      },
-      {
-        "emoji": "🔥",
-        "count": "36",
-        "isPaid": false
-      },
-      {
-        "emoji": "🤔",
-        "count": "13",
-        "isPaid": false
-      },
-      {
-        "emoji": "🤯",
-        "count": "12",
-        "isPaid": false
-      },
-      {
-        "emoji": "",
-        "emojiId": "5248951709367017473",
-        "emojiImage": "https://t.me/i/emoji/5248951709367017473.webp",
-        "count": "4",
-        "isPaid": false
-      },
-      {
-        "emoji": "❤‍🔥",
-        "count": "2",
-        "isPaid": false
-      },
-      {
-        "emoji": "👍",
-        "count": "2",
-        "isPaid": false
-      },
-      {
-        "emoji": "🤡",
-        "count": "2",
-        "isPaid": false
-      },
-      {
-        "emoji": "💩",
-        "count": "1",
-        "isPaid": false
-      },
-      {
-        "emoji": "👨‍💻",
-        "count": "1",
-        "isPaid": false
-      }
-    ],
-    "channel": "seeallochnaya",
-    "channelTitle": "Сиолошная"
-  },
-  {
-    "id": "seeallochnaya/3674",
-    "title": "Воу, мафия с тех. легендами )Sama наиишивает :D",
-    "type": "text",
-    "datetime": "2026-06-05T09:17:32+00:00",
-    "tags": [],
-    "text": "Воу, мафия с тех. легендами )Sama наиишивает :Dhttps://www.youtube.com/watch?v=EDCwQe7P8T0",
-    "content": "Воу, мафия с тех. легендами )<br>Sama наиишивает :D<br><a href=\"https://www.youtube.com/watch?v=EDCwQe7P8T0\" target=\"_blank\" rel=\"noopener\" title=\"https://www.youtube.com/watch?v=EDCwQe7P8T0\">https://www.youtube.com/watch?v=EDCwQe7P8T0</a><a class=\"tgme_widget_message_link_preview\" href=\"https://www.youtube.com/watch?v=EDCwQe7P8T0\" target=\"_blank\" rel=\"noopener\" title=\"Tech industry legends play Mafia and try to guess who the traitors are before time runs out. Who will win: the townspeople or the secret mafia members? Venture capital firm Founders Fund gathered a group of tech leaders for an evening of Mafia, a murder…\">\n  <i class=\"link_preview_right_image\" style=\"background-image:url('media/6b44702aa01adcba6dca91ce961e408a.jpg')\"></i>\n  <div class=\"link_preview_site_name accent_color\" dir=\"auto\">YouTube</div>\n  \n  <div class=\"link_preview_title\" dir=\"auto\">Can Tech Legends Find the Liar? (Mafia Episode 1)</div>\n  <div class=\"link_preview_description\" dir=\"auto\">Tech industry legends play Mafia and try to guess who the traitors are before time runs out. Who will win: the townspeople or the secret mafia members? <br><br>Venture capital firm Founders Fund gathered a group of tech leaders for an evening of Mafia, a murder…</div>\n</a>",
-    "reactions": [
-      {
-        "emoji": "🤡",
-        "count": "51",
-        "isPaid": false
-      },
-      {
-        "emoji": "🔥",
-        "count": "23",
-        "isPaid": false
-      },
-      {
-        "emoji": "❤‍🔥",
-        "count": "15",
-        "isPaid": false
-      },
-      {
-        "emoji": "🤔",
-        "count": "5",
-        "isPaid": false
-      },
-      {
-        "emoji": "🌚",
-        "count": "3",
-        "isPaid": false
-      },
-      {
-        "emoji": "👍",
-        "count": "1",
-        "isPaid": false
-      },
-      {
-        "emoji": "👎",
-        "count": "1",
-        "isPaid": false
-      },
-      {
-        "emoji": "",
-        "emojiId": "5248951709367017473",
-        "emojiImage": "https://t.me/i/emoji/5248951709367017473.webp",
-        "count": "1",
-        "isPaid": false
-      }
-    ],
-    "channel": "seeallochnaya",
-    "channelTitle": "Сиолошная"
-  },
-  {
-    "id": "seeallochnaya/3673",
-    "title": "Потратил 33 минуты отпуска чтобы посмотреть и посмеяться с мафии со звёздами Силиконовой Долины. Было интересно даже как человеку, который особо за мафией не следит и не играет на любительском уровне.",
-    "type": "text",
-    "datetime": "2026-06-05T09:17:32+00:00",
-    "tags": [],
-    "text": "Потратил 33 минуты отпуска чтобы посмотреть и посмеяться с мафии со звёздами Силиконовой Долины. Было интересно даже как человеку, который особо за мафией не следит и не играет на любительском уровне.",
-    "content": "Потратил 33 минуты отпуска чтобы посмотреть и посмеяться с мафии со звёздами Силиконовой Долины. Было интересно даже как человеку, который особо за мафией не следит и не играет на любительском уровне.",
-    "reactions": [
-      {
-        "emoji": "❤‍🔥",
-        "count": "14",
-        "isPaid": false
-      },
-      {
-        "emoji": "🌚",
-        "count": "8",
-        "isPaid": false
-      },
-      {
-        "emoji": "🤔",
-        "count": "6",
-        "isPaid": false
-      },
-      {
-        "emoji": "🤡",
-        "count": "6",
-        "isPaid": false
-      },
-      {
-        "emoji": "👍",
-        "count": "2",
-        "isPaid": false
-      },
-      {
-        "emoji": "👎",
-        "count": "1",
-        "isPaid": false
-      }
-    ],
-    "channel": "seeallochnaya",
-    "channelTitle": "Сиолошная"
-  },
-  {
-    "id": "data_secrets/9343",
-    "title": "Claude помогает создавать следующего Claude. К чему это нас приведет? Anthropic выпустили большой текст о recursive self-improvement, то есть о концепции, в которой модель самоулучшается и обучает сама себя. По данным стартапа, на май 2026 года больше 80% кода, который попадает в их продовую кодовую базу, написан Claude. А во втором квартале 2026 типичный инженер мержил в 8 раз больше кода в день, чем в 2024 году. У людей все еще есть преимущество в большом контексте, постановке целей и выборе направления (в общем, в research taste). НО Claude уже автоматизирует большую часть работы, из которой состоит разработка следующего Claude. Чем вам не начало полного цикла self-improvement? Плюс, агенты уже хорошо справляются даже с рисерчем, особенно если есть заданная метрика. Антропики пишут, что проводили эксперимент, в котором дали агентам и людям одинаковую задачу по AI-safety, и в итоге два человека за неделю улучшили решение примерно на 23%, а агенты (внимание) – на 97%. Так что количество делегируемых агентам задач в сфере обучения моделей и исследованиях увеличивается и будет увеличиваться. Anthropic пишут, что процесс развивается быстрее, чем они думали, и что миру нужны механизмы координации, вплоть до возможности замедления или паузы frontier-разработки. Сингулярность, ты ли это?",
-    "type": "text",
-    "datetime": "2026-06-05T11:09:07+00:00",
-    "tags": [],
-    "text": "Claude помогает создавать следующего Claude. К чему это нас приведет? Anthropic выпустили большой текст о recursive self-improvement, то есть о концепции, в которой модель самоулучшается и обучает сама себя. По данным стартапа, на май 2026 года больше 80% кода, который попадает в их продовую кодовую базу, написан Claude. А во втором квартале 2026 типичный инженер мержил в 8 раз больше кода в день, чем в 2024 году. У людей все еще есть преимущество в большом контексте, постановке целей и выборе направления (в общем, в research taste). НО Claude уже автоматизирует большую часть работы, из которой состоит разработка следующего Claude. Чем вам не начало полного цикла self-improvement? Плюс, агенты уже хорошо справляются даже с рисерчем, особенно если есть заданная метрика. Антропики пишут, что проводили эксперимент, в котором дали агентам и людям одинаковую задачу по AI-safety, и в итоге два человека за неделю улучшили решение примерно на 23%, а агенты (внимание) – на 97%. Так что количество делегируемых агентам задач в сфере обучения моделей и исследованиях увеличивается и будет увеличиваться. Anthropic пишут, что процесс развивается быстрее, чем они думали, и что миру нужны механизмы координации, вплоть до возможности замедления или паузы frontier-разработки. Сингулярность, ты ли это?",
-    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-9343-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Claude помогает создавать следующего Claude. К чему это нас приведет? Anthropic выпустили большой текст о recursive self-improvement, то есть о концепции, в которой модель самоулучшается и обучает сама себя. По данным стартапа, на май 2026 года больше 80% кода, который попадает в их продовую кодовую базу, написан Claude. А во втором квартале 2026 типичный инженер мержил в 8 раз больше кода в день, чем в 2024 году. У людей все еще есть преимущество в большом контексте, постановке целей и выборе направления (в общем, в research taste). НО Claude уже автоматизирует большую часть работы, из которой состоит разработка следующего Claude. Чем вам не начало полного цикла self-improvement? Плюс, агенты уже хорошо справляются даже с рисерчем, особенно если есть заданная метрика. Антропики пишут, что проводили эксперимент, в котором дали агентам и людям одинаковую задачу по AI-safety, и в итоге два человека за неделю улучшили решение примерно на 23%, а агенты (внимание) – на 97%. Так что количество делегируемых агентам задач в сфере обучения моделей и исследованиях увеличивается и будет увеличиваться. Anthropic пишут, что процесс развивается быстрее, чем они думали, и что миру нужны механизмы координации, вплоть до возможности замедления или паузы frontier-разработки. Сингулярность, ты ли это?\">\n        <img src=\"media/f0ed0533e38e1efb31aa16e11920e03d.jpg\" alt=\"Claude помогает создавать следующего Claude. К чему это нас приведет? Anthropic выпустили большой текст о recursive self-improvement, то есть о концепции, в которой модель самоулучшается и обучает сама себя. По данным стартапа, на май 2026 года больше 80% кода, который попадает в их продовую кодовую базу, написан Claude. А во втором квартале 2026 типичный инженер мержил в 8 раз больше кода в день, чем в 2024 году. У людей все еще есть преимущество в большом контексте, постановке целей и выборе направления (в общем, в research taste). НО Claude уже автоматизирует большую часть работы, из которой состоит разработка следующего Claude. Чем вам не начало полного цикла self-improvement? Плюс, агенты уже хорошо справляются даже с рисерчем, особенно если есть заданная метрика. Антропики пишут, что проводили эксперимент, в котором дали агентам и людям одинаковую задачу по AI-safety, и в итоге два человека за неделю улучшили решение примерно на 23%, а агенты (внимание) – на 97%. Так что количество делегируемых агентам задач в сфере обучения моделей и исследованиях увеличивается и будет увеличиваться. Anthropic пишут, что процесс развивается быстрее, чем они думали, и что миру нужны механизмы координации, вплоть до возможности замедления или паузы frontier-разработки. Сингулярность, ты ли это?\" width=\"587\" height=\"783\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-9343-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-9343-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-9343-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/f0ed0533e38e1efb31aa16e11920e03d.jpg\" alt=\"Claude помогает создавать следующего Claude. К чему это нас приведет? Anthropic выпустили большой текст о recursive self-improvement, то есть о концепции, в которой модель самоулучшается и обучает сама себя. По данным стартапа, на май 2026 года больше 80% кода, который попадает в их продовую кодовую базу, написан Claude. А во втором квартале 2026 типичный инженер мержил в 8 раз больше кода в день, чем в 2024 году. У людей все еще есть преимущество в большом контексте, постановке целей и выборе направления (в общем, в research taste). НО Claude уже автоматизирует большую часть работы, из которой состоит разработка следующего Claude. Чем вам не начало полного цикла self-improvement? Плюс, агенты уже хорошо справляются даже с рисерчем, особенно если есть заданная метрика. Антропики пишут, что проводили эксперимент, в котором дали агентам и людям одинаковую задачу по AI-safety, и в итоге два человека за неделю улучшили решение примерно на 23%, а агенты (внимание) – на 97%. Так что количество делегируемых агентам задач в сфере обучения моделей и исследованиях увеличивается и будет увеличиваться. Anthropic пишут, что процесс развивается быстрее, чем они думали, и что миру нужны механизмы координации, вплоть до возможности замедления или паузы frontier-разработки. Сингулярность, ты ли это?\" width=\"587\" height=\"783\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><b>Claude помогает создавать следующего Claude. К чему это нас приведет? </b><br><br>Anthropic выпустили <a href=\"https://www.anthropic.com/institute/recursive-self-improvement\" target=\"_blank\" rel=\"noopener\" title=\"большой текст о recursive self-improvement\">большой текст о recursive self-improvement</a>, то есть о концепции, в которой модель самоулучшается и обучает сама себя. <br><br>По данным стартапа, на май 2026 года больше 80% кода, который попадает в их продовую кодовую базу, написан Claude. А во втором квартале 2026 типичный инженер мержил в 8 раз больше кода в день, чем в 2024 году. <br><br>У людей все еще есть преимущество в большом контексте, постановке целей и выборе направления (в общем, в research taste). НО Claude уже автоматизирует большую часть работы, из которой состоит разработка следующего Claude. <br><br>Чем вам не начало полного цикла self-improvement? <br><br>Плюс, агенты уже хорошо справляются даже с рисерчем, особенно если есть заданная метрика. Антропики пишут, что проводили эксперимент, в котором дали агентам и людям одинаковую задачу по AI-safety, и в итоге два человека за неделю улучшили решение примерно на 23%, а агенты (внимание) – на 97%. <br><br>Так что количество делегируемых агентам задач в сфере обучения моделей и исследованиях увеличивается и будет увеличиваться. <br><br>Anthropic пишут, что процесс развивается быстрее, чем они думали, и что миру нужны механизмы координации, <b>вплоть до возможности замедления или паузы frontier-разработки</b>. <br><br>Сингулярность, ты ли это?",
+    "text": "Мой друг Даниил, который построил poehali.dev для создания приложений, запустил конкурс в честь открытия канала. Если интересно, можете поучаствовать ",
+    "content": "Мой друг Даниил, который построил <a href=\"http://poehali.dev/\" target=\"_blank\" rel=\"noopener\" title=\"poehali.dev\">poehali.dev</a> для создания приложений, запустил конкурс в честь открытия канала. <br><br>Если интересно, можете поучаствовать <img class=\"tg-emoji\" src=\"media/dfb868808b133277d43726e327f11ff0.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\">",
     "reactions": [
       {
         "emoji": "❤️",
-        "count": "38",
-        "isPaid": false
-      },
-      {
-        "emoji": "",
-        "emojiId": "5773848767941842357",
-        "emojiImage": "https://t.me/i/emoji/5773848767941842357.webp",
-        "count": "26",
-        "isPaid": false
-      },
-      {
-        "emoji": "👍",
-        "count": "4",
-        "isPaid": false
-      },
-      {
-        "emoji": "",
-        "emojiId": "5850279489090627237",
-        "emojiImage": "https://t.me/i/emoji/5850279489090627237.webp",
-        "count": "4",
-        "isPaid": false
-      },
-      {
-        "emoji": "🗿",
-        "count": "3",
+        "count": "2",
         "isPaid": false
       }
     ],
-    "channel": "data_secrets",
-    "channelTitle": "Data Secrets"
+    "channel": "tips_ai",
+    "channelTitle": "Tips AI | IT & AI"
   },
   {
-    "id": "data_secrets/9342",
-    "title": "Это вам на пятничный вечер ",
+    "id": "etechlead/308",
+    "title": "AgenticOps, часть №2 - базовые компонентыНачну с того, на чём стоит сама платформа - с набора базовых инфраструктурных компонентов.Общие принципы подбора компонентов● self-hosted● для полноценной работы не нужен интернет● наличие стабильного внешнего API● ничего не конфигурируется ad-hoc, только IaC/CaC, с занесением в git● современные LLM хорошо знают каждый компонентДопущения● упрощенная модель безопасности (всё-таки это homelab)● в кубере только свои приложения, всё остальное - за его пределами, в контейнерах● без распределенной файловой системы (пока что)● это всё постоянно живёт и меняется, но теперь уже не бесконтрольно● ремонт невозможно закончить, его можно только прекратить (с)Provisioning● Ubuntu, macOS, Synology NAS - всё пошло в дело в качестве хостов разных сервисов :)● Incus - системные контейнеры, внутри них живут ноды кубера и CI-раннеры● k3s - легковесный flavor кубера. Взял именно его вместо ванильного k8s: один бинарь, просто ставится через Ansible - для homelab в самый раз.Прагматизм придушил желание собрать кубер руками (да что ж я, зря чтоль CKA(D)?)● Ansible - вся настройка хостов, OS, системных и прикладных сервисов кодом (в планах pyinfra, чтобы уйти от YAML-программирования)● Pulumi - для управления ресурсами, которые нужны приложениям (базы, очереди, DNS-записи, s3, креденшиалы к ним и т.п.).Ansible+Pulumi дают инвентаризацию инфры - машиночитаемую, верифицируемую и синхронизируемую с актуальным состоянием - это маст хэв и для людей, и для агентовДоставкаУпор - на шустрый и программно управляемый путь от коммита до деплоя.● Gitea + Actions - локальный git и CI на своём железе, без завязки на GitHub (у которого доступность недавно потеряла все девятки 😱)● Zot - реестр образов для контейнеров. Переехал на него с Docker Registry, потому что Zot - сразу OCI-нативный и полегче● Argo CD - GitOps/CD-контроллер для кубера. Берёт желаемое Kustomize-состояние из gitops-репозитория и синкает k3s-кластер под него● Nexus - прокси-кэш пакетов npm/pip/NuGet/etc, чтобы не дёргать внешние реестры на каждый билд. Плюс, тут же и кэш весов моделей с HuggingFaceДанные● Postgres + pgvector + pg_trgm, Redis, RabbitMQ - ну тут очевидно● MinIO - S3-совместимое хранилище (в планах - переезд в Garage)AI● Llama.cpp и vLLM - инференс LLM-моделей, эмбеддеров и реранкеров● Whisper, Parakeet - локальное распознавание речи для видео, звонков и просто диктовки● LiteLLM - как AI-гейтвей для запросов со стороны приложений● MLflow, Arize Phoenix - для работы с данными экспериментов и эваловНаблюдаемостьТут всё ради дебага агентами - они должны уметь быстро искать ошибки, сопоставлять их с тем, что ещё могло происходить в системе в это время и отслеживать цепочки событий, которые к ним привели.Это требует культуры и со стороны самого приложения, так что соответствующие практики форсятся на уровне кодинговых агентов.● Alloy - OTLP-endpoint для того, чтобы принимать логи и трейсы со всех приложений и агентов● Prometheus - сбор метрик● логи - в Loki, трейсы - в Tempo, графики - в Grafana (о, а это пропеть можно)Разное● SOPS/age - тулинг для шифрования секретов, в частности позволяет их хранить в git (для не совсем уж параноиков) и не бояться, что агент их случайно прочитает● step-ca - внутренний certificate authority. Нужен, чтобы локальные домены получали настоящий TLS без постоянных предупреждений о self-signed сертификатах● Technitium DNS - свой DNS для адресов в локалке, чтобы забыть про hosts как страшный сон и не плодить кучу srv01:83, my-pc:4443● MailPit - ловушка для исходящей почты в деве, чтобы тестовые письма не улетали реальным людям, ну и ещё чтобы агенты сами почту проверять моглиНичего экзотического тут нет, и это намеренно - обычный production-подобный набор, просто адаптированный для homelab и быстрых экспериментов.Плюс, с экзотикой было бы намного сложнее почти всё поднять с помощью агентов.Собственно платформенная часть начинается слоем выше, и об этом расскажу дальше.#ai #agentic_ops #devops",
     "type": "text",
-    "datetime": "2026-06-05T10:34:36+00:00",
-    "tags": [],
-    "text": "Это вам на пятничный вечер https://youtu.be/EDCwQe7P8T0На YouTube вышло шоу мафия с Сэмом Альтманом, фаундером Figma и другими тех лидерами. Кто победит, Скам Альтман или профессиональный игрок в покер? ",
-    "content": "Это вам на пятничный вечер <br><br><a href=\"https://youtu.be/EDCwQe7P8T0\" target=\"_blank\" rel=\"noopener\" title=\"https://youtu.be/EDCwQe7P8T0\">https://youtu.be/EDCwQe7P8T0</a><br><br>На YouTube вышло шоу мафия с Сэмом Альтманом, фаундером Figma и другими тех лидерами. <br><br>Кто победит, Скам Альтман или профессиональный игрок в покер? <img class=\"tg-emoji\" src=\"media/38bbbda656a9a98c645c67028348709b.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"><a class=\"tgme_widget_message_link_preview\" href=\"https://youtu.be/EDCwQe7P8T0\" target=\"_blank\" rel=\"noopener\" title=\"Tech industry legends play Mafia and try to guess who the traitors are before time runs out. Who will win: the townspeople or the secret mafia members? Venture capital firm Founders Fund gathered a group of tech leaders for an evening of Mafia, a murder…\">\n  <i class=\"link_preview_right_image\" style=\"background-image:url('media/cb1da072f7ec41dee0143a6155eec932.jpg')\"></i>\n  <div class=\"link_preview_site_name accent_color\" dir=\"auto\">YouTube</div>\n  \n  <div class=\"link_preview_title\" dir=\"auto\">Can Tech Legends Find the Liar? (Mafia Episode 1)</div>\n  <div class=\"link_preview_description\" dir=\"auto\">Tech industry legends play Mafia and try to guess who the traitors are before time runs out. Who will win: the townspeople or the secret mafia members? <br><br>Venture capital firm Founders Fund gathered a group of tech leaders for an evening of Mafia, a murder…</div>\n</a>",
+    "datetime": "2026-06-05T11:49:15+00:00",
+    "tags": [
+      "ai",
+      "agentic_ops",
+      "devops"
+    ],
+    "text": "AgenticOps, часть №2 - базовые компонентыНачну с того, на чём стоит сама платформа - с набора базовых инфраструктурных компонентов.Общие принципы подбора компонентов● self-hosted● для полноценной работы не нужен интернет● наличие стабильного внешнего API● ничего не конфигурируется ad-hoc, только IaC/CaC, с занесением в git● современные LLM хорошо знают каждый компонентДопущения● упрощенная модель безопасности (всё-таки это homelab)● в кубере только свои приложения, всё остальное - за его пределами, в контейнерах● без распределенной файловой системы (пока что)● это всё постоянно живёт и меняется, но теперь уже не бесконтрольно● ремонт невозможно закончить, его можно только прекратить (с)Provisioning● Ubuntu, macOS, Synology NAS - всё пошло в дело в качестве хостов разных сервисов :)● Incus - системные контейнеры, внутри них живут ноды кубера и CI-раннеры● k3s - легковесный flavor кубера. Взял именно его вместо ванильного k8s: один бинарь, просто ставится через Ansible - для homelab в самый раз.Прагматизм придушил желание собрать кубер руками (да что ж я, зря чтоль CKA(D)?)● Ansible - вся настройка хостов, OS, системных и прикладных сервисов кодом (в планах pyinfra, чтобы уйти от YAML-программирования)● Pulumi - для управления ресурсами, которые нужны приложениям (базы, очереди, DNS-записи, s3, креденшиалы к ним и т.п.).Ansible+Pulumi дают инвентаризацию инфры - машиночитаемую, верифицируемую и синхронизируемую с актуальным состоянием - это маст хэв и для людей, и для агентовДоставкаУпор - на шустрый и программно управляемый путь от коммита до деплоя.● Gitea + Actions - локальный git и CI на своём железе, без завязки на GitHub (у которого доступность недавно потеряла все девятки 😱)● Zot - реестр образов для контейнеров. Переехал на него с Docker Registry, потому что Zot - сразу OCI-нативный и полегче● Argo CD - GitOps/CD-контроллер для кубера. Берёт желаемое Kustomize-состояние из gitops-репозитория и синкает k3s-кластер под него● Nexus - прокси-кэш пакетов npm/pip/NuGet/etc, чтобы не дёргать внешние реестры на каждый билд. Плюс, тут же и кэш весов моделей с HuggingFaceДанные● Postgres + pgvector + pg_trgm, Redis, RabbitMQ - ну тут очевидно● MinIO - S3-совместимое хранилище (в планах - переезд в Garage)AI● Llama.cpp и vLLM - инференс LLM-моделей, эмбеддеров и реранкеров● Whisper, Parakeet - локальное распознавание речи для видео, звонков и просто диктовки● LiteLLM - как AI-гейтвей для запросов со стороны приложений● MLflow, Arize Phoenix - для работы с данными экспериментов и эваловНаблюдаемостьТут всё ради дебага агентами - они должны уметь быстро искать ошибки, сопоставлять их с тем, что ещё могло происходить в системе в это время и отслеживать цепочки событий, которые к ним привели.Это требует культуры и со стороны самого приложения, так что соответствующие практики форсятся на уровне кодинговых агентов.● Alloy - OTLP-endpoint для того, чтобы принимать логи и трейсы со всех приложений и агентов● Prometheus - сбор метрик● логи - в Loki, трейсы - в Tempo, графики - в Grafana (о, а это пропеть можно)Разное● SOPS/age - тулинг для шифрования секретов, в частности позволяет их хранить в git (для не совсем уж параноиков) и не бояться, что агент их случайно прочитает● step-ca - внутренний certificate authority. Нужен, чтобы локальные домены получали настоящий TLS без постоянных предупреждений о self-signed сертификатах● Technitium DNS - свой DNS для адресов в локалке, чтобы забыть про hosts как страшный сон и не плодить кучу srv01:83, my-pc:4443● MailPit - ловушка для исходящей почты в деве, чтобы тестовые письма не улетали реальным людям, ну и ещё чтобы агенты сами почту проверять моглиНичего экзотического тут нет, и это намеренно - обычный production-подобный набор, просто адаптированный для homelab и быстрых экспериментов.Плюс, с экзотикой было бы намного сложнее почти всё поднять с помощью агентов.Собственно платформенная часть начинается слоем выше, и об этом расскажу дальше.#ai #agentic_ops #devops",
+    "content": "<b>AgenticOps, часть №2 - базовые компоненты</b><br><br>Начну с того, на чём стоит сама платформа - с набора базовых инфраструктурных компонентов.<br><br><b><u>Общие принципы подбора компонентов</u></b><br>● self-hosted<br>● для полноценной работы не нужен интернет<br>● наличие стабильного внешнего API<br>● ничего не конфигурируется ad-hoc, только IaC/CaC, с занесением в git<br>● современные LLM хорошо знают каждый компонент<br><br><b><u>Допущения</u></b><br>● упрощенная модель безопасности (всё-таки это homelab)<br>● в кубере только свои приложения, всё остальное - за его пределами, в контейнерах<br>● без распределенной файловой системы (пока что)<br>● это всё постоянно живёт и меняется, но теперь уже не бесконтрольно<br>● <i>ремонт&nbsp;невозможно&nbsp;закончить, его&nbsp;можно только прекратить</i> (с)<br><br><b><u>Provisioning</u></b><br>● <b>Ubuntu, macOS, Synology NAS</b> - всё пошло в дело в качестве хостов разных сервисов :)<br>● <b>Incus</b> - системные контейнеры, внутри них живут ноды кубера и CI-раннеры<br>● <b>k3s</b> - легковесный flavor кубера. Взял именно его вместо ванильного k8s: один бинарь, просто ставится через Ansible - для homelab в самый раз.<br>Прагматизм придушил желание собрать кубер руками (<i>да что ж я, зря чтоль CKA(D)?</i>)<br>● <b>Ansible</b> - вся настройка хостов, OS, системных и прикладных сервисов кодом (в планах pyinfra, чтобы уйти от YAML-программирования)<br>● <b>Pulumi</b> - для управления ресурсами, которые нужны приложениям (базы, очереди, DNS-записи, s3, креденшиалы к ним и т.п.).<br>Ansible+Pulumi дают инвентаризацию инфры - машиночитаемую, верифицируемую и синхронизируемую с актуальным состоянием - это маст хэв и для людей, и для агентов<br><br><b><u>Доставка</u></b><br>Упор - на шустрый и программно управляемый путь от коммита до деплоя.<br><br>● <b>Gitea + Actions</b> - локальный git и CI на своём железе, без завязки на GitHub (у которого доступность недавно потеряла все девятки <i class=\"emoji\"><b>😱</b></i>)<br>● <b>Zot</b> - реестр образов для контейнеров. Переехал на него с Docker Registry, потому что Zot - сразу OCI-нативный и полегче<br>● <b>Argo CD</b> - GitOps/CD-контроллер для кубера. Берёт желаемое Kustomize-состояние из gitops-репозитория и синкает k3s-кластер под него<br>● <b>Nexus</b> - прокси-кэш пакетов npm/pip/NuGet/etc, чтобы не дёргать внешние реестры на каждый билд. Плюс, тут же и кэш весов моделей с HuggingFace<br><br><b><u>Данные</u></b><br>● <b>Postgres</b> + pgvector + pg_trgm, <b>Redis</b>, <b>RabbitMQ</b> - ну тут очевидно<br>● <b>MinIO</b> - S3-совместимое хранилище (в планах - переезд в Garage)<br><br><b><u>AI</u></b><br>● <b>Llama.cpp</b> и <b>vLLM</b> - инференс LLM-моделей, эмбеддеров и реранкеров<br>● <b>Whisper</b>, <b>Parakeet</b> - локальное распознавание речи для видео, звонков и просто диктовки<br>● <b>LiteLLM</b> - как AI-гейтвей для запросов со стороны приложений<br>● <b>MLflow</b>, <b>Arize Phoenix</b> - для работы с данными экспериментов и эвалов<br><br><b><u>Наблюдаемость</u></b><br>Тут всё ради дебага агентами - они должны уметь быстро искать ошибки, сопоставлять их с тем, что ещё могло происходить в системе в это время и отслеживать цепочки событий, которые к ним привели.<br>Это требует культуры и со стороны самого приложения, так что соответствующие практики форсятся на уровне кодинговых агентов.<br><br>● <b>Alloy</b> - OTLP-endpoint для того, чтобы принимать логи и трейсы со всех приложений и агентов<br>● <b>Prometheus</b> - сбор метрик<br>● логи - в <b>Loki</b>, трейсы - в <b>Tempo</b>, графики - в <b>Grafana</b> (о, а это пропеть можно)<br><br><b><u>Разное</u></b><br>● <b>SOPS/age</b> - тулинг для шифрования секретов, в частности позволяет их хранить в git (для не совсем уж параноиков) и не бояться, что агент их случайно прочитает<br>● <b>step-ca</b> - внутренний certificate authority. Нужен, чтобы локальные домены получали настоящий TLS без постоянных предупреждений о self-signed сертификатах<br>● <b>Technitium DNS</b> - свой DNS для адресов в локалке, чтобы забыть про <i>hosts</i> как страшный сон и не плодить кучу <i>srv01:83</i>, <i>my-pc:4443</i><br>● <b>MailPit</b> - ловушка для исходящей почты в деве, чтобы тестовые письма не улетали реальным людям, ну и ещё чтобы агенты сами почту проверять могли<br><br>Ничего экзотического тут нет, и это намеренно - обычный production-подобный набор, просто адаптированный для homelab и быстрых экспериментов.<br>Плюс, с экзотикой было бы намного сложнее почти всё поднять с помощью агентов.<br><br>Собственно платформенная часть начинается слоем выше, и об этом расскажу дальше.<br><br><a href=\"/search/%23ai\" title=\"#ai\">#ai</a> <a href=\"/search/%23agentic_ops\" title=\"#agentic_ops\">#agentic_ops</a> <a href=\"/search/%23devops\" title=\"#devops\">#devops</a>",
     "reactions": [
       {
-        "emoji": "😁",
-        "count": "28",
-        "isPaid": false
+        "emoji": "⭐",
+        "count": "1",
+        "isPaid": true
       },
       {
-        "emoji": "🤯",
+        "emoji": "👍",
         "count": "10",
         "isPaid": false
       },
       {
-        "emoji": "",
-        "emojiId": "5850279489090627237",
-        "emojiImage": "https://t.me/i/emoji/5850279489090627237.webp",
+        "emoji": "🔥",
         "count": "9",
         "isPaid": false
       },
       {
-        "emoji": "🗿",
+        "emoji": "❤️",
+        "count": "5",
+        "isPaid": false
+      },
+      {
+        "emoji": "👏",
+        "count": "1",
+        "isPaid": false
+      },
+      {
+        "emoji": "🎉",
         "count": "1",
         "isPaid": false
       }
     ],
-    "channel": "data_secrets",
-    "channelTitle": "Data Secrets"
+    "channel": "etechlead",
+    "channelTitle": "Этихлид"
+  },
+  {
+    "id": "cgevent/15845",
+    "title": "Ну, за юристов.Помните писал, что после поиска уязвимости в коде, ИИ может взяться искать (и находить) дыры в законах?Также напомню, что кожаные уже давно не могут отличить живые фото\\картинки от сгенеренных.С юристами все еще хуже.Кожаным гораздо больше нравится ИИ-юрист!Прекрасный материал от Стэнфорда:",
+    "type": "text",
+    "datetime": "2026-06-05T13:21:46+00:00",
+    "tags": [],
+    "text": "Ну, за юристов.Помните писал, что после поиска уязвимости в коде, ИИ может взяться искать (и находить) дыры в законах?Также напомню, что кожаные уже давно не могут отличить живые фото\\картинки от сгенеренных.С юристами все еще хуже.Кожаным гораздо больше нравится ИИ-юрист!Прекрасный материал от Стэнфорда:https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/Исследование, проведенное профессором юридической школы Стэнфорда Джулианом Ньярко, показывает, что преподаватели права в подавляющем большинстве случаев предпочитают ответы студентов, сгенерированные искусственным интеллектом, ответам, написанным их коллегами-преподавателями.Исследование под названием «Преподаватели права предпочитают ИИ ответам коллег» было проведено с участием 16 преподавателей права из юридических школ США и проверяло, могут ли большие языковые модели служить эффективными учебными пособиями для курсов по договорному праву. В ходе слепой оценки почти 3000 анонимных сравнений преподаватели оценили ответы ИИ значительно выше, чем ответы, написанные другими преподавателями, при этом ИИ выиграл 75% сравнений.У меня, наверное, все.@cgevent",
+    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-15845-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Ну, за юристов.Помните писал, что после поиска уязвимости в коде, ИИ может взяться искать (и находить) дыры в законах?Также напомню, что кожаные уже давно не могут отличить живые фото\\картинки от сгенеренных.С юристами все еще хуже.Кожаным гораздо больше нравится ИИ-юрист!Прекрасный материал от Стэнфорда:\">\n        <img src=\"media/19fce9166ce6e5a7a98c166a527530d9.jpg\" alt=\"Ну, за юристов.Помните писал, что после поиска уязвимости в коде, ИИ может взяться искать (и находить) дыры в законах?Также напомню, что кожаные уже давно не могут отличить живые фото\\картинки от сгенеренных.С юристами все еще хуже.Кожаным гораздо больше нравится ИИ-юрист!Прекрасный материал от Стэнфорда:\" width=\"660\" height=\"692\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-15845-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-15845-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-15845-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/19fce9166ce6e5a7a98c166a527530d9.jpg\" alt=\"Ну, за юристов.Помните писал, что после поиска уязвимости в коде, ИИ может взяться искать (и находить) дыры в законах?Также напомню, что кожаные уже давно не могут отличить живые фото\\картинки от сгенеренных.С юристами все еще хуже.Кожаным гораздо больше нравится ИИ-юрист!Прекрасный материал от Стэнфорда:\" width=\"660\" height=\"692\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><b>Ну, за юристов.</b><br><br>Помните писал, что после поиска уязвимости в коде, ИИ может взяться искать (и находить) дыры в законах?<br><br>Также напомню, что кожаные уже давно не могут отличить живые фото\\картинки от сгенеренных.<br><br>С юристами все еще хуже.<br><br>Кожаным гораздо больше нравится ИИ-юрист!<br><br>Прекрасный материал от Стэнфорда:<br><a href=\"https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/\" target=\"_blank\" rel=\"noopener\" title=\"https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/\">https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/</a><br><br>Исследование, проведенное профессором юридической школы Стэнфорда Джулианом Ньярко, показывает, что преподаватели права в подавляющем большинстве случаев предпочитают ответы студентов, <b>сгенерированные искусственным интеллектом,</b> ответам, написанным их коллегами-преподавателями.<br><br>Исследование под названием <b>«Преподаватели права предпочитают ИИ ответам коллег»</b> было проведено с участием 16 преподавателей права из юридических школ США и проверяло, могут ли большие языковые модели служить эффективными учебными пособиями для курсов по договорному праву. В ходе слепой оценки почти 3000 анонимных сравнений преподаватели <b><u>оценили ответы ИИ значительно выше,</u></b> чем ответы, написанные другими преподавателями, при этом ИИ выиграл 75% сравнений.<br><br>У меня, наверное, все.<br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a>",
+    "reactions": [
+      {
+        "emoji": "👍",
+        "count": "11",
+        "isPaid": false
+      },
+      {
+        "emoji": "😱",
+        "count": "6",
+        "isPaid": false
+      },
+      {
+        "emoji": "😁",
+        "count": "3",
+        "isPaid": false
+      },
+      {
+        "emoji": "❤️",
+        "count": "1",
+        "isPaid": false
+      }
+    ],
+    "channel": "cgevent",
+    "channelTitle": "Метаверсище и ИИще"
+  },
+  {
+    "id": "cgevent/15844",
+    "title": "19 лучших Лор для LTX 2.3 в одном месте С описаниями, видео-примерами и ссылками.А то с ума можно сойти - про каждую постить отдельно.",
+    "type": "text",
+    "datetime": "2026-06-05T13:09:43+00:00",
+    "tags": [],
+    "text": "19 лучших Лор для LTX 2.3 в одном месте С описаниями, видео-примерами и ссылками.А то с ума можно сойти - про каждую постить отдельно.https://www.stablediffusiontutorials.com/2026/05/ltx2.3-lora-models.html@cgevent",
+    "content": "<b>19 лучших Лор для LTX 2.3 в одном месте </b><br><br>С описаниями, видео-примерами и ссылками.<br><br>А то с ума можно сойти - про каждую постить отдельно.<br><br><a href=\"https://www.stablediffusiontutorials.com/2026/05/ltx2.3-lora-models.html\" target=\"_blank\" rel=\"noopener\" title=\"https://www.stablediffusiontutorials.com/2026/05/ltx2.3-lora-models.html\">https://www.stablediffusiontutorials.com/2026/05/ltx2.3-lora-models.html</a><br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a><a class=\"tgme_widget_message_link_preview\" href=\"https://www.stablediffusiontutorials.com/2026/05/ltx2.3-lora-models.html\" target=\"_blank\" rel=\"noopener\" title=\"Learn more about Stable Diffusion models, ComfyUI, Automatic1111, ForgeUI in one platform\">\n  \n  <div class=\"link_preview_site_name accent_color\" dir=\"auto\">Stable Diffusion Tutorials</div>\n  <img class=\"link_preview_image\" alt=\"Best 19 Ltx 2.3 LoRA Models for Optimized Video Generation\" src=\"media/75e785ea9052590e6cd8e201f75af931.jpg\" width=\"1200\" height=\"630\" loading=\"eager\">\n  <div class=\"link_preview_title\" dir=\"auto\">Best 19 Ltx 2.3 LoRA Models for Optimized Video Generation</div>\n  <div class=\"link_preview_description\" dir=\"auto\">Learn more about Stable Diffusion models, ComfyUI, Automatic1111, ForgeUI in one platform</div>\n</a>",
+    "reactions": [
+      {
+        "emoji": "❤️",
+        "count": "5",
+        "isPaid": false
+      },
+      {
+        "emoji": "😁",
+        "count": "3",
+        "isPaid": false
+      },
+      {
+        "emoji": "🔥",
+        "count": "1",
+        "isPaid": false
+      }
+    ],
+    "channel": "cgevent",
+    "channelTitle": "Метаверсище и ИИще"
+  },
+  {
+    "id": "cgevent/15843",
+    "title": "3Д-генераторы замахиваются на святое - органик моделинг, причем моделинг головы.Это Rodin 2.5 - уже писал, что у них есть текстуры на 12К и генерация на 10 миллионов полигонов.На входе - несколько картинок-ракурсов головы с разных углов (из генератора картинок или фото).",
+    "type": "text",
+    "datetime": "2026-06-05T12:55:18+00:00",
+    "tags": [],
+    "text": "3Д-генераторы замахиваются на святое - органик моделинг, причем моделинг головы.Это Rodin 2.5 - уже писал, что у них есть текстуры на 12К и генерация на 10 миллионов полигонов.На входе - несколько картинок-ракурсов головы с разных углов (из генератора картинок или фото).https://hyper3d.ai/@cgevent",
+    "content": "<video src=\"https://cdn4.telesco.pe/file/f8dca09f54.mp4?token=CD0dpFjfKKf5zdrAMPt_xaYQOQokW_cipKUEJD3Sxe4Mvollf4jU3huU5RHrrgdRvB4SJZq1f0cKLeo3i9Y6mgbCQIiBPlsToeorJdSw3UbjFI0-_ZGF3X2-jnH1rsGnYKJmtqP3VfIr-GeNL9ZXBE6R7LG7J9T0_NInnW62UTXbYBgP9jhXFEMNc--i30VHgqO5l2FlzGv6tCw73nL3ru1Wcxqjeok2fWPg6H4U58XpZdeic6tklm6DW-d5VvDUBJh383Hr0or4lzvxdB8VaVGF-hySG7h2_YGT-eBcfZIYXsPIE9h1FZKhX09cOUtidF5QqvXyZPVKVof9UCulwYQVwZotzJPI2wnMXiKnv0hRjn-QSgyPVM1dCgTNTSdeE_aVcZwJv5mNNmlwe3UFsamXnuYJOT_KEfTZbdo8-9Tf2LNrlb7_RPpsNHzLUwge62lNMnzh74iyoPUUTJ3Br7t4LzSZwS1dK1-hM-MxmzV3lU6r5NVDL9Rk98xzvD-DTKENniQPBtA7mErhMU-KetRKF2Hsftcg4xygJdjPuNPxQXM3Jafz8V3VYoJ_aF8WTe0uGEO3GBC0op3V8FOhzif6ZvPXr5sgBwMwtFJv1eTspZSq5x6ddeJAPKlZBBQ0du2V_Ykdx0JjjGUqV9J6ppnUpgSzxxnrpUMB5v2Rz8g\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" preload=\"auto\" muted=\"\" autoplay=\"\" loop=\"\" playsinline=\"\" controls=\"\"></video><b>3Д-генераторы замахиваются на святое - органик моделинг, причем моделинг головы.<br></b><br>Это Rodin 2.5 - уже писал, что у них есть текстуры на 12К и генерация на 10 миллионов полигонов.<br><br>На входе - несколько картинок-ракурсов головы с разных углов (из генератора картинок или фото).<br><br><a href=\"https://hyper3d.ai/\" target=\"_blank\" rel=\"noopener\" title=\"https://hyper3d.ai/\">https://hyper3d.ai/</a><br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a>",
+    "reactions": [
+      {
+        "emoji": "🔥",
+        "count": "18",
+        "isPaid": false
+      },
+      {
+        "emoji": "👍",
+        "count": "3",
+        "isPaid": false
+      },
+      {
+        "emoji": "❤️",
+        "count": "2",
+        "isPaid": false
+      }
+    ],
+    "channel": "cgevent",
+    "channelTitle": "Метаверсище и ИИще"
+  },
+  {
+    "id": "cgevent/15842",
+    "title": "Все-таки SAM 3D Body - это очень крутая технология.На входе одно изображение, на выходе - болваны со скелетами, причем не как в примерах с танцами на камеру, а в произвольных позах.Писал про это и тестировал тут:",
+    "type": "text",
+    "datetime": "2026-06-05T12:41:22+00:00",
+    "tags": [],
+    "text": "Все-таки SAM 3D Body - это очень крутая технология.На входе одно изображение, на выходе - болваны со скелетами, причем не как в примерах с танцами на камеру, а в произвольных позах.Писал про это и тестировал тут:https://t.me/cgevent/14083@cgevent",
+    "content": "<video src=\"https://cdn4.telesco.pe/file/3190c82d9c.mp4?token=AEaEdCnFlDzXI4HN3v5QVNuapql8TQTzxCt3sqMBMJ_VoZhiwuO069SJTl2J7zEdG2abvenmCGHWASVaFEo78flOB-OItS-4Ws74q17ZGPOutGjYkFruQDTTUhzgoe6TpGhWHiqB00a1Xjmy-VmJ2mbvff6sKl-kbR6y_LW_jqHMhrOcH4itKRhoIxBVMr1PaKP4Q4B7ggu5Ikg9sEW-pxnHrNYkq8F6_Dul49NGgiuY59N31K6AUTq66FCHKoLOMlyORczkIuEeiyvVyhJQ8Eu-oakFL64-DSJIAECbe2rJhFr1FvzTgR95d_nCF856gp8-qJ2e9Ww5kIdr3dMO1g\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" preload=\"auto\" muted=\"\" autoplay=\"\" loop=\"\" playsinline=\"\" controls=\"\"></video><b>Все-таки SAM 3D Body - это очень крутая технология.</b><br><br>На входе одно изображение, на выходе - болваны со скелетами, причем не как в примерах с танцами на камеру, а в произвольных позах.<br><br>Писал про это и тестировал тут:<br><a href=\"https://t.me/cgevent/14083\" target=\"_blank\" rel=\"noopener\" title=\"https://t.me/cgevent/14083\">https://t.me/cgevent/14083</a><br><br><a href=\"https://t.me/cgevent\" target=\"_blank\" title=\"@cgevent\">@cgevent</a>",
+    "reactions": [
+      {
+        "emoji": "🔥",
+        "count": "22",
+        "isPaid": false
+      },
+      {
+        "emoji": "👍",
+        "count": "4",
+        "isPaid": false
+      },
+      {
+        "emoji": "❤️",
+        "count": "3",
+        "isPaid": false
+      }
+    ],
+    "channel": "cgevent",
+    "channelTitle": "Метаверсище и ИИще"
   }
 ]
