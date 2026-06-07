@@ -1,30 +1,30 @@
 [
   {
-    "id": "neuraldeep/2172",
-    "title": "IMAGE API в рамках текущих тарифов, включая FREE!",
+    "id": "kdoronin_blog/1295",
+    "title": "Появились записи выступлений с Девфеста, в котором я принимал участие в качестве спикера 22 мая (писал об этом тут).Поскольку та неделя у меня была \"с самолёта на самолёт\", то вживую я присутствовал только на своём выступлении. Поэтому интересные для меня доклады буду смотреть в записи.Кстати, Коля на Девфест принёс своего бота, который позволяет получить записи выступлений, подписавшись на 6 каналов.Либо можно приобрести их на сайте за 10000 рублей.",
     "type": "text",
-    "datetime": "2026-06-07T17:17:04+00:00",
+    "datetime": "2026-06-07T18:11:43+00:00",
     "tags": [],
-    "text": "IMAGE API в рамках текущих тарифов, включая FREE!https://neuraldeep.ru/docs#imagesВсе тарифы:1) FLUX image · генерация (/v1/images · промпт RU→EN авто)  2) Upscale ×4 image · апскейл RealESRGAN (еще будут замены)3) Background-remove image · удаление фона (ISNet/RMBG)4) Enhance image · улучшение (FLUX)5) Avatar image · аватар из фотоКстати если вы потеряли базу скиллов она теперь тут https://neuraldeep.ru/skills",
-    "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-2172-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: IMAGE API в рамках текущих тарифов, включая FREE!\">\n        <img src=\"media/e6986122b8d2c5368a89666d62a3e7b3.jpg\" alt=\"IMAGE API в рамках текущих тарифов, включая FREE!\" width=\"800\" height=\"150\" loading=\"eager\" />\n      </button>\n      <div class=\"modal\" id=\"modal-2172-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-2172-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-2172-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/e6986122b8d2c5368a89666d62a3e7b3.jpg\" alt=\"IMAGE API в рамках текущих тарифов, включая FREE!\" width=\"800\" height=\"150\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><b>IMAGE API</b> в рамках текущих тарифов, включая FREE!<br><br><a href=\"https://neuraldeep.ru/docs#images\" target=\"_blank\" rel=\"noopener\" title=\"https://neuraldeep.ru/docs#images\">https://neuraldeep.ru/docs#images</a><br><br>Все тарифы:<br>1) FLUX image · генерация (/v1/images · промпт RU→EN авто)  <br>2) Upscale ×4 image · апскейл RealESRGAN (еще будут замены)<br>3) Background-remove image · удаление фона (ISNet/RMBG)<br>4) Enhance image · улучшение (FLUX)<br>5) Avatar image · аватар из фото<br><br><br>Кстати если вы потеряли базу скиллов она теперь тут <a href=\"https://neuraldeep.ru/skills\" target=\"_blank\" rel=\"noopener\" title=\"https://neuraldeep.ru/skills\">https://neuraldeep.ru/skills</a>",
+    "text": "Появились записи выступлений с Девфеста, в котором я принимал участие в качестве спикера 22 мая (писал об этом тут).Поскольку та неделя у меня была \"с самолёта на самолёт\", то вживую я присутствовал только на своём выступлении. Поэтому интересные для меня доклады буду смотреть в записи.Кстати, Коля на Девфест принёс своего бота, который позволяет получить записи выступлений, подписавшись на 6 каналов.Либо можно приобрести их на сайте за 10000 рублей.",
+    "content": "<video src=\"https://cdn4.telesco.pe/file/bb8a1c72e3.mp4?token=XAX3uDbnU_cWVCDA5sQtE1YCqVXPW9apubmfaTjJVcbAifguN4q5plhQhXJiP_NO0WN5feMRydQ-hNUWqiJ55tPshWOaLagdlPlITHTXgAnl-UTTBytzHUF5Q4iGgjnWizHvIYIX99yZpltBgHUob_G3a4xIGZ46OQtH755CFDFLtARMd21CygUlh0R3O9W9UK-_oWEgP1c0WkikijWXFFFqGtCyACkbmk1b-VCqFi6G-72AdX8fc6IOSfYTLPQmkiCsBSWWgERFtqst1EC7d1Tu1ooRsqfOOs5P1ndlIhh3yAZsDSnQ1f7x-AUpGkXtwNJhvuW2jI7aD18I9wknFw\" class=\"tgme_widget_message_video js-message_video\" width=\"100%\" height=\"100%\" preload=\"auto\" muted=\"\" autoplay=\"\" loop=\"\" playsinline=\"\" controls=\"\"></video><b>Появились записи выступлений с Девфеста, в котором я принимал участие в качестве спикера 22 мая (писал об этом </b><a href=\"https://t.me/kdoronin_blog/1262\" target=\"_blank\" rel=\"noopener\" title=\"тут\"><b>тут</b></a><b>).</b><br><br>Поскольку та неделя у меня была \"с самолёта на самолёт\", то вживую <b>я присутствовал только на своём выступлении</b>. <br><br>Поэтому интересные для меня доклады <b>буду смотреть в записи</b>.<br><br>Кстати, <a href=\"https://t.me/oestick\" target=\"_blank\" rel=\"noopener\" title=\"Коля\">Коля</a> на Девфест принёс <a href=\"https://t.me/conference_access_bot\" target=\"_blank\" rel=\"noopener\" title=\"своего бота\">своего бота</a>, который позволяет получить записи выступлений, <b>подписавшись на 6 каналов</b>.<br><br>Либо можно приобрести их <a href=\"https://www.devfest.ru/#26videos\" target=\"_blank\" rel=\"noopener\" title=\"на сайте\">на сайте</a> за 10000 рублей.",
     "reactions": [
       {
-        "emoji": "🔥",
-        "count": "20",
+        "emoji": "❤️",
+        "count": "2",
         "isPaid": false
       },
       {
         "emoji": "👍",
-        "count": "3",
+        "count": "2",
         "isPaid": false
       },
       {
-        "emoji": "👏",
+        "emoji": "🔥",
         "count": "2",
         "isPaid": false
       }
     ],
-    "channel": "neuraldeep",
-    "channelTitle": "Валера Ковальский"
+    "channel": "kdoronin_blog",
+    "channelTitle": "Константин Доронин"
   }
 ]
